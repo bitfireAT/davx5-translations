@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © All Contributors. See LICENSE and AUTHORS in the root directory for details.
+  -->
+<!--
+  ~ DO NOT DELETE THIS FILE.
+  ~
+  ~ This is the base file of the Weblate component "repository (do not delete)"
+  ~ (slug: repo-holder). That component exists only to hold the git working copy
+  ~ of this repository, so that the three real components (ose, gplay, managed)
+  ~ can share one clone via  weblate://davx5/repo-holder  instead of each
+  ~ keeping its own and pushing over the others.
+  ~
+  ~ The component deliberately contains no strings and no translations:
+  ~ its file mask  .weblate-repo/values-*/strings.xml  matches nothing.
+  ~ Weblate only accepts such an empty component if it has a valid base file,
+  ~ which is what this file is for.
+  ~
+  ~ Attention:
+  ~ Deleting the holder component deletes every component linked to it,
+  ~ including all translation history, comments and suggestions.
+  ~ See https://github.com/bitfireAT/davx5-ose/issues/2762
+  -->
+<resources></resources>
