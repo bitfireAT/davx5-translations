@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © All Contributors. See LICENSE and AUTHORS in the root directory for details.
+  -->
+<resources>
+    <!-- Select welcome screen strings -->
+    <string name="select_welcome_title_welcome_to">Welcome to</string>
+    <string name="select_welcome_title_davx5">DAVx⁵</string>
+    <string name="select_welcome_title_select">Select</string>
+    <string name="select_welcome_slogan_sync_your">Synchronize your</string>
+    <string name="select_welcome_slogan">Synchronize your Contacts, Calendars and Tasks with a selected server.</string>
+    <string name="select_welcome_slogan_contacts_calendars_tasks">Contacts, Calendars and Tasks</string>
+    <string name="select_welcome_slogan_with_server">with a selected server.</string>
+    <string name="select_welcome_logo_description">DAVx⁵ Select Logo</string>
+    <string name="select_welcome_illustration_description">Person walking next to large smartphone with sync icons</string>
+
+    <!-- Login with preconfigured settings -->
+    <string name="login_type_preconfigured">Login with provided config</string>
+
+    <string name="profile_url">Config URL</string>
+    <string name="profile_url_help">Your server provider should give you a pre-configuration url.</string>
+
+    <string name="scan_qr">Scan QR Code</string>
+
+    <!-- notifications -->
+    <string name="sync_validation_title">Sync validation failed</string>
+    <string name="sync_validation_content">Synchronization disallowed</string>
+    <string name="sync_validation_missing_service_url">Could not find service url for account. Try refreshing collections.</string>
+    <string name="sync_validation_invalid_server">Server not supported.</string>
+    <string name="sync_validation_validation_problem">Problem validating server-support.</string>
+
+    <!-- Select QR Code Login exceptions -->
+    <string name="error_no_uri">The QR code does not contain a valid URL</string>
+    <string name="error_no_config_url">The URL of the QR code is not a valid config URL</string>
+    <string name="error_invalid_schema">The URL of the QR code has an unknown scheme</string>
+
+</resources>
