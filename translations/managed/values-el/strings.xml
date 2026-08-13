@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Άδεια χρήσης</string>
+    <string name="restriction_license_description">Δεδομένα άδειας χρήσης (JSON)</string>
+    <string name="restriction_license_signature">Υπογραφή άδειας</string>
+    <string name="restriction_license_signature_description">Απαιτείται ψηφιακή υπογραφή για την επικύρωση της άδειας (Base64)</string>
+    <string name="restriction_organization">Οργανισμός</string>
+    <string name="restriction_organization_description">Όνομα οργανισμού</string>
+    <string name="restriction_logo_url">URL λογοτύπου</string>
+    <string name="restriction_logo_url_description">URL HTTP(S) του λογότυπου οργανισμού (JPEG/PNG)</string>
+
+    <string name="restriction_support_homepage_url">URL σελίδας υποστήριξης</string>
+    <string name="restriction_support_homepage_url_description">URL HTTP(S) της αρχικής σελίδας υποστήριξης (σελίδα Intranet που περιγράφει τον τρόπο χρήσης του DAVx⁵)</string>
+    <string name="restriction_support_email_address">Διεύθυνση email υποστήριξης</string>
+    <string name="restriction_support_phone_number">Αριθμός τηλεφώνου υποστήριξης</string>
+    <string name="restriction_support_phone_number_description">Αριθμός τηλεφώνου υποστήριξης (μορφή: +1 234 5678901)</string>
+
+    <string name="restriction_login_introduction">Εισαγωγικό μήνυμα σύνδεσης</string>
+    <string name="restriction_login_introduction_description">Μήνυμα που θα εμφανίζεται όταν ο χρήστης προσθέτει λογαριασμό</string>
+    <string name="restriction_login_base_url">URL βάσης CalDAV/CardDAV</string>
+    <string name="restriction_login_base_url_description">Διεύθυνση URL έναρξης για εντοπισμό υπηρεσίας CalDAV/CardDAV</string>
+    <string name="restriction_login_user_name">Όνομα χρήστη</string>
+    <string name="restriction_login_user_name_description">Προσυμπληρωμένο όνομα χρήστη για σύνδεση</string>
+    <string name="restriction_login_password">Συνθηματικό</string>
+    <string name="restriction_login_password_description">Προσυμπληρωμένο συνθηματικό για είσοδο</string>
+    <string name="restriction_lock_credentials">Διαπιστευτήρια κλειδώματος</string>
+    <string name="restriction_lock_credentials_description">Εάν το όνομα χρήστη/συνθηματικό είναι κλειδωμένο εάν έχει οριστεί από περιορισμό</string>
+    <string name="restriction_login_certificate_alias">Ψευδώνυμο πιστοποιητικό πελάτη</string>
+    <string name="restriction_login_certificate_alias_description">Ψευδώνυμο του υπάρχοντος πιστοποιητικού πελάτη που θα χρησιμοποιηθεί για τη σύνδεση</string>
+    <string name="restriction_login_certificate_and_password">Χρησιμοποιήστε όνομα χρήστη/συνθηματικό μαζί με πιστοποιητικό πελάτη</string>
+    <string name="restriction_login_certificate_and_password_description">Εάν χρησιμοποιούνται τόσο το πιστοποιητικό πελάτη όσο και το όνομα χρήστη/συνθηματικό για τη σύνδεση</string>
+    <string name="restriction_max_accounts">Μέγιστοι λογαριασμοί</string>
+    <string name="restriction_max_accounts_description">Μέγιστος αριθμός λογαριασμών DAVx⁵ ανά χρήστη</string>
+
+    <string name="restriction_proxy_type">Τύπος διαμεσολαβητή</string>
+    <string name="restriction_proxy_type_description">Όλες οι συνδέσεις HTTP(S) δρομολογούνται αναλόγως</string>
+    <string name="restriction_proxy_host">Διακομιστής μεσολάβησης</string>
+    <string name="restriction_proxy_host_description">Όνομα διακομιστή μεσολάβησης</string>
+    <string name="restriction_proxy_port">Θύρα διαμεσολαβητή</string>
+    <string name="restriction_proxy_port_description">Αριθμός θύρας διακομιστή μεσολάβησης</string>
+
+    <string name="restriction_default_sync_interval">Προεπιλεγμένο διάστημα συγχρονισμού</string>
+    <string name="restriction_default_sync_interval_description">Αυτό το διάστημα συγχρονισμού ορίζεται κατά τη δημιουργία ενός λογαριασμού.</string>
+    <string name="restriction_preselect_collections">Προεπιλογή συλλογών</string>
+    <string name="restriction_preselect_collections_description">Επιλέγει αυτόματα εντοπισμένες συλλογές για συγχρονισμό</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Μην προεπιλέγετε</item>
+        <item>Προεπιλογή όλων των συλλογών</item>
+        <item>Προεπιλογή μόνο προσωπικών συλλογών</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Μαύρη λίστα προεπιλογής συλλογών</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regexp για τον αποκλεισμό συλλογών από την προεπιλογή</string>
+    <string name="restriction_force_address_books_read_only">Τα βιβλία διευθύνσεων να είναι βιαίως μόνο για ανάγνωση</string>
+    <string name="restriction_force_address_books_read_only_description">Κάνει μη επεξεργάσιμα όλα τα βιβλία διευθύνσεων που είναι τοπικά</string>
+
+    <string name="restriction_wifi_only">Συγχρονισμός μόνο μέσω WiFi</string>
+    <string name="restriction_wifi_only_description">Εάν ο συγχρονισμός εκτελείται μόνο όταν είναι συνδεδεμένο το WiFi</string>
+    <string name="restriction_wifi_only_ssids">Συγχρονισμός μόνο μέσω WiFi: SSIDs</string>
+    <string name="restriction_wifi_only_ssids_description">Λίστα με διαχωρισμό με κόμμα των επιτρεπόμενων αναγνωριστικών WiFi SSID («wifi1,wifi2»)</string>
+
+    <string name="restriction_contact_group_method">Μέθοδος ομάδας επαφών</string>
+    <string name="restriction_contact_group_method_description">Πώς αποθηκεύονται οι ομάδες επαφών στον διακομιστή CardDAV</string>
+
+    <string name="restriction_manage_calendar_colors">Διαχείριση χρωμάτων ημερολογίου</string>
+    <string name="restriction_manage_calendar_colors_description">Εάν το DAVx⁵ θα ρυθμίζει τοπικά τα χρώματα ημερολογίου που αποστέλλονται από τον διακομιστή</string>
+    <string name="restriction_event_colors">Χρώματα συμβάντος</string>
+    <string name="restriction_event_colors_description">Αν θα ενεργοποιήσετε την υποστήριξη χρωμάτων ανά συμβάν (μπορεί να προκαλέσει σύγκρουση σε προβληματικές εφαρμογές ημερολογίου)</string>
+    <string name="restriction_default_alarm">Προεπιλεγμένη υπενθύμιση</string>
+    <string name="restriction_default_alarm_description">Ορίζει μια προεπιλεγμένη υπενθύμιση αυτό τον αριθμό λεπτών πριν από την έναρξη κάθε συμβάντος χωρίς υπενθύμιση. null ή -1 σημαίνει ότι δεν υπάρχει προεπιλεγμένη υπενθύμιση. Οι χρήστες μπορούν πάντα να παρακάμπτουν αυτή την τιμή.</string>
+
+    <string name="restriction_show_only_personal">Εμφάνιση μόνο προσωπικών συλλογών</string>
+    <string name="restriction_show_only_personal_description">Εάν εμφανίζονται μόνο συλλογές από το(τα) σπίτι(α). -1 ή null σημαίνει ότι οι χρήστες μπορούν να επιλέξουν μόνοι τους.</string>
+
+    <!-- notifications -->
+    <string name="license_invalid">Μη έγκυρη άδεια</string>
+    <string name="license_unlicensed_host_name">Ο κεντρικός υπολογιστής δεν καλύπτεται από την άδεια</string>
+    <string name="license_contact_it_support">Επικοινωνήστε με το τμήμα τεχνικών σας</string>
+    <string name="license_contact_it_support_email">Email</string>
+    <string name="license_contact_it_support_phone">Καλέστε την υποστήριξη</string>
+
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Δεν βρέθηκε άδεια</string>
+    <string name="license_signature_not_found">Δεν βρέθηκε υπογραφή άδειας</string>
+    <string name="license_signature_invalid">Μη έγκυρη η υπογραφή άδειας</string>
+    <string name="license_not_valid">Δεν ήταν δυνατή η επικύρωση της άδειας</string>
+    <string name="license_expired_on">Η άδεια έληξε στις %s</string>
+
+    <!-- other UI -->
+    <string name="intro_slogan1">Το γραφείο σας. Τα δεδομένα σας.</string>
+    <string name="intro_slogan2">Εργαστείτε έξυπνα.</string>
+
+    <string name="navigation_drawer_managed_configuration">Διαχειριζόμενη ρύθμιση</string>
+    <string name="navigation_drawer_web_support">Πληροφορίες υποστήριξης</string>
+    <string name="navigation_drawer_phone_support">Γραμμή υποστήριξης</string>
+    <string name="navigation_drawer_email_support">Υποστήριξη μέσω ηλεκτρονικού ταχυδρομείου</string>
+
+    <string name="about_license_info_html"><![CDATA[Άδεια χρήσης για έως <i>%1$dχρήστες </i>που εργάζονται για <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Προορίζεται για τον τομέα: %s</item>
+        <item quantity="other">Προορίζεται για τομείς: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Δεν βρέθηκε έγκυρη άδεια. Παρακαλούμε επικοινωνήστε με το τμήμα πληροφορικής σας.</string>
+    <string name="about_license_valid_through">Η άδεια ισχύει μέχρι: %s</string>
+
+    <string name="login_managed_config_info_html"><![CDATA[Χρησιμοποιείτε μια αυτόματη διαμόρφωση που παρέχεται από <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Αναμονή για διαχειριζόμενη ρύθμιση ...</string>
+    <string name="login_managed_config_it_department">Δεν ξέρετε τι να κάνετε; Επικοινωνήστε με το τμήμα πληροφορικής σας.</string>
+    <string name="login_managed_config_please_log_in">Παρακαλούμε συνδεθείτε</string>
+    <string name="login_managed_config_select_certificate_info">Επιλέξτε ένα πιστοποιητικό πελάτη που θα χρησιμοποιηθεί για τον έλεγχο ταυτότητας.</string>
+    <string name="login_managed_config_certificate_selected">Το πιστοποιητικό πελάτη %s θα χρησιμοποιηθεί για τον έλεγχο ταυτότητας.</string>
+    <string name="login_managed_config_invalid_base_url">Μη έγκυρη βασική διεύθυνση URL στη διαχειριζόμενη ρύθμιση</string>
+
+    <string name="managed_config_title">Διαχειριζόμενη ρύθμιση</string>
+    <string name="managed_config_reload_configuration">Επαναφόρτωση</string>
+    <string name="managed_config_reloading_configuration">Επαναφόρτωση ρυθμίσεων</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Αυτή η εφαρμογή διαχειρίζεται από το Android Enterprise.</string>
+    <string name="managed_config_emm_console">Οι ρυθμίσεις διαχείρισης μπορούν να αλλάξουν στην κονσόλα EMM.</string>
+    <string name="managed_config_network">Ρύθμιση δικτύου</string>
+    <string name="managed_config_network_enter_url">Εισαγάγετε τη διεύθυνση URL</string>
+    <string name="managed_config_network_scan_qrcode">Σάρωση κωδικού QR</string>
+    <string name="managed_config_network_url">Η διαχείριση αυτής της εφαρμογής γίνεται μέσω του δικτύου με χρήση αυτής της διεύθυνσης URL:</string>
+    <string name="managed_config_network_invalid_url">Μη έγκυρη URL</string>
+    <string name="managed_config_network_reset_url">Εκκαθάριση URL</string>
+    <string name="managed_config_network_empty_configuration">Κενή ρύθμιση</string>
+    <string name="managed_config_network_config_url_saved">Αποθήκευση URL ρυθμίσεων</string>
+    </resources>

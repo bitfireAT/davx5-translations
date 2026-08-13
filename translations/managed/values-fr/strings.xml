@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Licence</string>
+    <string name="restriction_license_description">Données de licence (JSON)</string>
+    <string name="restriction_license_signature">Signature de la licence</string>
+    <string name="restriction_license_signature_description">Signature digitale nécessaire pour valider la licence (Base64)</string>
+    <string name="restriction_organization">Organisation</string>
+    <string name="restriction_organization_description">Nom de l\'organisation</string>
+    <string name="restriction_logo_url">Logo URL</string>
+    <string name="restriction_logo_url_description">HTTP(S) URL du logo de l\'organisation (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">URL de la homepage de support</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) URL de la homepage de support (page intranet décrivant comment utiliser DAVx⁵)</string>
+    <string name="restriction_support_email_address">Adresse e-mail du support</string>
+    <string name="restriction_support_phone_number">Numéro de téléphone du support</string>
+    <string name="restriction_support_phone_number_description">Numéro de téléphone du support (format +1 234 5678901)</string>
+    <string name="restriction_login_introduction">Message d\'introduction au login</string>
+    <string name="restriction_login_introduction_description">Message affiché lorsque l\'utilisateur ajoute un compte</string>
+    <string name="restriction_login_base_url">URL de base de CalDAV/CardDAV</string>
+    <string name="restriction_login_base_url_description">Début de l\'URL pour la détection du service CalDAV/CardDAV</string>
+    <string name="restriction_login_type">Type de connexion</string>
+    <string name="restriction_login_type_description">Type de connexion à utiliser</string>
+    <string-array name="restriction_login_type_entries">
+        <item>Par défaut</item>
+        <item>Flux de connexion Nextcloud</item>
+    </string-array>
+    <string name="restriction_login_user_name">Nom d\'utilisateur</string>
+    <string name="restriction_login_user_name_description">Nom d\'utilisateur prérempli pour la connexion</string>
+    <string name="restriction_login_password">Mot de passe</string>
+    <string name="restriction_login_password_description">Mot de passe prérempli pour la connexion</string>
+    <string name="restriction_lock_credentials">Verrouiller les informations d\'identification</string>
+    <string name="restriction_lock_credentials_description">Si le nom d\'utilisateur/mot de passe est verrouillé s\'il est défini par une restriction</string>
+    <string name="restriction_login_certificate_alias">Alias du certificat client</string>
+    <string name="restriction_login_certificate_alias_description">Alias du certificat client existant à utiliser pour la connexion</string>
+    <string name="restriction_login_certificate_and_password">Utiliser le nom d\'utilisateur/mot de passe avec le certificat du client</string>
+    <string name="restriction_login_certificate_and_password_description">Si le certificat du client et le nom d\'utilisateur/mot de passe sont utilisés pour la connexion.</string>
+    <string name="restriction_max_accounts">Comptes max.</string>
+    <string name="restriction_max_accounts_description">Nombre maximum de comptes DAVx⁵ par utilisateur</string>
+    <string name="restriction_proxy_type">Type de proxy</string>
+    <string name="restriction_proxy_type_description">Toutes les connexions HTTP(S) sont acheminées en conséquence</string>
+    <string name="restriction_proxy_host">Hôte du proxy</string>
+    <string name="restriction_proxy_host_description">Nom de l\'hôte du proxy</string>
+    <string name="restriction_proxy_port">Port du proxy</string>
+    <string name="restriction_proxy_port_description">Numéro de port du proxy</string>
+    <string name="restriction_default_sync_interval">Intervalle de synchro par défaut</string>
+    <string name="restriction_default_sync_interval_description">Cet intervalle de synchronisation est défini lors de la création d\'un compte.</string>
+    <string name="restriction_preselect_collections">Présélectionner des collections</string>
+    <string name="restriction_preselect_collections_description">Sélectionne automatiquement les collections détectées pour la synchronisation</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Pas de présélection</item>
+        <item>Présélectionner toutes les collections</item>
+        <item>Présélectionner uniquement les collections personnelles</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Liste noire des collections présélectionnées</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regexp pour exclure des collections de la présélection</string>
+    <string name="restriction_force_address_books_read_only">Forcer les carnets d\'adresses en lecture seule</string>
+    <string name="restriction_force_address_books_read_only_description">Rend tous les carnets d\'adresses non modifiables localement</string>
+    <string name="restriction_wifi_only">Synchronisation sur WiFi uniquement</string>
+    <string name="restriction_wifi_only_description">Si la synchronisation n\'est exécutée que lorsque le WiFi est connecté</string>
+    <string name="restriction_wifi_only_ssids">Synchronisation par WiFi uniquement: SSIDs</string>
+    <string name="restriction_wifi_only_ssids_description">Liste séparée par des virgules des SSID WiFi autorisés (\"wifi1,wifi2\")</string>
+    <string name="restriction_contact_group_method">Méthode du groupe de contact</string>
+    <string name="restriction_contact_group_method_description">Comment les groupes de contacts sont stockés sur le serveur CardDAV</string>
+    <string name="restriction_manage_calendar_colors">Gestion des couleurs du calendrier</string>
+    <string name="restriction_manage_calendar_colors_description">Si DAVx⁵ doit définir localement les couleurs du calendrier envoyées par le serveur</string>
+    <string name="restriction_event_colors">Couleurs de l\'événement</string>
+    <string name="restriction_event_colors_description">Activation ou non de la couleur pour chaque événement (peut faire crasher les applications de calendrier défectueuses)</string>
+    <string name="restriction_default_alarm">Rappel de défaut</string>
+    <string name="restriction_default_alarm_description">Définit un rappel par défaut ce nombre de minutes avant le début de chaque événement sans rappel. null ou -1 signifie qu\'il n\'y a pas de rappel par défaut. Les utilisateurs peuvent toujours remplacer cette valeur.</string>
+    <string name="restriction_show_only_personal">Afficher uniquement les collections personnelles</string>
+    <string name="restriction_show_only_personal_description">Indique si seules les collections du homeset(s) personnel sont affichées. -1 ou null signifie que les utilisateurs peuvent choisir eux-mêmes.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Licence invalide</string>
+    <string name="license_unlicensed_host_name">Host non couvert par la licence</string>
+    <string name="license_contact_it_support">Contactez votre département IT</string>
+    <string name="license_contact_it_support_email">Email</string>
+    <string name="license_contact_it_support_phone">Appeler le support</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Aucune licence trouvée</string>
+    <string name="license_signature_not_found">Aucune signature de licence trouvée</string>
+    <string name="license_signature_invalid">Signature de licence invalide</string>
+    <string name="license_not_valid">Impossible de valider la licence</string>
+    <string name="license_expired_on">La licence a expiré le %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">Votre bureau. Vos données.</string>
+    <string name="intro_slogan2">Travailler intelligemment.</string>
+    <string name="navigation_drawer_managed_configuration">configuration Managed DAVx5</string>
+    <string name="navigation_drawer_web_support">Info support</string>
+    <string name="navigation_drawer_phone_support">Ligne d\'assistance</string>
+    <string name="navigation_drawer_email_support">Support par courriel</string>
+    <string name="about_license_info_html"><![CDATA[Licence pour un maximum de <i>%1$d utilisateurs </i>travaillant pour <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Destiné au domaine: %s</item>
+        <item quantity="many">Destiné aux domaines: %s</item>
+        <item quantity="other">Destiné aux domaines: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Aucune licence valide n\'a pu être trouvée. Veuillez contacter votre service informatique.</string>
+    <string name="about_license_valid_through">Licence valide jusqu\'au: %s</string>
+    <string name="login_managed_config_info_html"><![CDATA[Vous utilisez une configuration automatique fournie par <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Attente de la configuration gérée ...</string>
+    <string name="login_managed_config_it_department">Vous ne savez pas quoi faire ? Contactez votre service informatique.</string>
+    <string name="login_managed_config_please_log_in">Connectez-vous</string>
+    <string name="login_managed_config_select_certificate_info">Choisissez un certificat client qui sera utilisé pour l\'authentification.</string>
+    <string name="login_managed_config_certificate_selected">Le certificat du client %s sera utilisé pour l\'authentification.</string>
+    <string name="login_managed_config_invalid_base_url">URL de base invalide dans la configuration gérée</string>
+    <string name="managed_config_title">configuration Managed DAVx5</string>
+    <string name="managed_config_reload_configuration">Recharge</string>
+    <string name="managed_config_reloading_configuration">Configuration de rechargement</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Cette application est gérée par Android Enterprise.</string>
+    <string name="managed_config_emm_console">Les paramètres administrés peuvent être modifiés dans la console EMM.</string>
+    <string name="managed_config_network">Configuration du réseau</string>
+    <string name="managed_config_network_no_config">Cette application est gérée par le réseau, mais aucune URL de configuration n’a encore été définie.</string>
+    <string name="managed_config_network_enter_url">Entrer l\'URL</string>
+    <string name="managed_config_network_scan_qrcode">Scannez le code QR</string>
+    <string name="managed_config_network_url">Cette application est gérée sur le réseau à l\'aide de cette URL :</string>
+    <string name="managed_config_network_invalid_url">URL non valide</string>
+    <string name="managed_config_network_reset_url">Supprimer l\'URL</string>
+    <string name="managed_config_network_empty_configuration">Configuration vide</string>
+    <string name="managed_config_network_config_url_saved">URL de configuration sauvegardé</string>
+    <string name="managed_config_network_config_url_cleared">URL de configuration effacée</string>
+    <string name="login_managed_config_not_private"><![CDATA[This app is <a href="%1$s">Destiné aux organisations et non aux utilisateurs privés. Vous pouvez <a href="%2$s">obtenir une licence de test gratuite</a>.]]></string>
+</resources>

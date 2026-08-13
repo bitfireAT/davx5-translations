@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">授權條款</string>
+    <string name="restriction_license_description">授權資料（JSON）</string>
+    <string name="restriction_license_signature">授權簽章</string>
+    <string name="restriction_license_signature_description">驗證授權所需的數位簽章（Base64）</string>
+    <string name="restriction_organization">組織</string>
+    <string name="restriction_organization_description">組織顯示名稱</string>
+    <string name="restriction_logo_url">標誌 URL</string>
+    <string name="restriction_logo_url_description">組織標誌的 HTTP(S) URL（JPEG/PNG 格式）</string>
+
+    <string name="restriction_support_homepage_url">支援首頁 URL</string>
+    <string name="restriction_support_homepage_url_description">支援首頁的 HTTP(S) URL（內部網頁，說明如何使用 DAVx⁵）</string>
+    <string name="restriction_support_email_address">支援電子郵件地址</string>
+    <string name="restriction_support_phone_number">支援電話號碼</string>
+    <string name="restriction_support_phone_number_description">支援電話號碼（格式：+1 234 5678901）</string>
+
+    <string name="restriction_login_introduction">登入介紹訊息</string>
+    <string name="restriction_login_introduction_description">當使用者新增帳號時顯示的訊息</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV 基礎 URL</string>
+    <string name="restriction_login_base_url_description">用於偵測 CalDAV/CardDAV 服務的起始 URL</string>
+    <string name="restriction_login_type">登入類型</string>
+    <string name="restriction_login_type_description">要使用的登入類型</string>
+    <string-array name="restriction_login_type_entries">
+        <item>預設</item>
+        <item>Nextcloud 登入流程</item>
+    </string-array>
+    <string name="restriction_login_user_name">使用者帳號</string>
+    <string name="restriction_login_user_name_description">預先填入的登入使用者名稱</string>
+    <string name="restriction_login_password">密碼</string>
+    <string name="restriction_login_password_description">預先填入的登入密碼</string>
+    <string name="restriction_lock_credentials">鎖定認證資料</string>
+    <string name="restriction_lock_credentials_description">若使用限制已設定使用者名稱/密碼，則是否鎖定</string>
+    <string name="restriction_login_certificate_alias">用戶端憑證別名</string>
+    <string name="restriction_login_certificate_alias_description">用於登入的現有用戶端憑證別名</string>
+    <string name="restriction_login_certificate_and_password">與用戶端憑證一同使用使用者名稱/密碼</string>
+    <string name="restriction_login_certificate_and_password_description">登入時是否同時使用用戶端憑證與使用者名稱/密碼</string>
+    <string name="restriction_max_accounts">最大帳號數</string>
+    <string name="restriction_max_accounts_description">每位使用者可建立的 DAVx⁵ 帳號上限</string>
+
+    <string name="restriction_proxy_type">代理類型</string>
+    <string name="restriction_proxy_type_description">所有 HTTP(S) 連線都會依規則導向</string>
+    <string name="restriction_proxy_host">代理主機</string>
+    <string name="restriction_proxy_host_description">代理主機名稱</string>
+    <string name="restriction_proxy_port">代理連接埠</string>
+    <string name="restriction_proxy_port_description">代理連接埠號碼</string>
+
+    <string name="restriction_default_sync_interval">預設同步間隔</string>
+    <string name="restriction_default_sync_interval_description">建立帳號時會套用此同步間隔。</string>
+    <string name="restriction_preselect_collections">預先選取的收藏</string>
+    <string name="restriction_preselect_collections_description">自動選取偵測到的收藏以進行同步</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>不預先選取</item>
+        <item>預先選取所有收藏</item>
+        <item>僅預先選取個人收藏</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">預先選取藏黑名單</string>
+    <string name="restriction_preselect_collections_blacklist_description">使用正規表示式排除收藏於預先選取之外</string>
+    <string name="restriction_force_address_books_read_only">強制通訊錄為唯讀</string>
+    <string name="restriction_force_address_books_read_only_description">使所有通訊錄在本機端不可編輯</string>
+
+    <string name="restriction_wifi_only">僅透過 Wi-Fi 同步</string>
+    <string name="restriction_wifi_only_description">是否僅在連接 Wi-Fi 時執行同步</string>
+    <string name="restriction_wifi_only_ssids">僅透過指定 Wi-Fi 同步：SSIDs</string>
+    <string name="restriction_wifi_only_ssids_description">允許的 Wi-Fi SSID 清單，以逗號分隔（例如：\"wifi1,wifi2\"）</string>
+
+    <string name="restriction_contact_group_method">聯絡人群組的儲存格式</string>
+    <string name="restriction_contact_group_method_description">CardDAV 伺服器上聯絡人群組的儲存方式</string>
+
+    <string name="restriction_manage_calendar_colors">管理行事曆的顏色</string>
+    <string name="restriction_manage_calendar_colors_description">DAVx⁵ 是否應在本機端套用伺服器傳送的行事曆顏色</string>
+    <string name="restriction_event_colors">活動顔色</string>
+    <string name="restriction_event_colors_description">是否啟用單一事件顏色支援（可能導致有問題的行事曆應用程式當掉）</string>
+    <string name="restriction_default_alarm">預設提醒</string>
+    <string name="restriction_default_alarm_description">為每個沒有提醒的事件設定預設提前分鐘數。null 或 -1 表示不設定預設提醒。使用者可隨時覆寫此設定。</string>
+
+    <string name="restriction_show_only_personal">僅顯示個人收藏</string>
+    <string name="restriction_show_only_personal_description">是否僅顯示自己的 homeset 中的收藏。-1 或 null 表示使用者可自行選擇。</string>
+
+    <!-- notifications -->
+    <string name="license_invalid">無效授權</string>
+    <string name="license_unlicensed_host_name">授權不涵蓋的主機</string>
+    <string name="license_contact_it_support">請聯絡您的 IT 部門</string>
+    <string name="license_contact_it_support_email">電子郵箱</string>
+    <string name="license_contact_it_support_phone">電話支援</string>
+
+    <!-- LicenseChecker -->
+    <string name="license_not_found">找不到授權</string>
+    <string name="license_signature_not_found">找不到授權簽章</string>
+    <string name="license_signature_invalid">授權簽章無效</string>
+    <string name="license_not_valid">無法驗證授權</string>
+    <string name="license_expired_on">授權已於 %s到期</string>
+
+    <!-- other UI -->
+    <string name="intro_slogan1">您的辦公室，您的資料。</string>
+    <string name="intro_slogan2">聰明地工作。</string>
+
+    <string name="navigation_drawer_managed_configuration">管理設定</string>
+    <string name="navigation_drawer_web_support">支援資訊</string>
+    <string name="navigation_drawer_phone_support">支援熱綫</string>
+    <string name="navigation_drawer_email_support">電子郵箱支援</string>
+
+    <string name="about_license_info_html"><![CDATA[授權最多給<i> %1$d 位使用者</i>在<i> %2$s </i>工作。]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="other">適用於網域：%s</item>
+    </plurals>
+    <string name="about_license_invalid_license">找不到有效授權，請聯絡你的資訊部門。</string>
+    <string name="about_license_valid_through">授權有效至：%s</string>
+
+    <string name="login_managed_config_info_html"><![CDATA[您正在使用由 <i>%s </i>提供的自動設定。]]></string>
+    <string name="login_managed_config_waiting">正在等待管理設定……</string>
+    <string name="login_managed_config_it_department">不知道該怎麼做？請聯絡您的 IT 部門。</string>
+    <string name="login_managed_config_not_private"><![CDATA[此應用程式適用於<a href=\"%1$s\">組織</a>，非私人使用者。您可以<a href=\"%2$s\">取得免費試用授權</a>。]]></string>
+    <string name="login_managed_config_please_log_in">請登入</string>
+    <string name="login_managed_config_select_certificate_info">選擇將用於驗證的用戶端憑證。</string>
+    <string name="login_managed_config_certificate_selected">用戶端憑證 %s 將用於驗證。</string>
+    <string name="login_managed_config_invalid_base_url">管理設定中的基礎 URL 無效</string>
+
+    <string name="managed_config_title">管理設定</string>
+    <string name="managed_config_reload_configuration">重新載入</string>
+    <string name="managed_config_reloading_configuration">正在重新載入設定</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">此應用程式由 Android Enterprise 管理。</string>
+    <string name="managed_config_emm_console">可在 EMM 控制台更改管理設定。</string>
+    <string name="managed_config_network">網絡設定</string>
+    <string name="managed_config_network_no_config">此應用程式透過網路管理，但尚未設定任何配置 URL。</string>
+    <string name="managed_config_network_enter_url">輸入 URL</string>
+    <string name="managed_config_network_scan_qrcode">掃描二維碼</string>
+    <string name="managed_config_network_url">此應用程式透過網路使用以下 URL 管理：</string>
+    <string name="managed_config_network_invalid_url">無效 URL</string>
+    <string name="managed_config_network_reset_url">清除 URL</string>
+    <string name="managed_config_network_empty_configuration">空白設定</string>
+    <string name="managed_config_network_config_url_saved">設定 URL 已儲存</string>
+    <string name="managed_config_network_config_url_cleared">設定 URL 已清除</string>
+
+    </resources>

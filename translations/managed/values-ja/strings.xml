@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">ライセンス</string>
+    <string name="restriction_license_description">ライセンス データ (JSON)</string>
+    <string name="restriction_license_signature">ライセンス署名</string>
+    <string name="restriction_license_signature_description">ライセンスの検証にデジタル署名が必要です (Base64)</string>
+    <string name="restriction_organization">組織</string>
+    <string name="restriction_organization_description">組織の表示名</string>
+    <string name="restriction_logo_url">ロゴの URL</string>
+    <string name="restriction_logo_url_description">組織のロゴの HTTP(S) URL (JPEG/PNG)</string>
+
+    <string name="restriction_support_homepage_url">サポートホームページの URL</string>
+    <string name="restriction_support_homepage_url_description">サポートホームページの HTTP(S) URL (DAVx⁵ の使い方を説明するインターネット上のページ)</string>
+    <string name="restriction_support_email_address">サポートのメールアドレス</string>
+    <string name="restriction_support_phone_number">サポートの電話番号</string>
+    <string name="restriction_support_phone_number_description">サポートの電話番号 (フォーマット: +1 234 5678901)</string>
+
+    <string name="restriction_login_introduction">ログインメッセージ</string>
+    <string name="restriction_login_introduction_description">アカウントを追加するときに表示されるメッセージ</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV のベース URL</string>
+    <string name="restriction_login_base_url_description">CalDAV/CardDAV サービスの検出のための初期 URL</string>
+    <string name="restriction_login_type">ログイン方法</string>
+    <string name="restriction_login_type_description">ログイン方法を選択してください</string>
+    <string-array name="restriction_login_type_entries">
+        <item>デフォルト</item>
+        <item>Nextcloud のログインフロー</item>
+    </string-array>
+    <string name="restriction_login_user_name">ユーザー名</string>
+    <string name="restriction_login_user_name_description">ログイン時に事前入力されるユーザー名</string>
+    <string name="restriction_login_password">パスワード</string>
+    <string name="restriction_login_password_description">ログイン時に事前入力されるパスワード</string>
+    <string name="restriction_lock_credentials">認証情報ロック</string>
+    <string name="restriction_lock_credentials_description">制限時のユーザー名/パスワードのロックの有無</string>
+    <string name="restriction_login_certificate_alias">クライアント証明書のエイリアス</string>
+    <string name="restriction_login_certificate_alias_description">クライアント証明書に存在するエイリアスのログインへの使用</string>
+    <string name="restriction_login_certificate_and_password">ユーザー名/パスワードとクライアント証明書を併用</string>
+    <string name="restriction_login_certificate_and_password_description">ユーザー名/パスワードとクライアント証明書の両方をログインに使用するか選択</string>
+    <string name="restriction_max_accounts">最大アカウント数</string>
+    <string name="restriction_max_accounts_description">ユーザーごとの DAVx⁵ アカウントの最大数</string>
+
+    <string name="restriction_proxy_type">プロキシーの種類</string>
+    <string name="restriction_proxy_type_description">すべての HTTP(S) 接続がこれに従いルーティングされます</string>
+    <string name="restriction_proxy_host">プロキシーのホスト</string>
+    <string name="restriction_proxy_host_description">プロキシーのホスト名</string>
+    <string name="restriction_proxy_port">プロキシーのポート</string>
+    <string name="restriction_proxy_port_description">プロキシーのポート番号</string>
+
+    <string name="restriction_default_sync_interval">デフォルトの同期間隔</string>
+    <string name="restriction_default_sync_interval_description">この同期間隔はアカウント作成時に設定されます。</string>
+    <string name="restriction_preselect_collections">コレクションの事前選択</string>
+    <string name="restriction_preselect_collections_description">同期時に自動で選択するコレクション</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>事前選択しない</item>
+        <item>すべてのコレクションを事前選択</item>
+        <item>個人のコレクションのみ事前選択</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">コレクションの事前選択のブラックリスト</string>
+    <string name="restriction_preselect_collections_blacklist_description">RegExp で事前選択からコレクションを除外</string>
+    <string name="restriction_force_address_books_read_only">連絡先を読み取り専用に強制</string>
+    <string name="restriction_force_address_books_read_only_description">すべての連絡先をローカルでは編集できないようにする</string>
+
+    <string name="restriction_wifi_only">WiFi でのみ同期</string>
+    <string name="restriction_wifi_only_description">WiFi 接続中のみ同期を実行するようにする</string>
+    <string name="restriction_wifi_only_ssids">WiFi でのみ同期: SSID</string>
+    <string name="restriction_wifi_only_ssids_description">許可する WiFi の SSID リストをコンマ区切りで入力 (\"wifi1,wifi2\")</string>
+
+    <string name="restriction_contact_group_method">連絡先のグループ方法</string>
+    <string name="restriction_contact_group_method_description">CardDAV サーバーへの連絡先グループの保存方法</string>
+
+    <string name="restriction_manage_calendar_colors">カレンダーの色を管理</string>
+    <string name="restriction_manage_calendar_colors_description">DAVx⁵ がサーバーから送信されたカレンダーの色をローカルでも使用するかの設定</string>
+    <string name="restriction_event_colors">予定の色</string>
+    <string name="restriction_event_colors_description">イベントごとの色の変更への対応を有効にするかの設定 (バグを含むカレンダーアプリをクラッシュさせる場合があります)</string>
+    <string name="restriction_default_alarm">デフォルトのリマインダー</string>
+    <string name="restriction_default_alarm_description">リマインダーのない予定で使用するデフォルトのリマインダーは、予定の何分前かを設定します。設定なしと -1 はデフォルトのリマインダーなしとなります。ユーザーはこの値を上書きできます。</string>
+
+    <string name="restriction_show_only_personal">個人のコレクションのみ表示</string>
+    <string name="restriction_show_only_personal_description">ホームセットのコレクションのみ表示するか選択します。設定なしまたは -1 にすると、ユーザー自身で選択できます。</string>
+
+    <!-- notifications -->
+    <string name="license_invalid">ライセンスが無効です</string>
+    <string name="license_unlicensed_host_name">ホストはライセンスの範囲外です</string>
+    <string name="license_contact_it_support">組織の IT 担当部署に連絡する</string>
+    <string name="license_contact_it_support_email">メール</string>
+    <string name="license_contact_it_support_phone">電話サポート</string>
+
+    <!-- LicenseChecker -->
+    <string name="license_not_found">ライセンスが見つかりません</string>
+    <string name="license_signature_not_found">ライセンス署名が見つかりません</string>
+    <string name="license_signature_invalid">ライセンス署名が無効です</string>
+    <string name="license_not_valid">ライセンスを認証できませんでした</string>
+    <string name="license_expired_on">ライセンスの有効期限は %s です</string>
+
+    <!-- other UI -->
+    <string name="intro_slogan1">組織のデータは組織のオフィスに</string>
+    <string name="intro_slogan2">ビジネスをよりスマートに</string>
+
+    <string name="navigation_drawer_managed_configuration">Managed 設定</string>
+    <string name="navigation_drawer_web_support">サポート情報</string>
+    <string name="navigation_drawer_phone_support">サポートのホットライン</string>
+    <string name="navigation_drawer_email_support">メールサポート</string>
+
+    <string name="about_license_info_html"><![CDATA[<i>%2$s</i> で働く最大 <i>%1$d 名</i> 用のライセンスです]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="other">ドメインへの関連付け: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">有効なライセンスが見つかりませんでした。IT 担当部署に確認してください。</string>
+    <string name="about_license_valid_through">ライセンスの有効期限: %s</string>
+
+    <string name="login_managed_config_info_html"><![CDATA[<i>%s</i> が提供する自動設定を使用しています。]]></string>
+    <string name="login_managed_config_waiting">Managed 設定を待機しています …</string>
+    <string name="login_managed_config_it_department">何をするかわかりませんか？ IT 担当部署に連絡してください。</string>
+    <string name="login_managed_config_not_private"><![CDATA[このアプリは <a href=\"%1$s\">組織向け</a> で、個人ユーザー向けではありません。こちらから<a href=\"%2$s\">無料のテスト用ライセンス</a>を取得できます。]]></string>
+    <string name="login_managed_config_please_log_in">ログインしてください</string>
+    <string name="login_managed_config_select_certificate_info">認証に使用するクライアント証明書を選択してください</string>
+    <string name="login_managed_config_certificate_selected">クライアント証明書 %s が認証に使用されます。</string>
+    <string name="login_managed_config_invalid_base_url">Managed 設定の無効なベース URL です</string>
+
+    <string name="managed_config_title">Managed 設定</string>
+    <string name="managed_config_reload_configuration">再読み込み</string>
+    <string name="managed_config_reloading_configuration">設定を再読み込み</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">このアプリは Android Enterprise に管理されています。</string>
+    <string name="managed_config_emm_console">Managed 設定は EMM コンソールで変更できます。</string>
+    <string name="managed_config_network">ネットワーク設定</string>
+    <string name="managed_config_network_no_config">このアプリはネットワークに管理されていますが、自動設定 URL がまだ設定されていません。</string>
+    <string name="managed_config_network_enter_url">URL を入力</string>
+    <string name="managed_config_network_scan_qrcode">QR コードをスキャン</string>
+    <string name="managed_config_network_url">このアプリはネットワークからこの URL を使用して管理されています:</string>
+    <string name="managed_config_network_invalid_url">無効な URL です</string>
+    <string name="managed_config_network_reset_url">URL をクリア</string>
+    <string name="managed_config_network_empty_configuration">設定が空白です</string>
+    <string name="managed_config_network_config_url_saved">設定 URL が保存されました</string>
+    <string name="managed_config_network_config_url_cleared">自動設定 URL がクリアされました</string>
+
+    </resources>

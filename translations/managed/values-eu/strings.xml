@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Lizentzia</string>
+    <string name="restriction_license_description">Lizentziaren datuak (JSON)</string>
+    <string name="restriction_license_signature">Lizentziaren sinadura</string>
+    <string name="restriction_license_signature_description">Sinadura digitala behar da lizentzia balioztatzeko (Base64)</string>
+    <string name="restriction_organization">Erakundea</string>
+    <string name="restriction_organization_description">Erakundearen bistaratzeko izena</string>
+    <string name="restriction_logo_url">Logotipoaren URLa</string>
+    <string name="restriction_logo_url_description">HTTP(S) erakundearen logotipoaren URLa (JPEG/PNG)</string>
+
+    <string name="restriction_support_homepage_url">Laguntza-orriaren URLa</string>
+    <string name="restriction_support_homepage_url_description">Laguntza-orriaren HTTP(S) URLa (DAVx⁵ nola erabili deskribatzen duen intranet orria)</string>
+    <string name="restriction_support_email_address">Laguntzaren helbide elektronikoa</string>
+    <string name="restriction_support_phone_number">Laguntzako telefono zenbakia</string>
+    <string name="restriction_support_phone_number_description">Laguntzako telefono zenbakia (formatua: +1 234 5678901)</string>
+
+    <string name="restriction_login_introduction">Saioa hasteko sarrera mezua</string>
+    <string name="restriction_login_introduction_description">Erabiltzaileak kontu bat gehitzen duenean erakutsiko den mezua</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV oinarrizko URLa</string>
+    <string name="restriction_login_base_url_description">CalDAV/CardDAV zerbitzua detektatzeko hasierako URLa</string>
+    <string name="restriction_login_type">Saioa hasteko modua</string>
+    <string name="restriction_login_type_description">Erabili beharreko saioa hasteko mota</string>
+    <string-array name="restriction_login_type_entries">
+        <item>Lehenetsia</item>
+        <item>Nextcloud saioa hasteko fluxua</item>
+    </string-array>
+    <string name="restriction_login_user_name">Erabiltzaile izena</string>
+    <string name="restriction_login_user_name_description">Saioa hasteko aurrez betetako erabiltzaile-izena</string>
+    <string name="restriction_login_password">Pasahitza</string>
+    <string name="restriction_login_password_description">Aurrez betetako pasahitza saioa hasteko</string>
+    <string name="restriction_lock_credentials">Blokeatu kredentzialak</string>
+    <string name="restriction_lock_credentials_description">Erabiltzaile-izena/pasahitza blokeatuta dagoen ala ez, murrizketak ezartzen badu</string>
+    <string name="restriction_login_certificate_alias">Bezeroaren ziurtagiriaren aliasa</string>
+    <string name="restriction_login_certificate_alias_description">Saioa hasteko erabiliko den lehendik dagoen bezero-ziurtagiriaren aliasa</string>
+    <string name="restriction_login_certificate_and_password">Erabili erabiltzaile-izena/pasahitza bezeroaren ziurtagiriarekin batera</string>
+    <string name="restriction_login_certificate_and_password_description">Saioa hasteko bezeroaren ziurtagiria eta erabiltzaile-izena/pasahitza erabiltzen diren ala ez</string>
+    <string name="restriction_max_accounts">Gehienezko kontuak</string>
+    <string name="restriction_max_accounts_description">Gehienezko DAVx⁵ kontu kopurua erabiltzaile bakoitzeko</string>
+
+    <string name="restriction_proxy_type">Proxy mota</string>
+    <string name="restriction_proxy_type_description">HTTP(S) konexio guztiak horren arabera bideratzen dira</string>
+    <string name="restriction_proxy_host">Proxy ostalaria</string>
+    <string name="restriction_proxy_host_description">Proxy ostalariaren izena</string>
+    <string name="restriction_proxy_port">Proxy ataka</string>
+    <string name="restriction_proxy_port_description">Proxy atakaren zenbakia</string>
+
+    <string name="restriction_default_sync_interval">Sinkronizazio-tarte lehenetsia</string>
+    <string name="restriction_default_sync_interval_description">Sinkronizazio-tarte hau kontu bat sortzen denean ezartzen da.</string>
+    <string name="restriction_preselect_collections">Aurrez hautatutako bildumak</string>
+    <string name="restriction_preselect_collections_description">Automatikoki hautatzen ditu detektatutako bildumak sinkronizatzeko</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Ez aurrez hautatu</item>
+        <item>Aurrez hautatu bilduma guztiak</item>
+        <item>Aurrez hautatu bilduma pertsonalak soilik</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Aurrez hautatu bildumen zerrenda beltza</string>
+    <string name="restriction_preselect_collections_blacklist_description">Bildumak aurre-hautapenetik kanpo uzteko adierazpen erregularra</string>
+    <string name="restriction_force_address_books_read_only">Behartu irakurtzeko soilik diren helbide-liburuak </string>
+    <string name="restriction_force_address_books_read_only_description">Helbide-liburu guztiak lokalean ezin editagarriak bihurtzen ditu</string>
+
+    <string name="restriction_wifi_only">Sinkronizatu WiFi bidez soilik</string>
+    <string name="restriction_wifi_only_description">Sinkronizazioa WiFi konektatuta dagoenean soilik abiarazten den ala ez</string>
+    <string name="restriction_wifi_only_ssids">Sinkronizatu WiFi bidez soilik: SSIDak</string>
+    <string name="restriction_wifi_only_ssids_description">Komaz bereizitako WiFi SSID baimenduen zerrenda (\"wifi1,wifi2\")</string>
+
+    <string name="restriction_contact_group_method">Kontaktu-taldeen metodoa</string>
+    <string name="restriction_contact_group_method_description">Kontaktu-taldeak nola gordetzen diren CardDAV zerbitzarian</string>
+
+    <string name="restriction_manage_calendar_colors">Kudeatu egutegiko koloreak</string>
+    <string name="restriction_manage_calendar_colors_description">DAVx⁵ zerbitzariak bidalitako egutegiko koloreak lokalean ezarriko dituen ala ez</string>
+    <string name="restriction_event_colors">Gertaeren koloreak</string>
+    <string name="restriction_event_colors_description">Gertaera bakoitzeko kolorea onartzen den ala ez (baliteke akatsak dituzten egutegiko aplikazioak huts egintea)</string>
+    <string name="restriction_default_alarm">Abisu lehenetsia</string>
+    <string name="restriction_default_alarm_description">Abisu lehenetsi bat ezartzen du abisurik gabeko gertaera guztiak hasi baino minutu batzuk lehenago. null edo -1ek abisu lehenetsirik ez duela esan nahi du. Erabiltzaileek balio hau gainidatzi dezakete beti .</string>
+
+    <string name="restriction_show_only_personal">Erakutsi bilduma pertsonalak soilik</string>
+    <string name="restriction_show_only_personal_description">Etxeko bildumak bakarrik erakusten diren ala ez. -1 edo nuluak erabiltzaileek beraiek aukera dezaketela esan nahi du.</string>
+
+    <!-- notifications -->
+    <string name="license_invalid">Lizentzia baliogabea</string>
+    <string name="license_unlicensed_host_name">Ostalaria ez dago lizentziak bermatuta</string>
+    <string name="license_contact_it_support">Jarri harremanetan zure IT sailarekin</string>
+    <string name="license_contact_it_support_email">Posta elektronikoa</string>
+    <string name="license_contact_it_support_phone">Laguntza telefonikoa</string>
+
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Ez da lizentziarik aurkitu</string>
+    <string name="license_signature_not_found">Ez da lizentzia sinadurarik aurkitu</string>
+    <string name="license_signature_invalid">Lizentziaren sinadura baliogabea</string>
+    <string name="license_not_valid">Ezin izan da lizentzia balioztatu</string>
+    <string name="license_expired_on">Lizentzia %s egunean iraungi da</string>
+
+    <!-- other UI -->
+    <string name="intro_slogan1">Zure bulegoa. Zure datuak.</string>
+    <string name="intro_slogan2">Lan egin adimentsu.</string>
+
+    <string name="navigation_drawer_managed_configuration">Kudeatutako konfigurazioa</string>
+    <string name="navigation_drawer_web_support">Laguntza-informazioa</string>
+    <string name="navigation_drawer_phone_support">Laguntza telefonoa</string>
+    <string name="navigation_drawer_email_support">Posta elektroniko bidezko laguntza</string>
+
+    <string name="about_license_info_html"><![CDATA[Lizentziatua <i>%1$d erabiltzaieak arte</i> honentzat lan egiten dutenak <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Domeinurako zuzenduta: %s</item>
+        <item quantity="other">Domeinuetarako zuzenduta: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Ezin izan da baliozko lizentziarik aurkitu. Mesedez, jarri harremanetan zure IT sailarekin.</string>
+    <string name="about_license_valid_through">Lizentzia honen bidez baliozkoa da: %s</string>
+
+    <string name="login_managed_config_info_html"><![CDATA[ <i>%s</i>-ek emandako konfigurazio automatikoa erabiltzen ari zara.]]></string>
+    <string name="login_managed_config_waiting">Kudeatutako konfigurazioaren zain...</string>
+    <string name="login_managed_config_it_department">Ez dakizu zer egin? Jarri harremanetan zure IT sailarekin.</string>
+    <string name="login_managed_config_not_private"><![CDATA[Aplikazio hau <a href=\"%1$s\">erakundeentzat</a> da eta ez erabiltzaile pribatuentzat. <a href=\"%2$s\">Doako proba lizentzia</a> lor dezakezu.]]></string>
+    <string name="login_managed_config_please_log_in">Mesedez, hasi saioa</string>
+    <string name="login_managed_config_select_certificate_info">Aukeratu autentifikaziorako erabiliko den bezero-ziurtagiria.</string>
+    <string name="login_managed_config_certificate_selected">Bezeroaren %s ziurtagiria erabiliko da autentifikaziorako.</string>
+    <string name="login_managed_config_invalid_base_url">Oinarrizko URL baliogabea kudeatutako konfigurazioan</string>
+
+    <string name="managed_config_title">Kudeatutako konfigurazioa</string>
+    <string name="managed_config_reload_configuration">Berriz kargatu</string>
+    <string name="managed_config_reloading_configuration">Konfigurazioa birkargatzen</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Aplikazio hau Android Enterprise-k kudeatzen du.</string>
+    <string name="managed_config_emm_console">Kudeatutako ezarpenak EMM kontsolan alda daitezke.</string>
+    <string name="managed_config_network">Sarearen konfigurazioa</string>
+    <string name="managed_config_network_no_config">Aplikazio hau sarearen bidez kudeatzen da, baina oraindik ez da konfigurazio URLrik ezarri.</string>
+    <string name="managed_config_network_enter_url">Sartu URLa</string>
+    <string name="managed_config_network_scan_qrcode">Eskaneatu QR kodea</string>
+    <string name="managed_config_network_url">Aplikazio hau sarean kudeatzen da URL hau erabiliz:</string>
+    <string name="managed_config_network_invalid_url">URL baliogabea</string>
+    <string name="managed_config_network_reset_url">Garbitu URLa</string>
+    <string name="managed_config_network_empty_configuration">Konfigurazio hutsa</string>
+    <string name="managed_config_network_config_url_saved">Konfigurazio URLa gorde da</string>
+    <string name="managed_config_network_config_url_cleared">Konfigurazio URLa garbitu da</string>
+
+    </resources>

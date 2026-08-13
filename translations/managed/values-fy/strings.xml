@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="restriction_license">Lisinsje</string>
+    <string name="restriction_license_description">Lisinsjeinformaasje (JSON-formaat)</string>
+    <string name="restriction_license_signature">Lisinsjekenmerk</string>
+    <string name="restriction_license_signature_description">Digitale kaai foar it falidearje fan de lisinsje (Base64-formaat)</string>
+    <string name="restriction_organization">Organisaasje</string>
+    <string name="restriction_organization_description">Organisaasjenamme</string>
+    <string name="restriction_logo_url">Logolink</string>
+    <string name="restriction_logo_url_description">HTTP(S)-link nei it logo fan de organisaasje (JPEG- of PNG-formaat)</string>
+    <string name="restriction_support_homepage_url">Hulppagina-link</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S)-link nei de hulppagina (beskriuwingen hoe\'t DAVx⁵ wurket)</string>
+    <string name="restriction_support_email_address">Emailadres foar hulp</string>
+    <string name="restriction_support_phone_number">Tillefoannûmer foar hulp</string>
+    <string name="restriction_support_phone_number_description">Tillefoannûmer foar fragen (format: +1 2345678901)</string>
+    <string name="restriction_login_introduction">Introduksjeberjocht by ynloggen</string>
+    <string name="restriction_login_introduction_description">Berjocht dat sjen wurden lit at in gebrûker in account tafoeget</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV basis-URL</string>
+    <string name="restriction_login_base_url_description">Earste stik fan de CalDAV/CardDAV-link, foar it ûntdekken fan de ûndersteunde funksjes</string>
+    <string name="restriction_login_type">Logintype</string>
+    <string name="restriction_login_type_description">Hokker loginmethode te brûken</string>
+    <string name="restriction_login_user_name">Brûkersnamme</string>
+    <string name="restriction_login_user_name_description">Fantefoaren ynfulde brûkersnamme om yn te loggen</string>
+    <string name="restriction_login_password">Wachtwurd</string>
+    <string name="restriction_login_password_description">Fantefoaren ynfuld wachtwurd by it ynloggen</string>
+    <string name="restriction_lock_credentials">Fersleutelingsgegevens</string>
+    <string name="restriction_lock_credentials_description">At de brûkersnamme of it wachtwurd net feroare wurde kin</string>
+    <string name="restriction_login_certificate_alias">Sertifikaatalias foar brûkersprogramma</string>
+    <string name="restriction_login_certificate_alias_description">In oare namme / alias foar in sertifikaat wat brûkt wurde kin om yn te loggen</string>
+    <string name="restriction_login_certificate_and_password">Brûk de brûkersnamme en wachtwurd yn kombinaasje mei it sertifikaat</string>
+</resources>

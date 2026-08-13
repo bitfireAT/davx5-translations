@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Licence</string>
+    <string name="restriction_license_description">Data licence (JSON)</string>
+    <string name="restriction_license_signature">Podpis licence</string>
+    <string name="restriction_license_signature_description">Digitální podpis je vyžadován pro ověření licence (Base64)</string>
+    <string name="restriction_organization">Organizace</string>
+    <string name="restriction_organization_description">Zobrazovaný název organizace</string>
+    <string name="restriction_logo_url">URL loga</string>
+    <string name="restriction_logo_url_description">HTTP(S) URL loga organizace (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">URL domovské stránky podpory</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) URL stránek podpory (stránka intranetu popisující používání DAVx⁵)</string>
+    <string name="restriction_support_email_address">E-mailová adresa podpory</string>
+    <string name="restriction_support_phone_number">Telefonní číslo podpory</string>
+    <string name="restriction_support_phone_number_description">Telefonní číslo podpory (formát: +420 123456789)</string>
+    <string name="restriction_login_introduction">Úvodní zpráva po přihlášení</string>
+    <string name="restriction_login_introduction_description">Zobrazená zpráva po přidání účtu uživatelem</string>
+    <string name="restriction_login_base_url">Základní URL CalDAV/CardDAV</string>
+    <string name="restriction_login_user_name">Uživatelské jméno</string>
+    <string name="restriction_login_user_name_description">Předvyplněné uživatelské jměno pro přihlášení</string>
+    <string name="restriction_login_password">Heslo</string>
+    <string name="restriction_login_password_description">Předvyplněné heslo pro přihlášení</string>
+    <string name="restriction_lock_credentials">Uzamknout přihlašovací údaje</string>
+    <string name="restriction_login_certificate_alias">Alternativní název klientského certifikátu</string>
+    <string name="restriction_max_accounts">Max. účtů</string>
+    <string name="restriction_max_accounts_description">Maximální počet DAVx⁵ účtů na uživatele</string>
+    <string name="restriction_proxy_type">Typ proxy</string>
+    <string name="restriction_proxy_host">Hostitel proxy</string>
+    <string name="restriction_proxy_host_description">Název stroje s proxy</string>
+    <string name="restriction_proxy_port">Port na proxy</string>
+    <string name="restriction_proxy_port_description">Číslo portu na proxy</string>
+    <string name="restriction_default_sync_interval">Výchozí interval synchronizace</string>
+    <string name="restriction_default_sync_interval_description">Tento interval synchronizace je nastaven při vytvoření účtu.</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Nepředvybírat</item>
+    </string-array>
+    <string name="restriction_force_address_books_read_only">Vynutit adresáře kontaktů jen pro čtení</string>
+    <string name="restriction_wifi_only">Synchronizovat pouze přes WiFi</string>
+    <string name="restriction_wifi_only_ssids_description">Seznam oddělený čárkami povolených SSID Wi-Fi (\"wifi1,wifi2\")</string>
+    <string name="restriction_contact_group_method">Metoda seskupování kontaktů</string>
+    <string name="restriction_contact_group_method_description">Jak jsou skupiny kontaktů uloženy na serveru CardDAV</string>
+    <string name="restriction_manage_calendar_colors">Spravovat barvy kalendáře</string>
+    <string name="restriction_event_colors">Barvy událostí</string>
+    <string name="restriction_default_alarm">Výchozí připomenutí</string>
+    <string name="restriction_default_alarm_description">Nastaví výchozí čas připomenutí v minutách před začátkem každé události bez připomínky. null nebo -1 znamenají bez výchozí připomínky. Uživatelé mohou přepsat tuto hodnotu.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Neplatná licence</string>
+    <string name="license_unlicensed_host_name">Hostitel není zahrnut licencí</string>
+    <string name="license_contact_it_support">Kontaktovat vaše IT oddělení</string>
+    <string name="license_contact_it_support_email">E-mail</string>
+    <string name="license_contact_it_support_phone">Zavolat na podporu</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Nenalezena žádná licence</string>
+    <string name="license_signature_not_found">Nenalezena žádná signatura licence</string>
+    <string name="license_signature_invalid">Signatura licence neplatná</string>
+    <string name="license_not_valid">Licenci se nepodařilo ověřit</string>
+    <string name="license_expired_on">Platnost licence skončila %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">Vaše kancelář. Vaše data.</string>
+    <string name="intro_slogan2">Pracujte chytře.</string>
+    <string name="navigation_drawer_managed_configuration">Spravovaná nastavení</string>
+    <string name="navigation_drawer_web_support">Informace o podpoře</string>
+    <string name="navigation_drawer_phone_support">Linka na podporu</string>
+    <string name="navigation_drawer_email_support">E-mailová podpora</string>
+    <string name="about_license_info_html"><![CDATA[Licencováno pro až <i>%1$d uživatelů</i> kteří pracují pro <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Určeno pro doménu: %s</item>
+        <item quantity="few">Určeno pro domény: %s</item>
+        <item quantity="many">Určeno pro domén: %s</item>
+        <item quantity="other">Určeno pro domény: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Nenalezena žádná platná licence. Obraťte se na své IT oddělení.</string>
+    <string name="about_license_valid_through">Licence platná do: %s</string>
+    <string name="login_managed_config_waiting">Čekání na spravovanou konfiguraci…</string>
+    <string name="login_managed_config_it_department">Nevíte, co dělat? Kontaktujte vaše IT oddělení.</string>
+    <string name="login_managed_config_please_log_in">Prosíme, přihlašte se</string>
+    <string name="login_managed_config_select_certificate_info">Vyberte klientský certifikát pro použití při ověření.</string>
+    <string name="login_managed_config_certificate_selected">Certifikát klienta %s bude použit pro oveření.</string>
+    <string name="login_managed_config_invalid_base_url">Neplatná základní URL ve spravované konfiguraci</string>
+    <string name="managed_config_title">Spravovaná nastavení</string>
+    <string name="managed_config_reload_configuration">Znovu načíst</string>
+    <string name="managed_config_reloading_configuration">Opětovné načítání konfigurace</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Tato aplikace je spravována přes Android Enterpise.</string>
+    <string name="managed_config_emm_console">Spravovaná nastavení mohou být změněna v konzoli EMM.</string>
+    <string name="managed_config_network">Nastavení sítě</string>
+    <string name="managed_config_network_enter_url">Zadejte URL</string>
+    <string name="managed_config_network_scan_qrcode">Načíst QR kód</string>
+    <string name="managed_config_network_url">Tato aplikace je spravována přes síť pomocí této URL:</string>
+    <string name="managed_config_network_invalid_url">Neplatná URL</string>
+    <string name="managed_config_network_reset_url">Smazat URL</string>
+    <string name="managed_config_network_empty_configuration">Prázdná konfigurace</string>
+    <string name="managed_config_network_config_url_saved">URL konfigurace uložena</string>
+    <string name="restriction_login_base_url_description">Počáteční adresa URL pro detekci služby CalDAV/CardDAV</string>
+    <string name="restriction_login_type">Typ přihlášení</string>
+    <string name="restriction_login_type_description">Typ přihlášení k použití</string>
+    <string name="restriction_lock_credentials_description">Zda je uživatelské jméno/heslo uzamčeno, pokud je nastaveno omezením</string>
+    <string name="restriction_login_certificate_alias_description">Alias existujícího klientského certifikátu k použití pro přihlášení</string>
+    <string name="restriction_login_certificate_and_password">Uživatelské jméno / heslo společně s klientským certifikátem</string>
+    <string name="restriction_login_certificate_and_password_description">Zda jsou klientský certifikát a uživatelské jméno / heslo dohromady použity k přihlášení</string>
+    <string name="restriction_proxy_type_description">Všechna připojení HTTP(S) jsou směrována odpovídajícím způsobem</string>
+    <string name="restriction_preselect_collections">Předem vybrat sbírky</string>
+    <string name="restriction_preselect_collections_description">Automaticky vybere detekované sbírky k synchronizaci</string>
+    <string name="restriction_preselect_collections_blacklist">Seznam zakázaných sbírek z předvýběru</string>
+    <string name="restriction_preselect_collections_blacklist_description">Reg. výraz pro vyloučení sbírek z předvýběru</string>
+    <string name="restriction_force_address_books_read_only_description">Zabrání lokálním úpravám všech adresářů</string>
+    <string name="restriction_wifi_only_description">Zda je synchronizace spuštěna pouze po připojení k síti Wi-Fi</string>
+    <string name="restriction_wifi_only_ssids">Synchronizace pouze přes Wi-Fi: SSID</string>
+    <string name="restriction_manage_calendar_colors_description">Zda má DAVx⁵ lokálně nastavit barvy kalendáře odeslané serverem</string>
+    <string name="restriction_event_colors_description">Zda povolit podporu barev pro jednotlivé události (může způsobit pád problémových kalendářových aplikací)</string>
+    <string name="restriction_show_only_personal">Zobrazit pouze osobní sbírky</string>
+    <string name="restriction_show_only_personal_description">Zda jsou zobrazeny pouze sbírky z vlastní domovské sady. -1 nebo null znamená, že si uživatelé mohou vybrat sami.</string>
+    <string name="login_managed_config_info_html"><![CDATA[Používáte automatickou konfiguraci poskytovanou službou <i>%s</i>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Tato aplikace je <a href="%1$s">určena pro organizace</a> a ne pro soukromé uživatele. Můžete <a href="%2$s">získat bezplatnou testovací licenci</a>.]]></string>
+    <string name="managed_config_network_no_config">Tato aplikace je spravována skrze síť, ale zatím nebyla nastavena žádná konfigurační adresa URL.</string>
+    <string name="managed_config_network_config_url_cleared">Konfigurační adresa URL vymazána</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Licens</string>
+    <string name="restriction_license_description">Licensdata (JSON)</string>
+    <string name="restriction_license_signature">Licens-signatur</string>
+    <string name="restriction_license_signature_description">Digital signatur krävs för att validera licensen (Base64)</string>
+    <string name="restriction_organization">Organisation</string>
+    <string name="restriction_organization_description">Organisationens visningsnamn</string>
+    <string name="restriction_logo_url">Logotyp URL</string>
+    <string name="restriction_logo_url_description">HTTP(S) URL till organisationens logotyp (JPEG/PNG)</string>
+
+    <string name="restriction_support_homepage_url">Supportsida URL</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) URL till organisationens egna supportinformation (ex intranät sida som beskriver hur DAVx⁵ ska användas)</string>
+    <string name="restriction_support_email_address">Support mailadress</string>
+    <string name="restriction_support_phone_number">Support telefonnummer</string>
+    <string name="restriction_support_phone_number_description">Support telefonnummer (format: +1 234 5678901)</string>
+
+    <string name="restriction_login_introduction">Introduktionsmeddelande om inloggning</string>
+    <string name="restriction_login_introduction_description">Meddelande som kommer visas när användaren lägger till ett konto</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV bas URL</string>
+    <string name="restriction_login_base_url_description">Start-URL för CalDAV/CardDAV-tjänstidentifiering</string>
+    <string name="restriction_login_type">Inloggningstyp</string>
+    <string name="restriction_login_type_description">Inloggningstyp som ska användas</string>
+    <string-array name="restriction_login_type_entries">
+        <item>Standard</item>
+        <item>Nextcloud inloggningsflöde</item>
+    </string-array>
+    <string name="restriction_login_user_name">Användarnamn</string>
+    <string name="restriction_login_user_name_description">Förifyllt användarnamn för inloggning</string>
+    <string name="restriction_login_password">Lösenord</string>
+    <string name="restriction_login_password_description">Förifyllt lösenord för inloggning</string>
+    <string name="restriction_lock_credentials">Lås inloggningsuppgifter</string>
+    <string name="restriction_lock_credentials_description">Huruvida användarnamn/lösenord är låst om det har ställts in av en begränsning</string>
+    <string name="restriction_login_certificate_alias">Klientcertifikat alias</string>
+    <string name="restriction_login_certificate_alias_description">Alias ​​för befintligt klientcertifikat som ska användas för inloggning</string>
+    <string name="restriction_login_certificate_and_password">Använd användarnamn/lösenord tillsammans med klientcertifikat</string>
+    <string name="restriction_login_certificate_and_password_description">Huruvida både klientcertifikat och användarnamn/lösenord används för inloggning</string>
+    <string name="restriction_max_accounts">Max. konton</string>
+    <string name="restriction_max_accounts_description">Max antal av DAVx⁵ konton per användare</string>
+
+    <string name="restriction_proxy_type">Typ av proxy</string>
+    <string name="restriction_proxy_type_description">Alla HTTP(S) anslutningar dirigeras i enlighet med detta</string>
+    <string name="restriction_proxy_host">Proxy host</string>
+    <string name="restriction_proxy_host_description">Värdnamn för proxy</string>
+    <string name="restriction_proxy_port">Port för proxy</string>
+    <string name="restriction_proxy_port_description">Proxy portnummer</string>
+
+    <string name="restriction_default_sync_interval">Standard synkintervall</string>
+    <string name="restriction_default_sync_interval_description">Detta synkintervall sätts när ett konto är skapat.</string>
+    <string name="restriction_preselect_collections">Förvalda samlingar</string>
+    <string name="restriction_preselect_collections_description">Väljer automatiskt upptäckta kollektioner för synkronisering.</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Förvälj inte</item>
+        <item>Förvälj alla samlingar</item>
+        <item>Förvälj endast personliga samlingar</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Förval av svartlista för samlingar</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regexp kommer att utesluta samlingar från förval</string>
+    <string name="restriction_force_address_books_read_only">Tvinga adressböcker skrivskyddade</string>
+    <string name="restriction_force_address_books_read_only_description">Gör att alla adressböcker inte kan redigeras lokalt</string>
+
+    <string name="restriction_wifi_only">Synkronisera endast via wifi</string>
+    <string name="restriction_wifi_only_description">Om synkronisering ska köra bara när enheten är ansluten till ett trådlöst nätverk</string>
+    <string name="restriction_wifi_only_ssids">Synkronisera endast via wifi: SSID:n</string>
+    <string name="restriction_wifi_only_ssids_description">Kommaseparerad lista av tillåtna nätverks-SSID:n (\"wifi1,wifi2\")</string>
+
+    <string name="restriction_contact_group_method">Kontaktgruppsmetod</string>
+    <string name="restriction_contact_group_method_description">Hur kontaktgrupper lagras på CardDav servern</string>
+
+    <string name="restriction_manage_calendar_colors">Hantera kalenderfärger</string>
+    <string name="restriction_manage_calendar_colors_description">Huruvida DAVx⁵ ska sätta kalenderfärgerna som skickats från servern lokalt</string>
+    <string name="restriction_event_colors">Händelsefärger</string>
+    <string name="restriction_event_colors_description">Huruvida du vill aktivera färgstöd per händelse (kan krascha kalenderappar som har fel)</string>
+    <string name="restriction_default_alarm">Standardpåminnelse </string>
+    <string name="restriction_default_alarm_description">Ställer in en standardpåminnelse antal minuter före start för varje händelse som saknar egen påminnelse. null eller -1 betyder ingen standardpåminnelse. Användare kan alltid åsidosätta detta värde.</string>
+
+    <string name="restriction_show_only_personal">Visa endast personliga samlingar</string>
+    <string name="restriction_show_only_personal_description">Huruvida endast samlingar från de egna hemsättningarna visas. -1 eller null betyder att användare kan välja själva.</string>
+
+    <!-- notifications -->
+    <string name="license_invalid">Ogiltig licens</string>
+    <string name="license_unlicensed_host_name">Hosten omfattas inte av licensen</string>
+    <string name="license_contact_it_support">Kontakta din IT-avdelning</string>
+    <string name="license_contact_it_support_email">E-post</string>
+    <string name="license_contact_it_support_phone">Ring support</string>
+
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Ingen licens funnen</string>
+    <string name="license_signature_not_found">Ingen licens signatur funnen</string>
+    <string name="license_signature_invalid">Licens signatur ogiltig</string>
+    <string name="license_not_valid">Kunde inte validera licens</string>
+    <string name="license_expired_on">Licens gick ut %s</string>
+
+    <!-- other UI -->
+    <string name="intro_slogan1">Ditt kontor. Dina data.</string>
+    <string name="intro_slogan2">Arbeta smart.</string>
+
+    <string name="navigation_drawer_managed_configuration">Managerad konfiguration</string>
+    <string name="navigation_drawer_web_support">Support info</string>
+    <string name="navigation_drawer_phone_support">Support jour</string>
+    <string name="navigation_drawer_email_support">E-post support</string>
+
+    <string name="about_license_info_html"><![CDATA[Licensierad för upp till <i>%1$danvändare</i> som arbetar för <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Avsedd för domän: %s</item>
+        <item quantity="other">Avsedd för domäner: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Ingen giltig licens funnen. Var vänlig kontakta din IT-avdelning</string>
+    <string name="about_license_valid_through">Licens giltig t.o.m: %s</string>
+
+    <string name="login_managed_config_info_html"><![CDATA[Du använder en automatisk konfiguration som tillhandahålls av <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Väntat på managerad konfiguration ...</string>
+    <string name="login_managed_config_it_department">Vet du inte vad du ska göra? Kontakta din IT-avdelning.</string>
+    <string name="login_managed_config_not_private"><![CDATA[Denna app är <a href=\"%1$s\">avsedd för organisationer</a> och inte för privata användare. Du kan <a href=\"%2$s\">få en gratis test licens</a>.]]></string>
+    <string name="login_managed_config_please_log_in">Var vänlig logga in</string>
+    <string name="login_managed_config_select_certificate_info">Välj ett klientcertifikat som kommer att användas för autentisering.</string>
+    <string name="login_managed_config_certificate_selected">Klientcertifikatet %s kommer att användas för autentisering</string>
+    <string name="login_managed_config_invalid_base_url">Ogiltig bas URL i managerad konfiguration</string>
+
+    <string name="managed_config_title">Managerad konfiguration</string>
+    <string name="managed_config_reload_configuration">Ladda om</string>
+    <string name="managed_config_reloading_configuration">Ladda om konfiguration</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Denna app är konfigurerad av Android Enterprise</string>
+    <string name="managed_config_emm_console">Managerade inställningar kan ändras i EMM-konsolen.</string>
+    <string name="managed_config_network">Nätverkskonfiguration</string>
+    <string name="managed_config_network_no_config">Den här appen är managerad över nätverket, men ingen konfigurationsURL har satts.</string>
+    <string name="managed_config_network_enter_url">Skriv in URL</string>
+    <string name="managed_config_network_scan_qrcode">Scanna QR-kod</string>
+    <string name="managed_config_network_url">Den här appen hanteras över nätverket med denna URL:</string>
+    <string name="managed_config_network_invalid_url">Ogiltig URL</string>
+    <string name="managed_config_network_reset_url">Rensa URL</string>
+    <string name="managed_config_network_empty_configuration">Tom konfiguration</string>
+    <string name="managed_config_network_config_url_saved">Konfigurations URL sparad.</string>
+    <string name="managed_config_network_config_url_cleared">Konfigurations URL rensad</string>
+
+    </resources>

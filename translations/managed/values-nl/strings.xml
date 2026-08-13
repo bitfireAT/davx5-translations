@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Licentie</string>
+    <string name="restriction_license_description">Licentie gegevens (JSON)</string>
+    <string name="restriction_license_signature">Licentie handtekening</string>
+    <string name="restriction_license_signature_description">Digitale handtekening die nodig is om de licentie te valideren (Base64)</string>
+    <string name="restriction_organization">Organisatie</string>
+    <string name="restriction_organization_description">Weergavenaam organisatie</string>
+    <string name="restriction_logo_url">Logo URL</string>
+    <string name="restriction_logo_url_description">HTTP(S) URL van het organisatie logo (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">Startpagina-URL voor ondersteuning</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) URL van homepage voor ondersteuning (intranetpagina die beschrijft hoe DAVx⁵ gebruikt moet worden)</string>
+    <string name="restriction_support_email_address">E-mailadres voor ondersteuning</string>
+    <string name="restriction_support_phone_number">Telefoonnummer voor ondersteuning</string>
+    <string name="restriction_support_phone_number_description">Telefoonnummer voor ondersteuning (opmaak: +1 234 5678901)</string>
+    <string name="restriction_login_introduction">Inlog introductiebericht</string>
+    <string name="restriction_login_introduction_description">Bericht dat wordt weergegeven wanneer de gebruiker een account toevoegt</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV basis URL</string>
+    <string name="restriction_login_base_url_description">Basis URL voor de detectie van de CalDAV/CardDAV service</string>
+    <string name="restriction_login_type">Inlogtype</string>
+    <string name="restriction_login_type_description">Te gebruiken inlogtype</string>
+    <string-array name="restriction_login_type_entries">
+        <item>Standaard</item>
+        <item>Nextcloud-inlogstroom</item>
+    </string-array>
+    <string name="restriction_login_user_name">Gebruikersnaam</string>
+    <string name="restriction_login_user_name_description">Vooraf ingevulde gebruikersnaam voor inloggen</string>
+    <string name="restriction_login_password">Wachtwoord</string>
+    <string name="restriction_login_password_description">Vooraf ingevuld wachtwoord om in te loggen</string>
+    <string name="restriction_lock_credentials">Vergrendel referenties</string>
+    <string name="restriction_lock_credentials_description">Of gebruikersnaam/wachtwoord geblokkeerd is indien ingesteld door een beperking</string>
+    <string name="restriction_login_certificate_alias">Cliëntcertificaat alias</string>
+    <string name="restriction_login_certificate_alias_description">Alias van bestaand cliëntcertificaat dat gebruikt moet worden om in te loggen</string>
+    <string name="restriction_login_certificate_and_password">Gebruik gebruikersnaam/wachtwoord samen met cliëntcertificaat</string>
+    <string name="restriction_login_certificate_and_password_description">Of zowel cliëntcertificaat als gebruikersnaam/wachtwoord worden gebruikt om in te loggen</string>
+    <string name="restriction_max_accounts">Max. accounts</string>
+    <string name="restriction_max_accounts_description">Maximaal aantal van DAVx⁵ accounts per gebruiker</string>
+    <string name="restriction_proxy_type">Proxy type</string>
+    <string name="restriction_proxy_type_description">Alle HTTP(S)-verbindingen worden dienovereenkomstig gerouteerd</string>
+    <string name="restriction_proxy_host">Proxy host</string>
+    <string name="restriction_proxy_host_description">Proxy host naam</string>
+    <string name="restriction_proxy_port">Proxy port</string>
+    <string name="restriction_proxy_port_description">Proxy port nummer</string>
+    <string name="restriction_default_sync_interval">Standaard synchronisatie-interval</string>
+    <string name="restriction_default_sync_interval_description">Dit synchronisatie-interval wordt ingesteld wanneer een account wordt aangemaakt.</string>
+    <string name="restriction_preselect_collections">Voorselectie van collecties</string>
+    <string name="restriction_preselect_collections_description">Selecteert automatisch gedetecteerde collecties voor synchronisatie</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Niet voorselecteren</item>
+        <item>Alle collecties voorselecteren</item>
+        <item>Alleen persoonlijke collecties voorselecteren</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Voorselectie zwarte lijst collecties</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regexp om verzamelingen uit te sluiten van voorselectie</string>
+    <string name="restriction_force_address_books_read_only">Forceer alleen-lezen van adresboeken</string>
+    <string name="restriction_force_address_books_read_only_description">Maakt alle adresboeken lokaal niet-wijzigbaar</string>
+    <string name="restriction_wifi_only">Synchronisatie beperken tot WiFi</string>
+    <string name="restriction_wifi_only_description">Of synchronisatie alleen wordt uitgevoerd als WiFi is verbonden</string>
+    <string name="restriction_wifi_only_ssids">Alleen synchroniseren via WiFi: SSID\'s</string>
+    <string name="restriction_wifi_only_ssids_description">Door komma\'s gescheiden lijst van toegestane WiFi-SSID\'s (\"wifi1,wifi2\")</string>
+    <string name="restriction_contact_group_method">Methode voor contact-groepen</string>
+    <string name="restriction_contact_group_method_description">Hoe contactgroepen worden opgeslagen op de CardDAV-server</string>
+    <string name="restriction_manage_calendar_colors">Kalender kleuren beheren</string>
+    <string name="restriction_manage_calendar_colors_description">Of DAVx⁵ de kalenderkleuren die door de server worden verzonden lokaal moet instellen</string>
+    <string name="restriction_event_colors">Evenement kleuren</string>
+    <string name="restriction_event_colors_description">Of kleurondersteuning per gebeurtenis moet worden ingeschakeld (kan agenda-apps met bugs laten crashen)</string>
+    <string name="restriction_default_alarm">Standaardherinnering</string>
+    <string name="restriction_default_alarm_description">Stelt een standaardherinnering in voor dit aantal minuten voor het begin van elk evenement zonder herinnering. nul of -1 betekent geen standaardherinnering. Gebruikers kunnen deze waarde altijd overschrijven.</string>
+    <string name="restriction_show_only_personal">Alleen persoonlijke collecties tonen</string>
+    <string name="restriction_show_only_personal_description">Of alleen collecties uit de eigen homeset(s) worden getoond. -1 of null betekent dat gebruikers zelf kunnen kiezen.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Ongeldige licentie</string>
+    <string name="license_unlicensed_host_name">Host niet gedekt door licentie</string>
+    <string name="license_contact_it_support">Neem contact op met je IT-afdeling</string>
+    <string name="license_contact_it_support_email">E-mail</string>
+    <string name="license_contact_it_support_phone">Bel ondersteuning</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Geen licentie gevonden</string>
+    <string name="license_signature_not_found">Geen licentie handtekening gevonden</string>
+    <string name="license_signature_invalid">Licentie handtekening ongeldig</string>
+    <string name="license_not_valid">Kon licentie niet valideren</string>
+    <string name="license_expired_on">Licentie verlopen op %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">Jouw kantoor. Jouw gegevens.</string>
+    <string name="intro_slogan2">Werk slim.</string>
+    <string name="navigation_drawer_managed_configuration">Beheerde configuratie</string>
+    <string name="navigation_drawer_web_support">Ondersteuningsinfo</string>
+    <string name="navigation_drawer_phone_support">Hulplijn</string>
+    <string name="navigation_drawer_email_support">Ondersteuning per e-mail</string>
+    <string name="about_license_info_html"><![CDATA[Gelicentieerd voor maximaal <i>%1$d gebruikers</i> die werken voor <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Bestemd voor domein: %s</item>
+        <item quantity="other">Bestemd voor domeinen: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Er kon geen geldige licentie worden gevonden. Neem contact op met je IT-afdeling.</string>
+    <string name="about_license_valid_through">Licentie geldig tot: %s</string>
+    <string name="login_managed_config_info_html"><![CDATA[Je gebruikt een automatische configuratie geleverd door <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Wachten op beheerde configuratie …</string>
+    <string name="login_managed_config_it_department">Weet Ulje niet wat Ulje moet doen? Neem contact op met je IT-afdeling.</string>
+    <string name="login_managed_config_not_private"><![CDATA[Deze app is <a href="%1$s">bedoeld voor organisaties</a> en niet voor privégebruikers. Je kunt <a href="%2$s">een gratis testlicentie aanvragen</a>.]]></string>
+    <string name="login_managed_config_please_log_in">Log in a.u.b.</string>
+    <string name="login_managed_config_select_certificate_info">Kies een clientcertificaat dat zal worden gebruikt voor authenticatie.</string>
+    <string name="login_managed_config_certificate_selected">Het cliëntcertificaat %szal worden gebruikt voor authenticatie.</string>
+    <string name="login_managed_config_invalid_base_url">Ongeldige basis-URL in beheerde configuratie</string>
+    <string name="managed_config_title">Beheerde configuratie</string>
+    <string name="managed_config_reload_configuration">Herladen</string>
+    <string name="managed_config_reloading_configuration">Configuratie herladen</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Deze app wordt beheerd door Android Enterprise.</string>
+    <string name="managed_config_emm_console">Beheerde instellingen kunnen worden gewijzigd in de EMM-console.</string>
+    <string name="managed_config_network">Netwerkconfiguratie</string>
+    <string name="managed_config_network_no_config">Deze app wordt via het netwerk beheerd, maar er is nog geen configuratie-URL ingesteld.</string>
+    <string name="managed_config_network_enter_url">Voer URL in</string>
+    <string name="managed_config_network_scan_qrcode">QR-code scannen</string>
+    <string name="managed_config_network_url">Deze app wordt via het netwerk beheerd met behulp van deze URL:</string>
+    <string name="managed_config_network_invalid_url">Ongeldige URL</string>
+    <string name="managed_config_network_reset_url">URL wissen</string>
+    <string name="managed_config_network_empty_configuration">Configuratie leegmaken</string>
+    <string name="managed_config_network_config_url_saved">Configuratie URL opgeslagen</string>
+    <string name="managed_config_network_config_url_cleared">Configuratie-URL gewist</string>
+</resources>

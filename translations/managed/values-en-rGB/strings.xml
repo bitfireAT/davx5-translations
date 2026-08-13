@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">License</string>
+    <string name="restriction_license_description">License data (JSON)</string>
+    <string name="restriction_license_signature">License signature</string>
+    <string name="restriction_license_signature_description">Digital signature required to validate the license (Base64)</string>
+    <string name="restriction_organization">Organisation</string>
+    <string name="restriction_organization_description">Organisation display name</string>
+    <string name="restriction_logo_url">Logo URL</string>
+    <string name="restriction_logo_url_description">HTTP(S) URL of organisation logo (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">Support homepage URL</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) URL of support homepage (Intranet page describing how to use DAVx⁵)</string>
+    <string name="restriction_support_email_address">Support email address</string>
+    <string name="restriction_support_phone_number">Support phone number</string>
+    <string name="restriction_support_phone_number_description">Support phone number (format: +1 234 5678901)</string>
+    <string name="restriction_login_introduction">Login introduction message</string>
+    <string name="restriction_login_introduction_description">Message that will be shown when the user adds an account</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV base URL</string>
+    <string name="restriction_login_base_url_description">Starting URL for CalDAV/CardDAV service detection</string>
+    <string name="restriction_login_user_name">User name</string>
+    <string name="restriction_login_user_name_description">Pre-filled user name for login</string>
+    <string name="restriction_login_password">Password</string>
+    <string name="restriction_login_password_description">Pre-filled password for login</string>
+    <string name="restriction_lock_credentials">Lock credentials</string>
+    <string name="restriction_lock_credentials_description">Whether username/password is locked if set by restriction</string>
+    <string name="restriction_login_certificate_alias">Client certificate alias</string>
+    <string name="restriction_login_certificate_alias_description">Alias of existing client certificate to be used for login</string>
+    <string name="restriction_login_certificate_and_password">Use username/password together with client certificate</string>
+    <string name="restriction_login_certificate_and_password_description">Whether both client certificate and username/password are used for login</string>
+    <string name="restriction_max_accounts">Max. accounts</string>
+    <string name="restriction_max_accounts_description">Maximum number of DAVx⁵ accounts per user</string>
+    <string name="restriction_proxy_type">Proxy type</string>
+    <string name="restriction_proxy_type_description">All HTTP(S) connections are routed accordingly</string>
+    <string name="restriction_proxy_host">Proxy host</string>
+    <string name="restriction_proxy_host_description">Proxy host name</string>
+    <string name="restriction_proxy_port">Proxy port</string>
+    <string name="restriction_proxy_port_description">Proxy port number</string>
+    <string name="restriction_default_sync_interval">Default sync interval</string>
+    <string name="restriction_default_sync_interval_description">This sync interval is set when an account is created.</string>
+    <string name="restriction_preselect_collections">Preselect collections</string>
+    <string name="restriction_preselect_collections_description">Automatically selects detected collections for synchronisation</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Don\'t preselect</item>
+        <item>Preselect all collections</item>
+        <item>Preselect personal collections only</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Preselect collections blacklist</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regexp to exclude collections from preselection</string>
+    <string name="restriction_force_address_books_read_only">Force address books read-only</string>
+    <string name="restriction_force_address_books_read_only_description">Makes all address books locally non-editable</string>
+    <string name="restriction_wifi_only">Sync over WiFi only</string>
+    <string name="restriction_wifi_only_description">Whether synchronisation is only run when WiFi is connected</string>
+    <string name="restriction_wifi_only_ssids">Sync over WiFi only: SSIDs</string>
+    <string name="restriction_wifi_only_ssids_description">Comma-separated list of allowed WiFi SSIDs ("wifi1,wifi2")</string>
+    <string name="restriction_contact_group_method">Contact group method</string>
+    <string name="restriction_contact_group_method_description">How contact groups are stored on the CardDAV server</string>
+    <string name="restriction_manage_calendar_colors">Manage calendar colours</string>
+    <string name="restriction_manage_calendar_colors_description">Whether DAVx⁵ shall set the calendar colours sent by the server locally</string>
+    <string name="restriction_event_colors">Event colours</string>
+    <string name="restriction_event_colors_description">Whether to enable per-event colour support (may crash bugged calendar apps)</string>
+    <string name="restriction_default_alarm">Default reminder</string>
+    <string name="restriction_default_alarm_description">Sets a default reminder this number of minutes before the start of every event without reminder. null or -1 means no default reminder.  Users can always override this value.</string>
+    <string name="restriction_show_only_personal">Show only personal collections</string>
+    <string name="restriction_show_only_personal_description">Whether only collections from the own homeset(s) are shown. -1 or null means users can choose themselves.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Invalid license</string>
+    <string name="license_unlicensed_host_name">Host not covered by license</string>
+    <string name="license_contact_it_support">Contact your IT department</string>
+    <string name="license_contact_it_support_email">Email</string>
+    <string name="license_contact_it_support_phone">Call support</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">No license found</string>
+    <string name="license_signature_not_found">No license signature found</string>
+    <string name="license_signature_invalid">License signature invalid</string>
+    <string name="license_not_valid">Couldn\'t validate license</string>
+    <string name="license_expired_on">License expired on %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">Your office. Your data.</string>
+    <string name="intro_slogan2">Work smart.</string>
+    <string name="navigation_drawer_managed_configuration">Managed configuration</string>
+    <string name="navigation_drawer_web_support">Support info</string>
+    <string name="navigation_drawer_phone_support">Support hotline</string>
+    <string name="navigation_drawer_email_support">Email support</string>
+    <string name="about_license_info_html"><![CDATA[Licensed for up to <i>%1$d users</i> who work for <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Intended for domain: %s</item>
+        <item quantity="other">Intended for domains: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">No valid license could be found. Please contact your IT department.</string>
+    <string name="about_license_valid_through">License valid through: %s</string>
+    <string name="login_managed_config_info_html"><![CDATA[You\'re using an automatic configuration provided by <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Waiting for managed configuration …</string>
+    <string name="login_managed_config_it_department">Don\'t know what to do? Contact your IT department.</string>
+    <string name="login_managed_config_please_log_in">Please log in</string>
+    <string name="login_managed_config_select_certificate_info">Choose a client certificate which will be used for authentication.</string>
+    <string name="login_managed_config_certificate_selected">The client certificate %s will be used for authentication.</string>
+    <string name="login_managed_config_invalid_base_url">Invalid base URL in managed configuration</string>
+    <string name="managed_config_title">Managed configuration</string>
+    <string name="managed_config_reload_configuration">Reload</string>
+    <string name="managed_config_reloading_configuration">Reloading configuration</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">This app is managed by Android Enterprise.</string>
+    <string name="managed_config_emm_console">Managed settings can be changed in the EMM console.</string>
+    <string name="managed_config_network">Network configuration</string>
+    <string name="managed_config_network_enter_url">Enter URL</string>
+    <string name="managed_config_network_scan_qrcode">Scan QR code</string>
+    <string name="managed_config_network_url">This app is managed over the network using this URL:</string>
+    <string name="managed_config_network_invalid_url">Invalid URL</string>
+    <string name="managed_config_network_reset_url">Clear URL</string>
+    <string name="managed_config_network_empty_configuration">Empty configuration</string>
+    <string name="managed_config_network_config_url_saved">Configuration URL saved</string>
+    <string name="restriction_login_type">Login type</string>
+    <string name="restriction_login_type_description">Login type to be used</string>
+    <string name="login_managed_config_not_private"><![CDATA[This app is <a href="%1$s">intended for organisations</a> and not for private users. You can <a href="%2$s">obtain a free test license</a>.]]></string>
+    <string name="managed_config_network_no_config">This app is managed over the network, but no configuration URL has been set yet.</string>
+    <string name="managed_config_network_config_url_cleared">Configuration URL cleared</string>
+</resources>

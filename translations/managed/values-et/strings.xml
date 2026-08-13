@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Litsents</string>
+    <string name="restriction_license_description">Litsentsi andmed (JSON)</string>
+    <string name="restriction_license_signature">Litsentsi allkiri</string>
+    <string name="restriction_license_signature_description">Digiallkiri litsentsi kinnitamiseks (base64 kodeeringus)</string>
+    <string name="restriction_organization">Organisatsioon</string>
+    <string name="restriction_organization_description">Organisatsiooni kuvatav nimi</string>
+    <string name="restriction_logo_url">Logo võrguaadress</string>
+    <string name="restriction_logo_url_description">HTTP(S) võrguaadress, mis viitab organisatsiooni logole (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">Kasutajatoe avalehe võrguaadress</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) võrguaadress, mis viitab kasutajatoe avalehele (intraneti leht, mis kirjeldab DAVx⁵ kasutamist)</string>
+    <string name="restriction_support_email_address">Kasutajatoe e-posti aadress</string>
+    <string name="restriction_support_phone_number">Kasutajatoe telefoninumber</string>
+    <string name="restriction_support_phone_number_description">Kasutajatoe telefoninumber (vormingus: +1 234 5678901)</string>
+    <string name="restriction_login_introduction">Tervitusteade kasutajakonto lisamisel</string>
+    <string name="restriction_login_introduction_description">Teade, mida näidatakse kasutajakonto lisamisel</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV esmane võrguaadress</string>
+    <string name="restriction_login_base_url_description">Võrguaadress, millest alustame CalDAV/CardDAV teenuste tuvastamist</string>
+    <string name="restriction_login_type">Sisselogimise tüüp</string>
+    <string name="restriction_login_type_description">Kasutatav sisselogimise tüüp</string>
+    <string-array name="restriction_login_type_entries">
+        <item>Vaikimisi</item>
+        <item>Nextcloudi sisselogimine</item>
+    </string-array>
+    <string name="restriction_login_user_name">Kasutajanimi</string>
+    <string name="restriction_login_user_name_description">Eeltäidetud kasutajanimi sisselogimise jaoks</string>
+    <string name="restriction_login_password">Salasõna</string>
+    <string name="restriction_login_password_description">Eeltäidetud salasõna sisselogimise jaoks</string>
+    <string name="restriction_lock_credentials">Lukusta autentimine</string>
+    <string name="restriction_lock_credentials_description">Kas kasutajanimi ja salasõna on autentimiseks lukustatud</string>
+    <string name="restriction_login_certificate_alias">Kliendi sertifikaadi alias</string>
+    <string name="restriction_login_certificate_alias_description">Alias või nimi, mida soovid kasuutada sisselogimisel kliendisertifikaadi jaoks</string>
+    <string name="restriction_login_certificate_and_password">Lisaks sertifikaadile pruugi kasutajanime ja salasõna</string>
+    <string name="restriction_login_certificate_and_password_description">Kas sertifikaat ning kasutajanimi+salasõna on sisselogimiseks vajalikud </string>
+    <string name="restriction_max_accounts">Kasutajakontode arv</string>
+    <string name="restriction_max_accounts_description">Suurim lubatud DAVx⁵ kasutajakontode arv ühe kasutaja kohta</string>
+    <string name="restriction_proxy_type">Proksiserveri tüüp</string>
+    <string name="restriction_proxy_type_description">Kasutusel kõikide http(s) ühenduste ruutimiseks</string>
+    <string name="restriction_proxy_host">Proksiserveri aadress</string>
+    <string name="restriction_proxy_host_description">Proksiserveri hostinimi</string>
+    <string name="restriction_proxy_port">Proksiserveri port</string>
+    <string name="restriction_proxy_port_description">Proksiserveri pordi number</string>
+    <string name="restriction_default_sync_interval">Vaikimisi sünkroniseerimisvälp</string>
+    <string name="restriction_default_sync_interval_description">Kasutajakonto loomisel määratud sünkroniseerimisvälp.</string>
+    <string name="restriction_preselect_collections">Eelvalitud kogumikud</string>
+    <string name="restriction_preselect_collections_description">Valitud kogumike automaatne valik sünkroniseerimiseks</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Ära eelvali midagi</item>
+        <item>Eelvali kõik kogumikud</item>
+        <item>Eelvali vaid isiklikud kogumikud</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Kasuta eelvaliku keeluloendit</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regulaaravaldis, mille alusel välistad kogumikud eelvalikust</string>
+    <string name="restriction_force_address_books_read_only">Määra aadressiraamatud vaid loetavaks</string>
+    <string name="restriction_force_address_books_read_only_description">Kõik kohalikud aadressiraamatud muutuvad mittemuudetavaks</string>
+    <string name="restriction_wifi_only">Sünkroniseeri vaid WiFi ühendusega</string>
+    <string name="restriction_wifi_only_description">Sünkroniseerimine on kasutusel vaid WiFi ühenduse puhul</string>
+    <string name="restriction_wifi_only_ssids">Sünkroniseeri vaid WiFi ühendusega: võrgutunnused</string>
+    <string name="restriction_wifi_only_ssids_description">Komadega eraldatud lubatud  WiFi võrgutunnuste loend (\"wifi1,wifi2\")</string>
+    <string name="restriction_contact_group_method">Kontaktgrupi meetod</string>
+    <string name="restriction_contact_group_method_description">Kontaktgruppide salvestamise viis CardDAVi serveris</string>
+    <string name="restriction_manage_calendar_colors">Halda kalendrivärve</string>
+    <string name="restriction_manage_calendar_colors_description">Kas DAVx⁵ arvestab serverit määratud kalendrivärviga kohalikus nutiseadmes</string>
+    <string name="restriction_event_colors">Sündmuse värvid</string>
+    <string name="restriction_event_colors_description">Sündmustekohane värvide tugi (vigased kalenreirakendused võivad selle peale kokku joosta)</string>
+    <string name="restriction_default_alarm">Vaikimisi meeldetuletus</string>
+    <string name="restriction_default_alarm_description">Vaikimisi meeldetuletuse aeg enne iga sündmust juhul, kui meeldetuletuse aeg on määtramata. null või -1 märgivad, et vaikimisi meeldetuletuse aega pole. Kasutajad võivad seda väärtust alati muuta.</string>
+    <string name="restriction_show_only_personal">Näita vaid isiklikke kogumikke</string>
+    <string name="restriction_show_only_personal_description">Kas kuvatakse vaid isiklike kogumikekomplekte. -1 või null märgivad, et kasutajad saavad seda ise muuta.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Vigane litsents</string>
+    <string name="license_unlicensed_host_name">Litsents pole mõeldud selle serveri jaoks</string>
+    <string name="license_contact_it_support">Võta ühendust oma it-toega</string>
+    <string name="license_contact_it_support_email">Saada kasutajatoele e-kiri</string>
+    <string name="license_contact_it_support_phone">Helista kasutajatoele</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Litsentsi ei leidu</string>
+    <string name="license_signature_not_found">Litsentsi allkirja ei leidu</string>
+    <string name="license_signature_invalid">Litsentsi allkiri on vigane</string>
+    <string name="license_not_valid">Litsentsi õigsuse kontrollimine ei õnnestunud</string>
+    <string name="license_expired_on">Litsents aegus %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">Sinu kontor. Sinu andmed.</string>
+    <string name="intro_slogan2">Tööta nutikalt.</string>
+    <string name="navigation_drawer_managed_configuration">Keskselt hallatud seadistused</string>
+    <string name="navigation_drawer_web_support">Kasutajatoe teave</string>
+    <string name="navigation_drawer_phone_support">Kasutajatoe telefon</string>
+    <string name="navigation_drawer_email_support">Kasutajatoe e-post</string>
+    <string name="about_license_info_html"><![CDATA[Litsentseeritud kuni <i>%1$d kasutaja</i> jaoks, kes töötavad <i>%2$s</i> jaoks.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Kasutamiseks domeenis: %s</item>
+        <item quantity="other">Kasutamiseks domeenides: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Kehtivat litsentsi ei leidu. Palun võta ühendust oma it-kasutajatoega.</string>
+    <string name="about_license_valid_through">Litsentsi kehtivus: %s</string>
+    <string name="login_managed_config_info_html"><![CDATA[Kasutad automaatset seadistust, mille koostas <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Ootame keskselt hallatud seadistuste laadimist…</string>
+    <string name="login_managed_config_it_department">Sa et tea mida teha? Võta ühendust oma it-kasutajatoega.</string>
+    <string name="login_managed_config_not_private"><![CDATA[See rakendus on <a href="%1$s">mõeldud organisatsioonidele</a> ja mitte eraisikutele. Sa võid <a href="%2$s">paluda võimalust testlitsentsi kasutamiseks</a>.]]></string>
+    <string name="login_managed_config_please_log_in">Palun logi sisse</string>
+    <string name="login_managed_config_select_certificate_info">Vali autentimiseks kliendisertifikaat.</string>
+    <string name="login_managed_config_certificate_selected">%s kliendisertifikaat saab olema kasutusel autentimiseks.</string>
+    <string name="login_managed_config_invalid_base_url">Keskselt hallatud seadistuste vigane esmane võrguaadress</string>
+    <string name="managed_config_title">Keskselt hallatud seadistused</string>
+    <string name="managed_config_reload_configuration">Laadi uuesti</string>
+    <string name="managed_config_reloading_configuration">Laadime seadistusi uuesti</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Seda rakendust haldab Android Enterprise.</string>
+    <string name="managed_config_emm_console">Keskselt hallatud seadistusi saad muuta EMMi liidesest.</string>
+    <string name="managed_config_network">Võrguseadistused</string>
+    <string name="managed_config_network_no_config">Seda rakendust hallatakse võrgu vahendusel, kuid seadistuste võrguaadress on veel määramata.</string>
+    <string name="managed_config_network_enter_url">Sisesta võrguaadress</string>
+    <string name="managed_config_network_scan_qrcode">Skaneeri QR-koodi</string>
+    <string name="managed_config_network_url">Seda rakendust hallatakse võrgu vahendusel, kasutades seda võrguaadressi:</string>
+    <string name="managed_config_network_invalid_url">Vigane võrguaadress</string>
+    <string name="managed_config_network_reset_url">Eemalda võrguaadress</string>
+    <string name="managed_config_network_empty_configuration">Seadistused on veel tegemata</string>
+    <string name="managed_config_network_config_url_saved">Seadistuste võrguaadress on salvestatud</string>
+    <string name="managed_config_network_config_url_cleared">Seadistuste võrguaadress on eemaldatud</string>
+</resources>

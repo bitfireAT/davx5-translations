@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Лицензия</string>
+    <string name="restriction_license_description">Данные лицензии (JSON)</string>
+    <string name="restriction_license_signature">Подпись лицензии</string>
+    <string name="restriction_license_signature_description">Цифровая подпись, необходимая для подтверждения лицензии (Base64)</string>
+    <string name="restriction_organization">Организация</string>
+    <string name="restriction_organization_description">Отображаемое название организации</string>
+    <string name="restriction_logo_url">URL логотипа</string>
+    <string name="restriction_logo_url_description">HTTP(S) URL логотипа организации (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">URL домашней страницы поддержки</string>
+    <string name="restriction_support_homepage_url_description">HTTP(S) URL домашней страницы поддержки (страница интрасети, описывающая, как использовать DAVx⁵)</string>
+    <string name="restriction_support_email_address">Адрес email поддержки</string>
+    <string name="restriction_support_phone_number">Номер телефона поддержки</string>
+    <string name="restriction_support_phone_number_description">Номер телефона поддержки (формат: +7 123 4567890)</string>
+    <string name="restriction_login_introduction">Информационное сообщение при авторизации</string>
+    <string name="restriction_login_introduction_description">Сообщение, которое будет показано после добавления пользователем учетной записи</string>
+    <string name="restriction_login_base_url">Базовый URL CalDAV/CardDAV</string>
+    <string name="restriction_login_base_url_description">Исходный URL для обнаружения сервисов CalDAV/CardDAV</string>
+    <string name="restriction_login_type">Способ авторизации</string>
+    <string name="restriction_login_type_description">Используемый способ авторизации</string>
+    <string-array name="restriction_login_type_entries">
+        <item>По умолчанию</item>
+        <item>Авторизация Nextcloud</item>
+    </string-array>
+    <string name="restriction_login_user_name">Имя пользователя</string>
+    <string name="restriction_login_user_name_description">Предустановленное имя пользователя при авторизации</string>
+    <string name="restriction_login_password">Пароль</string>
+    <string name="restriction_login_password_description">Предустановленный пароль при авторизации</string>
+    <string name="restriction_lock_credentials">Заблокировать учетные данные</string>
+    <string name="restriction_lock_credentials_description">Блокировать ли имя пользователя/пароль, если установлено ограничение</string>
+    <string name="restriction_login_certificate_alias">Сертификат клиента</string>
+    <string name="restriction_login_certificate_alias_description">Сертификат клиента, который будет использоваться при авторизации</string>
+    <string name="restriction_login_certificate_and_password">Использовать имя пользователя/пароль вместе с клиентским сертификатом</string>
+    <string name="restriction_login_certificate_and_password_description">Использовать ли при авторизации как сертификат клиента, так и имя пользователя/пароль</string>
+    <string name="restriction_max_accounts">Максимум аккаунтов</string>
+    <string name="restriction_max_accounts_description">Максимальное количество учетных записей DAVx⁵ на одного пользователя</string>
+    <string name="restriction_proxy_type">Тип прокси</string>
+    <string name="restriction_proxy_type_description">Все HTTP(S)-соединения маршрутизируются в соответствии с этим</string>
+    <string name="restriction_proxy_host">Хост прокси</string>
+    <string name="restriction_proxy_host_description">Имя хоста прокси</string>
+    <string name="restriction_proxy_port">Порт прокси</string>
+    <string name="restriction_proxy_port_description">Номер порта прокси</string>
+    <string name="restriction_default_sync_interval">Интервал синхронизации по умолчанию</string>
+    <string name="restriction_default_sync_interval_description">Этот интервал синхронизации задается при создании учетной записи.</string>
+    <string name="restriction_preselect_collections">Предварительный выбор коллекций</string>
+    <string name="restriction_preselect_collections_description">Автоматически выбирает обнаруженные коллекции для синхронизации</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>Не делать предварительный выбор</item>
+        <item>Предварительный выбор всех коллекций</item>
+        <item>Предварительный выбор только персональных коллекций</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Черный список персональных коллекций</string>
+    <string name="restriction_preselect_collections_blacklist_description">Регулярное выражение для исключения коллекций из предварительного выбора</string>
+    <string name="restriction_force_address_books_read_only">Принудительно использовать адресные книги только для чтения</string>
+    <string name="restriction_force_address_books_read_only_description">Делает все адресные книги локально недоступными для редактирования</string>
+    <string name="restriction_wifi_only">Синхронизировать только через WiFi</string>
+    <string name="restriction_wifi_only_description">Выполнять ли синхронизацию только при подключении WiFi</string>
+    <string name="restriction_wifi_only_ssids">Синхронизировать только через WiFi: SSID</string>
+    <string name="restriction_wifi_only_ssids_description">Список разрешенных WiFi SSID через запятую (\"wifi1, wifi2\")</string>
+    <string name="restriction_contact_group_method">Метод группировки контактов</string>
+    <string name="restriction_contact_group_method_description">Как группы контактов хранятся на сервере CardDAV</string>
+    <string name="restriction_manage_calendar_colors">Управление цветами календаря</string>
+    <string name="restriction_manage_calendar_colors_description">Должен ли DAVx⁵ устанавливать цвета календаря, передаваемые сервером, локально</string>
+    <string name="restriction_event_colors">Цвета событий</string>
+    <string name="restriction_event_colors_description">Включать ли поддержку цвета для каждого события (может привести к сбоям в работе приложений календаря)</string>
+    <string name="restriction_default_alarm">Напоминание по умолчанию</string>
+    <string name="restriction_default_alarm_description">Устанавливает напоминание по умолчанию за это количество минут до начала каждого мероприятия без напоминания. Значение null или -1 означает отсутствие напоминания по умолчанию. Пользователи всегда могут переопределить это значение.</string>
+    <string name="restriction_show_only_personal">Показывать только персональные коллекции</string>
+    <string name="restriction_show_only_personal_description">Будут ли показаны только коллекции из собственного набора (наборов). Значение -1 или null означает, что пользователи могут выбирать сами.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Недействительная лицензия</string>
+    <string name="license_unlicensed_host_name">Хост, на который не распространяется лицензия</string>
+    <string name="license_contact_it_support">Обратитесь в свой ИТ-отдел</string>
+    <string name="license_contact_it_support_email">Электронная почта</string>
+    <string name="license_contact_it_support_phone">Позвоните в службу поддержки</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">Лицензия не найдена</string>
+    <string name="license_signature_not_found">Подпись лицензии не найдена</string>
+    <string name="license_signature_invalid">Недействительная подпись лицензии</string>
+    <string name="license_not_valid">Не удалось подтвердить лицензию</string>
+    <string name="license_expired_on">Срок действия лицензии истек %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">Ваш офис. Ваши данные.</string>
+    <string name="intro_slogan2">Работайте эффективно.</string>
+    <string name="navigation_drawer_managed_configuration">Управляемая конфигурация</string>
+    <string name="navigation_drawer_web_support">Информация о поддержке</string>
+    <string name="navigation_drawer_phone_support">Горячая линия поддержки</string>
+    <string name="navigation_drawer_email_support">Поддержка по электронной почте</string>
+    <string name="about_license_info_html"><![CDATA[Лицензировано <i>%1$d пользователей</i>, работающих в <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Предназначена для домена: %s</item>
+        <item quantity="few">Предназначена для доменов: %s</item>
+        <item quantity="many">Предназначена для доменов: %s</item>
+        <item quantity="other">Предназначена для доменов: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">Не удалось найти действующую лицензию. Обратитесь в свой ИТ-отдел.</string>
+    <string name="about_license_valid_through">Лицензия действительна до: %s</string>
+    <string name="login_managed_config_info_html"><![CDATA[Вы используете автоматическую конфигурацию, предоставленную<i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Ожидание управляемой конфигурации …</string>
+    <string name="login_managed_config_it_department">Не знаете, что делать? Обратитесь в свой ИТ-отдел.</string>
+    <string name="login_managed_config_not_private"><![CDATA[Это приложение <a href=\"%1$s\">предназначено для организаций</a>, а не для частных пользователей. Вы можете <a href=\"%2$s\">получить бесплатную тестовую лицензию</a>.]]></string>
+    <string name="login_managed_config_please_log_in">Пожалуйста, авторизуйтесь</string>
+    <string name="login_managed_config_select_certificate_info">Выберите сертификат клиента, который будет использоваться для аутентификации.</string>
+    <string name="login_managed_config_certificate_selected">Сертификат клиента %s будет использоваться для аутентификации.</string>
+    <string name="login_managed_config_invalid_base_url">Недопустимый базовый URL в управляемой конфигурации</string>
+    <string name="managed_config_title">Управляемая конфигурация</string>
+    <string name="managed_config_reload_configuration"> Перезагрузить</string>
+    <string name="managed_config_reloading_configuration">Перезагрузка конфигурации</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Это приложение управляется Android Enterprise.</string>
+    <string name="managed_config_emm_console">Управляемые настройки можно изменить в консоли EMM.</string>
+    <string name="managed_config_network">Сетевая конфигурация</string>
+    <string name="managed_config_network_no_config">Это приложение управляется по сети, но URL конфигурации еще не задан.</string>
+    <string name="managed_config_network_enter_url">Введите URL</string>
+    <string name="managed_config_network_scan_qrcode">Сканировать QR-код</string>
+    <string name="managed_config_network_url">Управление этим приложением осуществляется по сети с помощью данного URL:</string>
+    <string name="managed_config_network_invalid_url">Некорректный URL</string>
+    <string name="managed_config_network_reset_url">Очистить URL</string>
+    <string name="managed_config_network_empty_configuration">Пустая конфигурация</string>
+    <string name="managed_config_network_config_url_saved">URL конфигурации сохранен</string>
+    <string name="managed_config_network_config_url_cleared">URL конфигурации удален</string>
+</resources>

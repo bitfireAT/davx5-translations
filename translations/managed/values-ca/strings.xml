@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">Llicència</string>
+    <string name="restriction_license_description">Dades de llicència (JSON)</string>
+    <string name="restriction_license_signature">Signatura de Llicència</string>
+    <string name="restriction_license_signature_description">La signatura digital és necessària per a validar la llicència (Base64)</string>
+    <string name="restriction_organization">Organització</string>
+    <string name="restriction_organization_description">Nom de l\'organització</string>
+    <string name="restriction_logo_url">URL del Logo</string>
+    <string name="restriction_logo_url_description">URL HTTP(S) del logotip de l\'organització (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">URL de la pàgina de suport</string>
+    <string name="restriction_support_homepage_url_description">URL HTTP(S) de la pàgina de suport (Pàgina de la Intranet on es descriu com fer servir DAVx⁵)</string>
+    <string name="restriction_support_email_address">Direcció de correu electrònic de suport</string>
+    <string name="restriction_support_phone_number">Telèfon mòbil de suport</string>
+    <string name="restriction_support_phone_number_description">Telèfon mòbil de suport (format +1 234 5678901)</string>
+    <string name="restriction_login_introduction">Missatge d\'introducció en iniciar sessió</string>
+    <string name="restriction_login_introduction_description">El missatge que es mostrarà quan l\'usuari afegeix un compte</string>
+    <string name="restriction_login_base_url">URL base de CalDAV/CardDAV</string>
+    <string name="restriction_login_base_url_description">Direcció URL del servei de detecció de CalDAV/CardDAV</string>
+    <string name="restriction_login_type">Tipus d\'inici de sessió</string>
+    <string name="restriction_login_type_description">Tipus d\'inici de sessió a utilitzar</string>
+    <string-array name="restriction_login_type_entries">
+        <item>Predeterminat</item>
+        <item>Flux d\'inici de sessió de Nextcloud</item>
+    </string-array>
+    <string name="restriction_login_user_name">Nom d\'usuari</string>
+    <string name="restriction_login_user_name_description">Nom d\'usuari preomplert per a iniciar sessió</string>
+    <string name="restriction_login_password">Contrasenya</string>
+    <string name="restriction_login_password_description">Contrasenya preomplerta per a iniciar sessió</string>
+    <string name="restriction_lock_credentials">Bloqueja les credencials</string>
+    <string name="restriction_lock_credentials_description">Estableix si el nom d\'usuari/contrasenya està bloquejat per la restricció</string>
+    <string name="restriction_login_certificate_alias">Àlies del certificat de client</string>
+    <string name="restriction_login_certificate_alias_description">Àlies del certificat de client que emprar per a iniciar sessió</string>
+    <string name="restriction_login_certificate_and_password">Fes servir l\'usuari/contrasenya juntament al certificat de client</string>
+    <string name="restriction_login_certificate_and_password_description">Estableix si tant el certificat de client com l\'usuari/contrasenya són necessaris per iniciar sessió</string>
+    <string name="restriction_max_accounts">Núm. màx. de comptes</string>
+    <string name="restriction_max_accounts_description">La quantitat màxima de comptes de DAVx⁵ per usuari</string>
+    <string name="restriction_proxy_type">Tipus de Servidor Intermediari</string>
+    <string name="restriction_proxy_type_description">Totes les connexions HTTP(S) s\'encaminen d\'aquesta manera</string>
+    <string name="restriction_proxy_host">Direcció del Servidor Intermediari</string>
+    <string name="restriction_proxy_host_description">Nom del Servidor Intermediari</string>
+    <string name="restriction_proxy_port">Port del Servidor Intermediari</string>
+    <string name="restriction_proxy_port_description">Número de port del Servidor Intermediari</string>
+    <string name="restriction_default_sync_interval">Interval de sincronització per defecte</string>
+    <string name="restriction_default_sync_interval_description">Aquest interval de sincronització s\'estableix quan un compte sigui creat.</string>
+    <string name="restriction_preselect_collections">Preselecciona col·leccions</string>
+    <string name="restriction_preselect_collections_description">Selecciona automàticament els comptes detectats per a la sincronització</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>No preselecciones</item>
+        <item>Preselecciona totes les col·leccions</item>
+        <item>Preselecciona únicament les col·leccions personals</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">Llista negra de preselecció de col·leccions</string>
+    <string name="restriction_preselect_collections_blacklist_description">Regexp per a excloure col·leccions de la preselecció</string>
+    <string name="restriction_force_address_books_read_only">Força els llibres d\'adreces com a només lectura</string>
+    <string name="restriction_force_address_books_read_only_description">Fa que tots els llibres d\'adreces siguin no-editables</string>
+    <string name="restriction_wifi_only">Només sincronitza amb WiFi</string>
+    <string name="restriction_wifi_only_description">Si la sincronització sols s\'ha d\'executar quan s\'estigui connectat a una xarxa WiFi</string>
+    <string name="restriction_wifi_only_ssids">Sincronitza només amb WiFi: SSIDs</string>
+    <string name="restriction_wifi_only_ssids_description">Una llista separada amb comes dels SSID de les xarxes permeses (\"wifi1,wifi2\")</string>
+    <string name="restriction_contact_group_method">Mètode d\'agrupació de contactes</string>
+    <string name="restriction_contact_group_method_description">Com es guarden els grups de contactes en el servidor CardDAV</string>
+    <string name="restriction_manage_calendar_colors">Administra els colors del calendari</string>
+    <string name="restriction_manage_calendar_colors_description">Si DAVx⁵ hauria d\'establir els colors del calendari enviats pel servidor localment</string>
+    <string name="restriction_event_colors">Colors d\'esdeveniment</string>
+    <string name="restriction_event_colors_description">Si s\'hauria d\'habilitar el suport per a colors per esdeveniment (pot trencar aplicacions de calendari no compatibles)</string>
+    <string name="restriction_default_alarm">Recordatori per defecte</string>
+    <string name="restriction_default_alarm_description">Estableix un recordatori d\'aquesta quantitat de minuts abans de l\'inici de cada esdeveniment sense recordatori. null o -1 no configura cap recordatori. Els usuaris sempre poden sobreescriure aquest valor.</string>
+    <string name="restriction_show_only_personal">Mostra només col·leccions personals</string>
+    <string name="restriction_show_only_personal_description">Si només es mostren col·leccions de la pròpia col·lecció de casa. null o -1 normalment significa que els usuaris poden triar-ho personalment.</string>
+    <!-- notifications -->
+    <string name="license_invalid">Llicència no vàlida</string>
+    <string name="license_unlicensed_host_name">L\'amfitrió no està cobert per la llicència</string>
+    <string name="license_contact_it_support">Contacta amb el departament de tecnologia informàtica</string>
+    <string name="license_contact_it_support_email">Correu electrònic</string>
+    <string name="license_contact_it_support_phone">Truca al suport</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">No s\'ha trobat cap llicència</string>
+    <string name="license_signature_not_found">No s\'ha trobat cap signatura de llicència</string>
+    <string name="license_signature_invalid">La signatura de llicència no és vàlida</string>
+    <string name="license_not_valid">No s\'ha pogut validar la llicència</string>
+    <string name="license_expired_on">La llicència va expirar el %s</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">La teua oficina. Les teues dades.</string>
+    <string name="intro_slogan2">Treballa intel·ligentment.</string>
+    <string name="navigation_drawer_managed_configuration">Configuració administrada</string>
+    <string name="navigation_drawer_web_support">Informació de Suport</string>
+    <string name="navigation_drawer_phone_support">Línia ràpida de Suport</string>
+    <string name="navigation_drawer_email_support">Correu electrònic de suport</string>
+    <string name="about_license_info_html"><![CDATA[Llicenciat per a fins a <i>%1$d usuaris</i> que treballen per a <i>%2$s</i>.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">Configurat per al domini: %s</item>
+        <item quantity="many">Configurat per als dominis: %s</item>
+        <item quantity="other">Configurat per als dominis: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">No s\'ha pogut trobar cap llicència vàlida. Per favor, contacta amb el departament de tecnologia informàtica.</string>
+    <string name="about_license_valid_through">Llicència vàlida a través de: %s</string>
+    <string name="login_managed_config_info_html"><![CDATA[Estàs fent servir una configuració automàtica distribuïda per <i>%s</i>.]]></string>
+    <string name="login_managed_config_waiting">Esperant per a la configuració administrada …</string>
+    <string name="login_managed_config_it_department">No saps què fer? Contacta amb el teu departament d\'IT.</string>
+    <string name="login_managed_config_not_private"><![CDATA[Aquesta aplicació està <a href="%1$s">destinada a organitzacions</a> i no a usuaris privats. Podeu <a href="%2$s">obtenir una llicència de prova de franc</a>.]]></string>
+    <string name="login_managed_config_please_log_in">Per favor, inicia la sessió</string>
+    <string name="login_managed_config_select_certificate_info">Tria un certificat de client que es farà servir per autenticar.</string>
+    <string name="login_managed_config_certificate_selected">El certificat de client %s es farà servir per autenticar.</string>
+    <string name="login_managed_config_invalid_base_url">URL base invàlida a la configuració administrada</string>
+    <string name="managed_config_title">Configuració administrada</string>
+    <string name="managed_config_reload_configuration">Recarregar</string>
+    <string name="managed_config_reloading_configuration">Recarregant configuració</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">Aquesta aplicació està administrada per Android Entreprise.</string>
+    <string name="managed_config_emm_console">La configuració administrada pot ser canviada en la consola EMM.</string>
+    <string name="managed_config_network">Configuració de xarxa</string>
+    <string name="managed_config_network_no_config">Aquesta aplicació es gestiona a través de la xarxa, però encara no s\'ha establert cap URL de configuració.</string>
+    <string name="managed_config_network_enter_url">Introdueix l\'URL</string>
+    <string name="managed_config_network_scan_qrcode">Escaneja un codi QR</string>
+    <string name="managed_config_network_url">Aquesta aplicació està administrada sobre la xarxa fent servir aquesta URL:</string>
+    <string name="managed_config_network_invalid_url">URL invàlida</string>
+    <string name="managed_config_network_reset_url">Buida l\'URL</string>
+    <string name="managed_config_network_empty_configuration">Configuració buida</string>
+    <string name="managed_config_network_config_url_saved">URL de configuració desada</string>
+    <string name="managed_config_network_config_url_cleared">S\'ha netejat l\'URL de configuració</string>
+</resources>

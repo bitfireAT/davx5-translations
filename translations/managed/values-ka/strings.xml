@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- restrictions (EMM backend) -->
+    <string name="restriction_license">ლიცენზია</string>
+    <string name="restriction_license_description">ლიცენზიის მონაცემები (JSON)</string>
+    <string name="restriction_license_signature">ლიცენზიის ხელმოწერა</string>
+    <string name="restriction_license_signature_description">ციფრული ხელმოწერა საჭიროა ლიცენზიის დასადასტურებლად (Base64)</string>
+    <string name="restriction_organization">ორგანიზაცია</string>
+    <string name="restriction_organization_description">ორგანიზაციის საჩვენებელი სახელი</string>
+    <string name="restriction_logo_url">ლოგოს URL</string>
+    <string name="restriction_logo_url_description">ორგანიზაციის ლოგოს HTTP(S) URL (JPEG/PNG)</string>
+    <string name="restriction_support_homepage_url">მხარდაჭერის მთავარი გვერდის URL</string>
+    <string name="restriction_support_homepage_url_description">მხარდაჭერის მთავარი გვერდის HTTP(S) URL (შიდა ქსელის გვერდი, რომელიც აღწერს, თუ როგორ გამოიყენოთDAVx⁵)</string>
+    <string name="restriction_support_email_address">მხარდაჭერის ელ. ფოსტის მისამართი</string>
+    <string name="restriction_support_phone_number">მხარდაჭერის ტელეფონის ნომერი</string>
+    <string name="restriction_support_phone_number_description">მხარდაჭერის ტელეფონის ნომერი (ფორმატი: +1 234 5678901)</string>
+    <string name="restriction_login_introduction">შესვლის მისასალმებელი შეტყობინება</string>
+    <string name="restriction_login_introduction_description">შეტყობინება, რომელიც იქნება ნაჩვენები, როდესაც მომხმარებელი დაამატებს ანგარიშს</string>
+    <string name="restriction_login_base_url">CalDAV/CardDAV საბაზისო URL</string>
+    <string name="restriction_login_base_url_description">CalDAV/CardDAV სერვისის აღმოჩენის საწყისი URL</string>
+    <string name="restriction_login_user_name">მომხმარებლის სახელი</string>
+    <string name="restriction_login_user_name_description">შესვლისთვის წინასწარ შევსებული მომხმარებლის სახელი</string>
+    <string name="restriction_login_password">პაროლი</string>
+    <string name="restriction_login_password_description">შესვლისთვის წინასწარ შევსებული პაროლი</string>
+    <string name="restriction_lock_credentials">იდენტიფიკატორების დაბლოკვა</string>
+    <string name="restriction_lock_credentials_description">უნდა დაიბლოკოს თუ არა მომხმარებლის სახელი ან/და პაროლი, თუ დაყენებულის შეზღუდვის მიერ</string>
+    <string name="restriction_login_certificate_alias">კლიენტის სერტიფიკატის მეტსახელი</string>
+    <string name="restriction_login_certificate_alias_description">არსებული კლიენტის სერტიფიკატის მეტსახელი, რომელიც გამოყენებულ უნდა იქნას შესვლისთვის</string>
+    <string name="restriction_login_certificate_and_password">მომხმარებლის სახელის/პაროლის კლიენტის სერტიფიკატთან ერთად გამოყენება</string>
+    <string name="restriction_login_certificate_and_password_description">გამოიყენება თუ არა კლიენტის სერტიფიკატი და მომხმარებლის სახელი/პაროლი შესვლისთვის</string>
+    <string name="restriction_max_accounts">მაქს. ანგარიში</string>
+    <string name="restriction_max_accounts_description">DAVx⁵ ანგარიშთა მაქსიმალური რაოდენობა მომხმარებელზე</string>
+    <string name="restriction_proxy_type">Proxy-ს ტიპი</string>
+    <string name="restriction_proxy_type_description">ყველა HTTP(S) კავშირი გაივლის შესაბამის მარშრუტს</string>
+    <string name="restriction_proxy_host">Proxy-ს ჰოსტი</string>
+    <string name="restriction_proxy_host_description">Proxy-ს ჰოსტის სახელი</string>
+    <string name="restriction_proxy_port">Proxy-ს პორტი</string>
+    <string name="restriction_proxy_port_description">Proxy-ს პორტის ნომერი</string>
+    <string name="restriction_default_sync_interval">ნაგულისხმევი სინქრონიზების ინტერვალი</string>
+    <string name="restriction_default_sync_interval_description">ეს სინქრონიზების ინტერვალი ყენდება ანგარიშის შექმნისას.</string>
+    <string name="restriction_preselect_collections">კოლექციების წინასწარი არჩევა</string>
+    <string name="restriction_preselect_collections_description">ავტომატურად ირჩევს აღმოჩენილ კოლექციებს სინქრონიზებისთვის</string>
+    <integer-array name="restriction_preselect_collections_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="restriction_preselect_collections_entries">
+        <item>არ მოხდეს წინასწარი არჩევა</item>
+        <item>წინასწარ აირჩეს ყველა კოლექცია</item>
+        <item>წინასწარ აირჩეს მხოლოდ პირადი კოლექციები</item>
+    </string-array>
+    <string name="restriction_preselect_collections_blacklist">წინასწარი არჩევის კოლექციების შავი სია</string>
+    <string name="restriction_preselect_collections_blacklist_description">რეგულარული გამონათქვამი კოლექციების წინასწარი არჩევიდან გამოსაკლებად</string>
+    <string name="restriction_force_address_books_read_only">მისამართთა წიგნაკები სავალდებულოდ დაყენდეს მხოლოდ წაკითხვადად</string>
+    <string name="restriction_force_address_books_read_only_description">ხდის ყველა მისამართთა წიგნაკს ადგილობრივად დაურედაქტირებლად</string>
+    <string name="restriction_wifi_only">მხოლოდ WiFi-თ სინქრონიზება</string>
+    <string name="restriction_wifi_only_description">მხოლოდ WiFi-თი კავშირისას თუ უნდა გაეშვას სინქრონიზება</string>
+    <string name="restriction_wifi_only_ssids">სინქრონიზება მხოლოდ WiFi-თ: SSID</string>
+    <string name="restriction_wifi_only_ssids_description">ძიმეთი დაყოფილი დაშვებული WiFi SSID სია (\"wifi1, wifi2\")</string>
+    <string name="restriction_contact_group_method">კონტაქტების ჯგუფების მეთოდი</string>
+    <string name="restriction_contact_group_method_description">როგორ უნდა შეინახოს კონტაქტების ჯგუფები CardDAV სერვერზე</string>
+    <string name="restriction_manage_calendar_colors">კალენდარის ფერების მართვა</string>
+    <string name="restriction_manage_calendar_colors_description">უნდა დააყენოს თუ არა DAVx⁵-მა სერვერის მიერ გამოგზავნილი კალენდარის ფერები ადგილობრივად</string>
+    <string name="restriction_event_colors">ღონისძიების ფერები</string>
+    <string name="restriction_event_colors_description">უნდა ჩაირთოს თუ არა ღონისძიების ფერის მხარდაჭერა (შეიძლება გაჭედოს გაფუჭებული კალენდარის აპები)</string>
+    <string name="restriction_default_alarm">ნაგულისხმევი შეხსენება</string>
+    <string name="restriction_default_alarm_description">აყენებს ნაგულისხმევ შეხსენებას შეხსენების გარეშე ყოველი ღინისძიების ამდენი წუთით ადრე . null ან -1 ერთი ნიშნავს ნაგულისხმევი შეხსენების გარეშე. მომხმარებლებს ყოველთვის შეუძლიათ ამ მნიშვნელობის გადაყენება.</string>
+    <string name="restriction_show_only_personal">მხოლოდ პირადი კოლექციების ჩვენება</string>
+    <string name="restriction_show_only_personal_description">აყენებს თუ უნდა გამოჩნდეს მხოლოდ კოლექციები საკუთარი სახლის კრებულიდან. -1 ან null ნიშნავს, რომ მომხმარებლებს შეუძ₾იათ თვითონ აირჩიონ.</string>
+    <!-- notifications -->
+    <string name="license_invalid">არასწორი ლიცენზია</string>
+    <string name="license_unlicensed_host_name">ჰოსტი არ არის ლიცენზიით დაფარული</string>
+    <string name="license_contact_it_support">დაუკავშირდით თქვენს IT განყოფილებას</string>
+    <string name="license_contact_it_support_email">ელ. ფოსტა</string>
+    <string name="license_contact_it_support_phone">დაურეკეთ მხარდაჭერას</string>
+    <!-- LicenseChecker -->
+    <string name="license_not_found">ლიცენზია ვერ მოიძებნა</string>
+    <string name="license_signature_not_found">ლიცენზიის ხელმოწერა ვერ მოიძებნა</string>
+    <string name="license_signature_invalid">ლიცენზიის ხელმოწერა არასწორია</string>
+    <string name="license_not_valid">ლიცენზიის დამოწმება ვერ მოხერხდა</string>
+    <string name="license_expired_on">ლიცენზიას ვადა გაუვიდა %s-ს</string>
+    <!-- other UI -->
+    <string name="intro_slogan1">თქვენი ოფისი. თქვენი მონაცემები.</string>
+    <string name="intro_slogan2">იმუშავეთ ჭკვიანად.</string>
+    <string name="navigation_drawer_managed_configuration">მმართვადი კონფიგურაცია</string>
+    <string name="navigation_drawer_web_support">მხარდაჭერის ინფორმაცია</string>
+    <string name="navigation_drawer_phone_support">მხარდაჭერის ცხელი ხაზი</string>
+    <string name="navigation_drawer_email_support">მხარდაჭერისთვის ელ. ფოსტის გაგზავნა</string>
+    <string name="about_license_info_html"><![CDATA[ლიცენზირებულია <i>%1$d მომხმარებლამდე</i>, რომლებიც მუშაობენ <i>%2$s</i>-სთვის.]]></string>
+    <plurals name="about_license_domains">
+        <item quantity="one">გათვლილია დომენისთვის: %s</item>
+        <item quantity="other">გათვლილია დომენებისთვის: %s</item>
+    </plurals>
+    <string name="about_license_invalid_license">დამოწმებული ლიცენზია ვერ მოიძებნა. გთხოვთ, დაუკავშირდეთ თქვენს IT განყოფილებას.</string>
+    <string name="about_license_valid_through">ლიცენზია ვარგისი %s-მდე</string>
+    <string name="login_managed_config_info_html"><![CDATA[თქვენ იყენებთ ავტომატურ კონფიგურაციას, რომელიც მოწოდებულია <i>%s</i>-ს მიერ.]]></string>
+    <string name="login_managed_config_waiting">მართვადი კონფიგურაციის მოლოდინი …</string>
+    <string name="login_managed_config_it_department">არ იცით, რა ქნათ? დაუკავშირდით თქვენს IT განყოფილებას.</string>
+    <string name="login_managed_config_please_log_in">გთხოვთ, შეხვიდეთ</string>
+    <string name="login_managed_config_select_certificate_info">აირჩიეთ კლიენტის სერტიფიკატი, რომელიც გამოყენებულ იქნება აუთენტიფიკაციისთვის.</string>
+    <string name="login_managed_config_certificate_selected">კლიენტის სერტიფიკატი %s გამოიყენება აუთენტიფიკაციისთვის.</string>
+    <string name="login_managed_config_invalid_base_url">არასწორი საბაზო URL მმართვად კონფიგურაციაში</string>
+    <string name="managed_config_title">მმართვადი კონფიგურაცია</string>
+    <string name="managed_config_reload_configuration">გადატვირთვა</string>
+    <string name="managed_config_reloading_configuration">მიმდინარეობს კონფიგურაციის გადატვირთვა</string>
+    <string name="managed_config_emm">Android Enterprise</string>
+    <string name="managed_config_emm_info">ეს აპი იმართება Android Enterprise-ის მიერ.</string>
+    <string name="managed_config_emm_console">მმართვადი პარამეტრები შეიძლება შეიცვალოს EMM კონსოლში.</string>
+    <string name="managed_config_network">ქსელის კონფიგურაცია</string>
+    <string name="managed_config_network_enter_url">შეიყვანეთ URL</string>
+    <string name="managed_config_network_scan_qrcode">დაასკანირეთ QR კოდი</string>
+    <string name="managed_config_network_url">ეს აპი იმართება ქსელით ამ URL-ის გამოყენებით:</string>
+    <string name="managed_config_network_invalid_url">არასწორი URL</string>
+    <string name="managed_config_network_reset_url">URL-ის გასუფთავება</string>
+    <string name="managed_config_network_empty_configuration">ცარიელი კონფიგურაცია</string>
+    <string name="managed_config_network_config_url_saved">კონფიგურაციის URL შეინახა</string>
+</resources>
