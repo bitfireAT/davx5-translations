@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation drawer -->
+    <string name="nav_earn_badges">Sprijină-ne cu insigne</string>
+    <string name="nav_rate_us">Recenzie în Google Play</string>
+    <string name="nav_feedback_inapp_didnt_appear">Examinarea în aplicație nu a apărut?</string>
+    <string name="nav_feedback_google_play">Trimite în Google Play</string>
+    <string name="nav_feedback_scroll_to_reviews">Derulează la secțiunea de revizuire pentru a trimite feedback</string>
+    <!-- AboutActivity -->
+    <string name="about_flavor_info">Această versiune este eligibilă pentru distribuție numai prin Google Play.</string>
+    <!-- EarnBadgesActivity -->
+    <plurals name="you_earned_badges">
+        <item quantity="one">Ai câștigat o insignă, îți mulțumim!</item>
+        <item quantity="few">Ai câștigat %d insigne, îți mulțumim!</item>
+        <item quantity="other">Ai câștigat %d insigne, îți mulțumim!</item>
+    </plurals>
+    <string name="available_badges">Ecusoane disponibile</string>
+    <string name="available_badges_empty">Ne pare rău, nu s-au putut încărca insignele. Ești autentificat în Magazinul Play?</string>
+    <string name="what_are_badges">Ce sunt insignele?</string>
+    <string name="what_are_badges_title">Ce sunt insignele?</string>
+    <string name="what_are_badges_body">Insignele sunt plăți simple în aplicație, o singură dată. Vei câștiga o insignă drăguță și cu ea ne poți susține în timp.</string>
+    <string name="why_badges_title">De ce DAVx5 oferă insigne fără funcții?</string>
+    <string name="why_badges_body">DAVx5 a crescut cu adevărat de-a lungul anilor! Încă dezvoltăm în mod activ noi funcții, oferim asistență și actualizăm întotdeauna aplicația pentru versiunile viitoare de Android. Aceste insigne sunt plăți unice în care poți pur și simplu să-ți arăți sprijinul cumpărându-ne o cafea, două… sau 10 :-) Vrem să fim cât mai deschiși posibil, așa că nu vor fi niciodată lucruri noi blocate prin plată prin aplicație.</string>
+    <string name="button_buy_badge_free">GRATUIT</string>
+    <string name="button_buy_badge_bought">Mulțumesc!</string>
+    <string name="earn_badges">Câștigă insigne pentru a ne susține!</string>
+    <string name="billing_unavailable">API-ul de facturare nu este disponibil</string>
+    <string name="purchase_acknowledgement_failed">Nu s-a putut confirma achiziția</string>
+    <string name="purchase_acknowledgement_successful">Îți mulțumim pentru sprijin!</string>
+    <string name="purchase_failed">Achiziția a eșuat</string>
+    <string name="network_problems">Probleme de rețea, încearcă din nou mai târziu.</string>
+    <string name="badge_consumption_action">Atinge pentru a consuma</string>
+    <string name="badge_consumption_message">Consumul va elimina această insignă din bibliotecă și va afișa o animație cool. Acest lucru îți va permite să cumperi din nou insigna și să ne susții în continuare.</string>
+    <string name="badge_consumption_warning">Consumul nu poate fi anulat și îți va permite să câștigi din nou insigna.</string>
+    <string name="badge_consumption_content_description">Insignă câștigată. Atinge pentru a o folosi</string>
+    <string name="badge_consumption_success_zero">Ai consumat toate %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">Ai consumat %1$s. A mai rămas %2$d insignă.</item>
+        <item quantity="few">Ai consumat %1$s. Au mai rămas %2$d insigne.</item>
+        <item quantity="other">Ai consumat %1$s. Au mai rămas %2$d de insigne.</item>
+    </plurals>
+</resources>

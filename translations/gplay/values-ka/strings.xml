@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation drawer -->
+    <string name="nav_earn_badges">დაგვიჭირეთ მხარი ბეიჯებით</string>
+    <string name="nav_rate_us">Google Play-ში შეფასება</string>
+    <!-- EarnBadgesActivity -->
+    <plurals name="you_earned_badges">
+        <item quantity="one">თქვენ მიიღეთ ბეიჯი, გმადლობთ!</item>
+        <item quantity="other">თქვენ მიიღეთ %d ბეიჯი, გმადლობთ!</item>
+    </plurals>
+    <string name="available_badges">ხელმისაწვდომი ბეიჯები</string>
+    <string name="available_badges_empty">უკაცრავად, ბეიჯები ვერ ჩაიტვირთა. შესული ხართ Play მაღაზიაში?</string>
+    <string name="what_are_badges">რა არის ბეიჯები?</string>
+    <string name="what_are_badges_title">რა არის ბეიჯები?</string>
+    <string name="what_are_badges_body">ბეიჯები არის მარტივი აპის შიდა ერთჯერადი გადახდები. შეგიძლიათ მიიღოთ ლამაზი ბეიჯი და მის საშუალებით, დროის განმავლობაში, დაგვიჭიროთ მხარი.</string>
+    <string name="why_badges_title">რატომ სთავაზობს DAVx⁵ ფუნქციების გარეშე ბეიჯებს?</string>
+    <string name="why_badges_body">DAVx⁵ საკმაოდ გაიზარდა წლების განმავლობაში! ჩვენ კვლავ აქტიურად ვამატებთ ახალ ფუნქციების, ვუწევთ მხარდაჭერას და ყოველთვის ვანახლებთ აპს მომავალი Android-ის ვერსიებისთვის. ეს ბეიჯები წარმოადგენს ერთჯერად გადახდებს, რომლითაც თქვენ მარტივად გვიჩვენებთ თქვენს მხარდაჭერას ჩვენთვის ერთი-ორი… ან 10 ყავის შეძენით :-) ჩვენ გვინდა ვიყოთ ღია, რამდენადაც ეს არის შესაძლებელი, ამიტომ არასდროს არ იქნება ახალი რამ, რაც იქნება დაბლოკილი აპის შიდა გადახდაზე.</string>
+    <string name="button_buy_badge_free">უფასო</string>
+    <string name="button_buy_badge_bought">გმადლობთ!</string>
+    <string name="earn_badges">მიიღეთ ბეიჯები ჩვენს მხარდასაჭერად!</string>
+    <string name="nav_feedback_inapp_didnt_appear">აპლიკაციაში გადახედვა არ გამჩნდა?</string>
+    <string name="nav_feedback_google_play">გაგზავნა Google Play-ში</string>
+    <string name="nav_feedback_scroll_to_reviews">ჩამოქაჩეთ გადახედვის სექციამდე უკუკავშირის გადმოსაცემად</string>
+    <string name="about_flavor_info">ეს ვერსია, მხოლოდ, Google Play-ით უნდა გავრცელდეს.</string>
+    <string name="billing_unavailable">ბილინგის API ხელმისაწვდომი არაა</string>
+    <string name="purchase_acknowledgement_failed">შეძენის დადასტურების შეცდომა</string>
+    <string name="purchase_acknowledgement_successful">მადლობა მხარდაჭერისთვის!</string>
+    <string name="purchase_failed">შეძენა ჩავარდა</string>
+    <string name="network_problems">აღმოჩენილია ქსელის პრობლემები. მოგვიანებით სცადეთ.</string>
+    <string name="badge_consumption_action">შესაძენად დაატყაპუნეთ</string>
+    <string name="badge_consumption_message">შეძენა წაშლის ამ სამკერდე ნიშანს თქვენი ბიბლიოთეკიდან და სახალისო ანიმაციას გაჩვენებთ. ეს საშუალებას მოგცემთ, სამკერდე ნიშანი კიდევ ერთხელ შეიძინოთ და ამით მხარი დაგვიჭიროთ.</string>
+    <string name="badge_consumption_warning">შეძენის გაუქმება შეუძლებელია და ეს საშუალებას მოგცემთ, სამკერდე ნიშანი კიდევ ერთხელ შეიძინოთ.</string>
+    <string name="badge_consumption_content_description">მიიღეთ სამკერდე ნიშანი. დაატყაპუნეთ გამოსაყენებლად</string>
+    <string name="badge_consumption_success_zero">თქვენ სულ გამოიყენეთ %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">თქვენ გამოიყენეთ %1$s. დარჩა %2$d სამკერდე ნიშანი.</item>
+        <item quantity="other">თქვენ გამოიყენეთ %1$s; დარჩა %2$d სამკერდე ნიშანი.</item>
+    </plurals>
+</resources>

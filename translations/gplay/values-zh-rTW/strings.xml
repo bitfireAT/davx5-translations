@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation drawer -->
+    <string name="nav_earn_badges">用徽章支持我們</string>
+    <string name="nav_rate_us">在 Google Play 上評論</string>
+    <string name="nav_feedback_inapp_didnt_appear">應用程式內預覽未顯示？</string>
+    <string name="nav_feedback_google_play">在 Google Play 中送出</string>
+    <string name="nav_feedback_scroll_to_reviews">捲動至評論區以提交回饋</string>
+
+    <!-- AboutActivity -->
+    <string name="about_flavor_info">此版本僅可透過 Google Play 發佈。</string>
+
+    <!-- EarnBadgesActivity -->
+    <plurals name="you_earned_badges">
+        <item quantity="other">您已獲得 %d 枚徽章，感謝你的支持！</item>
+    </plurals>
+    <string name="available_badges">可獲得的徽章</string>
+    <string name="available_badges_empty">抱歉，無法載入徽章。您是否已登入 Play 商店？</string>
+    <string name="what_are_badges">什麼是徽章？</string>
+    <string name="what_are_badges_title">什麼是徽章？</string>
+    <string name="what_are_badges_body">徽章是簡單的一次性應用程式內付款。你將獲得一枚可愛的小徽章，並藉此長期支持我們。</string>
+    <string name="why_badges_title">為什麼 DAVx⁵ 提供無附加功能的徽章？</string>
+    <string name="why_badges_body">DAVx⁵ 多年來不斷成長！我們仍然積極開發新功能、提供支援，並持續針對未來的 Android 版本更新應用程式。這些徽章是一種一次性的付費方式，你可以透過請我們喝杯咖啡（或兩杯……甚至 10 杯 :-)）來表達你的支持。我們希望保持最大程度的開放，因此永遠不會有任何新功能被限制為應用程式內付費專屬。</string>
+    <string name="button_buy_badge_free">免費</string>
+    <string name="button_buy_badge_bought">謝謝！</string>
+    <string name="earn_badges">獲得徽章來支持我們！</string>
+    <string name="billing_unavailable">結帳 API 無法使用</string>
+    <string name="network_problems">網路問題，請稍後再試。</string>
+
+</resources>

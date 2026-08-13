@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation drawer -->
+    <string name="nav_earn_badges">Podpořte nás odznáčky</string>
+    <string name="nav_rate_us">Napsat recenzi v Google Play</string>
+    <!-- EarnBadgesActivity -->
+    <plurals name="you_earned_badges">
+        <item quantity="one">Získali jste odznáček, děkujeme!</item>
+        <item quantity="few">Získali jste %d odznáčky, děkujeme!</item>
+        <item quantity="many">Získali jste %d odznáčků, děkujeme!</item>
+        <item quantity="other">Získali jste %d odznáčků, děkujeme!</item>
+    </plurals>
+    <string name="available_badges">Odznáčky k dispozici</string>
+    <string name="available_badges_empty">Omlouváme se, nelze načíst odznáčky. Jste přihlášeni do obchodu Google Play?</string>
+    <string name="what_are_badges">Co jsou odznáčky?</string>
+    <string name="what_are_badges_title">Co jsou odznáčky?</string>
+    <string name="what_are_badges_body">Odznáčky jsou jednoduché jednorázové platby v aplikaci. Získáte hezký malý odznáček a pomocí něho nás v čase můžete podporovat.</string>
+    <string name="why_badges_title">Proč DAVx5 nabízí odznáčky bez funkcí?</string>
+    <string name="why_badges_body">DAVx5 v průběhu let značně vyrostl! Stále aktivně vyvíjíme nové funkce, poskytujeme podporu a vždy aktualizujeme aplikaci pro nejnovější verze Androidu. Tyto odznáčky jsou jednorázové platby, kterými nás můžete podpořit koupením kávy, nebo dvou… nebo 10 :-) Chceme mít co nejotevřenější kód, takže nové funkce nikdy nebudou zamčeny za další platby.</string>
+    <string name="button_buy_badge_free">ZDARMA</string>
+    <string name="button_buy_badge_bought">Děkujeme!</string>
+    <string name="earn_badges">Získejte odznáčky pro naši podporu!</string>
+    <string name="nav_feedback_inapp_didnt_appear">Recenze v aplikaci se neobjevila?</string>
+    <string name="nav_feedback_google_play">Poslat v Google Play</string>
+    <string name="nav_feedback_scroll_to_reviews">Posuňte na sekci recenzí pro odeslání zpětné vazby</string>
+    <string name="about_flavor_info">Tato verze je určena výhradně k distribuci prostřednictvím Google Play.</string>
+    <string name="billing_unavailable">Rozhraní API pro fakturaci není k dispozici</string>
+    <string name="purchase_acknowledgement_failed">Nepodařilo se potvrdit nákup</string>
+    <string name="purchase_acknowledgement_successful">Děkujeme za podporu!</string>
+    <string name="purchase_failed">Nákup selhal</string>
+    <string name="network_problems">Problémy se sítí, zkuste to prosím znovu později.</string>
+    <string name="badge_consumption_action">Klepněte pro sebrání</string>
+    <string name="badge_consumption_message">Sebrání odstraní tento odznak z vaší knihovny a zobrazí cool animaci. To vám umožní si odznak koupit znovu a pokračovat tak v naší podpoře.</string>
+    <string name="badge_consumption_warning">Sebrání je nevratné a umožní vám odznak znovu získat.</string>
+    <string name="badge_consumption_content_description">Získán odznak. Klepněte pro sebrání</string>
+    <string name="badge_consumption_success_zero">Sebrali jste všechny %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">Sebrali jste %1$s. Zbývá %2$d odznak.</item>
+        <item quantity="few">Sebrali jste %1$s. Zbývají %2$d odznaky.</item>
+        <item quantity="many">Sebrali jste %1$s. Zbývá %2$d odznaků.</item>
+        <item quantity="other">Sebrali jste %1$s. Zbývá %2$d odznaků.</item>
+    </plurals>
+</resources>

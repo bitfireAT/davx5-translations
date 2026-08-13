@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_earn_badges">Dukung kami dengan lencana</string>
+    <string name="nav_rate_us">Ulas di Google Play</string>
+    <string name="nav_feedback_inapp_didnt_appear">Ulasan dalam aplikasi tidak muncul?</string>
+    <string name="nav_feedback_google_play">Kirim di Google Play</string>
+    <string name="nav_feedback_scroll_to_reviews">Gulir ke bagian ulasan untuk mengirim masukan</string>
+    <string name="about_flavor_info">Versi ini hanya memenuhi syarat untuk didistribusikan melalui Google Play.</string>
+    <plurals name="you_earned_badges">
+        <item quantity="other">Anda telah memperoleh %d lencana, terima kasih!</item>
+    </plurals>
+    <string name="available_badges">Lencana yang tersedia</string>
+    <string name="available_badges_empty">Maaf, tidak dapat memuat lencana. Apakah Anda masuk ke Play Store?</string>
+    <string name="what_are_badges">Apa itu lencana?</string>
+    <string name="what_are_badges_title">Apa itu lencana?</string>
+    <string name="what_are_badges_body">Lencana adalah pembayaran satu kali sederhana di dalam aplikasi. Anda akan memperoleh lencana kecil yang menarik dan dengan itu Anda dapat mendukung kami dari waktu ke waktu.</string>
+    <string name="why_badges_title">Mengapa DAVx5 menawarkan lencana tanpa fitur?</string>
+    <string name="why_badges_body">DAVx5 benar-benar telah berkembang selama bertahun-tahun! Kami masih aktif mengembangkan fitur baru, menyediakan dukungan, dan selalu memperbarui aplikasi untuk versi Android mendatang. Lencana ini adalah pembayaran satu kali yang memungkinkan Anda menunjukkan dukungan dengan mentraktir kami secangkir kopi, atau dua… atau 10 :-) Kami ingin tetap seterbuka mungkin, jadi tidak akan pernah ada hal baru apa pun yang dikunci di balik pembayaran dalam aplikasi.</string>
+    <string name="button_buy_badge_free">GRATIS</string>
+    <string name="button_buy_badge_bought">Terima kasih!</string>
+    <string name="earn_badges">Dapatkan lencana untuk mendukung kami!</string>
+    <string name="billing_unavailable">API penagihan tidak tersedia</string>
+    <string name="purchase_acknowledgement_failed">Gagal mengonfirmasi pembelian</string>
+    <string name="purchase_acknowledgement_successful">Terima kasih atas dukungannya!</string>
+    <string name="purchase_failed">Pembelian gagal</string>
+    <string name="network_problems">Masalah jaringan, silakan coba lagi nanti.</string>
+    <string name="badge_consumption_action">Ketuk untuk menghabiskan</string>
+    <string name="badge_consumption_message">Penghabisan akan menghapus lencana ini dari pustaka Anda dan menampilkan animasi yang keren. Ini akan memungkinkan Anda membeli lencana tersebut lagi, dan terus mendukung kami.</string>
+    <string name="badge_consumption_warning">Penghabisan tidak dapat dibatalkan, dan akan memungkinkan Anda memperoleh lencana tersebut lagi.</string>
+    <string name="badge_consumption_content_description">Lencana diperoleh. Ketuk untuk menghabiskan</string>
+    <string name="badge_consumption_success_zero">Anda telah menghabiskan semua %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="other">Anda menghabiskan satu %1$s. Tersisa %2$d lencana.</item>
+    </plurals>
+</resources>

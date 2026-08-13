@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_rate_us">Recensisci su Google Play</string>
+    <string name="what_are_badges">Cosa sono i badge?</string>
+    <string name="what_are_badges_title">Cosa sono i badge?</string>
+    <string name="what_are_badges_body">I badge sono semplici pagamenti una tantum in-app. Guadagnerai un piccolo badge e puoi usarlo per supportarci nel tempo.</string>
+    <string name="button_buy_badge_free">GRATIS</string>
+    <string name="button_buy_badge_bought">Grazie!</string>
+    <string name="earn_badges">Guadagna medaglie per supportarci!</string>
+    <string name="nav_feedback_google_play">Invia su Google Play</string>
+    <string name="nav_feedback_scroll_to_reviews">Scorri verso la sezione recensioni per inviare un feedback</string>
+    <string name="about_flavor_info">Questa versione è disponibile solo per la distribuzione su Google Play.</string>
+    <string name="nav_earn_badges">Supportaci con medaglie</string>
+    <plurals name="you_earned_badges">
+        <item quantity="one">Hai guadagnato una medaglia, grazie!</item>
+        <item quantity="many">Hai guadagnato %d medaglie, grazie!</item>
+        <item quantity="other">Hai guadagnato %d medaglie, grazie!</item>
+    </plurals>
+    <string name="available_badges">Medaglie disponibili</string>
+    <string name="available_badges_empty">Spiacenti, non è stato possibile caricare le medaglie. Hai eseguito l\'accesso al Play Store?</string>
+    <string name="why_badges_title">Perché DAVx5 offre medaglie senza funzionalità?</string>
+    <string name="why_badges_body">DAVx5 è cresciuto davvero nel corso degli anni! Stiamo ancora sviluppando attivamente nuove funzionalità, fornendo supporto e aggiorniamo sempre l\'app per le prossime versioni Android. Queste medaglie sono pagamenti una tantum in cui puoi semplicemente mostrare il tuo supporto acquistandoci un caffè, o due... o 10 :-) Vogliamo essere il più aperti possibile, quindi non ci saranno mai nuove cose bloccate al pagamento in-app.</string>
+    <string name="nav_feedback_inapp_didnt_appear">La recensione in-app non è comparsa?</string>
+    <string name="billing_unavailable">API di fatturazione non disponibile</string>
+    <string name="purchase_acknowledgement_failed">Impossibile confermare l\'acquisto</string>
+    <string name="purchase_acknowledgement_successful">Grazie per il supporto!</string>
+    <string name="purchase_failed">Acquisto fallito</string>
+    <string name="network_problems">Problemi di rete, riprova più tardi.</string>
+    <string name="badge_consumption_action">Tocca per consumare</string>
+    <string name="badge_consumption_message">Il consumo rimuoverà questa medaglia dalla libreria e mostrerà una bella animazione. Questo ti permetterà di acquistare di nuovo la medaglia e di supportarci.</string>
+    <string name="badge_consumption_warning">Il consumo non si può annullare e ti permetterà di guadagnare di nuovo la medaglia.</string>
+    <string name="badge_consumption_content_description">Medaglia guadagnata. Tocca per consumare</string>
+    <string name="badge_consumption_success_zero">Hai consumato tutti… %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">Hai consumato un %1$s. %2$d medaglia rimasta.</item>
+        <item quantity="many">Hai consumato un %1$s. %2$d medaglie rimaste.</item>
+        <item quantity="other">Hai consumato un %1$s. %2$d medaglie rimaste.</item>
+    </plurals>
+</resources>

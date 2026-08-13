@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_earn_badges">பேட்ச்களுடன் எங்களை ஆதரிக்கவும்</string>
+    <string name="nav_rate_us">Google Play இல் மதிப்பாய்வு செய்யவும்</string>
+    <string name="nav_feedback_inapp_didnt_appear">பயன்பாட்டு மதிப்பாய்வு தோன்றவில்லையா?</string>
+    <string name="nav_feedback_google_play">Google Play இல் அனுப்பவும்</string>
+    <string name="nav_feedback_scroll_to_reviews">கருத்தைச் சமர்ப்பிக்க மதிப்பாய்வு பகுதிக்குச் செல்லவும்</string>
+    <string name="about_flavor_info">இந்தப் பதிப்பு Google Play இல் விநியோகிக்க மட்டுமே தகுதியானது.</string>
+    <plurals name="you_earned_badges">
+        <item quantity="one">பேட்சைப் பெற்றுள்ளீர்கள், நன்றி!</item>
+        <item quantity="other">நீங்கள் %d பேட்ச்களைப் பெற்றுள்ளீர்கள், நன்றி!</item>
+    </plurals>
+    <string name="available_badges">கிடைக்கும் பேட்ச்கள்</string>
+    <string name="available_badges_empty">மன்னிக்கவும், பேட்ச்களை ஏற்ற முடியவில்லை. நீங்கள் Play Store இல் உள்நுழைந்திருக்கிறீர்களா?</string>
+    <string name="what_are_badges">பேட்ச்கள் என்றால் என்ன?</string>
+    <string name="what_are_badges_title">பேட்ச்கள் என்றால் என்ன?</string>
+    <string name="what_are_badges_body">பேட்ச்கள் பயன்பாட்டில் ஒரு முறை செலுத்தும் எளிமையானவை. நீங்கள் ஒரு நல்ல சிறிய பேட்சைப் பெறுவீர்கள், அதன் மூலம் காலப்போக்கில் எங்களை ஆதரிக்கலாம்.</string>
+    <string name="why_badges_title">DAVx5 நற்பொருத்தம் இல்லாத பேட்ச்களை ஏன் வழங்குகிறது?</string>
+    <string name="why_badges_body">DAVx5 உண்மையில் பல ஆண்டுகளாக வளர்ந்துள்ளது! நாங்கள் இன்னும் புதிய அம்சங்களைத் தீவிரமாக உருவாக்கி வருகிறோம், ஆதரவை வழங்குகிறோம், மேலும் வரவிருக்கும் ஆண்ட்ராய்டு பதிப்புகளுக்கான பயன்பாட்டை எப்போதும் புதுப்பித்து வருகிறோம். இந்த பேட்ச்கள் ஒரு முறை செலுத்தும் பணம் ஆகும், இதில் நீங்கள் எங்களுக்கு ஒரு காபி அல்லது இரண்டு... அல்லது 10 வாங்குவதன் மூலம் உங்கள் ஆதரவைக் காட்டலாம்.</string>
+    <string name="button_buy_badge_free">இலவசம்</string>
+    <string name="button_buy_badge_bought">நன்றி!</string>
+    <string name="earn_badges">எங்களை ஆதரிக்க பேட்ச்களைப் பெறுங்கள்!</string>
+    <string name="billing_unavailable">பட்டியலிடல் பநிஇ கிடைக்கவில்லை</string>
+    <string name="purchase_acknowledgement_failed">வாங்கியதை அங்கீகரிக்க முடியவில்லை</string>
+    <string name="purchase_acknowledgement_successful">ஆதரவுக்கு நன்றி!</string>
+    <string name="purchase_failed">வாங்க முடியவில்லை</string>
+    <string name="network_problems">பிணையம் பிரச்சனைகள், பிறகு முயற்சிக்கவும்.</string>
+    <string name="badge_consumption_action">நுகர்வதற்கு தட்டவும்</string>
+    <string name="badge_consumption_message">நுகர்வு உங்கள் லைப்ரரியில் இருந்து இந்த பேட்சை அகற்றி, குளிர்ச்சியான அனிமேசனைக் காண்பிக்கும். இது மீண்டும் பேட்சை வாங்க உங்களை அனுமதிக்கும், மேலும் தொடர்ந்து எங்களை ஆதரிக்கவும்.</string>
+    <string name="badge_consumption_warning">நுகர்வைச் செயல்தவிர்க்க முடியாது, மேலும் பேட்சைப் பெற உங்களை அனுமதிக்கும்.</string>
+    <string name="badge_consumption_content_description">பெற்ற ஒட்டு. நுகர்வதற்கு தட்டவும்</string>
+    <string name="badge_consumption_success_zero">நீங்கள் அனைத்து %1$s ஐயும் உட்கொண்டீர்கள்.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">நீங்கள் %1$s ஐ உட்கொண்டீர்கள். %2$d ஒட்டு மீதமுள்ளது.</item>
+        <item quantity="other">நீங்கள் %1$s ஐ உட்கொண்டீர்கள். %2$d badges left.</item>
+    </plurals>
+</resources>
