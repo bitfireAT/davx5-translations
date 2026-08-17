@@ -14,7 +14,7 @@
         <item quantity="other">%d jelvényt szerzett, köszönjük!</item>
     </plurals>
     <string name="available_badges">Választható jelvények</string>
-    <string name="available_badges_empty">A jelvények betöltése nem sikerült.  Be van jelentkezve a Play Áruházba?</string>
+    <string name="available_badges_empty">A jelvények betöltése nem sikerült. Be van jelentkezve a Play Áruházba?</string>
     <string name="what_are_badges">Mik azok a jelvények?</string>
     <string name="what_are_badges_title">Mik azok a jelvények?</string>
     <string name="what_are_badges_body">A jelvények egyszerű alkalmazáson belüli egyszeri fizetések. Egy szép kis jelvényt fog szerezni, miközben támogat minket.</string>

@@ -6,10 +6,8 @@
     <string name="nav_feedback_inapp_didnt_appear">Не появился отзыв о приложении?</string>
     <string name="nav_feedback_google_play">Отправить в Google Play</string>
     <string name="nav_feedback_scroll_to_reviews">Перейдите к разделу отзывов, чтобы оставить свой</string>
-
     <!-- AboutActivity -->
     <string name="about_flavor_info">Эта версия может распространяться только через Google Play.</string>
-
     <!-- EarnBadgesActivity -->
     <plurals name="you_earned_badges">
         <item quantity="one">Вы заработали значок, спасибо!</item>
@@ -23,7 +21,7 @@
     <string name="what_are_badges_title">Что такое значки?</string>
     <string name="what_are_badges_body">Значки — это обычные одноразовые платежи в приложении. Вы заработаете миленький значок, и с его помощью вы сможете поддерживать нас в течение долгого времени.</string>
     <string name="why_badges_title">Почему DAVx5 предлагает значки без каких-либо возможностей?</string>
-    <string name="why_badges_body">DAVx5 действительно вырос за эти годы! Мы по-прежнему активно разрабатываем новые функции, оказываем поддержку и всегда обновляем приложение для новых версий Android. Эти значки - одноразовые платежи, которыми вы можете просто показать свою поддержку, купив нам кофе, или два&#8230; или 10 :-) Мы хотим быть максимально открытыми, поэтому в приложении никогда не будет никаких новых функций, которые можно было бы оплатить через приложение.</string>
+    <string name="why_badges_body">DAVx5 действительно вырос за эти годы! Мы по-прежнему активно разрабатываем новые функции, оказываем поддержку и всегда обновляем приложение для новых версий Android. Эти значки - одноразовые платежи, которыми вы можете просто показать свою поддержку, купив нам кофе, или два… или 10 :-) Мы хотим быть максимально открытыми, поэтому в приложении никогда не будет никаких новых функций, которые можно было бы оплатить через приложение.</string>
     <string name="button_buy_badge_free">БЕСПЛАТНО</string>
     <string name="button_buy_badge_bought">Спасибо!</string>
     <string name="earn_badges">Зарабатывайте значки, поддерживая нас!</string>
@@ -32,5 +30,15 @@
     <string name="purchase_acknowledgement_successful">Спасибо за поддержку!</string>
     <string name="purchase_failed">Покупка не удалась</string>
     <string name="network_problems">Проблемы с сетью, попробуйте позже.</string>
-
+    <string name="badge_consumption_action">Нажмите, чтобы использовать</string>
+    <string name="badge_consumption_message">После использования этот значок будет удален из вашей библиотеки, и появится классная анимация. Это позволит вам снова приобрести значок и продолжить поддерживать нас.</string>
+    <string name="badge_consumption_warning">Использование нельзя отменить, но это позволит вам снова заработать значок.</string>
+    <string name="badge_consumption_content_description">Заработанный значок. Нажмите, чтобы использовать</string>
+    <string name="badge_consumption_success_zero">Вы использовали все %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">Вы использовали %1$s. Осталось %2$d значок.</item>
+        <item quantity="few">Вы использовали %1$s. Осталось %2$d значка.</item>
+        <item quantity="many">Вы использовали %1$s. Осталось %2$d значков.</item>
+        <item quantity="other">Вы использовали %1$s. Осталось %2$d значков.</item>
+    </plurals>
 </resources>

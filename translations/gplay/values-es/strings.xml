@@ -15,8 +15,8 @@
     <string name="what_are_badges_title">Qué son las medallas?</string>
     <string name="what_are_badges_body">Las medallas son transacciones en la aplicación de un solo uso. Tendrás una pequeña medalla, y nos podrás dar soporte a lo largo del tiempo.</string>
     <string name="why_badges_title">Por qué DAVx5 ofrece medallas sin funciones?</string>
-    <string name="why_badges_body">DAVx5 ha crecido mucho durante los años! Aún estamos desarrollando nuevas funciones continuamente, dando soporte, y actualizando la app para nuevas versiones de Android. Estas medallas son pagos únicos, con los que puedes mostrar soporte comprándonos un café, o dos&#8230; o 10 :-) Queremos ser lo más abiertos posible, así que nunca habrán nuevas funciones bloqueadas con microtransacciones.</string>
+    <string name="why_badges_body">DAVx5 ha crecido mucho durante los años! Aún estamos desarrollando nuevas funciones continuamente, dando soporte, y actualizando la app para nuevas versiones de Android. Estas medallas son pagos únicos, con los que puedes mostrar soporte comprándonos un café, o dos… o 10 :-) Queremos ser lo más abiertos posible, así que nunca habrán nuevas funciones bloqueadas con microtransacciones.</string>
     <string name="button_buy_badge_free">GRATIS</string>
     <string name="button_buy_badge_bought">Gracias!</string>
     <string name="earn_badges">Obtén medallas para darnos soporte!</string>
-    </resources>
+</resources>

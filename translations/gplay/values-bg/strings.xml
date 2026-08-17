@@ -6,10 +6,8 @@
     <string name="nav_feedback_inapp_didnt_appear">Оценката не се вижда в приложението?</string>
     <string name="nav_feedback_google_play">Изпращане към Google Play</string>
     <string name="nav_feedback_scroll_to_reviews">Прелистете до оценките, за да изпратите своя</string>
-
     <!-- AboutActivity -->
     <string name="about_flavor_info">Тази версия може да се разпространява само чрез Google Play.</string>
-
     <!-- EarnBadgesActivity -->
     <plurals name="you_earned_badges">
         <item quantity="one">Получили сте значка, благодарим ви!</item>
@@ -21,7 +19,7 @@
     <string name="what_are_badges_title">Какво представляват значките?</string>
     <string name="what_are_badges_body">Значките са еднократни плащания в приложението. Ще спечелите хубава малка значка и с нея ще можете да ни подкрепите във времето.</string>
     <string name="why_badges_title">Защо DAVx5 предлага значки без функционалност?</string>
-    <string name="why_badges_body">DAVx5 наистина се разрасна през годините! Все още активно разработваме нови възможности, осигуряваме поддръжка и винаги обновяваме приложението за предстоящите издания на Андроид. Тези значки са еднократни плащания, при които можете просто да покажете подкрепата си, като ни почерпите кафе или две&#8230; или 10 :-) Желанието ни е да бъдем възможно най-отворени, така че никога и по никакъв начин няма да има нови неща, заключени зад плащане в приложението.</string>
+    <string name="why_badges_body">DAVx5 наистина се разрасна през годините! Все още активно разработваме нови възможности, осигуряваме поддръжка и винаги обновяваме приложението за предстоящите издания на Андроид. Тези значки са еднократни плащания, при които можете просто да покажете подкрепата си, като ни почерпите кафе или две… или 10 :-) Желанието ни е да бъдем възможно най-отворени, така че никога и по никакъв начин няма да има нови неща, заключени зад плащане в приложението.</string>
     <string name="button_buy_badge_free">БЕЗПЛАТНО</string>
     <string name="button_buy_badge_bought">Благодаря!</string>
     <string name="earn_badges">Печелете значки, за да ни подкрепите!</string>
@@ -30,5 +28,4 @@
     <string name="purchase_acknowledgement_successful">Благодарим ви, че но поддържате!</string>
     <string name="purchase_failed">Грешка при поръчка</string>
     <string name="network_problems">Проблеми с мрежата, опитайте по-късно.</string>
-
 </resources>

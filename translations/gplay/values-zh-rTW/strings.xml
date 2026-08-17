@@ -6,10 +6,8 @@
     <string name="nav_feedback_inapp_didnt_appear">應用程式內預覽未顯示？</string>
     <string name="nav_feedback_google_play">在 Google Play 中送出</string>
     <string name="nav_feedback_scroll_to_reviews">捲動至評論區以提交回饋</string>
-
     <!-- AboutActivity -->
     <string name="about_flavor_info">此版本僅可透過 Google Play 發佈。</string>
-
     <!-- EarnBadgesActivity -->
     <plurals name="you_earned_badges">
         <item quantity="other">您已獲得 %d 枚徽章，感謝你的支持！</item>
@@ -26,5 +24,4 @@
     <string name="earn_badges">獲得徽章來支持我們！</string>
     <string name="billing_unavailable">結帳 API 無法使用</string>
     <string name="network_problems">網路問題，請稍後再試。</string>
-
 </resources>
