@@ -33,7 +33,7 @@
     <string name="restriction_login_certificate_alias">Kliendi sertifikaadi alias</string>
     <string name="restriction_login_certificate_alias_description">Alias või nimi, mida soovid kasuutada sisselogimisel kliendisertifikaadi jaoks</string>
     <string name="restriction_login_certificate_and_password">Lisaks sertifikaadile pruugi kasutajanime ja salasõna</string>
-    <string name="restriction_login_certificate_and_password_description">Kas sertifikaat ning kasutajanimi+salasõna on sisselogimiseks vajalikud </string>
+    <string name="restriction_login_certificate_and_password_description">Kas sertifikaat ning kasutajanimi+salasõna on sisselogimiseks vajalikud</string>
     <string name="restriction_max_accounts">Kasutajakontode arv</string>
     <string name="restriction_max_accounts_description">Suurim lubatud DAVx⁵ kasutajakontode arv ühe kasutaja kohta</string>
     <string name="restriction_proxy_type">Proksiserveri tüüp</string>
@@ -63,7 +63,7 @@
     <string name="restriction_wifi_only">Sünkroniseeri vaid WiFi ühendusega</string>
     <string name="restriction_wifi_only_description">Sünkroniseerimine on kasutusel vaid WiFi ühenduse puhul</string>
     <string name="restriction_wifi_only_ssids">Sünkroniseeri vaid WiFi ühendusega: võrgutunnused</string>
-    <string name="restriction_wifi_only_ssids_description">Komadega eraldatud lubatud  WiFi võrgutunnuste loend (\"wifi1,wifi2\")</string>
+    <string name="restriction_wifi_only_ssids_description">Komadega eraldatud lubatud WiFi võrgutunnuste loend (\"wifi1,wifi2\")</string>
     <string name="restriction_contact_group_method">Kontaktgrupi meetod</string>
     <string name="restriction_contact_group_method_description">Kontaktgruppide salvestamise viis CardDAVi serveris</string>
     <string name="restriction_manage_calendar_colors">Halda kalendrivärve</string>

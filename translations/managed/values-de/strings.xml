@@ -71,7 +71,7 @@
     <string name="restriction_event_colors">Ereignisfarben</string>
     <string name="restriction_event_colors_description">Ob Farben je nach Ereignis unterstützt werden sollen (führt bei fehlerhaften Kalender-Apps eventuell zu Abstürzen)</string>
     <string name="restriction_default_alarm">Standarderinnerung</string>
-    <string name="restriction_default_alarm_description">Richtet für jedes Ereignis ohne Erinnerung eine Standarderinnerung ein. Diese erfolgt vor Beginn des Ereignisses im Abstand der hier genannten Anzahl von Minuten. Null oder -1 bedeutet keine Standarderinnerung.  Benutzer können diesen Wert immer überschreiben.</string>
+    <string name="restriction_default_alarm_description">Richtet für jedes Ereignis ohne Erinnerung eine Standarderinnerung ein. Diese erfolgt vor Beginn des Ereignisses im Abstand der hier genannten Anzahl von Minuten. Null oder -1 bedeutet keine Standarderinnerung. Benutzer können diesen Wert immer überschreiben.</string>
     <string name="restriction_show_only_personal">Nur persönliche Ordner anzeigen</string>
     <string name="restriction_show_only_personal_description">Ob nur Ordner aus dem eigenen Homeset angezeigt werden sollen. -1 oder null bedeutet, die Benutzer können selbst auswählen.</string>
     <!-- notifications -->

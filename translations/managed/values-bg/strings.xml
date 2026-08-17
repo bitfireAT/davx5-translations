@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!-- restrictions (EMM backend) -->
     <string name="restriction_license">Лиценз</string>
     <string name="restriction_license_description">Лицензна информация (JSON)</string>
@@ -10,13 +9,11 @@
     <string name="restriction_organization_description">Показвано име на организацията</string>
     <string name="restriction_logo_url">Адрес на логотипа</string>
     <string name="restriction_logo_url_description">Интернет адрес на логотипа на организацията (JPEG/PNG)</string>
-
     <string name="restriction_support_homepage_url">Адрес на страницата за поддръжка</string>
     <string name="restriction_support_homepage_url_description">Интернет адрес на страницата за поддръжка (страница в местната мрежа, описваща как да бъде използвано приложението DAVx⁵)</string>
     <string name="restriction_support_email_address">Ел. поща за поддръжка</string>
     <string name="restriction_support_phone_number">Телефонен номер за поддръжка</string>
     <string name="restriction_support_phone_number_description">Телефонен номер за поддръжка (формат: +1 234 5678901)</string>
-
     <string name="restriction_login_introduction">Съобщение за въведение при вписване</string>
     <string name="restriction_login_introduction_description">Съобщение, показвано при добавяне на профил</string>
     <string name="restriction_login_base_url">Основа на адреса за CalDAV/CardDAV</string>
@@ -39,18 +36,16 @@
     <string name="restriction_login_certificate_and_password_description">Дали и сертификат, и потребителско име/парола да бъдат използвани за вход</string>
     <string name="restriction_max_accounts">Ограничение на профили</string>
     <string name="restriction_max_accounts_description">Максимален брой на профилите на DAVx⁵ за даден потребител</string>
-
     <string name="restriction_proxy_type">Вид на сървъра на прокси</string>
     <string name="restriction_proxy_type_description">Всички връзки през HTTP(S) ще бъдат маршрутизират по съответния начин</string>
     <string name="restriction_proxy_host">Хост на прокси</string>
     <string name="restriction_proxy_host_description">Име на хоста на прокси</string>
     <string name="restriction_proxy_port">Порт</string>
     <string name="restriction_proxy_port_description">Номер на порта на прокси</string>
-
     <string name="restriction_default_sync_interval">Подразбиран интервал на синхронизиране</string>
     <string name="restriction_default_sync_interval_description">Интервалът на синхронизиране е зададен при създаване на профила.</string>
     <string name="restriction_preselect_collections">Предварително избиране на списъци</string>
-    <string name="restriction_preselect_collections_description">Автоматично отбелязва за синхронизиране разпознатите списъци </string>
+    <string name="restriction_preselect_collections_description">Автоматично отбелязва за синхронизиране разпознатите списъци</string>
     <integer-array name="restriction_preselect_collections_values" translatable="false">
         <item>0</item>
         <item>1</item>
@@ -65,56 +60,46 @@
     <string name="restriction_preselect_collections_blacklist_description">Регулярен израз, който изключва списъци от предварително избиране</string>
     <string name="restriction_force_address_books_read_only">Налагане на адресни книги само за четене</string>
     <string name="restriction_force_address_books_read_only_description">Прави местните адресни книги непроменяеми</string>
-
     <string name="restriction_wifi_only">Синхронизиране само през Wi-Fi</string>
     <string name="restriction_wifi_only_description">Дали да бъде извършвана синхронизация само при налична безжична мрежа</string>
     <string name="restriction_wifi_only_ssids">Синхронизиране само през Wi-Fi: SSIDs</string>
     <string name="restriction_wifi_only_ssids_description">Списък, разделен със запетая, на разрешените Wi-Fi SSID („мрежа1,мрежа2“)</string>
-
     <string name="restriction_contact_group_method">Метод за групиране на контакти</string>
     <string name="restriction_contact_group_method_description">Как групите от контакти се съхраняват в сървъра на CardDAV</string>
-
     <string name="restriction_manage_calendar_colors">Управление на цветовете на календара</string>
     <string name="restriction_manage_calendar_colors_description">Дали DAVx⁵ да прилага цветовете на календара, изпратени от сървъра</string>
     <string name="restriction_event_colors">Цветове на събитията</string>
     <string name="restriction_event_colors_description">Дали да бъдат прилагани отделни цветове за всяко събитие (може да доведе до срив на дефектните приложения за календари)</string>
     <string name="restriction_default_alarm">Подразбирано напомняне</string>
     <string name="restriction_default_alarm_description">Задава напомняне по подразбиране с толкова минути преди началото на всяко събитие без напомняне. null или -1 означава, че няма напомняне по подразбиране. Потребителите винаги могат да използват своя стойност.</string>
-
     <string name="restriction_show_only_personal">Само лични списъци</string>
     <string name="restriction_show_only_personal_description">Дали да бъдат видими само собствените набори от списъци. null или -1 означава, че потребителите могат да решават сами.</string>
-
     <!-- notifications -->
     <string name="license_invalid">Липсва лиценз</string>
     <string name="license_unlicensed_host_name">Лицензът не покрива тази машина</string>
     <string name="license_contact_it_support">Свържете се с отдела за поддръжка</string>
     <string name="license_contact_it_support_email">Ел. поща</string>
     <string name="license_contact_it_support_phone">Телефон</string>
-
     <!-- LicenseChecker -->
     <string name="license_not_found">Липсва лиценз</string>
     <string name="license_signature_not_found">Лицензът е без подпис</string>
     <string name="license_signature_invalid">Лицензът е с недействителен подпис</string>
     <string name="license_not_valid">Лицензът не може да бъде потвърден</string>
     <string name="license_expired_on">Лицензът е изтекъл на %s</string>
-
     <!-- other UI -->
     <string name="intro_slogan1">Вашият офис. Вашите данни.</string>
     <string name="intro_slogan2">Работете интелигентно.</string>
-
     <string name="navigation_drawer_managed_configuration">Управлявани настройки</string>
     <string name="navigation_drawer_web_support">Информация за поддръжка</string>
     <string name="navigation_drawer_phone_support">Гореща линия за поддръжка</string>
     <string name="navigation_drawer_email_support">Поддръжка по ел. поща</string>
-
     <string name="about_license_info_html"><![CDATA[Лицензът е за до <i>%1$d потребители</i>, работещи за <i>%2$s</i>.]]></string>
     <plurals name="about_license_domains">
         <item quantity="one">Предвидено за домейн: %s</item>
-        <item quantity="other">Предвидено за домейни: %s </item>
+        <item quantity="other">Предвидено за домейни: %s</item>
     </plurals>
     <string name="about_license_invalid_license">Липсва лиценз. Свържете се с отдела за поддръжка.</string>
     <string name="about_license_valid_through">Лицензът е валиден до: %s</string>
-
     <string name="login_managed_config_info_html"><![CDATA[Използвате автоматични настройки, зададени от <i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">Изчакване на управлявани настройки…</string>
     <string name="login_managed_config_it_department">Не знаете какво да направите? Свържете се с отдела за поддръжка.</string>
@@ -123,7 +108,6 @@
     <string name="login_managed_config_select_certificate_info">Изберете клиентски сертификат, който да бъде използван за удостоверяване.</string>
     <string name="login_managed_config_certificate_selected">Клиентският сертификат %s, ще бъде използван за удостоверяване.</string>
     <string name="login_managed_config_invalid_base_url">Недействителен основен адрес в управляваните настройки</string>
-
     <string name="managed_config_title">Управлявани настройки</string>
     <string name="managed_config_reload_configuration">Презареждане</string>
     <string name="managed_config_reloading_configuration">Презареждане на настройките</string>
@@ -140,5 +124,4 @@
     <string name="managed_config_network_empty_configuration">Празни настройки</string>
     <string name="managed_config_network_config_url_saved">Адресът с настройките е запазен</string>
     <string name="managed_config_network_config_url_cleared">Адресът с настройките е изчистен</string>
-
-    </resources>
+</resources>

@@ -111,7 +111,7 @@
     <string name="login_managed_config_certificate_selected">Сертификат клиента %s будет использоваться для аутентификации.</string>
     <string name="login_managed_config_invalid_base_url">Недопустимый базовый URL в управляемой конфигурации</string>
     <string name="managed_config_title">Управляемая конфигурация</string>
-    <string name="managed_config_reload_configuration"> Перезагрузить</string>
+    <string name="managed_config_reload_configuration">Перезагрузить</string>
     <string name="managed_config_reloading_configuration">Перезагрузка конфигурации</string>
     <string name="managed_config_emm">Android Enterprise</string>
     <string name="managed_config_emm_info">Это приложение управляется Android Enterprise.</string>

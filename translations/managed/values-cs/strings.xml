@@ -72,7 +72,7 @@
     <plurals name="about_license_domains">
         <item quantity="one">Určeno pro doménu: %s</item>
         <item quantity="few">Určeno pro domény: %s</item>
-        <item quantity="many">Určeno pro domén: %s</item>
+        <item quantity="many">Určeno pro domény: %s</item>
         <item quantity="other">Určeno pro domény: %s</item>
     </plurals>
     <string name="about_license_invalid_license">Nenalezena žádná platná licence. Obraťte se na své IT oddělení.</string>

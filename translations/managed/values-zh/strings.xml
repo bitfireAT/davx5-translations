@@ -71,7 +71,7 @@
     <string name="restriction_event_colors">活动颜色</string>
     <string name="restriction_event_colors_description">是否允许为每项活动设置不同颜色（可能导致有 bug 的日历应用崩溃）</string>
     <string name="restriction_default_alarm">默认提醒</string>
-    <string name="restriction_default_alarm_description">设置默认提醒，单位为分钟，会根据输入的值在每个活动开始前提醒。null  或者 -1 表示没有默认提醒。用户始终可以绕过这个值。</string>
+    <string name="restriction_default_alarm_description">设置默认提醒，单位为分钟，会根据输入的值在每个活动开始前提醒。null 或者 -1 表示没有默认提醒。用户始终可以绕过这个值。</string>
     <string name="restriction_show_only_personal">只显示个人收藏</string>
     <string name="restriction_show_only_personal_description">是否只显示来自自己 homeset 的收藏。-1 或者 null 表示用户可以自行选择。</string>
     <!-- notifications -->
@@ -93,7 +93,7 @@
     <string name="navigation_drawer_web_support">支持信息</string>
     <string name="navigation_drawer_phone_support">支持热线</string>
     <string name="navigation_drawer_email_support">电子邮箱支持</string>
-    <string name="about_license_info_html"><![CDATA[最多许可给 <i>%1$d 名用户</i>，这些人受雇于 <i>%2$s</i>]]></string>
+    <string name="about_license_info_html"><![CDATA[最多 <i>%1$d 名用户</i> 的许可证，这些人受雇于 <i>%2$s</i>。]]></string>
     <plurals name="about_license_domains">
         <item quantity="other">用于以下域名：%s</item>
     </plurals>
@@ -102,10 +102,10 @@
     <string name="login_managed_config_info_html"><![CDATA[你正使用自动配置，提供方为 <i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">正在等待受管的配置…</string>
     <string name="login_managed_config_it_department">不知道做什么？请联系你的 IT 部门。</string>
-    <string name="login_managed_config_not_private"><![CDATA[此应用的目标群体是 <a href=\"%1$s\">组织</a> 不是个人用户。 你可以 <a href=\"%2$s\">获得免费的测试许可证。</a>]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[此应用的目标群体是 <a href="%1$s">组织</a> 不是个人用户。 你可以 <a href="%2$s">获得免费的测试许可证</a>。]]></string>
     <string name="login_managed_config_please_log_in">请登录</string>
     <string name="login_managed_config_select_certificate_info">选择将被用于身份验证的客户端证书</string>
-    <string name="login_managed_config_certificate_selected">客户端证书 %s  将用于身份验证。</string>
+    <string name="login_managed_config_certificate_selected">客户端证书 %s 将用于身份验证。</string>
     <string name="login_managed_config_invalid_base_url">受管配置中的基础 URL 无效</string>
     <string name="managed_config_title">受管的配置</string>
     <string name="managed_config_reload_configuration">重新加载</string>

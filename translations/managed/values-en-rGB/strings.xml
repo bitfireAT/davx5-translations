@@ -57,7 +57,7 @@
     <string name="restriction_wifi_only">Sync over WiFi only</string>
     <string name="restriction_wifi_only_description">Whether synchronisation is only run when WiFi is connected</string>
     <string name="restriction_wifi_only_ssids">Sync over WiFi only: SSIDs</string>
-    <string name="restriction_wifi_only_ssids_description">Comma-separated list of allowed WiFi SSIDs ("wifi1,wifi2")</string>
+    <string name="restriction_wifi_only_ssids_description">Comma-separated list of allowed WiFi SSIDs (wifi1,wifi2)</string>
     <string name="restriction_contact_group_method">Contact group method</string>
     <string name="restriction_contact_group_method_description">How contact groups are stored on the CardDAV server</string>
     <string name="restriction_manage_calendar_colors">Manage calendar colours</string>
@@ -65,7 +65,7 @@
     <string name="restriction_event_colors">Event colours</string>
     <string name="restriction_event_colors_description">Whether to enable per-event colour support (may crash bugged calendar apps)</string>
     <string name="restriction_default_alarm">Default reminder</string>
-    <string name="restriction_default_alarm_description">Sets a default reminder this number of minutes before the start of every event without reminder. null or -1 means no default reminder.  Users can always override this value.</string>
+    <string name="restriction_default_alarm_description">Sets a default reminder this number of minutes before the start of every event without reminder. null or -1 means no default reminder. Users can always override this value.</string>
     <string name="restriction_show_only_personal">Show only personal collections</string>
     <string name="restriction_show_only_personal_description">Whether only collections from the own homeset(s) are shown. -1 or null means users can choose themselves.</string>
     <!-- notifications -->
