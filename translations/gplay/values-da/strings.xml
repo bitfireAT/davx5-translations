@@ -18,4 +18,5 @@
     <string name="button_buy_badge_free">GRATIS</string>
     <string name="button_buy_badge_bought">Tak!</string>
     <string name="earn_badges">Optjen emblemer for at støtte os!</string>
+    <string name="nav_feedback_google_play">Send i Google Play</string>
 </resources>
