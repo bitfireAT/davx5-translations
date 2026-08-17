@@ -32,8 +32,6 @@
     <string name="intro_battery_title">정기적 동기화 주기</string>
     <string name="intro_battery_text">정기적으로 동기화하려면 백그라운드에서 %s이 실행되도록 허용해야 합니다. 그렇지 않으면 Android는 언제든지 동기화를 일시 중지할 수 있습니다.</string>
     <string name="intro_battery_dont_show">나는 정기적인 동기화 주기가 필요하지 않다.*</string>
-    <string name="intro_autostart_title">%s 호환성</string>
-    <string name="intro_autostart_dont_show">필요한 설정을 완료했습니다. 더 이상 다시 수행하지 마세요.*</string>
     <string name="intro_leave_unchecked">* 나중에 알림이 표시되도록 선택 해제된 상태로 둡니다. / 앱 설정에서 재설정할 수 있습니다. / %s</string>
     <string name="intro_more_info">상세 정보</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -77,7 +75,7 @@
     <string name="permissions_autoreset_title">권한 유지</string>
     <string name="permissions_autoreset_status_off">권한이 자동으로 재설정됨(권장하지 않음)</string>
     <string name="permissions_autoreset_status_on">권한이 자동으로 재설정 되지않음</string>
-    <string name="permissions_autoreset_instruction">권한을 선택하세요 &gt; \"앱을 사용하지 않을 경우 사용 권한 제거\" </string>
+    <string name="permissions_autoreset_instruction">권한을 선택하세요 &gt; \"앱을 사용하지 않을 경우 사용 권한 제거\"</string>
     <string name="permissions_app_settings_hint">스위치가 작동하지 않으면 앱 설정 / 사용 권한을 사용하십시오.</string>
     <string name="permissions_app_settings">앱 설정</string>
     <!--WifiPermissionsActivity-->
@@ -170,7 +168,7 @@
     <string name="app_settings_security">보안</string>
     <string name="app_settings_security_app_permissions">앱 권한</string>
     <string name="app_settings_security_app_permissions_summary">동기화에 필요한 사용 권한 검토</string>
-    <string name="app_settings_distrust_system_certs">신뢰할 수 없는 시스템 인증 </string>
+    <string name="app_settings_distrust_system_certs">신뢰할 수 없는 시스템 인증</string>
     <string name="app_settings_distrust_system_certs_on">시스템 및 사용자 추가한 CA를 신뢰할 수 없음</string>
     <string name="app_settings_distrust_system_certs_off">시스템 및 사용자 추가한 CA를 신뢰할 수 있음(권장)</string>
     <string name="app_settings_distrust_system_certs_dialog_message">이 설정이 활성화되면 시스템 인증서는 신뢰되지 않습니다. 따라서 (서버가 인증서를 갱신할 때도) 모든 인증서를 직접 수동으로 허용해야 합니다. 그렇지 않으면 계정 설정이나 동기화가 작동하지 않습니다.</string>
@@ -232,7 +230,7 @@
     <string name="login_type_email">이메일 주소로 로그인</string>
     <string name="login_email_address">이메일 주소</string>
     <string name="login_email_address_error">올바른 이메일 주소가 필요합니다.</string>
-    <string name="login_email_address_info"><![CDATA[이메일 도메인이 기본 URL로 사용됩니다. <a href="%s">이 서비스</a> 는 DNS 레코드와 잘 알려진 URL을 통해 탐색됩니다.]]></string>
+    <string name="login_email_address_info">이메일 도메인이 기본 URL로 사용됩니다. <a href="%s">이 서비스</a> 는 DNS 레코드와 잘 알려진 URL을 통해 탐색됩니다.</string>
     <string name="login_password">비밀번호</string>
     <string name="login_password_hide">비밀번호 숨기기</string>
     <string name="login_password_show">비밀번호 표시</string>
@@ -281,7 +279,7 @@
     <string name="login_view_logs">logs 보기</string>
     <!--AccountSettingsActivity-->
   <string name="settings_sync">동기화</string>
-    <string name="settings_sync_interval_contacts">주기적 연락처 동기화 </string>
+    <string name="settings_sync_interval_contacts">주기적 연락처 동기화</string>
     <string name="settings_sync_summary_manually">직접 선택</string>
     <string name="settings_sync_summary_periodically" tools:ignore="PluralsCandidate">매 %d 분 + 로컬 변경시 즉시</string>
     <string name="settings_sync_interval_calendars">주기적 캘린더 동기화</string>
@@ -312,7 +310,7 @@
     <string name="settings_password">비밀번호 또는 앱 비밀번호</string>
     <string name="settings_app_password_hint"><![CDATA[<a href="%1$s">앱 비밀번호</a>를 사용했을 수 있습니다.]]></string>
     <string name="settings_new_password">새 비밀번호</string>
-    <string name="settings_password_summary">귀하의 서버에  비밀번호 업데이트.</string>
+    <string name="settings_password_summary">귀하의 서버에 비밀번호 업데이트.</string>
     <string name="settings_reauthorize_oauth">OAuth로 다시 인증해주세요.</string>
     <string name="settings_reauthorize_oauth_summary">접근이 차단되었을 때 사용하십시오.</string>
     <string name="settings_reauthorize_oauth_success">인증에 성공했습니다.</string>
@@ -396,7 +394,7 @@
     <string name="debug_info_involved_caption">관련 리소스</string>
     <string name="debug_info_involved_subtitle">관련된 문제</string>
     <string name="debug_info_involved_remote">원격 리소스:</string>
-    <string name="debug_info_involved_local">로컬 리소스: </string>
+    <string name="debug_info_involved_local">로컬 리소스:</string>
     <string name="debug_info_logs_caption">Logs</string>
     <string name="debug_info_logs_subtitle">상세 logs를 사용할 수 있습니다.</string>
     <string name="debug_info_logs_view">logs 보기</string>
@@ -436,7 +434,7 @@
     <string name="sync_error_tasks_too_old">%s는 너무 오래되었습니다.</string>
     <string name="sync_error_tasks_required_version">최소 필요 버전: %1$s</string>
     <string name="sync_error_authentication_failed">인증에 실패했습니다. (로그인 정보 확인)</string>
-    <string name="sync_error_io">네트워크 혹은 I/O 에러  – %s</string>
+    <string name="sync_error_io">네트워크 혹은 I/O 에러 – %s</string>
     <string name="sync_error_http_dav">HTTP 서버 오류 – %s</string>
     <string name="sync_error_local_storage">Local storage 오류 – %s</string>
     <string name="sync_error_retry_limit_reached">일시적 오류 (최대 재시도 횟수 도달)</string>
@@ -452,5 +450,4 @@
     <string name="widget_labeled_sync_label">텍스트 동기화 버튼</string>
     <string name="widget_icon_sync_label">아이콘 동기화 버튼</string>
     <string name="widget_sync_description">수동으로 동기화하려면 탭하세요.</string>
-    <!--cert4android-->
 </resources>

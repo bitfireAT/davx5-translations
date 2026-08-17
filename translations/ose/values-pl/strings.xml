@@ -25,16 +25,13 @@
     <string name="notification_channel_sync_warnings">Ostrzeżenia synchronizacji</string>
     <string name="notification_channel_sync_warnings_desc">Niekrytyczne problemy z synchronizacją, takie jak niektóre nieprawidłowe pliki</string>
     <string name="notification_channel_sync_io_errors">Błędy sieci oraz we/wy</string>
-    <string name="notification_channel_sync_io_errors_desc">Przekroczenia czasu, problemy z połączeniem itp. (często tymczasowe)</string>
+    <string name="notification_channel_sync_io_errors_desc">Przekroczenia czasu, problemy z połączeniem itp. (często tymczasowe)</string>
     <!--IntroActivity-->
   <string name="intro_slogan1">Twoje dane. Twój wybór.</string>
     <string name="intro_slogan2">Przejmij kontrolę.</string>
     <string name="intro_battery_title">Regularne przedziały synchronizacji</string>
     <string name="intro_battery_text">Dla synchronizacji w regularnych przedziałach, %s musi mieć pozwolenie na pracę w tle. W przeciwnym razie, Android może wstrzymać synchronizację w dowolnym momencie.</string>
     <string name="intro_battery_dont_show">Nie potrzebuję regularnych przedziałów synchronizacji.*</string>
-    <string name="intro_autostart_title">%s kompatybilność</string>
-    <string name="intro_autostart_text">Sterowniki sprzętowe, specyficzne dla wybranych dostawców, mogą blokowac synchronziację. Jeśli dotyczy to również Ciebie, możesz rozwiązać ten problem tylko ręcznie.</string>
-    <string name="intro_autostart_dont_show">Wprowadziłem potrzebne ustawienia. Nie przypominaj mi ponownie.*</string>
     <string name="intro_leave_unchecked">* Pozostaw nie zaznaczone, aby otrzymać przypomnienie później. Można zresetować w ustawieniach aplikacji wybierając / %s.</string>
     <string name="intro_more_info">Więcej informacji</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -55,7 +52,7 @@
         <item quantity="one">%dmiesiąc</item>
         <item quantity="few">%dmiesiące</item>
         <item quantity="many">%dmiesięcy</item>
-        <item quantity="other">%d miesiące/miesięcy</item>
+        <item quantity="other">%dmiesięcy</item>
     </plurals>
     <string name="intro_next">Dalej</string>
     <!--PermissionsActivity-->
@@ -104,7 +101,7 @@
     <string name="about_libraries">Biblioteki</string>
     <string name="about_version">Wersja %1$s (%2$d)</string>
     <string name="about_copyright">© Ricki Hirner, Bernhard Stockmann (bitfire web engineering GmbH) i współpracownicy</string>
-    <string name="about_license_info_no_warranty">Ten program jest ABSOLUTNIE BEZ GWARANCJI. To jest wolne oprogramowanie i mile widziane jest dalsze rozpowszechnianie go zgodnie z warunkami licencji.</string>
+    <string name="about_license_info_no_warranty">Ten program jest ABSOLUTNIE BEZ GWARANCJI. To jest wolne oprogramowanie i mile widziane jest dalsze rozpowszechnianie go zgodnie z warunkami licencji.</string>
     <!--global settings-->
   <string name="logging_couldnt_create_file">Nie udało się utworzyć pliku logu</string>
     <string name="logging_notification_text">Obecnie zapisywane są wszystkie %s aktywności</string>
@@ -116,7 +113,7 @@
     <string name="navigation_drawer_beta_feedback">Przekaż opinię</string>
     <string name="install_browser">Proszę zainstalować przeglądarkę internetową</string>
     <string name="navigation_drawer_settings">Ustawienia</string>
-    <string name="navigation_drawer_news_updates">Nowości i aktualizacje</string>
+    <string name="navigation_drawer_news_updates">Nowości i aktualizacje</string>
     <string name="navigation_drawer_tools">Narzędzia</string>
     <string name="navigation_drawer_external_links">Zewnętrzne odnośniki</string>
     <string name="navigation_drawer_website">Strona WWW</string>
@@ -176,15 +173,15 @@
     <string name="app_settings_security_app_permissions">Uprawnienia aplikacji</string>
     <string name="app_settings_security_app_permissions_summary">Przejrzyj uprawnienia konieczne do synchronizacji</string>
     <string name="app_settings_distrust_system_certs">Nie ufaj certyfikatom systemowym</string>
-    <string name="app_settings_distrust_system_certs_on">Certyfikaty systemowe i użytkownika nie są zaufane</string>
-    <string name="app_settings_distrust_system_certs_off">Certyfikaty systemowe i użytkownika są zaufane (zalecane)</string>
+    <string name="app_settings_distrust_system_certs_on">Certyfikaty systemowe i użytkownika nie są zaufane</string>
+    <string name="app_settings_distrust_system_certs_off">Certyfikaty systemowe i użytkownika są zaufane (zalecane)</string>
     <string name="app_settings_distrust_system_certs_dialog_message">Jeśli to ustawienie jest aktywne to certyfikaty systemowe nie są uznawane za zaufane. Oznacza to, że będziesz musiał(a) ręcznie zakceptować każdy certyfikat (również gdy serwer odświeży swój certyfikat) lub konfiguracja konta i synchronizacja nie będą działały.</string>
     <string name="app_settings_reset_certificates">Zresetuj (nie)zaufane certyfikaty</string>
     <string name="app_settings_reset_certificates_summary">Zresetuj wszystkie niestandardowe certyfikaty</string>
     <string name="app_settings_reset_certificates_success">Wszystkie niestandardowe certyfikaty zostały wyczyszczone</string>
     <string name="app_settings_user_interface">Interfejs użytkownika</string>
     <string name="app_settings_notification_settings">Ustawienia powiadomień</string>
-    <string name="app_settings_notification_settings_summary">Zarządzaj kanałami powiadomień i ich ustawieniami</string>
+    <string name="app_settings_notification_settings_summary">Zarządzaj kanałami powiadomień i ich ustawieniami</string>
     <string name="app_settings_theme_title">Wybierz motyw</string>
     <string-array name="app_settings_theme_names">
         <item>Domyślne ustawienie systemowe</item>
@@ -216,7 +213,7 @@
     <string name="account_rename_couldnt_rename">Nie udało się zmienić nazwy konta</string>
     <string name="account_delete">Usuń konto</string>
     <string name="account_delete_confirmation_title">Naprawdę chcesz usunąć konto?</string>
-    <string name="account_delete_confirmation_text">Wszystkie lokalne kopie książek adresowych, kalendarzy i list zadań zostaną usunięte.</string>
+    <string name="account_delete_confirmation_text">Wszystkie lokalne kopie książek adresowych, kalendarzy i list zadań zostaną usunięte.</string>
     <string name="account_synchronize_this_collection">synchronizuj tę kolekcję</string>
     <string name="account_read_only">tylko do odczytu</string>
     <string name="account_calendar">kalendarz</string>
@@ -238,12 +235,12 @@
     <string name="login_type_email">Logowanie za pomocą adresu e‑mail</string>
     <string name="login_email_address">Adres e‑mail</string>
     <string name="login_email_address_error">Wymagany poprawny adres e‑mail</string>
-    <string name="login_email_address_info"><![CDATA[Domena adresu e-mail jest używana jako podstawowy adres URL. <a href="%s">Usługi są wykrywane</a> używając rekordów DNS oraz znanych adresów URL.]]></string>
+    <string name="login_email_address_info">Domena adresu e-mail jest używana jako podstawowy adres URL. <a href="%s">Usługi są wykrywane</a> używając rekordów DNS oraz znanych adresów URL.</string>
     <string name="login_password">Hasło</string>
     <string name="login_password_hide">Ukryj hasło</string>
     <string name="login_password_show">Pokaż hasło</string>
     <string name="login_password_optional">Hasło (opcjonalnie)</string>
-    <string name="login_type_url">Logowanie za pomocą adresu URL i nazwy użytkownika</string>
+    <string name="login_type_url">Logowanie za pomocą adresu URL i nazwy użytkownika</string>
     <string name="login_user_name">Nazwa użytkownika</string>
     <string name="login_user_name_optional">Nazwa użytkownika (opcjonalnie)</string>
     <string name="login_base_url">Podstawowy adres URL</string>
@@ -252,7 +249,7 @@
     <string name="login_add_account">Dodaj konto</string>
     <string name="login_account_name">Nazwa konta</string>
     <string name="login_account_avoid_apostrophe">Użycie znaku apostrofu (\') wydaje się powodować problemy na niektórych urządzeniach.</string>
-    <string name="login_account_name_info">Użyj swojego adresu e‑mail jako nazwy konta, ponieważ Android będzie używał nazwy konta jako pola ORGANIZATOR dla wydarzeń, które stworzysz. Nie możesz posiadać dwóch kont o takiej samej nazwie.</string>
+    <string name="login_account_name_info">Użyj swojego adresu e‑mail jako nazwy konta, ponieważ Android będzie używał nazwy konta jako pola ORGANIZATOR dla wydarzeń, które stworzysz. Nie możesz posiadać dwóch kont o takiej samej nazwie.</string>
     <string name="login_account_contact_group_method">Metoda grupowania kontaktów:</string>
     <string name="login_account_name_required">Wymagana nazwa konta</string>
     <string name="login_account_name_already_taken">Nazwa konta jest już zajęta</string>
@@ -292,7 +289,7 @@
   <string name="settings_sync">Synchronizacja</string>
     <string name="settings_sync_interval_contacts">Częstotliwość synchronizacji kontaktów</string>
     <string name="settings_sync_summary_manually">Tylko ręcznie</string>
-    <string name="settings_sync_summary_periodically" tools:ignore="PluralsCandidate">Co %d minut oraz natychmiast przy zmianach lokalnych</string>
+    <string name="settings_sync_summary_periodically" tools:ignore="PluralsCandidate">Co %d minut oraz natychmiast przy zmianach lokalnych</string>
     <string name="settings_sync_interval_calendars">Częstotliwość synchronizacji kalendarzy</string>
     <string name="settings_sync_interval_tasks">Częstotliwość synchronizacji list zadań</string>
     <string-array name="settings_sync_interval_names">
@@ -308,7 +305,7 @@
     <string name="settings_sync_wifi_only_on">Synchronizacja jest ograniczona do połączeń Wi‑Fi</string>
     <string name="settings_sync_wifi_only_off">Rodzaj połączenia nie jest brany pod uwagę</string>
     <string name="settings_sync_wifi_only_ssids">Ograniczenia SSID Wi‑Fi</string>
-    <string name="settings_sync_wifi_only_ssids_on">Będzie synchronizować tylko w %s</string>
+    <string name="settings_sync_wifi_only_ssids_on">Będzie synchronizować tylko w %s</string>
     <string name="settings_sync_wifi_only_ssids_off">Wszystkie połączenia Wi‑Fi będą używane</string>
     <string name="settings_sync_wifi_only_ssids_message">Oddzielone przecinkami nazwy (SSID) dozwolonych sieci Wi‑Fi (pozostaw puste dla wszystkich)</string>
     <string name="settings_sync_wifi_only_ssids_permissions_required">Ograniczenie WiFi SSID wymaga dalszych ustawień</string>
@@ -337,7 +334,7 @@
         <item quantity="many">Wydarzenia starsze niż %d dni zostaną zignorowane</item>
         <item quantity="other">Wydarzenia starsze niż %d dni zostaną zignorowane</item>
     </plurals>
-    <string name="settings_sync_time_range_past_message">Wydarzenia, które są starsze niż podana liczba dni zostaną zignorowane (może być 0). Zostaw puste, aby synchronizować wszystkie wydarzenia.</string>
+    <string name="settings_sync_time_range_past_message">Wydarzenia, które są starsze niż podana liczba dni zostaną zignorowane (może być 0). Zostaw puste, aby synchronizować wszystkie wydarzenia.</string>
     <string name="settings_default_alarm">Przypomnienie domyślne</string>
     <plurals name="settings_default_alarm_on">
         <item quantity="one">Przypomnienie domyślne na jedną minutę przed wydarzeniem</item>
@@ -346,7 +343,7 @@
         <item quantity="other">Przypomnienie domyślne %d minut(y) przed wydarzeniem</item>
     </plurals>
     <string name="settings_default_alarm_off">Nie utworzono przypomnień domyślnych</string>
-    <string name="settings_default_alarm_message">Jeżeli domyślne przypomnienia mają być utworzone dla zdarzeń bez przypomnienia: pożądana liczba minut przed zdarzeniem. Pozostaw puste aby wyłączyć domyślne przypomnienia. </string>
+    <string name="settings_default_alarm_message">Jeżeli domyślne przypomnienia mają być utworzone dla zdarzeń bez przypomnienia: pożądana liczba minut przed zdarzeniem. Pozostaw puste aby wyłączyć domyślne przypomnienia.</string>
     <string name="settings_manage_calendar_colors">Zarządzaj kolorami kalendarza</string>
     <string name="settings_manage_calendar_colors_on">Kolory kalendarza są resetowane przy każdej synchronizacji</string>
     <string name="settings_manage_calendar_colors_off">Kolory kalendarza mogą być ustawiane przez inne aplikacje</string>
@@ -412,7 +409,7 @@
     <string name="debug_info_http_404_description">Żądany zasób (już) nie istnieje.</string>
     <string name="debug_info_http_405_description">Serwer nie zezwala na żądany typ operacji.</string>
     <string name="debug_info_http_5xx_description">Wystąpił problem po stronie serwera. Skontaktuj się proszę ze wsparciem serwera.</string>
-    <string name="debug_info_unexpected_error">Wystapił nieoczekiwany błąd. Przejrzyj informacje debugowania dla dodatkowych szczegółów. </string>
+    <string name="debug_info_unexpected_error">Wystapił nieoczekiwany błąd. Przejrzyj informacje debugowania dla dodatkowych szczegółów.</string>
     <string name="debug_info_view_details">Obejrzyj szczegóły</string>
     <string name="debug_info_subtitle">Informacje debuggowania zostały zebrane</string>
     <string name="debug_info_involved_caption">Zaangażowane zasoby</string>
@@ -467,9 +464,9 @@
     <string name="sync_error_http_dav">Błąd serwera HTTP — %s</string>
     <string name="sync_error_local_storage">Błąd lokalnego storage’u — %s</string>
     <string name="sync_error_retry_limit_reached">Błąd programowy (osiągnięto maksymalną liczbę ponownych prób)</string>
-    <string name="sync_invalid_contact">Otrzymano błędny kontakt z serwera</string>
-    <string name="sync_invalid_event">Otrzymano błędne wydarzenie z serwera</string>
-    <string name="sync_invalid_task">Otrzymano błędne zadanie z serwera</string>
+    <string name="sync_invalid_contact">Otrzymano błędny kontakt z serwera</string>
+    <string name="sync_invalid_event">Otrzymano błędne wydarzenie z serwera</string>
+    <string name="sync_invalid_task">Otrzymano błędne zadanie z serwera</string>
     <string name="sync_invalid_resources_ignoring">Zignorowano jeden lub więcej nieważnych zasobów</string>
     <string name="sync_notification_pending_push_title">Oczekująca synchronizacja</string>
     <string name="sync_notification_pending_push_message">Zdalne dane uległy zmianie</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="account_invalid">Paskyra ne(be)egzistuoja</string>
     <string name="account_title_address_book">„DAVx⁵“ adresų knyga</string>
     <string name="account_prefs_use_app">Čia nekeiskite paskyros! Vietoj to tiesiogiai naudokite programą paskyroms tvarkyti.</string>

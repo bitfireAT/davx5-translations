@@ -32,9 +32,6 @@
     <string name="intro_battery_title">Intervale regulate de sincronizare</string>
     <string name="intro_battery_text">Pentru sincronizare la intervale regulate, %s trebuie să aibă voie să ruleze în fundal. În caz contrar, Android poate întrerupe sincronizarea în orice moment.</string>
     <string name="intro_battery_dont_show">Nu am nevoie de intervale regulate de sincronizare.*</string>
-    <string name="intro_autostart_title">Compatibilitate %s </string>
-    <string name="intro_autostart_text">Firmware-ul specific vendorului poate bloca sincronizarea. Dacă ești afectat, poți rezolva acest lucru manual.</string>
-    <string name="intro_autostart_dont_show">Am făcut setările necesare. Nu-mi mai aminti.*</string>
     <string name="intro_leave_unchecked">* Lasă nebifat pentru a fi reamintit mai târziu. Poate fi resetat în setările aplicației / %s.</string>
     <string name="intro_more_info">Mai multe informații</string>
     <string name="intro_tasks_jtx">Placă de bază jtx</string>
@@ -237,7 +234,7 @@
     <string name="login_type_email">Conectează-te cu adresa de e-mail</string>
     <string name="login_email_address">Adresa de e-mail</string>
     <string name="login_email_address_error">Este necesară o adresă de e-mail validă</string>
-    <string name="login_email_address_info"><![CDATA[Domeniul de e-mail este folosit ca URL de bază. <a href="%s">Serviciile sunt descoperite</a> folosind înregistrări DNS și adrese URL bine-cunoscute.]]></string>
+    <string name="login_email_address_info">Domeniul din adresa de e-mail este folosit ca URL de bază.</string>
     <string name="login_password">Parolă</string>
     <string name="login_password_hide">Ascunde parola</string>
     <string name="login_password_show">Afișează parola</string>
@@ -408,7 +405,7 @@
     <string name="debug_info_http_403_description">Solicitarea a fost respinsă de server.</string>
     <string name="debug_info_http_404_description">Resursa solicitată nu (mai) există.</string>
     <string name="debug_info_http_405_description">Serverul nu permite tipul de operare solicitat.</string>
-    <string name="debug_info_http_5xx_description">A apărut o problemă la nivelul serverului. Contactează asistența serverului.</string>
+    <string name="debug_info_http_5xx_description">A apărut o problemă pe server.</string>
     <string name="debug_info_unexpected_error">A apărut o eroare neașteptată. Vezi informațiile de depanare pentru detalii.</string>
     <string name="debug_info_view_details">Vezi detaliile</string>
     <string name="debug_info_subtitle">Au fost colectate informații de depanare</string>
@@ -532,4 +529,16 @@
     <string name="app_settings_push_disabled_summary">Dezactivat</string>
     <string name="push_distributor_selection_required_title">Este necesară selectarea distribuitorului</string>
     <string name="push_distributor_selection_required_message">Nu s-a putut rezolva un distribuitor UnifiedPush implicit. Atinge pentru a selecta unul.</string>
+    <string name="login_see_tested_with"><![CDATA[Dacă nu ești sigur ce să alegi, consultă documentația furnizorului și pagina noastră cu <a href="%s">servicii testate</a>.]]></string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Contactează echipa de asistență a <tt>%1$s</tt></b> (nu %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Contactează echipa de asistență a furnizorului </b> (nu %1$s).]]></string>
+    <string name="debug_info_find_help">Găsește ajutor on-line</string>
+    <string name="debug_info_find_help_faq">Găsește răspunsuri la &lt;b&gt;întrebări comune&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Afișează Întrebări frecvente pe pagina web</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Cere ajutor&lt;/b&gt; pe GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Deschide Discuții</string>
+    <string name="debug_info_find_help_manual_action">Deschide manualul</string>
+    <string name="debug_info_find_help_issues">Vezi &lt;b&gt;probleme deschise&lt;/b&gt; pe GitHub</string>
+    <string name="debug_info_find_help_issues_action">Afișează problemele curente</string>
+    <string name="debug_info_find_help_manual">Găsește &lt;b&gt;informații tehnice&lt;/b&gt;</string>
 </resources>

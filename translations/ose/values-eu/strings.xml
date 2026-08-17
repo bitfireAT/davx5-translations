@@ -32,9 +32,6 @@
     <string name="intro_battery_title">Sinkronizazio tarte erregularrak</string>
     <string name="intro_battery_text">Sinkronizazioa tarte erregularretan ahalbidetzeko, %s atzeko planoan exekutatzen utzi behar da. Bestela, Androidek sinkronizazioa gelditu dezake edozein unean.</string>
     <string name="intro_battery_dont_show">Ez ditut sinkronizazio tarte erregularrak behar.*</string>
-    <string name="intro_autostart_title">%s bateragarritasuna</string>
-    <string name="intro_autostart_text">Salatzailearen firmwareak sinkronizazioa blokeatu dezake. Kaltetua bazara, eskuz bakarrik konpon dezakezu.</string>
-    <string name="intro_autostart_dont_show">Beharrezko ezarpenak bukatu ditut. Ez gogorarazi berriro.*</string>
     <string name="intro_leave_unchecked">* Utzi aktibatu gabe gero gogorarazteko. Aplikazioaren ezarpenetan berrezarri daiteke / %s</string>
     <string name="intro_more_info">Informazio gehiago</string>
     <string name="intro_tasks_jtx">jtx taula</string>
@@ -45,7 +42,7 @@
     <string name="intro_tasks_opentasks_info">Badirudi ez dela garatzen – ez da gomendatzen.</string>
     <string name="intro_tasks_tasks_org">Tasks.org</string>
     <string name="intro_tasks_tasks_org_info"><![CDATA[Ezaugarri batzuk <a href="https://www.davx5.com/faq/tasks/advanced-task-features">ez dira onartzen</a>.]]></string>
-    <string name="intro_tasks_no_app_store">Ez dago denda aplikaziorik eskuragarri </string>
+    <string name="intro_tasks_no_app_store">Ez dago denda aplikaziorik eskuragarri</string>
     <string name="intro_tasks_dont_show">Ez dut zereginen funtzionalitatea behar.*</string>
     <string name="intro_open_source_title">Kode irekiko softwarea</string>
     <string name="intro_open_source_text">%s erabiltzen duzula pozik gaude, software irekia delako. Garapen, mantentze eta laguntza lan gogorrak dira. Mesedez pentsatu kolaboratzen (modu asko daude) edo dohaintza bat. Asko eskertuko genuke!</string>
@@ -91,8 +88,7 @@
     <string name="wifi_permissions_background_location_permission">Atzeko planoko kokapen baimena</string>
     <string name="wifi_permissions_background_location_permission_label">Baimendu beti</string>
     <string name="wifi_permissions_background_location_permission_on">Kokapen-baimena honela ezarri da: %s</string>
-    <string name="wifi_permissions_background_location_permission_off">Kokapen-baimena ez da honela ezarri:
-%s</string>
+    <string name="wifi_permissions_background_location_permission_off">Kokapen-baimena ez da honela ezarri: %s</string>
     <string name="wifi_permissions_background_location_disclaimer">%s kokapen-datuak (WiFi SSID soilik) erabiltzen ditu sinkronizazioa WiFi SSID zehatz batera mugatzeko soilik. Hori sinkronizazioa atzeko planoan exekutatzen denean ere gertatuko da.</string>
     <string name="wifi_permissions_background_location_disclaimer2">Kokapen-datu guztiak (WiFi SSID soilik) lokalean bakarrik erabiltzen dira eta ez dira inora bidaltzen.</string>
     <string name="wifi_permissions_location_enabled">Kokapena beti gaituta</string>
@@ -177,7 +173,7 @@
     <string name="app_settings_distrust_system_certs">Mesfidatu sistemaren ziurtagiritaz</string>
     <string name="app_settings_distrust_system_certs_on">Sistemako eta erabiltzaileak gehitutako CAk ez dira fidagarritzat hartuko</string>
     <string name="app_settings_distrust_system_certs_off">Sistemako eta erabiltzaileak gehitutako CAk fidagarritzat hartuko dira (gomendatuta)</string>
-    <string name="app_settings_distrust_system_certs_dialog_message">Ezarpen hau aktibo badago, sistemaren ziurtagiriak ez dira fidagarritzat hartzen. Horrek esan nahi du ziurtagiri guztiak eskuz onartu beharko dituzula (zerbitzariak ziurtagiria berritzen duenean ere bai) baita kontuaren konfigurazioa  eta sinkronizazioak ez duela funtzionatuko.</string>
+    <string name="app_settings_distrust_system_certs_dialog_message">Ezarpen hau aktibo badago, sistemaren ziurtagiriak ez dira fidagarritzat hartzen. Horrek esan nahi du ziurtagiri guztiak eskuz onartu beharko dituzula (zerbitzariak ziurtagiria berritzen duenean ere bai) baita kontuaren konfigurazioa eta sinkronizazioak ez duela funtzionatuko.</string>
     <string name="app_settings_reset_certificates">Berezarri (mes)fidatutako ziurtagiriak</string>
     <string name="app_settings_reset_certificates_summary">Ziurtagiri pertsonalizatu guztien fidagarritasuna berezartzen du</string>
     <string name="app_settings_reset_certificates_success">Ziurtagiri pertsonalizatu guztiak garbitu dira</string>
@@ -208,7 +204,7 @@
     <string name="account_synchronize_now">Sinkronizatu orain</string>
     <string name="account_settings">Kontuaren ezarpenak</string>
     <string name="account_rename">Berrizendatu kontua</string>
-    <string name="account_rename_new_name_description">Gorde gabeko datu lokalak baztertu daitezke. Berriro sinkronizatu behar da izena aldatu ostean. </string>
+    <string name="account_rename_new_name_description">Gorde gabeko datu lokalak baztertu daitezke. Berriro sinkronizatu behar da izena aldatu ostean.</string>
     <string name="account_rename_new_name">Kontuaren izen berria</string>
     <string name="account_rename_rename">Berrizendatu</string>
     <string name="account_rename_exists_already">Kontuaren izena hartuta dago</string>
@@ -237,7 +233,7 @@
     <string name="login_type_email">Saioa hasi helbide elektronikoarekin</string>
     <string name="login_email_address">Helbide elektornikoa</string>
     <string name="login_email_address_error">Baliozko eposta beharrezkoa da</string>
-    <string name="login_email_address_info"><![CDATA[Posta elektronikoaren domeinua oinarrizko URL gisa erabiltzen da. <a href="%s">Zerbitzuak aurkitzen dira</a> DNS erregistroak eta URL ezagunak erabilita.]]></string>
+    <string name="login_email_address_info">Posta elektronikoaren domeinua oinarrizko URL gisa erabiltzen da. <a href="%s">Zerbitzuak aurkitzen dira</a> DNS erregistroak eta URL ezagunak erabilita.</string>
     <string name="login_password">Pasahitza</string>
     <string name="login_password_hide">Ezkutatu pasahitza</string>
     <string name="login_password_show">Erakutsi pasahitza</string>
@@ -318,7 +314,7 @@
     <string name="settings_authentication">Autentifikazioa</string>
     <string name="settings_username">Erabiltzaile izena</string>
     <string name="settings_password">Pasahitza edo aplikazioaren pasahitza</string>
-    <string name="settings_app_password_hint"><![CDATA[Nahiago duzu  <a href="%1$s">aplikazio pasahitza</a>erabili .]]></string>
+    <string name="settings_app_password_hint"><![CDATA[Nahiago duzu \u0020<a href="%1$s">aplikazio pasahitza</a>erabili .]]></string>
     <string name="settings_new_password">Pasahitz berria</string>
     <string name="settings_password_summary">Eguneratu pasahitza zure zerbitzariaren arabera</string>
     <string name="settings_reauthorize_oauth">Baimendu berriro (OAuth)</string>
@@ -474,5 +470,4 @@
     <string name="widget_labeled_sync_label">Etiketatutako sinkronizazio botoia</string>
     <string name="widget_icon_sync_label">Ikonotu Sinkronizatu botoia</string>
     <string name="widget_sync_description">Sakatu sinkronizazioa eskuz exekutatzeko.</string>
-    <!--cert4android-->
 </resources>

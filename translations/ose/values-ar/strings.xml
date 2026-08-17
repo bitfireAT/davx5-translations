@@ -28,16 +28,13 @@
     <string name="intro_battery_title">الفواصل البينية للمزامنة</string>
     <string name="intro_battery_text">يجب السماح لـ %s بالعمل في الخلفية لتنجح المزامنة المجدولة. وإلا فإن آندرويد يمكنه إيقاف المزامنة في أية وقت.</string>
     <string name="intro_battery_dont_show">لا أحتاج إلى جدولة المزامنة.*</string>
-    <string name="intro_autostart_title">توافق %s</string>
-    <string name="intro_autostart_dont_show">أنهيت الإعدادت الإجبارية. توقف عن تذكيري أبداً.*</string>
     <string name="intro_leave_unchecked">* اتركها مفرغة لتذكيرك لاحقا. يمكن إعادة ضبطها في إعدادات التطبيق / %s.</string>
     <string name="intro_more_info">المزيد من المعلومات</string>
     <string name="intro_tasks_jtx">jtx Board</string>
     <string name="intro_tasks_title">دعم المهمات</string>
     <string name="intro_tasks_text1">إذا كان خادمك داعما للمهمات، يمكن مزامنتها مع تطبيق مهمات معتمد:</string>
     <string name="intro_tasks_opentasks">OpenTasks</string>
-    <string name="intro_tasks_opentasks_info">يبدو أن تطويره متوقف منذ مدة
-- غير منصوح به</string>
+    <string name="intro_tasks_opentasks_info">يبدو أن تطويره متوقف منذ مدة - غير منصوح به</string>
     <string name="intro_tasks_tasks_org">Tasks.org</string>
     <string name="intro_tasks_no_app_store">لا متجر تطبيقات متاحا</string>
     <string name="intro_tasks_dont_show">لا أحتاج دعم المهمات.*</string>
@@ -51,7 +48,7 @@
   <!--AboutActivity-->
   <string name="about_libraries">المكتبات</string>
     <string name="about_version">النسخة %1$s (%2$d)</string>
-    <string name="about_license_info_no_warranty">يقدَّم هذا البرنامج دون أدنى مسؤولية.  إنه برنامج حر، وندعوك لإعادة توزيعه حسب أحكام محددة.</string>
+    <string name="about_license_info_no_warranty">يقدَّم هذا البرنامج دون أدنى مسؤولية. إنه برنامج حر، وندعوك لإعادة توزيعه حسب أحكام محددة.</string>
     <!--global settings-->
   <string name="logging_couldnt_create_file">لا يمكن إنشاء ملف سجل</string>
     <!--AccountsScreen-->
@@ -119,7 +116,7 @@
     <string name="login_select_certificate">اختيار الشهادة</string>
     <string name="login_add_account">إضافة حساب</string>
     <string name="login_account_name">اسم الحساب</string>
-    <string name="login_account_name_info">استخدم عنوان بريدك الإلكتروني اسماً للحساب لأن آندرويد يستخدم اسم الحساب في حقل المنظّم ORGANIZER للأحداث التي تنشئها.  لايمكن أن تمتلك حسابين بالاسم نفسه.</string>
+    <string name="login_account_name_info">استخدم عنوان بريدك الإلكتروني اسماً للحساب لأن آندرويد يستخدم اسم الحساب في حقل المنظّم ORGANIZER للأحداث التي تنشئها. لايمكن أن تمتلك حسابين بالاسم نفسه.</string>
     <string name="login_account_contact_group_method">طريقة مجموعة جهة الاتصال:</string>
     <string name="login_account_name_required">اسم الحساب مطلوب</string>
     <string name="login_account_name_already_taken">اسم الحساب مأخوذ بالفعل</string>
@@ -163,7 +160,7 @@
         <item quantity="many">سيتم تجاهل الأحداث الأقدم من %d أيام</item>
         <item quantity="other">سيتم تجاهل الأحداث الأقدم من %d أيام</item>
     </plurals>
-    <string name="settings_sync_time_range_past_message">الأحداث التي جرت بعد عدد الأيام هذا في الماضي سيتم تجاهلها (يمكن أن يكون 0).  أتركه فارغاً لمزامنة جميع الأحداث.</string>
+    <string name="settings_sync_time_range_past_message">الأحداث التي جرت بعد عدد الأيام هذا في الماضي سيتم تجاهلها (يمكن أن يكون 0). أتركه فارغاً لمزامنة جميع الأحداث.</string>
     <string name="settings_manage_calendar_colors">إدارة ألوان التقاويم</string>
     <string name="settings_event_colors">دعم ألوان الأحداث</string>
     <string name="settings_carddav">CardDAV</string>
@@ -216,7 +213,6 @@
     <string name="sync_started">بدأت عملية المزامنة/أُضيفت إلى قائمة الانتظار</string>
     <string name="notification_channel_user_interaction">تفاعل المستخدم</string>
     <string name="notification_channel_user_interaction_desc">يلزم تفاعل المستخدم. يجب معالجة المشكلة أو المسألة يدويًّا.</string>
-    <string name="intro_autostart_text">قد تؤدي البرامج الثابتة (firmware) الخاصة بالمورد إلى منع عملية المزامنة. إذا كنت تواجه هذه المشكلة، فلا يمكنك حلها إلا يدويًّا.</string>
     <string name="intro_tasks_jtx_info"><![CDATA[يدعم مزامنة المهام والمذكّرات والملاحظات.]]></string>
     <string name="intro_tasks_tasks_org_info"><![CDATA[بعض الميزات <a href="https://www.davx5.com/faq/tasks/advanced-task-features">غير مدعومة</a>.]]></string>
     <string name="intro_backups_title">تذكير بالنسخ الاحتياطية</string>

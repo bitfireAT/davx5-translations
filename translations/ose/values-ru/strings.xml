@@ -21,7 +21,7 @@
     <string name="notification_channel_status">Низкоприоритетные сообщения о состоянии</string>
     <string name="notification_channel_sync">Синхронизация</string>
     <string name="notification_channel_sync_errors">Ошибки синхронизации</string>
-    <string name="notification_channel_sync_errors_desc">Важные ошибки, которые останавливают синхронизацию, например, неожиданные ответы сервера.</string>
+    <string name="notification_channel_sync_errors_desc">Серьезные ошибки, препятствующие синхронизации, такие как непредвиденные ответы сервера</string>
     <string name="notification_channel_sync_warnings">Предупреждения синхронизации</string>
     <string name="notification_channel_sync_warnings_desc">Некритичные проблемы с синхронизацией, такие как некоторые неверные файлы</string>
     <string name="notification_channel_sync_io_errors">Ошибки сети и ввода/вывода</string>
@@ -32,22 +32,19 @@
     <string name="intro_battery_title">Регулярные интервалы синхронизации</string>
     <string name="intro_battery_text">Для обеспечения синхронизации с регулярными интервалами необходимо разрешить работу %s в фоновом режиме. В противном случае, Android может приостановить синхронизацию в любое время.</string>
     <string name="intro_battery_dont_show">Мне не нужна синхронизация с регулярными интервалами.*</string>
-    <string name="intro_autostart_title">Совместимость %s</string>
-    <string name="intro_autostart_text">Прошивка конкретного производителя может блокировать синхронизацию. Если вы столкнулись с этой проблемой, ее можно решить только самостоятельно.</string>
-    <string name="intro_autostart_dont_show">Я выполнил необходимые настройки. Больше не напоминать.*</string>
-    <string name="intro_leave_unchecked">* Чтобы получить предупреждение позже, снимите флажок. Можно сбросить в настройках приложения  / %s.</string>
+    <string name="intro_leave_unchecked">* Чтобы получить предупреждение позже, снимите флажок. Можно сбросить в настройках приложения / %s.</string>
     <string name="intro_more_info">Дополнительная информация</string>
     <string name="intro_tasks_jtx">jtx Board</string>
     <string name="intro_tasks_jtx_info"><![CDATA[Поддерживает синхронизацию задач, журналов и заметок.]]></string>
     <string name="intro_tasks_title">Поддержка задач</string>
     <string name="intro_tasks_text1">Если задачи поддерживаются вашим сервером, их можно синхронизировать при помощи соответствующего приложения:</string>
     <string name="intro_tasks_opentasks">OpenTasks</string>
-    <string name="intro_tasks_opentasks_info">По всей видимости, больше не разрабатывается (не рекомендуется)</string>
+    <string name="intro_tasks_opentasks_info">Похоже, разработка этого продукта больше не осуществляется – не рекомендуется.</string>
     <string name="intro_tasks_tasks_org">Tasks.org</string>
     <string name="intro_tasks_tasks_org_info"><![CDATA[Некоторые функции <a href="https://www.davx5.com/faq/tasks/advanced-task-features">не поддерживаются</a>.]]></string>
     <string name="intro_tasks_no_app_store">Магазин приложений недоступен</string>
     <string name="intro_tasks_dont_show">Мне не нужна поддержка задач.*</string>
-    <string name="intro_open_source_title">ПО с открытым исходным кодом</string>
+    <string name="intro_open_source_title">Программное обеспечение с открытым исходным кодом</string>
     <string name="intro_open_source_text">Мы рады, что вы используете %s, программное обеспечение с открытым исходным кодом. Разработка, сопровождение и поддержка - это тяжелая работа. Пожалуйста, подумайте о том, чтобы внести свой вклад (существует множество способов) или сделать пожертвование. Будем очень признательны!</string>
     <string name="intro_open_source_details">Как внести свой вклад/пожертвовать</string>
     <string name="intro_open_source_dont_show">Не напоминайте мне об этом в течение</string>
@@ -55,7 +52,7 @@
         <item quantity="one">%d месяц</item>
         <item quantity="few">%d месяца</item>
         <item quantity="many">%d месяцев</item>
-        <item quantity="other">%d месяца</item>
+        <item quantity="other">%d месяцев</item>
     </plurals>
     <string name="intro_next">Далее</string>
     <!--PermissionsActivity-->
@@ -81,7 +78,7 @@
     <string name="permissions_autoreset_title">Сохранять разрешения</string>
     <string name="permissions_autoreset_status_off">Разрешения могут быть сброшены автоматически (не рекомендуется)</string>
     <string name="permissions_autoreset_status_on">Разрешения не будут сброшены автоматически</string>
-    <string name="permissions_autoreset_instruction">Выберите Разрешения &gt; снимите флажок \"Удалить разрешения, если приложение не используется\".</string>
+    <string name="permissions_autoreset_instruction">Выберите Разрешения &gt; снимите флажок \"Отзывать разрешения, если приложение не используется\"</string>
     <string name="permissions_app_settings_hint">Если переключатель не работает, используйте Настройки приложения / Разрешения.</string>
     <string name="permissions_app_settings">Настройки приложения</string>
     <!--WifiPermissionsActivity-->
@@ -107,7 +104,7 @@
     <string name="about_license_info_no_warranty">Эта программа поставляется БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ. Это свободное программное обеспечение и вы можете распространять его при соблюдении определенных условий.</string>
     <!--global settings-->
   <string name="logging_couldnt_create_file">Не удалось создать файл лога</string>
-    <string name="logging_notification_text">Сейчас логируется вся активность %s </string>
+    <string name="logging_notification_text">Сейчас логируется вся активность %s</string>
     <string name="logging_notification_view_share">Просмотр/обмен</string>
     <string name="logging_notification_disable">Отключить</string>
     <!--AccountsScreen-->
@@ -238,7 +235,7 @@
     <string name="login_type_email">Войти c адресом email</string>
     <string name="login_email_address">Адрес email</string>
     <string name="login_email_address_error">Требуется действительный адрес email</string>
-    <string name="login_email_address_info"><![CDATA[Домен электронной почты используется в качестве базового URL.<a href="%s">Сервисы обнаруживаются</a> по записям DNS и известным URL-адресам.]]></string>
+    <string name="login_email_address_info">В качестве базового URL используется домен электронной почты.</string>
     <string name="login_password">Пароль</string>
     <string name="login_password_hide">Скрыть пароль</string>
     <string name="login_password_show">Показать пароль</string>
@@ -308,7 +305,7 @@
     <string name="settings_sync_wifi_only_on">Разрешить синхронизацию только через WiFi</string>
     <string name="settings_sync_wifi_only_off">Не учитывать тип соединения</string>
     <string name="settings_sync_wifi_only_ssids">Ограничение WiFi SSID</string>
-    <string name="settings_sync_wifi_only_ssids_on">Будет синхронизироваться только  %s</string>
+    <string name="settings_sync_wifi_only_ssids_on">Будет синхронизироваться только %s</string>
     <string name="settings_sync_wifi_only_ssids_off">Будут использоваться все WiFi-подключения</string>
     <string name="settings_sync_wifi_only_ssids_message">Имена (SSID) разрешенных сетей WiFi, разделенные запятыми (оставьте пустым для всех)</string>
     <string name="settings_sync_wifi_only_ssids_permissions_required">Ограничение WiFi SSID требует дополнительных настроек</string>
@@ -318,10 +315,10 @@
     <string name="settings_ignore_vpns_off">VPN без основного интернета достаточно для выполнения синхронизации</string>
     <string name="settings_authentication">Аутентификация</string>
     <string name="settings_username">Имя пользователя</string>
-    <string name="settings_password"> Пароль аккаунта или пароль приложения</string>
+    <string name="settings_password">Пароль аккаунта или пароль приложения</string>
     <string name="settings_app_password_hint"><![CDATA[Возможно, вам больше понравится использовать <a href="%1$s">пароль приложения</a>.]]></string>
     <string name="settings_new_password">Новый пароль</string>
-    <string name="settings_password_summary">Обновить пароль</string>
+    <string name="settings_password_summary">Обновите пароль в соответствии с настройками вашего сервера.</string>
     <string name="settings_reauthorize_oauth">Авторизовать снова (OAuth)</string>
     <string name="settings_reauthorize_oauth_summary">Использовать, когда доступ был отозван</string>
     <string name="settings_reauthorize_oauth_success">Авторизация успешна</string>
@@ -340,7 +337,7 @@
     <string name="settings_sync_time_range_past_message">События, произошедшие ранее указанного количества дней, будут игнорироваться (может быть 0). Оставьте пустым, если хотите синхронизировать все события.</string>
     <string name="settings_default_alarm">Напоминание по умолчанию</string>
     <plurals name="settings_default_alarm_on">
-        <item quantity="one">Напоминание по умолчанию за 1 минуту до события</item>
+        <item quantity="one">Напоминание по умолчанию за одну минуту до события</item>
         <item quantity="few">Напоминание по умолчанию за %d минуты до события</item>
         <item quantity="many">Напоминание по умолчанию за %d минут до события</item>
         <item quantity="other">Напоминание по умолчанию за %d минут до события</item>
@@ -349,7 +346,7 @@
     <string name="settings_default_alarm_message">Для событий без напоминания введите желаемое количество минут для получения уведомления. Оставьте пустым, чтобы не использовать напоминания по умолчанию.</string>
     <string name="settings_manage_calendar_colors">Управление цветами календаря</string>
     <string name="settings_manage_calendar_colors_on">Цвета календаря сбрасываются после каждой синхронизации</string>
-    <string name="settings_manage_calendar_colors_off">Цвета календаря могут быть установлены другими приложениями.</string>
+    <string name="settings_manage_calendar_colors_off">Цвета календаря могут быть установлены другими приложениями</string>
     <string name="settings_event_colors">Поддержка цвета событий</string>
     <string name="settings_event_colors_on">Цвета событий синхронизируются</string>
     <string name="settings_event_colors_off">Цвета событий не синхронизируются</string>
@@ -411,25 +408,25 @@
     <string name="debug_info_http_403_description">Запрос был отклонен сервером.</string>
     <string name="debug_info_http_404_description">Запрошенный ресурс (больше) не существует.</string>
     <string name="debug_info_http_405_description">Сервер не разрешает запрошенный тип операции.</string>
-    <string name="debug_info_http_5xx_description">Возникла проблема на стороне сервера. Пожалуйста, свяжитесь со службой поддержки вашего сервера.</string>
+    <string name="debug_info_http_5xx_description">На сервере возникла проблема.</string>
     <string name="debug_info_unexpected_error">Произошла неожиданная ошибка. Просмотрите отладочную информацию, чтобы узнать подробности.</string>
-    <string name="debug_info_view_details">Просмотр</string>
+    <string name="debug_info_view_details">Просмотреть детали</string>
     <string name="debug_info_subtitle">Отладочная информация собрана</string>
     <string name="debug_info_involved_caption">Задействованные ресурсы</string>
     <string name="debug_info_involved_subtitle">Связанная с этим проблема</string>
     <string name="debug_info_involved_remote">Удаленный ресурс:</string>
     <string name="debug_info_involved_local">Локальный ресурс:</string>
-    <string name="debug_info_logs_caption">Логи</string>
+    <string name="debug_info_logs_caption">Журнал отладки</string>
     <string name="debug_info_logs_subtitle">Доступны подробные логи</string>
     <string name="debug_info_logs_view">Просмотр логов</string>
     <string name="debug_info_copy_remote_url">Скопировать URL</string>
     <string name="debug_info_view_local_resource">Проверить ресурс</string>
-    <string name="debug_info_privacy_warning_title"> Предупреждение о конфиденциальности</string>
+    <string name="debug_info_privacy_warning_title">Предупреждение о конфиденциальности</string>
     <string name="debug_info_privacy_warning_description">Журналы и отладочная информация могут содержать конфиденциальную информацию. Пожалуйста, помните об этом, когда делитесь ими.</string>
     <string name="debug_info_can_not_view_resource">Невозможно просмотреть ресурс</string>
     <!--ExceptionInfoFragment-->
   <string name="exception">Произошла ошибка.</string>
-    <string name="exception_httpexception">Произошла ошибка HTTP</string>
+    <string name="exception_httpexception">Произошла ошибка HTTP.</string>
     <string name="exception_ioexception">Произошла ошибка ввода/вывода.</string>
     <string name="exception_show_details">Показать детали</string>
     <!--WebDAV accounts-->
@@ -482,7 +479,7 @@
     <string name="collection_datatype_tasks_count">%1$d задач</string>
     <string name="collection_datatype_events_count">%1$d событий</string>
     <string name="collection_datatype_contacts_count">%1$d контактов</string>
-    <string name="notification_channel_user_interaction">Пользовательское взаимодействие</string>
+    <string name="notification_channel_user_interaction">Взаимодействие с пользователем</string>
     <string name="notification_channel_user_interaction_desc">Требуется действие пользователя. Возникла проблема требующая решения вручную.</string>
     <string name="intro_backups_title">Напоминание о резервном копировании</string>
     <string name="intro_backups_important">Важно делать резервную копию ваших данных (включая контакты и календари) регулярно для избежания потенциальной потери данных.</string>
@@ -496,5 +493,58 @@
     <string name="app_settings_push_disabled_summary">Отключено</string>
     <string name="app_settings_push_description">Используйте Push чтобы сервера CalDAV/CardDAV/WebDAV моментально оповещали %s о доступных изменениях ваших данных на сервере.</string>
     <string name="app_settings_push_use_push">Использовать Push</string>
-    <string name="app_settings_push_no_push_services_found"><![CDATA[Push сервисы не найдены. Посетите <a href="%1$s">%2$s</a> чтобы увидеть список приложений-распространителей]]></string>
+    <string name="app_settings_push_no_push_services_found"><![CDATA[Не найдены сервисы push-уведомлений. Посетите <a href="%1$s">%2$s</a>, чтобы просмотреть список приложений-дистрибьюторов.]]></string>
+    <string name="dismiss_forever">Отклонить навсегда</string>
+    <string name="app_settings_push_enabled_summary">Включено: %s</string>
+    <string name="app_settings_push_title">Push-уведомления</string>
+    <string name="app_settings_push_info_text"><![CDATA[Push-сообщения всегда зашифрованы. Подробнее о WebDAV-Push можно узнать в <a href="%s">руководстве</a>.]]></string>
+    <string name="app_settings_push_push_services">Служба Push-уведомлений</string>
+    <string name="app_settings_push_default_distributor_text">(по умолчанию)</string>
+    <string name="app_settings_push_capability_none">Ни одна из ваших коллекций серверов с включенной синхронизацией в настоящее время не поддерживает WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">В настоящее время только некоторые из ваших коллекций серверов с включенной синхронизацией поддерживают WebDAV-Push.</string>
+    <string name="app_settings_push_select_default_distributor_description">Установлено несколько приложений-дистрибьюторов UnifiedPush. Вы можете задать здесь значение по умолчанию для всей системы, чтобы другим приложениям, поддерживающим UnifiedPush, не приходилось запрашивать, какое из них использовать.</string>
+    <string name="app_settings_push_select_default_distributor_action">Установить по умолчанию</string>
+    <string name="login_see_tested_with"><![CDATA[Если вы не уверены, что выбрать, ознакомьтесь с документацией вашего провайдера и нашей страницей <a href="%s">проверенных сервисов</a>.]]></string>
+    <string name="login_invalid_use_case">Недопустимый вариант использования</string>
+    <string name="login_invalid_use_case_info"><![CDATA[Данный вариант %s приложения можно использовать только с определенными сервисами.]]></string>
+    <string name="login_download_regular_davx5"><![CDATA[Вместо этого, пожалуйста, используйте <a href="%s">DAVx⁵</a>, который совместим со всеми сервисами.]]></string>
+    <string name="login_download_button">Скачать DAVx⁵</string>
+    <string name="collection_synced_items_title">Количество локальных элементов</string>
+    <plurals name="collection_synced_items_total">
+        <item quantity="one">%1$d элемент в %2$s</item>
+        <item quantity="few">%1$d элемента в %2$s</item>
+        <item quantity="many">%1$d элементов в %2$s</item>
+        <item quantity="other">%1$d элементов в %2$s</item>
+    </plurals>
+    <plurals name="collection_synced_items_modified">
+        <item quantity="one">├ %d несинхронизированная модификация</item>
+        <item quantity="few">├ %d несинхронизированных модификации</item>
+        <item quantity="many">├ %d несинхронизированных модификаций</item>
+        <item quantity="other">├ %d несинхронизированных модификаций</item>
+    </plurals>
+    <plurals name="collection_synced_items_deleted">
+        <item quantity="one">└ %d несинхронизированное удаление</item>
+        <item quantity="few">└ %d несинхронизированных удаления</item>
+        <item quantity="many">└ %d несинхронизированных удалений</item>
+        <item quantity="other">└ %d несинхронизированных удалений</item>
+    </plurals>
+    <plurals name="collection_synced_items_past_event_time_limit">
+        <item quantity="one">Элементы старше %d дня не синхронизируются (см. настройки аккаунта).</item>
+        <item quantity="few">Элементы старше %d дней не синхронизируются (см. настройки аккаунта).</item>
+        <item quantity="many">Элементы старше %d дней не синхронизируются (см. настройки аккаунта).</item>
+        <item quantity="other">Элементы старше %d дней не синхронизируются (см. настройки аккаунта).</item>
+    </plurals>
+    <string name="push_distributor_selection_required_title">Необходимо выбрать дистрибьютора</string>
+    <string name="push_distributor_selection_required_message">Не удалось определить приложение-дистрибьютор UnifiedPush по умолчанию. Нажмите, чтобы выбрать.</string>
+    <string name="debug_info_find_help">Получить помощь онлайн</string>
+    <string name="debug_info_find_help_faq">Найти ответы на &lt;b&gt;часто задаваемые вопросы&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Показать часто задаваемые вопросы на сайте</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Запросите помощь&lt;/b&gt; на GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Открыть форумы</string>
+    <string name="debug_info_find_help_issues">Посмотреть &lt;b&gt;открытые проблемы&lt;/b&gt; на GitHub</string>
+    <string name="debug_info_find_help_issues_action">Показать текущие проблемы</string>
+    <string name="debug_info_find_help_manual">Найти &lt;b&gt;техническую информацию&lt;/b&gt;</string>
+    <string name="debug_info_find_help_manual_action">Открыть руководство</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Обратитесь в службу поддержки <tt>%1$s</tt></b> (не %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Обратитесь в службу поддержки вашего хостинга</b> (не %1$s).]]></string>
 </resources>

@@ -27,14 +27,12 @@
     <string name="notification_channel_sync_io_errors">Hálózati és I/O hibák</string>
     <string name="notification_channel_sync_io_errors_desc">Időtúllépésék, kapcsolódási problémák, stb. (gyakran átmeneti problémák)</string>
     <!--IntroActivity-->
-  <string name="intro_slogan1">Az Ön adatai.  Az Ön döntése.</string>
+  <string name="intro_slogan1">Az Ön adatai. Az Ön döntése.</string>
     <string name="intro_slogan2">Vegye kézbe az irányítást.</string>
     <string name="intro_battery_title">Rendszeres ütemezett szinkronizálás</string>
     <string name="intro_battery_text">A rendszeres ütemezett szinkronizáláshoz a %s számára engedélyezni kell a háttérben futást, különben az Android rendszer a szinkronizálást bármikor leállíthatja.</string>
     <string name="intro_battery_dont_show">Nincs szükségem rendszeres ütemezett szinkronizálásra.*</string>
-    <string name="intro_autostart_title">%s kompatibilitás</string>
-    <string name="intro_autostart_dont_show">Elvégeztem a szükséges beállításokat, nincs szükségem további figyelmeztetésre.*</string>
-    <string name="intro_leave_unchecked">* Hagyja üresen, ha szeretné, ha legközelebb is kapjon emlékeztetést.  Később felülírható az alkalmazásbeállításoknál (%s).</string>
+    <string name="intro_leave_unchecked">* Hagyja üresen, ha szeretné, ha legközelebb is kapjon emlékeztetést. Később felülírható az alkalmazásbeállításoknál (%s).</string>
     <string name="intro_more_info">További információk</string>
     <string name="intro_tasks_jtx">jtx Board</string>
     <string name="intro_tasks_jtx_info"><![CDATA[Feladatok, naplóbejegyzések és jegyzetek szinkronizálásának támogatása.]]></string>
@@ -47,7 +45,7 @@
     <string name="intro_tasks_no_app_store">Nincs elérhető alkalmazás-áruház</string>
     <string name="intro_tasks_dont_show">Nincs szükségem a feladatok támogatására.*</string>
     <string name="intro_open_source_title">Nyílt forráskódú szoftver</string>
-    <string name="intro_open_source_text">Nagyon örülünk, hogy a %s felhasználói közé tartozik, amely nyílt forráskódú szoftver.  A fejlesztés, karbantartás és támogatás ugyanakkor kemény munkát igényel.  Fontolja meg, hogy ezt pénzzel, vagy valamilyen más módon támogassa (több lehetőség közül is választhat). Nagyon megköszönnénk!</string>
+    <string name="intro_open_source_text">Nagyon örülünk, hogy a %s felhasználói közé tartozik, amely nyílt forráskódú szoftver. A fejlesztés, karbantartás és támogatás ugyanakkor kemény munkát igényel. Fontolja meg, hogy ezt pénzzel, vagy valamilyen más módon támogassa (több lehetőség közül is választhat). Nagyon megköszönnénk!</string>
     <string name="intro_open_source_details">A hozzájárulás lehetőségei</string>
     <string name="intro_open_source_dont_show">Ne emlékeztessen</string>
     <plurals name="intro_open_source_dont_show_months">
@@ -127,14 +125,14 @@
     <string name="account_list_empty">Kapcsolódjon a kiszolgálójához, és tartsa szinkronban a naptárait és névjegyeit.</string>
     <string name="accounts_sync_all">Az összes fiók szinkronizálása</string>
     <!--Sync warnings-->
-  <string name="sync_warning_no_notification_permission">Az értesítések tiltva vannak.  A szinkronizálási hibákról nem fog értesítést kapni.</string>
+  <string name="sync_warning_no_notification_permission">Az értesítések tiltva vannak. A szinkronizálási hibákról nem fog értesítést kapni.</string>
     <string name="sync_warning_no_internet">Az automatikus szinkronizálás nem aktív (nincs megerősített internetkapcsolat).</string>
     <string name="sync_warning_manage_connections">Kapcsolatok kezelése</string>
-    <string name="sync_warning_datasaver_enabled">Az adatcsökkentés bekapcsolva.  A háttérben futó szinkronizálás korlátozva van.</string>
+    <string name="sync_warning_datasaver_enabled">Az adatcsökkentés bekapcsolva. A háttérben futó szinkronizálás korlátozva van.</string>
     <string name="sync_warning_manage_datasaver">Adatcsökkentés kezelése</string>
-    <string name="sync_warning_battery_saver_enabled">Az akkumulátorkímélés bekapcsolva.  A háttérben futó szinkronizálás korlátozva van.</string>
+    <string name="sync_warning_battery_saver_enabled">Az akkumulátorkímélés bekapcsolva. A háttérben futó szinkronizálás korlátozva van.</string>
     <string name="sync_warning_manage_battery_saver">Akkumulátorkímélés kezelése</string>
-    <string name="sync_warning_low_storage">A rendelkezésre álló tárhely kevés.  Az Android nem fogja a helyi erőforrásokat azonnal szinkronizálni, csak a következő rendes alkalommal.</string>
+    <string name="sync_warning_low_storage">A rendelkezésre álló tárhely kevés. Az Android nem fogja a helyi erőforrásokat azonnal szinkronizálni, csak a következő rendes alkalommal.</string>
     <string name="sync_warning_manage_storage">Tárhely kezelése</string>
     <string name="sync_warning_calendar_storage_disabled_title">A naptárszolgáltató hiányzik</string>
     <string name="sync_warning_calendar_storage_disabled_description">Letiltotta a „Naptártároló” rendszeralkalmazást?</string>
@@ -232,7 +230,7 @@
     <string name="login_type_email">Bejelentkezés e-mail-cím segítségével</string>
     <string name="login_email_address">E-mail-cím</string>
     <string name="login_email_address_error">Érvényes e-mail-cím szükséges</string>
-    <string name="login_email_address_info"><![CDATA[Az e-mail-tartomány lesz alapwebcímként használva. A <a href="%s">szolgáltatások felfedezése</a> DNS rekordok és jól ismert webcímek alapján történik.]]></string>
+    <string name="login_email_address_info">Az e-mail-tartomány lesz alapwebcímként használva. A <a href="%s">szolgáltatások felfedezése</a> DNS rekordok és jól ismert webcímek alapján történik.</string>
     <string name="login_password">Jelszó</string>
     <string name="login_password_hide">Jelszó elrejtése</string>
     <string name="login_password_show">Jelszó megjelenítése</string>
@@ -318,14 +316,14 @@
         <item quantity="one">Az egy napnál régebbi események figyelmen kívül hagyása</item>
         <item quantity="other">A(z) %d napnál régebbi események figyelmen kívül hagyása</item>
     </plurals>
-    <string name="settings_sync_time_range_past_message">Az ennyi napnál (lehet 0) régebbi események figyelmen kívül lesznek hagyva.  Hagyja üresen, ha minden múltbéli eseményt szinkronizálni akar.</string>
+    <string name="settings_sync_time_range_past_message">Az ennyi napnál (lehet 0) régebbi események figyelmen kívül lesznek hagyva. Hagyja üresen, ha minden múltbéli eseményt szinkronizálni akar.</string>
     <string name="settings_default_alarm">Alapértelmezett emlékeztető</string>
     <plurals name="settings_default_alarm_on">
-        <item quantity="one">Az alapértelmezett emlékeztető az esemény kezdete előtt egy perccel van </item>
-        <item quantity="other">Az alapértelmezett emlékeztető az esemény kezdete előtt %d perccel van </item>
+        <item quantity="one">Az alapértelmezett emlékeztető az esemény kezdete előtt egy perccel van</item>
+        <item quantity="other">Az alapértelmezett emlékeztető az esemény kezdete előtt %d perccel van</item>
     </plurals>
     <string name="settings_default_alarm_off">Nem lesznek alapértelmezett emlékeztetők beállítva</string>
-    <string name="settings_default_alarm_message">Ha szeretné, hogy az emlékeztető nélküli eseményekhez egy alapértelmezett emlékeztető legyen beállítva, akkor adja meg, hogy az hány perccel az esemény előtt legyen.  Ha nem akar ilyet, hagyja üresen.</string>
+    <string name="settings_default_alarm_message">Ha szeretné, hogy az emlékeztető nélküli eseményekhez egy alapértelmezett emlékeztető legyen beállítva, akkor adja meg, hogy az hány perccel az esemény előtt legyen. Ha nem akar ilyet, hagyja üresen.</string>
     <string name="settings_manage_calendar_colors">Naptárszínek kezelése</string>
     <string name="settings_manage_calendar_colors_on">A naptárszínek minden szinkronizáláskor visszaállnak az alapértelmezettre</string>
     <string name="settings_manage_calendar_colors_off">A naptárszíneket más alkalmazásokban lehet beállítani</string>
@@ -392,7 +390,7 @@
     <string name="debug_info_involved_remote">Távoli erőforrás:</string>
     <string name="debug_info_involved_local">Helyi erőforrás:</string>
     <string name="debug_info_logs_caption">Naplók</string>
-    <string name="debug_info_logs_subtitle">Rendelkezésre állnak részletes naplóbejegyzések </string>
+    <string name="debug_info_logs_subtitle">Rendelkezésre állnak részletes naplóbejegyzések</string>
     <string name="debug_info_logs_view">Naplóbejegyzések megtekintése</string>
     <string name="debug_info_copy_remote_url">Webcím másolása</string>
     <!--ExceptionInfoFragment-->
@@ -423,7 +421,7 @@
     <string name="webdav_notification_upload">WebDAV fájl feltöltése</string>
     <string name="webdav_provider_root_title">WebDAV kötetek</string>
     <!--sync-->
-  <string name="sync_error_permissions">DAVx⁵ engedélyek </string>
+  <string name="sync_error_permissions">DAVx⁵ engedélyek</string>
     <string name="sync_error_permissions_text">További engedélyek szükségesek</string>
     <string name="sync_error_tasks_too_old">%s túl régi</string>
     <string name="sync_error_tasks_required_version">Legalacsonyabb szükséges verzió: %1$s</string>
@@ -445,7 +443,6 @@
 <string name="dismiss_forever">Végleges eltüntetés</string>
     <string name="notification_channel_user_interaction">Felhasználó interakció</string>
     <string name="notification_channel_user_interaction_desc">Felhasználó interakció szükséges. A problémát kézileg kell kezelni.</string>
-    <string name="intro_autostart_text">A szolgáltatófüggő firmware blokkolhatja a szinkronizálást. Ha ez érinti, akkor csak kézileg tudja megoldani.</string>
     <string name="intro_backups_title">Biztonsági mentések emlékeztetője</string>
     <string name="intro_backups_important">Fontos, hogy rendszeresen biztonsági mentést készítsen az adatairól (köztük névjegyeiről és naptárairól), hogy elkerülje a lehetséges adatvesztést.</string>
     <string name="intro_backups_something_wrong">Mindig történhet valami hiba, akár a kiszolgáló, akár a %s vagy más alkalmazásban, amely például véletlenül törölheti az összes naptárbejegyzését. (A törlések ilyenkor szinkronizálva lennének a kiszolgálóra.)</string>

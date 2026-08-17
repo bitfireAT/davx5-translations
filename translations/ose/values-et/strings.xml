@@ -32,9 +32,6 @@
     <string name="intro_battery_title">Regulaarne sünkroniseerimisvälp</string>
     <string name="intro_battery_text">Selleks, et sünkroniseerimine soovitud ajavahemike järel toimiks taustateenusena, vajab %s õigust töötada taustal. Vastasel juhul võib Android igal ajal sünkroniseerimise peatada.</string>
     <string name="intro_battery_dont_show">Ma ei soovi kasutada regulaarset sünkroniseerimisvälpa. *</string>
-    <string name="intro_autostart_title">%s ühilduvus</string>
-    <string name="intro_autostart_text">Nutiseadme tootja poolt lisatud püsivara võib blokeerida sünkroniseerimist. Kui see sinu tegevust mõjutab, siis saad olukorra lahendada käsitsi.</string>
-    <string name="intro_autostart_dont_show">Ma juba kasutan nõutavaid seadistusi. Ära enam tuleta seda mulle meelde.*</string>
     <string name="intro_leave_unchecked">* Kui soovid hilisemat meeldetuletust, jäta see märkimata. Lisaks saad seada muuta rakenduse seadistustest / %s.</string>
     <string name="intro_more_info">Lisateave</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -78,7 +75,7 @@
     <string name="permissions_tasks_status_on">Ülesannete sünkroniseerimine on võimalik</string>
     <string name="permissions_autoreset_title">Säilita õigused</string>
     <string name="permissions_autoreset_status_off">Õigusi võib muuta automaatselt (pole soovitatud)</string>
-    <string name="permissions_autoreset_status_on">Õigused ei saa olema automaatselt  muudetud</string>
+    <string name="permissions_autoreset_status_on">Õigused ei saa olema automaatselt muudetud</string>
     <string name="permissions_autoreset_instruction">Klõpsi Õigused ja eemalda valik „Eemalda load, kui rakendust ei kasutata“</string>
     <string name="permissions_app_settings_hint">Kui muutmine ei toimi, siis kasuta rakenduse õiguste seadistusi.</string>
     <string name="permissions_app_settings">Rakenduse seadistused</string>
@@ -236,7 +233,7 @@
     <string name="login_type_email">Logi sisse e-posti aadressiga</string>
     <string name="login_email_address">E-posti aadress</string>
     <string name="login_email_address_error">Nõutav on korrektne e-posti aadress</string>
-    <string name="login_email_address_info"><![CDATA[E-posti aadressi domeeni alusel leiame alustuseks mõeldud võrguaadressi. <a href="%s">Teenused tuvastame</a> nimeserveri kirjete ning „.well-known“ tunnusaadresside abil.]]></string>
+    <string name="login_email_address_info">E-posti aadressi domeen on kasutusel lähteaadressina.</string>
     <string name="login_password">Salasõna</string>
     <string name="login_password_hide">Peida salasõna</string>
     <string name="login_password_show">Näita salasõna</string>
@@ -405,7 +402,7 @@
     <string name="debug_info_http_403_description">Server keeldus päringule vastamast.</string>
     <string name="debug_info_http_404_description">Päritud andmeressurssi ei leidu (enam).</string>
     <string name="debug_info_http_405_description">Server ei võimalda antud päringu tüüpi kasutada või soovitud tegevust teha.</string>
-    <string name="debug_info_http_5xx_description">Tekkis serveripoolne viga. Palun võta ühendust serveri haldajaga.</string>
+    <string name="debug_info_http_5xx_description">Serveris tekkis viga või probleem.</string>
     <string name="debug_info_unexpected_error">Tekkis ootamatu viga. Lisainfot leiad silumisteabest.</string>
     <string name="debug_info_view_details">Vaata üksikasju</string>
     <string name="debug_info_subtitle">Silumisteave on kogutud</string>
@@ -525,4 +522,16 @@
     <string name="app_settings_push_disabled_summary">Väljas</string>
     <string name="push_distributor_selection_required_title">Pead valima levitaja</string>
     <string name="push_distributor_selection_required_message">Vaikimisi UnifiedPushi levitaja tuvastamine polnud võimalik. Palun klõpsa ja vali oma eelistus.</string>
+    <string name="login_see_tested_with"><![CDATA[Kui sa pole kindel, mida valida, siis vaata teenusepakkuja juhendit ja meie <a href="%s">testitud teenuste</a> lehte.]]></string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Palun küsi abi tugitiimilt:<tt>%1$s</tt></b> (mitte %2$s).]]></string>
+    <string name="debug_info_find_help_faq">Leia vastuseid &lt;b&gt;levinumatele küsimustele&lt;/b&gt;</string>
+    <string name="debug_info_find_help">Otsi abiteavet võrgust</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Küsi abi&lt;/b&gt; on GitHubis</string>
+    <string name="debug_info_find_help_manual_action">Ava juhend</string>
+    <string name="debug_info_find_help_manual">Otsi &lt;b&gt;tehnilist teavet&lt;/b&gt;</string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Palun võta ühendust oma teenusepakkuja tugitiimiga</b> (aga mitte %1$s tiimiga).]]></string>
+    <string name="debug_info_find_help_faq_action">Vaata KKK-alajaotust veebisaidis</string>
+    <string name="debug_info_find_help_discussions_action">Ava arutelude leht</string>
+    <string name="debug_info_find_help_issues">Vaata GitHubi veahaldusest &lt;b&gt;lahednamisel vigu ja probleeme&lt;/b&gt;</string>
+    <string name="debug_info_find_help_issues_action">Näita hetkel olulisemaid vigu ja probleeme</string>
 </resources>

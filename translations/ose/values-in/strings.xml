@@ -30,9 +30,6 @@
     <string name="intro_battery_title">Interval sinkronisasi rutin</string>
     <string name="intro_battery_text">Untuk sinkronisasi pada interval rutin, %s harus diizinkan berjalan di latar belakang. Jika tidak, Android dapat menghentikan sinkronisasi kapan saja.</string>
     <string name="intro_battery_dont_show">Saya tidak memerlukan interval sinkronisasi rutin.*</string>
-    <string name="intro_autostart_title">Kompatibilitas %s</string>
-    <string name="intro_autostart_text">Perangkat lunak pabrikan tertentu dapat memblokir sinkronisasi. Jika Anda terpengaruh, hanya dapat diselesaikan secara manual.</string>
-    <string name="intro_autostart_dont_show">Saya sudah melakukan pengaturan yang diperlukan. Jangan ingatkan saya lagi.*</string>
     <string name="intro_leave_unchecked">* Biarkan tidak dicentang untuk diingatkan nanti. Dapat diatur ulang di pengaturan aplikasi / %s.</string>
     <string name="intro_more_info">Informasi lebih lanjut</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -219,7 +216,7 @@
     <string name="login_type_email">Masuk dengan alamat email</string>
     <string name="login_email_address">Alamat email</string>
     <string name="login_email_address_error">Diperlukan alamat email yang valid</string>
-    <string name="login_email_address_info"><![CDATA[Domain email digunakan sebagai URL dasar. <a href="%s">Layanan ditemukan</a> menggunakan catatan DNS dan URL yang dikenal.]]></string>
+    <string name="login_email_address_info">Domain email digunakan sebagai URL dasar. <a href="%s">Layanan ditemukan</a> menggunakan catatan DNS dan URL yang dikenal.</string>
     <string name="login_password">Kata sandi</string>
     <string name="login_password_hide">Sembunyikan kata sandi</string>
     <string name="login_password_show">Tampilkan kata sandi</string>

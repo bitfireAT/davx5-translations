@@ -32,9 +32,6 @@
     <string name="intro_battery_title">一定の間隔で同期する</string>
     <string name="intro_battery_text">一定の間隔で同期するには、%s のバックグラウンドでの動作を許可する必要があります。許可しない場合、Android によって同期が停止されることがあります。</string>
     <string name="intro_battery_dont_show">一定間隔での同期は不要です*</string>
-    <string name="intro_autostart_title">%s 適合性</string>
-    <string name="intro_autostart_text">端末の製造元のファームウェアによって同期がブロックされている可能性があります。この問題に遭遇した場合、手動で問題を解決していただく必要があります。</string>
-    <string name="intro_autostart_dont_show">必要な設定は完了したのでリマインダーは不要です*</string>
     <string name="intro_leave_unchecked">* 未チェックのままにすると後でリマインドします。アプリの設定 / %s でリセットできます</string>
     <string name="intro_more_info">追加情報</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -235,7 +232,7 @@
     <string name="login_type_email">メールアドレスでログイン</string>
     <string name="login_email_address">メールアドレス</string>
     <string name="login_email_address_error">有効なメールアドレスが必要です</string>
-    <string name="login_email_address_info"><![CDATA[メールアドレスのドメインをベース URL とします。DNS レコードと well-known URL を使用して<a href="%s">サービスを検出</a>します。]]></string>
+    <string name="login_email_address_info">メールアドレスのドメインをベース URL とします。DNS レコードと well-known URL を使用して<a href="%s">サービスを検出</a>します。</string>
     <string name="login_password">パスワード</string>
     <string name="login_password_hide">パスワードを非表示</string>
     <string name="login_password_show">パスワードを表示</string>
@@ -468,5 +465,4 @@
     <string name="widget_labeled_sync_label">同期ボタン (ラベル)</string>
     <string name="widget_icon_sync_label">同期ボタン (アイコン)</string>
     <string name="widget_sync_description">手動で同期したいときにタップしてください。</string>
-    <!--cert4android-->
 </resources>

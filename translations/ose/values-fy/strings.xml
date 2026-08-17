@@ -30,9 +30,6 @@
     <string name="intro_battery_title">Regelmatiche syngronisaasjeynterfallen</string>
     <string name="intro_battery_text">Foar reguliere syngronisaasje moat %s op \'e achtergrûn draaie meie. Oars kin Android mooglyk de syngronisaasje ûnderbrekke.</string>
     <string name="intro_battery_dont_show">Ik hoech net regelmatich te syngronisearjen.*</string>
-    <string name="intro_autostart_title">%s-gearwurking</string>
-    <string name="intro_autostart_text">Bedriuwsspesjifyke firmware kin syngronisaasje blokkearje. At dit bart, moatte jo dit sels oplosse.</string>
-    <string name="intro_autostart_dont_show">Ik ha dit al ynsteld. Lit dit net mear sjen.*</string>
     <string name="intro_leave_unchecked">* Lit dit leech om letter herrinnerd te wurden. Dit kin werom setten wurde yn de appynstellingen / %s.</string>
     <string name="intro_more_info">Mear informaasje</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -167,7 +164,7 @@
     <string name="login_type_email">Ynlogge mei mailadres</string>
     <string name="login_email_address">Mailadres</string>
     <string name="login_email_address_error">Mailadres moat jildich wêze</string>
-    <string name="login_email_address_info"><![CDATA[It emaildomein wurd brûkt as basis foar de URL. <a href="%s">Mooglikheden wurde ûntdutsen</a> troch DNS-gegevens en bekende URL\'s.]]></string>
+    <string name="login_email_address_info">It emaildomein wurd brûkt as basis foar de URL. <a href="%s">Mooglikheden wurde ûntdutsen</a> troch DNS-gegevens en bekende URL\'s.</string>
     <string name="login_password">Wachtwurd</string>
     <string name="login_password_hide">Wachtwurd ferbergje</string>
     <string name="login_password_show">Wachtwurd sjen litte</string>

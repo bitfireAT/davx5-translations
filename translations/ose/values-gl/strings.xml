@@ -32,8 +32,6 @@
     <string name="intro_battery_title">Intervalos regulares de sincronización</string>
     <string name="intro_battery_text">Para sincronizar a intervalos regulares, %s debe ter permiso para executarse en segundo plano. Se non, Android podería deter a sincronización.</string>
     <string name="intro_battery_dont_show">Non preciso sincr. con regularidade.*</string>
-    <string name="intro_autostart_title">Compatibilidade de %s</string>
-    <string name="intro_autostart_dont_show">Xa fixen o que me pediades. Non mo lembres máis.*</string>
     <string name="intro_leave_unchecked">* Deixar sen marcar para lembrar máis tarde. Pode restablecerse nos axustes da app / %s.</string>
     <string name="intro_more_info">Máis información</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -62,7 +60,7 @@
     <string name="permissions_all_status_off">Usa isto para habilitar tódalas características (recomendado)</string>
     <string name="permissions_all_status_on">Todos os permisos concedidos</string>
     <string name="permissions_contacts_title">Permisos de contactos</string>
-    <string name="permissions_contacts_status_off">Sen sincronización de contactos (non recomendado) </string>
+    <string name="permissions_contacts_status_off">Sen sincronización de contactos (non recomendado)</string>
     <string name="permissions_contacts_status_on">É posible sincronizar os contactos</string>
     <string name="permissions_calendar_title">Permisos de calendario</string>
     <string name="permissions_calendar_status_off">Sen sincronización de calendario (non se recomenda)</string>
@@ -99,7 +97,7 @@
     <!--AboutActivity-->
   <string name="about_translations">Traducións</string>
     <string name="about_libraries">Bibliotecas</string>
-    <string name="about_version">Versión  %1$s (%2$d)</string>
+    <string name="about_version">Versión %1$s (%2$d)</string>
     <string name="about_copyright">© Ricki Hirner, Bernhard Stockmann (bitfire web engineering GmbH) e colaboradoras</string>
     <string name="about_license_info_no_warranty">Este programa non proporciona NINGUNHA GARANTÍA. É software libre, e convidámoste a redistribuílo baixo certas condicións.</string>
     <!--global settings-->
@@ -232,7 +230,7 @@
     <string name="login_type_email">Conectar con enderezo de correo-e</string>
     <string name="login_email_address">Enderezo de correo-e</string>
     <string name="login_email_address_error">Requíre un enderezo de correo válido</string>
-    <string name="login_email_address_info"><![CDATA[O dominio do correo úsase como URL base. Descúbrense os <a href="%s">Servizos</a> usando rexistros DNS de URLs tipo well-known.]]></string>
+    <string name="login_email_address_info">O dominio do correo úsase como URL base.</string>
     <string name="login_password">Contrasinal</string>
     <string name="login_password_hide">Agochar contrasinal</string>
     <string name="login_password_show">Mostrar contrasinal</string>
@@ -468,7 +466,7 @@
     <string name="debug_info_http_403_description">O servidor rexeitou a solicitude.</string>
     <string name="debug_info_http_404_description">O recurso solicitado non existe (definitivamente).</string>
     <string name="debug_info_http_405_description">O servidor non permite o tipo de operación solicitado.</string>
-    <string name="debug_info_http_5xx_description">Hai un problema na parte do servidor. Contacta coa administración do servidor.</string>
+    <string name="debug_info_http_5xx_description">Houbo un problema no servidor.</string>
     <string name="debug_info_unexpected_error">Aconteceu un fallo non agardado. Mira os detalles na info de depuración.</string>
     <string name="debug_info_view_local_resource">Examinar recurso</string>
     <string name="debug_info_privacy_warning_title">Aviso de privacidade</string>
@@ -480,7 +478,6 @@
     <string name="webdav_add_mount_password_optional">Contrasinal (optativo)</string>
     <string name="widget_labeled_sync_label">Botón de sincr. etiquetado</string>
     <string name="widget_sync_description">Toca para realizar manualmente a sincronización.</string>
-    <string name="intro_autostart_text">O firmaware específico do fabricante podería bloquear a sincronización. Se che afecta, só podes solucionalo manualmente.</string>
     <string name="widget_icon_sync_label">Icona do Botón de sincr.</string>
     <string name="collection_datatype_contacts_count">%1$d contactos</string>
     <string name="collection_datatype_events_count">%1$d eventos</string>
@@ -525,4 +522,16 @@
     <string name="notification_channel_user_interaction_desc">Requírese que a usuaria interveña. Un problema ou asunto debe resolverse manualmente.</string>
     <string name="push_distributor_selection_required_message">Non se puido acadar o distribuidor UnifiedPush predeterminado. Toca para seleccionar un.</string>
     <string name="push_distributor_selection_required_title">Hai que selección un distribuidor</string>
+    <string name="login_see_tested_with"><![CDATA[Se non tes certeza sobre o que elixir, consulta a documentación do teu provedor e a nósa páxina de <a href="%s">servizos probados</a>.]]></string>
+    <string name="debug_info_find_help">Atopa axuda en liña</string>
+    <string name="debug_info_find_help_faq">Atopa resposta ás &lt;b&gt;preguntas frecuentes&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Ver as PMF na páxina web</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Solicita axuda&lt;/b&gt; en GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Abrir Discussions</string>
+    <string name="debug_info_find_help_issues">Mira as &lt;b&gt;incidencias abertas&lt;/b&gt; en GitHub</string>
+    <string name="debug_info_find_help_issues_action">Ver as incidencias actuais</string>
+    <string name="debug_info_find_help_manual">Atopa &lt;b&gt;información técnica&lt;/b&gt;</string>
+    <string name="debug_info_find_help_manual_action">Abrir o manual</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Contacta co equipo de axuda <tt>%1$s</tt></b> (non %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Contacta co departamento de axuda do teu provedor</b> (non %1$s).]]></string>
 </resources>

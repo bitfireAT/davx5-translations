@@ -32,8 +32,6 @@
     <string name="intro_battery_title">Intervalos periódicos de sincronização</string>
     <string name="intro_battery_text">Para sincronização em intervalos periódicos, o %s deve ter permissão para executar em segundo plano. Caso contrário, o Android poderá pausar a sincronização a qualquer momento.</string>
     <string name="intro_battery_dont_show">Eu não preciso de sincronização periódica.*</string>
-    <string name="intro_autostart_title">Compatibilidade com %s</string>
-    <string name="intro_autostart_dont_show">Fiz as definições necessárias. Não me lembre novamente.*</string>
     <string name="intro_leave_unchecked">* Deixe desmarcado para ser lembrado mais tarde. Pode ser redefinido nas definições da aplicação / %s.</string>
     <string name="intro_more_info">Mais informações</string>
     <string name="intro_tasks_jtx">jtx Board</string>
@@ -233,7 +231,7 @@
     <string name="login_type_email">Autenticação com endereço de e-mail</string>
     <string name="login_email_address">Endereço de e-mail</string>
     <string name="login_email_address_error">É necessário um e-mail válido</string>
-    <string name="login_email_address_info"><![CDATA[O domínio do email é usado como a URL base. <a href="%s">Serviços são descobertos</a> através do DNS e URLs conhecidas.]]></string>
+    <string name="login_email_address_info">O domínio do email é usado como a URL base. <a href="%s">Serviços são descobertos</a> através do DNS e URLs conhecidas.</string>
     <string name="login_password">Palavra-passe</string>
     <string name="login_password_hide">Ocultar palavra-passe</string>
     <string name="login_password_show">Mostrar palavra-passe</string>
@@ -443,5 +441,4 @@
     <!--widgets-->
   <string name="widget_sync_all">Sincronizar tudo</string>
     <string name="widget_sync_all_accounts">Sincronizar todas as contas</string>
-    <!--cert4android-->
 </resources>

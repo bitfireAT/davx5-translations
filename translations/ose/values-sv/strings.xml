@@ -3,7 +3,7 @@
     <!--common strings-->
   <string name="account_invalid">Kontot finns inte (längre)</string>
     <string name="account_title_address_book">DAVx⁵ Adressbok</string>
-    <string name="account_prefs_use_app">Ändra inte kontot här!  Använd appen direkt för att hantera konton istället</string>
+    <string name="account_prefs_use_app">Ändra inte kontot här! Använd appen direkt för att hantera konton istället</string>
     <string name="dialog_delete">Radera</string>
     <string name="dialog_remove">Ta bort</string>
     <string name="dialog_deny">Avbryt</string>
@@ -32,9 +32,6 @@
     <string name="intro_battery_title">Regelbundna synkroniseringsintervall</string>
     <string name="intro_battery_text">För att programmet skall kunna köra regelbunden synkronisering %s måste det tillåtas att köra i bakgrunden. Annars kan Android pausa synkroniseringen när som helst.</string>
     <string name="intro_battery_dont_show">Jag behöver inte regelbunden synkronisering.*</string>
-    <string name="intro_autostart_title">%s kompatibilitet</string>
-    <string name="intro_autostart_text">Leverantörsspecifik firmware kan blockera synkronisering. Om du är drabbad kan du bara lösa detta manuellt.</string>
-    <string name="intro_autostart_dont_show">Jag har gjort de nödvändiga inställningarna. Påminn mig inte igen.*</string>
     <string name="intro_leave_unchecked">* Lämna omarkerat för att bli påmind senare.. Kan återställas i appens inställningar / %s.</string>
     <string name="intro_more_info">Mer information</string>
     <string name="intro_tasks_jtx">jtx Bord</string>
@@ -50,7 +47,7 @@
     <string name="intro_open_source_title">Öppen källkod mjukvara</string>
     <string name="intro_open_source_text">Vi är glada att du använder %s, som är mjukvara med öppen källkod. Utveckling, underhåll och support är hårt arbete. Överväg att bidra (det finns många sätt) eller en donation. Det skulle vara mycket uppskattat!</string>
     <string name="intro_open_source_details">Hur man kan bidra/donera</string>
-    <string name="intro_open_source_dont_show">Påminn mig inte på </string>
+    <string name="intro_open_source_dont_show">Påminn mig inte på</string>
     <plurals name="intro_open_source_dont_show_months">
         <item quantity="one">%d månad</item>
         <item quantity="other">%d månader</item>
@@ -138,7 +135,7 @@
     <string name="sync_warning_manage_battery_saver">Hantera batterisparare</string>
     <string name="sync_warning_low_storage">Lagringsutrymmet är lågt. Android kommer inte synka lokala ändringar direkt, utan vänta till nästa regelbundna synkronisering.</string>
     <string name="sync_warning_manage_storage">Hantera lagring</string>
-    <string name="sync_warning_calendar_storage_disabled_title">Kalenderdistributör saknas </string>
+    <string name="sync_warning_calendar_storage_disabled_title">Kalenderdistributör saknas</string>
     <string name="sync_warning_calendar_storage_disabled_description">Har du stängt av \"kalenderlagrings\"-systemappen?</string>
     <string name="sync_warning_contacts_storage_disabled_title">Kontaktdistributör saknas</string>
     <string name="sync_warning_contacts_storage_disabled_description">Har du stängt av \"kontaktlagrings\"-systemappen</string>
@@ -228,8 +225,7 @@
     <string name="account_install_icsx5">Installera ICSx⁵</string>
     <!--AddAccountActivity-->
   <string name="login_title">Lägg till konto</string>
-    <string name="login_privacy_hint"><![CDATA[All data kommer bara att överföras mellan din server och din enhet.
-%1$s kommer inte att skicka dom någon annanstans. Se <a href="%2$s">sekretesspolicy</a>.]]></string>
+    <string name="login_privacy_hint"><![CDATA[All data kommer bara att överföras mellan din server och din enhet.\n%1$s kommer inte att skicka dom någon annanstans. Se <a href="%2$s">sekretesspolicy</a>.]]></string>
     <string name="login_generic_login">Generisk inloggning</string>
     <string name="login_provider_login">Leverantörs-specifik inloggning</string>
     <string name="login_continue">Fortsätt</string>
@@ -237,7 +233,7 @@
     <string name="login_type_email">Logga in med e-postadress</string>
     <string name="login_email_address">E-postadress</string>
     <string name="login_email_address_error">Giltig e-postadress krävs</string>
-    <string name="login_email_address_info"><![CDATA[E-post domänen används som en bas URL. <a href="%s">Tjänster är upptäckta</a> genom DNS-uppslag och välkända URL:er.]]></string>
+    <string name="login_email_address_info">E-post domänen används som en bas URL. <a href="%s">Tjänster är upptäckta</a> genom DNS-uppslag och välkända URL:er.</string>
     <string name="login_password">Lösenord</string>
     <string name="login_password_hide">Dölj lösenord</string>
     <string name="login_password_show">Visa lösenord</string>
@@ -474,5 +470,4 @@
     <string name="widget_labeled_sync_label">Märkt synk knapp</string>
     <string name="widget_icon_sync_label">Ikon synk knapp</string>
     <string name="widget_sync_description">Tryck för att köra synkronisering manuellt.</string>
-    <!--cert4android-->
 </resources>
