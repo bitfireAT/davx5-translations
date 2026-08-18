@@ -410,4 +410,5 @@
   <string name="widget_sync_all">Synkroniser alle</string>
     <string name="widget_sync_all_accounts">Synkroniser alle konti</string>
     <string name="dismiss_forever">Ignorer for evigt</string>
+    <string name="notification_channel_user_interaction_desc">Brugerinteraktion påkrævet. Et problem skal løses manuelt.</string>
 </resources>
