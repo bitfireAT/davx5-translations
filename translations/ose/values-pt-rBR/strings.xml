@@ -530,4 +530,15 @@
     <string name="push_distributor_selection_required_title">Seleção de distribuidor necessária</string>
     <string name="push_distributor_selection_required_message">O distribuidor padrão do UnifiedPush não pode ser descoberto. Toque para selecionar um.</string>
     <string name="login_see_tested_with"><![CDATA[Se não tiver certeza do que escolher, consulte a documentação do seu provedor e nossa página de <a href="%s">serviços testados</a>.]]></string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Entre em contato com a equipe de suporte do <tt>%1$s</tt></b> (não do %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Entre em contato com a equipe do suporte do seu provedor</b> (não do %1$s).]]></string>
+    <string name="debug_info_find_help">Buscar ajuda na internet</string>
+    <string name="debug_info_find_help_faq">Encontre respostas para &lt;b&gt;perguntas comuns&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Mostrar perguntas frequentes no site</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Buscar ajuda&lt;/b&gt; no GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Abrir Discussões</string>
+    <string name="debug_info_find_help_issues">Procure &lt;b&gt;incidentes abertos&lt;/b&gt; no GitHub</string>
+    <string name="debug_info_find_help_issues_action">Mostrar incidentes atuais</string>
+    <string name="debug_info_find_help_manual">Encontre &lt;b&gt;informações técnicas&lt;/b&gt;</string>
+    <string name="debug_info_find_help_manual_action">Abrir Manual</string>
 </resources>
