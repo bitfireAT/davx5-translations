@@ -486,4 +486,5 @@
         <item quantity="many">%d suppressions non synchronisées</item>
         <item quantity="other">%d suppressions non synchronisées</item>
     </plurals>
+    <string name="app_settings_distrust_system_certs_dialog_message">Si ce paramètre est actif, les certificats système ne sont pas considérés comme fiables. Cela signifie que vous devrez accepter manuellement chaque certificat (également lorsque le serveur renouvelle son certificat) ou la configuration et la synchronisation du compte ne fonctionnera pas.</string>
 </resources>
