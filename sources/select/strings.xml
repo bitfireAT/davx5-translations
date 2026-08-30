@@ -3,6 +3,13 @@
   ~ Copyright © All Contributors. See LICENSE and AUTHORS in the root directory for details.
   -->
 <resources>
+
+    <!-- core strings -->
+    <string name="app_name" translatable="false">DAVx⁵ Select</string>
+
+    <string name="account_type" translatable="false">com.davx5.select</string>
+    <string name="account_type_address_book" translatable="false">com.davx5.select.address_book</string>
+
     <!-- Select welcome screen strings -->
     <string name="select_welcome_title_welcome_to">Welcome to</string>
     <string name="select_welcome_title_davx5">DAVx⁵</string>
