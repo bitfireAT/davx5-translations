@@ -40,4 +40,5 @@
         <item quantity="many">Sebrali jste %1$s. Zbývá %2$d odznaků.</item>
         <item quantity="other">Sebrali jste %1$s. Zbývá %2$d odznaků.</item>
     </plurals>
+    <string name="test_github_workflow"></string>
 </resources>
