@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="certificate_notification_connection_security">Tilkoblingssikkerhet</string>
     <string name="certificate_notification_user_interaction">Gransk sertifikatet</string>
-
     <string name="service_rejected_temporarily">Sertifikat midlertidig avvist</string>
-
     <string name="trust_certificate_unknown_certificate_found">cert4android har støtt på et ukjent sertifikat. Har du tiltro til det?</string>
     <string name="trust_certificate_x509_certificate_details">X509-sertifikatsdetaljer</string>
     <string name="trust_certificate_issued_for">Utstedt for</string>
@@ -17,5 +14,5 @@
     <string name="trust_certificate_accept">Godta</string>
     <string name="trust_certificate_reject">Avslå</string>
     <string name="trust_certificate_reset_info">Du kan tilbakestille alle egendefinerte sertifikater i programinnstillingene.</string>
-
+    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>
