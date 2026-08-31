@@ -106,4 +106,8 @@
     <string name="managed_config_network_empty_configuration">வெற்று கட்டமைப்பு</string>
     <string name="managed_config_network_config_url_saved">உள்ளமைவு முகவரி சேமிக்கப்பட்டது</string>
     <string name="managed_config_network_config_url_cleared">உள்ளமைவு முகவரி அழிக்கப்பட்டது</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
