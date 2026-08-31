@@ -21,7 +21,4 @@
     <string name="error_no_uri">QR-код не содержит действительного URL</string>
     <string name="error_no_config_url">URL QR-кода не является допустимым для конфигурации</string>
     <string name="error_invalid_schema">URL QR-кода имеет неизвестную схему</string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
 </resources>

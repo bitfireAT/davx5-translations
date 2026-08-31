@@ -21,7 +21,4 @@
     <string name="error_no_uri">Aquest codi QR no conté cap URL vàlid</string>
     <string name="error_no_config_url">L\'URL del codi QR no és un URL vàlid de configuració</string>
     <string name="error_invalid_schema">L\'URL del codi QR té un protocol desconegut</string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
 </resources>
