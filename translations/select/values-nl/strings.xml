@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="select_welcome_title_welcome_to">Welkom bij</string>
+    <string name="select_welcome_title_davx5">DAVx⁵</string>
+    <string name="select_welcome_title_select">Selecteren</string>
+    <string name="select_welcome_slogan_sync_your">Synchroniseer uw</string>
+    <string name="select_welcome_slogan">Synchroniseer uw contactpersonen, agenda\'s en taken met een geselecteerde server.</string>
+    <string name="select_welcome_slogan_contacts_calendars_tasks">Contactpersonen, agenda\'s en taken</string>
+    <string name="select_welcome_slogan_with_server">met een gedeeltes server.</string>
+    <string name="select_welcome_logo_description">DAVx⁵ Select Logo</string>
+    <string name="select_welcome_illustration_description">Persoon die naast grote smartphone met synchronisatiepictogrammen loopt</string>
+    <string name="login_type_preconfigured">Inloggen met aangeleverde configuratie</string>
+    <string name="profile_url">Config-URL</string>
+    <string name="profile_url_help">Uw serverprovider moet u een pre-configuratie-URL aanleveren.</string>
+    <string name="scan_qr">QR-code scannen</string>
+    <string name="sync_validation_title">Synchronisatievalidatie is mislukt</string>
+    <string name="sync_validation_content">Synchronisatie niet toegaan</string>
+    <string name="sync_validation_missing_service_url">Kon service-url bit account niet vinden. Probeer collecties te verversen.</string>
+    <string name="sync_validation_invalid_server">Server is niet ondersteund.</string>
+    <string name="sync_validation_validation_problem">Probleem bij het valideren van serverondersteuning.</string>
+    <string name="error_no_uri">De QR-code bevat geen geldige URL</string>
+    <string name="error_no_config_url">De URL van de QR-code is geen geldige configuratie-URL</string>
+    <string name="error_invalid_schema">De URL van de QR-code heeft een onbekend schema</string>
 </resources>
