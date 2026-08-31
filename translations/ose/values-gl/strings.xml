@@ -534,10 +534,4 @@
     <string name="debug_info_find_help_manual_action">Abrir o manual</string>
     <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Contacta co equipo de axuda <tt>%1$s</tt></b> (non %2$s).]]></string>
     <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Contacta co departamento de axuda do teu provedor</b> (non %1$s).]]></string>
-    <string name="authority_debug_provider" translatable="false"></string>
-    <string name="webdav_authority" translatable="false"></string>
-    <string name="app_settings_push_unified_push_url_text" translatable="false"></string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
 </resources>
