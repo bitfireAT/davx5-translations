@@ -12,4 +12,7 @@
     <string name="trust_certificate_reject">Reddet</string>
     <string name="trust_certificate_reset_info">Uygulama ayarlarından tüm özel sertifikaları sıfırlayabilirsin.</string>
     <string name="trust_certificate_press_back_to_reject">Sertifikayı reddetmek için tekrar Geri tuşuna basın</string>
+    <string name="trust_certificate_issued_by"></string>
+    <string name="trust_certificate_validity_period_value"></string>
+    <string name="trust_certificate_issued_for"></string>
 </resources>
