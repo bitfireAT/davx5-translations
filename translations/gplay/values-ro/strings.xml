@@ -39,4 +39,5 @@
         <item quantity="few">Ai consumat %1$s. Au mai rămas %2$d insigne.</item>
         <item quantity="other">Ai consumat %1$s. Au mai rămas %2$d de insigne.</item>
     </plurals>
+    <string name="test_github_workflow"></string>
 </resources>
