@@ -103,7 +103,7 @@
     <string name="login_managed_config_info_html"><![CDATA[Използвате автоматични настройки, зададени от <i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">Изчакване на управлявани настройки…</string>
     <string name="login_managed_config_it_department">Не знаете какво да направите? Свържете се с отдела за поддръжка.</string>
-    <string name="login_managed_config_not_private"><![CDATA[Приложението е <a href=\"%1$s\">предназначено за организации</a>, а не за физически лица. Можете <a href=\"%2$s\">да получите безплатен пробен лиценз</a>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Приложението е <a href="%1$s">предназначено за организации</a>, а не за физически лица. Можете <a href="%2$s">да получите безплатен пробен лиценз</a>.]]></string>
     <string name="login_managed_config_please_log_in">Моля, влезте</string>
     <string name="login_managed_config_select_certificate_info">Изберете клиентски сертификат, който да бъде използван за удостоверяване.</string>
     <string name="login_managed_config_certificate_selected">Клиентският сертификат %s, ще бъде използван за удостоверяване.</string>
@@ -124,4 +124,7 @@
     <string name="managed_config_network_empty_configuration">Празни настройки</string>
     <string name="managed_config_network_config_url_saved">Адресът с настройките е запазен</string>
     <string name="managed_config_network_config_url_cleared">Адресът с настройките е изчистен</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
