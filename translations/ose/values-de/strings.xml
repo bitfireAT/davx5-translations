@@ -522,4 +522,22 @@
     <string name="app_settings_push_no_push_services_found"><![CDATA[Es wurden keine Push-Dienste gefunden. Eine Liste der Distributor-Apps finden Sie unter <a href="%1$s">%2$s</a>.]]></string>
     <string name="app_settings_push_push_services">Push-Dienst</string>
     <string name="app_settings_push_capability_none">Keine Ihrer synchronisierungsfähigen Server-Sammlungen unterstützt derzeit WebDAV-Push.</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[]]></string>
+    <string name="login_see_tested_with"><![CDATA[]]></string>
+    <string name="debug_info_find_help_faq"></string>
+    <string name="debug_info_find_help_discussions"></string>
+    <string name="debug_info_find_help_issues_action"></string>
+    <string name="debug_info_find_help_faq_action"></string>
+    <string name="debug_info_find_help_manual_action"></string>
+    <string name="authority_debug_provider" translatable="false"></string>
+    <string name="debug_info_find_help"></string>
+    <string name="webdav_authority" translatable="false"></string>
+    <string name="debug_info_find_help_discussions_action"></string>
+    <string name="debug_info_find_help_issues"></string>
+    <string name="app_settings_push_unified_push_url_text" translatable="false"></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[]]></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="debug_info_find_help_manual"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
