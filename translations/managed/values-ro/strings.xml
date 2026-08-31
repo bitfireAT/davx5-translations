@@ -104,7 +104,7 @@
     <string name="login_managed_config_info_html"><![CDATA[Utilizezi o configurație automată oferită de <i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">Se așteaptă configurația gestionată…</string>
     <string name="login_managed_config_it_department">Nu știi ce să faci? Contactează departamentul IT.</string>
-    <string name="login_managed_config_not_private"><![CDATA[Această aplicație este <a href=\"%1$s\">destinată organizațiilor</a> și nu utilizatorilor privați. Poți <a href=\"%2$s\">obține o licență de testare gratuită</a>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Această aplicație este <a href="%1$s">destinată organizațiilor</a> și nu utilizatorilor privați. Poți <a href="%2$s">obține o licență de testare gratuită</a>.]]></string>
     <string name="login_managed_config_please_log_in">Conectează-te</string>
     <string name="login_managed_config_select_certificate_info">Alege un certificat de client care va fi folosit pentru autentificare.</string>
     <string name="login_managed_config_certificate_selected">Certificatul de client %s va fi folosit pentru autentificare.</string>
@@ -125,4 +125,7 @@
     <string name="managed_config_network_empty_configuration">Configurație goală</string>
     <string name="managed_config_network_config_url_saved">Adresa URL de configurare a fost salvată</string>
     <string name="managed_config_network_config_url_cleared">URL-ul de configurare șters</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
