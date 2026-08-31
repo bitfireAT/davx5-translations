@@ -114,4 +114,5 @@
     <string name="address_books_authority" translatable="false"></string>
     <string name="account_type_address_book" translatable="false"></string>
     <string name="account_type" translatable="false"></string>
+    <string name="app_name" translatable="false"></string>
 </resources>
