@@ -111,4 +111,7 @@
         <item quantity="one">Proporcionada para o dominio: %s</item>
         <item quantity="other">Proporcionada para os dominios: %s</item>
     </plurals>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
