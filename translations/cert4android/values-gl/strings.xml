@@ -7,7 +7,7 @@
     <string name="trust_certificate_x509_certificate_details">Detalles do certificado X509</string>
     <string name="trust_certificate_issued_for">Proporcionado para</string>
     <string name="trust_certificate_issued_by">Proporcionado por</string>
-    <string name="trust_certificate_validity_period">Válido por </string>
+    <string name="trust_certificate_validity_period">Válido por</string>
     <string name="trust_certificate_validity_period_value">%1$s – %2$s (non será imposto)</string>
     <string name="trust_certificate_fingerprints">Impresións dixitais</string>
     <string name="trust_certificate_fingerprint_verified">Verifiquei manualmente a impresión dixital.</string>
