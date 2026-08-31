@@ -451,7 +451,7 @@
     <string name="about_translations_over_weblate">Avec Weblate</string>
     <string name="about_translations_contribute">Aider à traduire</string>
     <string name="keep_android_open"><![CDATA[La liberté d\'Android est menacée. Découvrez comment la préserver sur <a href="%s">keepandroidopen.org</a>.]]></string>
-    <string name="sync_warning_contacts_storage_disabled_description">Avez-vous désactivé l\'application système \"Stockage de contacts\" ?</string>
+    <string name="sync_warning_contacts_storage_disabled_description">Avez-vous désactivé l\'application système \"Stockage de contacts\" ?</string>
     <string name="sync_warning_manage_apps">Gérer les applications</string>
     <string name="app_settings_push_description">Utilisez Push pour que les serveurs CalDAV/CardDAV/WebDAV notifient instantanément %s des modifications disponibles à vos données sur le serveur.</string>
     <string name="app_settings_push_use_push">Utilisez Push</string>
