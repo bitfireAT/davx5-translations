@@ -41,4 +41,5 @@
         <item quantity="many">Użyto %1$s. Pozostało %2$d odznak.</item>
         <item quantity="other">Użyto %1$s. Pozostało %2$d odznak.</item>
     </plurals>
+    <string name="test_github_workflow"></string>
 </resources>
