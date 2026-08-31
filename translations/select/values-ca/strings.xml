@@ -2,7 +2,7 @@
 <resources>
     <string name="select_welcome_title_welcome_to">Benvingut a</string>
     <string name="select_welcome_title_davx5">DAVx⁵</string>
-    <string name="select_welcome_title_select">Select</string>
+    <string name="select_welcome_title_select">Selecció</string>
     <string name="select_welcome_slogan_sync_your">Sincronitza els teus</string>
     <string name="select_welcome_slogan">Sincronitza els teus Contactes, Calendaris i Tasques amb un servidor seleccionat.</string>
     <string name="select_welcome_slogan_contacts_calendars_tasks">Contactes, Calendaris i Tasques</string>
@@ -11,14 +11,14 @@
     <string name="select_welcome_illustration_description">Persona caminant junt a un telèfon intel·ligent amb icones de sincronització</string>
     <string name="login_type_preconfigured">Iniciar sessió amb configuració proporcionada</string>
     <string name="profile_url">URL de Configuració</string>
-    <string name="profile_url_help">El teu proveïdor de servidor hauria de proporcionar-te una URL de pre-configuració.</string>
+    <string name="profile_url_help">El teu proveïdor de servidor hauria de proporcionar-te un URL de preconfiguració.</string>
     <string name="scan_qr">Escaneja codi QR</string>
     <string name="sync_validation_title">Validació de sincronització fallida</string>
     <string name="sync_validation_content">Sincronització no permesa</string>
-    <string name="sync_validation_missing_service_url">No s\'ha pogut trobar la URL de servei per al compte. Prova a refrescar les col·leccions.</string>
+    <string name="sync_validation_missing_service_url">No s\'ha pogut trobar l\'URL de servei per al compte. Prova a actualitzar les col·leccions.</string>
     <string name="sync_validation_invalid_server">Servidor no suportat.</string>
     <string name="sync_validation_validation_problem">Ha hagut un problema al validar el suport de servidor.</string>
-    <string name="error_no_uri">Aquest codi QR no conté una URL vàlida</string>
-    <string name="error_no_config_url">La URL del codi QR no és una URL de configuració vàlida</string>
-    <string name="error_invalid_schema">La URL del codi QR té un protocol desconegut</string>
+    <string name="error_no_uri">Aquest codi QR no conté cap URL vàlid</string>
+    <string name="error_no_config_url">L\'URL del codi QR no és un URL vàlid de configuració</string>
+    <string name="error_invalid_schema">L\'URL del codi QR té un protocol desconegut</string>
 </resources>
