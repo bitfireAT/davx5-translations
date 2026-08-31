@@ -3,7 +3,7 @@
     <string name="certificate_notification_connection_security">Защита на връзката</string>
     <string name="certificate_notification_user_interaction">Прегледайте сертификата</string>
     <string name="service_rejected_temporarily">Сертификатът е временно отхвърлен</string>
-    <string name="trust_certificate_unknown_certificate_found">cert4android се натъкна на непознат сертификат.  Желаете ли да му се доверите?</string>
+    <string name="trust_certificate_unknown_certificate_found">cert4android се натъкна на непознат сертификат. Желаете ли да му се доверите?</string>
     <string name="trust_certificate_x509_certificate_details">Подробности за сертификата на X509</string>
     <string name="trust_certificate_issued_for">Издаден за</string>
     <string name="trust_certificate_issued_by">Издаден от</string>
