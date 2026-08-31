@@ -39,5 +39,4 @@
         <item quantity="many">Você consumiu um %1$s. %2$d de selos restante.</item>
         <item quantity="other">Você consumiu um %1$s. %2$d selos restante.</item>
     </plurals>
-    <string name="test_github_workflow"></string>
 </resources>

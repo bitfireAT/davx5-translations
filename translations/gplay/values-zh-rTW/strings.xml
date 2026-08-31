@@ -24,15 +24,4 @@
     <string name="earn_badges">獲得徽章來支持我們！</string>
     <string name="billing_unavailable">結帳 API 無法使用</string>
     <string name="network_problems">網路問題，請稍後再試。</string>
-    <plurals name="badge_consumption_success_multiple">
-    </plurals>
-    <string name="badge_consumption_warning"></string>
-    <string name="badge_consumption_content_description"></string>
-    <string name="purchase_failed"></string>
-    <string name="badge_consumption_success_zero"></string>
-    <string name="test_github_workflow"></string>
-    <string name="badge_consumption_action"></string>
-    <string name="purchase_acknowledgement_failed"></string>
-    <string name="badge_consumption_message"></string>
-    <string name="purchase_acknowledgement_successful"></string>
 </resources>

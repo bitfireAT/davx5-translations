@@ -13,23 +13,4 @@
     <string name="button_buy_badge_free">GRATUIT</string>
     <string name="button_buy_badge_bought">Merci !</string>
     <string name="earn_badges">Acheter des badges pour nous soutenir !</string>
-    <string name="billing_unavailable"></string>
-    <string name="nav_feedback_inapp_didnt_appear"></string>
-    <plurals name="badge_consumption_success_multiple">
-    </plurals>
-    <string name="network_problems"></string>
-    <string name="nav_feedback_scroll_to_reviews"></string>
-    <string name="badge_consumption_warning"></string>
-    <string name="badge_consumption_content_description"></string>
-    <string name="purchase_failed"></string>
-    <string name="about_flavor_info"></string>
-    <string name="badge_consumption_success_zero"></string>
-    <string name="test_github_workflow"></string>
-    <string name="badge_consumption_action"></string>
-    <plurals name="you_earned_badges">
-    </plurals>
-    <string name="nav_feedback_google_play"></string>
-    <string name="purchase_acknowledgement_failed"></string>
-    <string name="badge_consumption_message"></string>
-    <string name="purchase_acknowledgement_successful"></string>
 </resources>

@@ -37,5 +37,4 @@
     <string name="badge_consumption_success_zero">Az összes %1$s-t felhasználtad.</string>
     <string name="badge_consumption_warning">A jelvény felhasználása nem visszavonható, lehetőséget ad arra hogy újra elnyerje.</string>
     <string name="badge_consumption_content_description">Elnyert jelvény. Kattintson a felhasználáshoz</string>
-    <string name="test_github_workflow"></string>
 </resources>

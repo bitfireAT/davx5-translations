@@ -41,5 +41,4 @@
         <item quantity="many">Вы использовали %1$s. Осталось %2$d значков.</item>
         <item quantity="other">Вы использовали %1$s. Осталось %2$d значков.</item>
     </plurals>
-    <string name="test_github_workflow"></string>
 </resources>

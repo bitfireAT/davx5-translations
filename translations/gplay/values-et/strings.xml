@@ -37,5 +37,4 @@
         <item quantity="one">Oled kasutanud: %1$s. Jäänud on veel %2$d märk.</item>
         <item quantity="other">Oled kasutanud: %1$s. Jäänud on veel %2$d märki.</item>
     </plurals>
-    <string name="test_github_workflow"></string>
 </resources>

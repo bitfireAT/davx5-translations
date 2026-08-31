@@ -37,5 +37,4 @@
         <item quantity="one">Je hebt een %1$s geconsumeerd. %2$d badge resterend.</item>
         <item quantity="other">Je hebt een %1$s geconsumeerd. %2$d badges resterend.</item>
     </plurals>
-    <string name="test_github_workflow"></string>
 </resources>

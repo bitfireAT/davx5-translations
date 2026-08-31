@@ -36,5 +36,4 @@
         <item quantity="many">Hai consumato un %1$s. %2$d medaglie rimaste.</item>
         <item quantity="other">Hai consumato un %1$s. %2$d medaglie rimaste.</item>
     </plurals>
-    <string name="test_github_workflow"></string>
 </resources>

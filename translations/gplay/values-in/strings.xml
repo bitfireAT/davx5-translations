@@ -32,5 +32,4 @@
     <plurals name="badge_consumption_success_multiple">
         <item quantity="other">Anda menghabiskan satu %1$s. Tersisa %2$d lencana.</item>
     </plurals>
-    <string name="test_github_workflow"></string>
 </resources>
