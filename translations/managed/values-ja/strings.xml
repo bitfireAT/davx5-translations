@@ -102,7 +102,7 @@
     <string name="login_managed_config_info_html"><![CDATA[<i>%s</i> が提供する自動設定を使用しています。]]></string>
     <string name="login_managed_config_waiting">Managed 設定を待機しています …</string>
     <string name="login_managed_config_it_department">何をするかわかりませんか？ IT 担当部署に連絡してください。</string>
-    <string name="login_managed_config_not_private"><![CDATA[このアプリは <a href=\"%1$s\">組織向け</a> で、個人ユーザー向けではありません。こちらから<a href=\"%2$s\">無料のテスト用ライセンス</a>を取得できます。]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[このアプリは <a href="%1$s">組織向け</a> で、個人ユーザー向けではありません。こちらから<a href="%2$s">無料のテスト用ライセンス</a>を取得できます。]]></string>
     <string name="login_managed_config_please_log_in">ログインしてください</string>
     <string name="login_managed_config_select_certificate_info">認証に使用するクライアント証明書を選択してください</string>
     <string name="login_managed_config_certificate_selected">クライアント証明書 %s が認証に使用されます。</string>
@@ -123,4 +123,7 @@
     <string name="managed_config_network_empty_configuration">設定が空白です</string>
     <string name="managed_config_network_config_url_saved">設定 URL が保存されました</string>
     <string name="managed_config_network_config_url_cleared">自動設定 URL がクリアされました</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
