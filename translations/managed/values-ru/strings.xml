@@ -105,7 +105,7 @@
     <string name="login_managed_config_info_html"><![CDATA[Вы используете автоматическую конфигурацию, предоставленную<i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">Ожидание управляемой конфигурации …</string>
     <string name="login_managed_config_it_department">Не знаете, что делать? Обратитесь в свой ИТ-отдел.</string>
-    <string name="login_managed_config_not_private"><![CDATA[Это приложение <a href=\"%1$s\">предназначено для организаций</a>, а не для частных пользователей. Вы можете <a href=\"%2$s\">получить бесплатную тестовую лицензию</a>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Это приложение <a href="%1$s">предназначено для организаций</a>, а не для частных пользователей. Вы можете <a href="%2$s">получить бесплатную тестовую лицензию</a>.]]></string>
     <string name="login_managed_config_please_log_in">Пожалуйста, авторизуйтесь</string>
     <string name="login_managed_config_select_certificate_info">Выберите сертификат клиента, который будет использоваться для аутентификации.</string>
     <string name="login_managed_config_certificate_selected">Сертификат клиента %s будет использоваться для аутентификации.</string>
