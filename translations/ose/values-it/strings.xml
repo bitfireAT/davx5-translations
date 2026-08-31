@@ -491,4 +491,5 @@
     <string name="app_settings_push_select_default_distributor_action">Imposta predefinito</string>
     <string name="login_fastmail_account">Account Fastmail</string>
     <string name="widget_sync_description">Tocca per sincronizzare manualmente.</string>
+    <string name="dismiss_forever"></string>
 </resources>
