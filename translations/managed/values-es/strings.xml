@@ -116,4 +116,12 @@
     <string name="managed_config_network_reset_url">Vacía la URL</string>
     <string name="managed_config_network_empty_configuration">Configuración vacía</string>
     <string name="managed_config_network_config_url_saved">URL de configuración guardada</string>
+    <string name="managed_config_network_no_config"></string>
+    <string name="managed_config_network_config_url_cleared"></string>
+    <string name="restriction_login_type_description"></string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="login_managed_config_not_private"><![CDATA[]]></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="restriction_login_type"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
