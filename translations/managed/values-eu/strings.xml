@@ -103,7 +103,7 @@
     <string name="login_managed_config_info_html"><![CDATA[ <i>%s</i>-ek emandako konfigurazio automatikoa erabiltzen ari zara.]]></string>
     <string name="login_managed_config_waiting">Kudeatutako konfigurazioaren zain...</string>
     <string name="login_managed_config_it_department">Ez dakizu zer egin? Jarri harremanetan zure IT sailarekin.</string>
-    <string name="login_managed_config_not_private"><![CDATA[Aplikazio hau <a href=\"%1$s\">erakundeentzat</a> da eta ez erabiltzaile pribatuentzat. <a href=\"%2$s\">Doako proba lizentzia</a> lor dezakezu.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Aplikazio hau <a href="%1$s">erakundeentzat</a> da eta ez erabiltzaile pribatuentzat. <a href="%2$s">Doako proba lizentzia</a> lor dezakezu.]]></string>
     <string name="login_managed_config_please_log_in">Mesedez, hasi saioa</string>
     <string name="login_managed_config_select_certificate_info">Aukeratu autentifikaziorako erabiliko den bezero-ziurtagiria.</string>
     <string name="login_managed_config_certificate_selected">Bezeroaren %s ziurtagiria erabiliko da autentifikaziorako.</string>
@@ -124,4 +124,7 @@
     <string name="managed_config_network_empty_configuration">Konfigurazio hutsa</string>
     <string name="managed_config_network_config_url_saved">Konfigurazio URLa gorde da</string>
     <string name="managed_config_network_config_url_cleared">Konfigurazio URLa garbitu da</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
