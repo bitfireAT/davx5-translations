@@ -3,7 +3,7 @@
     <string name="certificate_notification_connection_security">Zabezpečenie spojenia</string>
     <string name="certificate_notification_user_interaction">Skontrolujte, prosím, certifikát</string>
     <string name="service_rejected_temporarily">Certifikát bol dočasne odmietnutý</string>
-    <string name="trust_certificate_unknown_certificate_found">cert4android  zistil neznámy certifikát. Prajete si dôverovať mu?</string>
+    <string name="trust_certificate_unknown_certificate_found">cert4android zistil neznámy certifikát. Prajete si dôverovať mu?</string>
     <string name="trust_certificate_x509_certificate_details">Detaily X509 certifikátu</string>
     <string name="trust_certificate_issued_for">Vydaný pre</string>
     <string name="trust_certificate_issued_by">Vydaný</string>
