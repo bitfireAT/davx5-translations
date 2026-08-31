@@ -491,4 +491,51 @@
     <string name="login_download_regular_davx5"><![CDATA[Zamiast tego użyj <a href="%s">DAVx⁵</a>, który może być używany ze wszystkimi usługami.]]></string>
     <string name="login_invalid_use_case_info"><![CDATA[Ten wariant %s aplikacji może być używany tylko z wybranymi usługami.]]></string>
     <string name="login_invalid_use_case">Nieprawidłowy sposób użycia</string>
+    <string name="app_settings_push_select_default_distributor_description"></string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[]]></string>
+    <plurals name="collection_synced_items_past_event_time_limit">
+    </plurals>
+    <string name="app_settings_push_select_default_distributor_action"></string>
+    <string name="login_see_tested_with"><![CDATA[]]></string>
+    <string name="collection_datatype_contacts_count"></string>
+    <string name="push_distributor_selection_required_message"></string>
+    <string name="app_settings_push_capability_none"></string>
+    <string name="collection_datatype_events_count"></string>
+    <string name="app_settings_push_enabled_summary"></string>
+    <string name="debug_info_find_help_faq"></string>
+    <string name="app_settings_push_use_push"></string>
+    <string name="debug_info_find_help_discussions"></string>
+    <plurals name="collection_synced_items_deleted">
+    </plurals>
+    <string name="debug_info_find_help_issues_action"></string>
+    <string name="app_settings_push_info_text"><![CDATA[]]></string>
+    <string name="push_distributor_selection_required_title"></string>
+    <string name="debug_info_find_help_faq_action"></string>
+    <string name="collection_synced_items_title"></string>
+    <plurals name="collection_synced_items_modified">
+    </plurals>
+    <string name="debug_info_find_help_manual_action"></string>
+    <string name="authority_debug_provider" translatable="false"></string>
+    <string name="app_settings_push_no_push_services_found"><![CDATA[]]></string>
+    <string name="collection_datatype_tasks_count"></string>
+    <string name="app_settings_push_title"></string>
+    <string name="debug_info_find_help"></string>
+    <string name="notification_channel_user_interaction_desc"></string>
+    <string name="webdav_authority" translatable="false"></string>
+    <string name="debug_info_find_help_discussions_action"></string>
+    <string name="debug_info_find_help_issues"></string>
+    <string name="app_settings_push_push_services"></string>
+    <string name="app_settings_push_capability_some"></string>
+    <string name="app_settings_push_disabled_summary"></string>
+    <string name="app_settings_push_unified_push_url_text" translatable="false"></string>
+    <string name="notification_channel_user_interaction"></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[]]></string>
+    <plurals name="collection_synced_items_total">
+    </plurals>
+    <string name="app_settings_push_default_distributor_text"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="debug_info_find_help_manual"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
+    <string name="app_settings_push_description"></string>
 </resources>
