@@ -492,4 +492,59 @@
     <string name="login_fastmail_account">Account Fastmail</string>
     <string name="widget_sync_description">Tocca per sincronizzare manualmente.</string>
     <string name="dismiss_forever"></string>
+    <string name="login_download_regular_davx5"><![CDATA[]]></string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[]]></string>
+    <string name="app_settings_unifiedpush_no_endpoint"></string>
+    <string name="login_see_tested_with"><![CDATA[]]></string>
+    <string name="debug_info_privacy_warning_description"></string>
+    <string name="push_distributor_selection_required_message"></string>
+    <string name="login_google_client_privacy_policy"><![CDATA[]]></string>
+    <string name="login_account_not_added"></string>
+    <string name="collection_push_web_push"></string>
+    <string name="debug_info_find_help_faq"></string>
+    <string name="debug_info_find_help_discussions"></string>
+    <string name="webdav_add_mount_username_optional"></string>
+    <string name="debug_info_find_help_issues_action"></string>
+    <string name="app_settings_unifiedpush_distributor_fcm"></string>
+    <string name="push_distributor_selection_required_title"></string>
+    <string name="debug_info_find_help_faq_action"></string>
+    <string name="collection_synced_items_title"></string>
+    <string name="debug_info_find_help_manual_action"></string>
+    <string name="authority_debug_provider" translatable="false"></string>
+    <string name="debug_info_unexpected_error"></string>
+    <string name="sync_notification_pending_push_message"></string>
+    <string name="webdav_add_mount_empty_more_info"><![CDATA[]]></string>
+    <string name="app_settings_push_title"></string>
+    <string name="debug_info_find_help"></string>
+    <string name="debug_info_http_5xx_description"></string>
+    <string name="login_see_tested_services"><![CDATA[]]></string>
+    <string name="webdav_authority" translatable="false"></string>
+    <string name="debug_info_find_help_discussions_action"></string>
+    <string name="debug_info_privacy_warning_title"></string>
+    <string name="debug_info_find_help_issues"></string>
+    <string name="login_invalid_use_case_info"><![CDATA[]]></string>
+    <string name="collection_read_only_by_setting"></string>
+    <string name="debug_info_http_405_description"></string>
+    <string name="webdav_add_mount_password_optional"></string>
+    <string name="keep_android_open"><![CDATA[]]></string>
+    <string name="collection_push_subscribed_at"></string>
+    <string name="login_fastmail"></string>
+    <string name="widget_icon_sync_label"></string>
+    <string name="app_settings_push_unified_push_url_text" translatable="false"></string>
+    <string name="sync_notification_pending_push_title"></string>
+    <string name="login_fastmail_sign_in"></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[]]></string>
+    <string name="login_invalid_use_case"></string>
+    <string name="webdav_add_mount_mountpoint_displayname"></string>
+    <string name="settings_app_password_hint"><![CDATA[]]></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="sync_error_retry_limit_reached"></string>
+    <string name="debug_info_find_help_manual"></string>
+    <string name="widget_labeled_sync_label"></string>
+    <string name="debug_info_can_not_view_resource"></string>
+    <string name="login_download_button"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
+    <string name="debug_info_http_404_description"></string>
+    <string name="debug_info_view_local_resource"></string>
 </resources>
