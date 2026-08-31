@@ -541,4 +541,10 @@
     <string name="debug_info_find_help_issues">Vezi &lt;b&gt;probleme deschise&lt;/b&gt; pe GitHub</string>
     <string name="debug_info_find_help_issues_action">Afișează problemele curente</string>
     <string name="debug_info_find_help_manual">Găsește &lt;b&gt;informații tehnice&lt;/b&gt;</string>
+    <string name="authority_debug_provider" translatable="false"></string>
+    <string name="webdav_authority" translatable="false"></string>
+    <string name="app_settings_push_unified_push_url_text" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
