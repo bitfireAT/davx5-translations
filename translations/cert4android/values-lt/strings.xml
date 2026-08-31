@@ -1,18 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="trust_certificate_fingerprint_verified"></string>
-    <string name="trust_certificate_issued_by"></string>
-    <string name="trust_certificate_validity_period_value"></string>
-    <string name="trust_certificate_validity_period"></string>
-    <string name="certificate_notification_connection_security"></string>
-    <string name="trust_certificate_unknown_certificate_found"></string>
-    <string name="trust_certificate_reject"></string>
-    <string name="trust_certificate_accept"></string>
-    <string name="trust_certificate_press_back_to_reject"></string>
-    <string name="service_rejected_temporarily"></string>
-    <string name="certificate_notification_user_interaction"></string>
-    <string name="trust_certificate_x509_certificate_details"></string>
-    <string name="trust_certificate_fingerprints"></string>
-    <string name="trust_certificate_issued_for"></string>
-    <string name="trust_certificate_reset_info"></string>
-</resources>
+    </resources>

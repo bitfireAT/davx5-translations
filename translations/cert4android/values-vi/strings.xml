@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">Chấp nhận</string>
     <string name="trust_certificate_reject">Từ chối</string>
     <string name="trust_certificate_reset_info">Bạn có thể đặt lại tất cả chứng chỉ tuỳ chỉnh trong cài đặt ứng dụng.</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>

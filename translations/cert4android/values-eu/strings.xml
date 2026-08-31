@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">Onartu</string>
     <string name="trust_certificate_reject">Baztertu</string>
     <string name="trust_certificate_reset_info">Ziurtagiri pertsonalizatu guztiak berrezarri ditzakezu aplikazioaren ezarpenetan.</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>

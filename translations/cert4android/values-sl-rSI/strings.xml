@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">Sprejmi</string>
     <string name="trust_certificate_reject">Zavrni</string>
     <string name="trust_certificate_reset_info">V nastavitvah aplikacije lahko ponastavite vse certifikate.</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>

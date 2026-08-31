@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">Akceptuj</string>
     <string name="trust_certificate_reject">Ôdciep</string>
     <string name="trust_certificate_reset_info">We sztelōnkach aplikacyje możesz zresetować wszyjske włosne certyfikaty.</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>

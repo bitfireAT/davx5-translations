@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">Αποδοχή</string>
     <string name="trust_certificate_reject">Απόρριψη</string>
     <string name="trust_certificate_reset_info">Μπορείτε να επαναφέρετε όλα τα προσαρμοσμένα πιστοποιητικά στις ρυθμίσεις της εφαρμογής.</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>

@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">Godta</string>
     <string name="trust_certificate_reject">Avslå</string>
     <string name="trust_certificate_reset_info">Du kan tilbakestille alle egendefinerte sertifikater i programinnstillingene.</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>

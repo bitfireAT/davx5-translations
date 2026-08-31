@@ -14,5 +14,4 @@
     <string name="trust_certificate_accept">接受</string>
     <string name="trust_certificate_reject">拒絕</string>
     <string name="trust_certificate_reset_info">您可以在程式的設定裡重設所有自訂的憑證</string>
-    <string name="trust_certificate_press_back_to_reject"></string>
 </resources>
