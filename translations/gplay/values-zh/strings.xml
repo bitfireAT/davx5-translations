@@ -35,4 +35,5 @@
         <item quantity="other">您消耗了一枚 %1$s。还剩 %2$d 枚徽章。</item>
     </plurals>
     <string name="badge_consumption_action">轻按使用</string>
+    <string name="test_github_workflow"></string>
 </resources>
