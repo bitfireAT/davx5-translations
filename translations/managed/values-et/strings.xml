@@ -124,4 +124,7 @@
     <string name="managed_config_network_empty_configuration">Seadistused on veel tegemata</string>
     <string name="managed_config_network_config_url_saved">Seadistuste võrguaadress on salvestatud</string>
     <string name="managed_config_network_config_url_cleared">Seadistuste võrguaadress on eemaldatud</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
