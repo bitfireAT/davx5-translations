@@ -34,4 +34,5 @@
         <item quantity="one">நீங்கள் %1$s ஐ உட்கொண்டீர்கள். %2$d ஒட்டு மீதமுள்ளது.</item>
         <item quantity="other">நீங்கள் %1$s ஐ உட்கொண்டீர்கள். %2$d badges left.</item>
     </plurals>
+    <string name="test_github_workflow"></string>
 </resources>
