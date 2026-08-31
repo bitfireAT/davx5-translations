@@ -36,4 +36,5 @@
         <item quantity="one">თქვენ გამოიყენეთ %1$s. დარჩა %2$d სამკერდე ნიშანი.</item>
         <item quantity="other">თქვენ გამოიყენეთ %1$s; დარჩა %2$d სამკერდე ნიშანი.</item>
     </plurals>
+    <string name="test_github_workflow"></string>
 </resources>
