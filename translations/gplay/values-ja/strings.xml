@@ -24,4 +24,15 @@
     <string name="earn_badges">支援のためにバッジを入手！</string>
     <string name="billing_unavailable">支払い API が利用できません</string>
     <string name="network_problems">ネットワークに問題があります。後でもう一度お試しください。</string>
+    <plurals name="badge_consumption_success_multiple">
+    </plurals>
+    <string name="badge_consumption_warning"></string>
+    <string name="badge_consumption_content_description"></string>
+    <string name="purchase_failed"></string>
+    <string name="badge_consumption_success_zero"></string>
+    <string name="test_github_workflow"></string>
+    <string name="badge_consumption_action"></string>
+    <string name="purchase_acknowledgement_failed"></string>
+    <string name="badge_consumption_message"></string>
+    <string name="purchase_acknowledgement_successful"></string>
 </resources>
