@@ -4,7 +4,7 @@
     <string name="certificate_notification_user_interaction">Kérjük ellenőrizze a tanúsítványt</string>
     <string name="service_rejected_temporarily">Tanúsítvány ideglenesen elutasítva</string>
     <string name="trust_certificate_unknown_certificate_found">A cert4android egy ismeretlen tanusítványt lelt. Megbízik benne?</string>
-    <string name="trust_certificate_x509_certificate_details">X509 tanúsítvány részletei </string>
+    <string name="trust_certificate_x509_certificate_details">X509 tanúsítvány részletei</string>
     <string name="trust_certificate_issued_for">Birtokló</string>
     <string name="trust_certificate_issued_by">Kibocsátó</string>
     <string name="trust_certificate_validity_period">Érvényesség</string>
