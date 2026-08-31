@@ -103,7 +103,7 @@
     <string name="login_managed_config_info_html"><![CDATA[Você está usando uma configuração automática fornecida por <i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">Esperando pela configuração gerenciada…</string>
     <string name="login_managed_config_it_department">Não sabe o que fazer? Entre em contato com o seu departamento de T.I.</string>
-    <string name="login_managed_config_not_private"><![CDATA[Este app é <a href=\"%1$s\">destinado a organizações</a> e não para usuários privados. Você pode <a href=\"%2$s\">obter uma licença grátis de testes</a>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Este app é <a href="%1$s">destinado a organizações</a> e não para usuários privados. Você pode <a href="%2$s">obter uma licença grátis de testes</a>.]]></string>
     <string name="login_managed_config_please_log_in">Entre</string>
     <string name="login_managed_config_select_certificate_info">Escolha um certificado de cliente que será utilizado para autenticação.</string>
     <string name="login_managed_config_certificate_selected">O certificado de cliente %s será utilizado para autenticação.</string>
@@ -125,4 +125,7 @@
     <string name="managed_config_network_config_url_saved">URL de configuração salvo</string>
     <string name="managed_config_network_config_url_cleared">URL de configuração limpa</string>
     <string name="restriction_show_only_personal_description">Se apenas conjuntos do próprio homeset são exibidos. -1 ou nada significa que usuários podem escolher.</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
