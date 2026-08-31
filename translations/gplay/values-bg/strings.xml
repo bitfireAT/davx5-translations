@@ -28,4 +28,12 @@
     <string name="purchase_acknowledgement_successful">Благодарим ви, че но поддържате!</string>
     <string name="purchase_failed">Грешка при поръчка</string>
     <string name="network_problems">Проблеми с мрежата, опитайте по-късно.</string>
+    <plurals name="badge_consumption_success_multiple">
+    </plurals>
+    <string name="badge_consumption_warning"></string>
+    <string name="badge_consumption_content_description"></string>
+    <string name="badge_consumption_success_zero"></string>
+    <string name="test_github_workflow"></string>
+    <string name="badge_consumption_action"></string>
+    <string name="badge_consumption_message"></string>
 </resources>
