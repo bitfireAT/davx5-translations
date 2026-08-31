@@ -105,4 +105,7 @@
     <string name="login_managed_config_select_certificate_info"></string>
     <string name="restriction_login_introduction"></string>
     <string name="restriction_default_alarm"></string>
+    <string name="intro_slogan2"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="intro_slogan1"></string>
 </resources>
