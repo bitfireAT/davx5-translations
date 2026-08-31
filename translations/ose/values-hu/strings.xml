@@ -522,4 +522,22 @@
     <string name="widget_labeled_sync_label">Címkés szinkronizálási gomb</string>
     <string name="widget_icon_sync_label">Ikonos szinkronizálási gomb</string>
     <string name="widget_sync_description">Koppintson a szinkronizálás kézi futtatásához.</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[]]></string>
+    <string name="login_see_tested_with"><![CDATA[]]></string>
+    <string name="debug_info_find_help_faq"></string>
+    <string name="debug_info_find_help_discussions"></string>
+    <string name="debug_info_find_help_issues_action"></string>
+    <string name="debug_info_find_help_faq_action"></string>
+    <string name="debug_info_find_help_manual_action"></string>
+    <string name="authority_debug_provider" translatable="false"></string>
+    <string name="debug_info_find_help"></string>
+    <string name="webdav_authority" translatable="false"></string>
+    <string name="debug_info_find_help_discussions_action"></string>
+    <string name="debug_info_find_help_issues"></string>
+    <string name="app_settings_push_unified_push_url_text" translatable="false"></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[]]></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="debug_info_find_help_manual"></string>
+    <string name="app_name" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
