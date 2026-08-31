@@ -103,7 +103,7 @@
     <string name="login_managed_config_info_html"><![CDATA[Du använder en automatisk konfiguration som tillhandahålls av <i>%s</i>.]]></string>
     <string name="login_managed_config_waiting">Väntat på managerad konfiguration ...</string>
     <string name="login_managed_config_it_department">Vet du inte vad du ska göra? Kontakta din IT-avdelning.</string>
-    <string name="login_managed_config_not_private"><![CDATA[Denna app är <a href=\"%1$s\">avsedd för organisationer</a> och inte för privata användare. Du kan <a href=\"%2$s\">få en gratis test licens</a>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Denna app är <a href="%1$s">avsedd för organisationer</a> och inte för privata användare. Du kan <a href="%2$s">få en gratis test licens</a>.]]></string>
     <string name="login_managed_config_please_log_in">Var vänlig logga in</string>
     <string name="login_managed_config_select_certificate_info">Välj ett klientcertifikat som kommer att användas för autentisering.</string>
     <string name="login_managed_config_certificate_selected">Klientcertifikatet %s kommer att användas för autentisering</string>
@@ -124,4 +124,7 @@
     <string name="managed_config_network_empty_configuration">Tom konfiguration</string>
     <string name="managed_config_network_config_url_saved">Konfigurations URL sparad.</string>
     <string name="managed_config_network_config_url_cleared">Konfigurations URL rensad</string>
+    <string name="address_books_authority" translatable="false"></string>
+    <string name="account_type_address_book" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
 </resources>
