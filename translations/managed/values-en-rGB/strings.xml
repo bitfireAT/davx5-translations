@@ -120,8 +120,4 @@
     <string name="login_managed_config_not_private"><![CDATA[This app is <a href="%1$s">intended for organisations</a> and not for private users. You can <a href="%2$s">obtain a free test license</a>.]]></string>
     <string name="managed_config_network_no_config">This app is managed over the network, but no configuration URL has been set yet.</string>
     <string name="managed_config_network_config_url_cleared">Configuration URL cleared</string>
-    <string name="address_books_authority" translatable="false"></string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
 </resources>

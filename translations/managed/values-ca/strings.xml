@@ -125,8 +125,4 @@
     <string name="managed_config_network_empty_configuration">Configuració buida</string>
     <string name="managed_config_network_config_url_saved">URL de configuració desada</string>
     <string name="managed_config_network_config_url_cleared">S\'ha netejat l\'URL de configuració</string>
-    <string name="address_books_authority" translatable="false"></string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
 </resources>

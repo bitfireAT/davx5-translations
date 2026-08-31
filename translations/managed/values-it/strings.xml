@@ -110,8 +110,4 @@
     <string name="restriction_support_homepage_url_description">URL HTTP(S) della pagina di supporto (pagina Intranet che descrive come usare DAVx⁵)</string>
     <string name="restriction_support_phone_number_description">Numero di telefono di supporto (formato: +1 234 5678901)</string>
     <string name="login_managed_config_not_private"><![CDATA[Questa app è <a href="%1$s">destinata alle organizzazioni</a> e non agli utenti privati. Puoi <a href="%2$s">ottenne una licenza di prova gratuita</a>.]]></string>
-    <string name="address_books_authority" translatable="false"></string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
 </resources>

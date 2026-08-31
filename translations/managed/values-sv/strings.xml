@@ -124,8 +124,4 @@
     <string name="managed_config_network_empty_configuration">Tom konfiguration</string>
     <string name="managed_config_network_config_url_saved">Konfigurations URL sparad.</string>
     <string name="managed_config_network_config_url_cleared">Konfigurations URL rensad</string>
-    <string name="address_books_authority" translatable="false"></string>
-    <string name="account_type_address_book" translatable="false"></string>
-    <string name="account_type" translatable="false"></string>
-    <string name="app_name" translatable="false"></string>
 </resources>
