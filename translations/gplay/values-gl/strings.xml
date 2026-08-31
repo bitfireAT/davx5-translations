@@ -37,4 +37,5 @@
         <item quantity="one">Consumiches un %1$s. Quédache %2$d insignia.</item>
         <item quantity="other">Consumiches un %1$s. Quéndanche %2$d insignias.</item>
     </plurals>
+    <string name="test_github_workflow"></string>
 </resources>
