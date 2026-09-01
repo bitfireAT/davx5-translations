@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="select_welcome_title_welcome_to">Tere tulemast, see on</string>
+    <string name="select_welcome_title_davx5">DAVx⁵</string>
+    <string name="select_welcome_title_select">Select</string>
+    <string name="select_welcome_slogan_sync_your">Sünkrooni oma</string>
+    <string name="select_welcome_slogan">Sünkrooni oma kontaktid, kalendrid ja ülesanded valitud serveriga.</string>
+    <string name="select_welcome_slogan_contacts_calendars_tasks">kontaktid, kalendrid ja ülesanded</string>
+    <string name="select_welcome_slogan_with_server">valitud serveriga.</string>
+    <string name="select_welcome_logo_description">DAVx⁵ Selecti logo</string>
+    <string name="select_welcome_illustration_description">Inimene kõndimas suure nutitelefoni kõrval, kus paistavad sünkroonimise ikoonid</string>
+    <string name="login_type_preconfigured">Logi sisse etteantud seadistustega</string>
+    <string name="profile_url">Seadistuste võrguaadress</string>
+    <string name="profile_url_help">Sinu teenusepakkuja peaks sulle andma eelseadistuste võrguaadressi.</string>
+    <string name="scan_qr">Skaneeri QR-koodi</string>
+    <string name="sync_validation_title">Sünkroniseerimise valideerimine ei õnnestunud</string>
+    <string name="sync_validation_content">Sünkroonimine pole kasutusel</string>
+    <string name="sync_validation_missing_service_url">Kasutajakonto jaoks ei leidunud teenuse aadressi. Proovi kogude uuendamist.</string>
+    <string name="sync_validation_invalid_server">Server pole toetatud.</string>
+    <string name="sync_validation_validation_problem">Viga serveripoolse toe kontrollimisel.</string>
+    <string name="error_no_uri">Selles QR-koodis ei leidu korrektset võrguaadressi</string>
+    <string name="error_no_config_url">Selles QR-koodis leiduv võrguaadress pole korrektne seadistuste võrguaadress</string>
+    <string name="error_invalid_schema">Selles QR-koodis leiduv võrguaadress sisaldab tundmatut skeemat</string>
 </resources>
