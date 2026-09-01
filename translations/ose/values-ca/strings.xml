@@ -220,7 +220,7 @@
     <string name="account_journal">diari</string>
     <string name="account_task_list">tasques</string>
     <string name="account_only_personal">Mostra només els personals</string>
-    <string name="account_refresh_collections">Recarregar llista</string>
+    <string name="account_refresh_collections">Recarrega la llista</string>
     <string name="account_webcal_external_app">Les subscripcions Webcal es poden sincronitzar amb aplicacions externes.</string>
     <string name="account_no_webcal_handler_found">No s\'ha trobat cap aplicació compatible amb Webcal</string>
     <string name="account_install_icsx5">Instal·la ICSx⁵</string>
