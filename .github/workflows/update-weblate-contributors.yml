@@ -15,8 +15,6 @@ concurrency:
 jobs:
   update-weblate-contributors:
     name: Update Weblate Contributors
-    # Only run for merged translation PRs opened by Hosted Weblate
-    if: github.event.pull_request.merged == true && github.event.pull_request.user.login == 'weblate'
     permissions:
       contents: write
     runs-on: ubuntu-latest
