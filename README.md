@@ -1,5 +1,7 @@
 # DAVx⁵ translations
 
+[![Translation status](https://hosted.weblate.org/widget/davx5/open-graph.png)](https://hosted.weblate.org/engage/davx5/)
+
 Want to help translating? → https://hosted.weblate.org/projects/davx5/
 
 This repository holds the **English source strings and all translations** of DAVx⁵. The other DAVx⁵ repositories mirror their english original strings over in to `/sources`. [Weblate](https://hosted.weblate.org/projects/davx5/) reads the original strings and writes only to `/translations`. The other DAVx⁵ repositories pull this whole repository back in as a git submodule named `l10n`.
