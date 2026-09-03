@@ -4,7 +4,7 @@
 
 Want to help translating? → https://hosted.weblate.org/projects/davx5/
 
-This repository holds the **English source strings and all translations** of DAVx⁵. The other DAVx⁵ repositories mirror their english original strings over in to `/sources`. [Weblate](https://hosted.weblate.org/projects/davx5/) reads the original strings and writes only to `/translations`. The other DAVx⁵ repositories pull this whole repository back in as a git submodule named `l10n`.
+This repository holds the **English source strings and all translations** of DAVx⁵. The other [DAVx⁵ repositories](https://github.com/bitfireAT/davx5-ose) mirror their english original strings over in to `/sources`. [Weblate](https://hosted.weblate.org/projects/davx5/) reads the original strings and writes only to `/translations`. The other DAVx⁵ repositories pull this whole repository back in as a git submodule named `l10n`.
 
 ## How a string travels
 
