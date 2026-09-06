@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="select_welcome_title_welcome_to">Vítejte v</string>
+    <string name="select_welcome_title_davx5">DAVx⁵</string>
+    <string name="select_welcome_title_select">Vybrat</string>
+    <string name="select_welcome_slogan_sync_your">Synchronizujte své</string>
+    <string name="select_welcome_slogan">Synchronizujte své kontakty, kalendáře a úkoly se zvoleným serverem.</string>
+    <string name="select_welcome_slogan_contacts_calendars_tasks">kontakty, kalendáře a úkoly</string>
+    <string name="select_welcome_slogan_with_server">se zvoleným severem.</string>
+    <string name="select_welcome_logo_description">Logo výběru DAVx⁵</string>
+    <string name="select_welcome_illustration_description">Kráčející osoba vedle velkého chytrého telefonu s ikonami synchronizace</string>
+    <string name="login_type_preconfigured">Přihlásit se pomocí poskytnuté konfigurace</string>
+    <string name="profile_url">Adresa konfigurace</string>
+    <string name="profile_url_help">Váš poskytovatel serveru by vám měl poskytnout adresu pro předběžnou konfiguraci.</string>
+    <string name="scan_qr">Naskenovat QR kód</string>
+    <string name="sync_validation_title">Validace synchronizace selhala</string>
+    <string name="sync_validation_content">Synchronizace není povolena</string>
+    <string name="sync_validation_missing_service_url">Nepodařilo se najít adresu služby pro účet. Zkuste znovu načíst sbírky.</string>
+    <string name="sync_validation_invalid_server">Server není podporován.</string>
+    <string name="sync_validation_validation_problem">Chyba při validaci serverové podpory.</string>
+    <string name="error_no_uri">QR kód neobsahuje platnou adresu URL</string>
+    <string name="error_no_config_url">Adresa URL QR kódu není platnou adresou konfigurace</string>
+    <string name="error_invalid_schema">Adresa URL QR kódu má neznámé schéma</string>
 </resources>
