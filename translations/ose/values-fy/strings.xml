@@ -211,7 +211,7 @@
     <string name="login_no_service">Koe de CalDAV or CardDAV-service net fyne.</string>
     <string name="login_no_service_info">De basis-URL liket gjin beskikbere CalDAV of CardDAV-URL te wêzen. Mooglikheden koeden net ûntdutsen wurde.</string>
     <string name="login_see_tested_services"><![CDATA[Selektearje de hânlieding fan dyn serviceprovider en <a href="%s">úse list fan teste services</a> en harren basis-URLs.]]></string>
-    <string name="login_check_credentials">Tsjek dyn autentikaasje (meastentiids brûkersnamme en wachtwurd).</string>
+    <string name="login_check_credentials"><![CDATA[Tsjek dyn autentikaasje (meastentiids brûkersnamme en wachtwurd).]]></string>
     <string name="login_logs_available">Fjirdere technyske ynformaasje is beskikber yn de logs.</string>
     <string name="login_view_logs">Logs besjen</string>
     <string name="login_invalid_use_case">Brûkswiize is net jildich</string>
