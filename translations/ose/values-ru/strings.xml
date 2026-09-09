@@ -280,9 +280,9 @@
     <string name="login_configuration_detection">Обнаружение конфигурации</string>
     <string name="login_querying_server">Ожидайте, выполняется запрос к серверу…</string>
     <string name="login_no_service">Не удалось найти службу CalDAV или CardDAV.</string>
-    <string name="login_no_service_info">Судя по всему, базовый URL не является допустимым URL CalDAV/CardDAV, и обнаружение службы не увенчалось успехом.</string>
-    <string name="login_see_tested_services"><![CDATA[Обратитесь к инструкциям вашего поставщика сервиса, а также к <a href="%s">нашему списку проверенных сервисов</a> и их базовых URL.]]></string>
-    <string name="login_check_credentials"><![CDATA[Кроме того, проверьте правильность авторизации (обычно это имя пользователя и пароль).]]></string>
+    <string name="login_no_service_info">По указанному вами базовому URL отсутствует служба CalDAV или CardDAV, и автоматическое обнаружение также ее не обнаружило. Обычно это означает, что базовый URL указан неверно.</string>
+    <string name="login_see_tested_services"><![CDATA[Правильный базовый URL, как правило, указан в документации вашего поставщика услуг. Вы также можете найти его в <a href="%s">нашем списке протестированных сервисов</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[Сервер отклонил запрос на вход. Пожалуйста, проверьте свое имя пользователя и пароль. Некоторые провайдеры требуют ввести <a href="%s">пароль приложения</a> вместо обычного пароля.]]></string>
     <string name="login_logs_available">Дополнительную техническую информацию можно найти в логах.</string>
     <string name="login_view_logs">Просмотр логов</string>
     <!--AccountSettingsActivity-->
