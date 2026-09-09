@@ -279,7 +279,7 @@
     <string name="login_no_service">找不到 CalDAV 或 CardDAV 服务。</string>
     <string name="login_no_service_info">基URL似乎不是可访问的CalDAV/CardDAV URL 且服务检测不成功。</string>
     <string name="login_see_tested_services"><![CDATA[请查看服务供应商手册和 <a href="%s">我们的已测试服务列表</a> 及它们的基础 URLs.]]></string>
-    <string name="login_check_credentials">也请仔细核查身份验证数据（通常是用户名和密码）。</string>
+    <string name="login_check_credentials"><![CDATA[也请仔细核查身份验证数据（通常是用户名和密码）。]]></string>
     <string name="login_logs_available">可以在日志中看到进一步的技术信息</string>
     <string name="login_view_logs">查看日志</string>
     <!--AccountSettingsActivity-->
