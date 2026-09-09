@@ -263,7 +263,7 @@
     <string name="login_no_service">Tidak dapat menemukan layanan CalDAV atau CardDAV.</string>
     <string name="login_no_service_info">URL dasar tampaknya bukan URL CalDAV/CardDAV yang dapat diakses dan deteksi layanan tidak berhasil.</string>
     <string name="login_see_tested_services"><![CDATA[Silakan lihat panduan dari penyedia layanan Anda dan <a href="%s">daftar layanan yang telah diuji</a> beserta URL dasarnya.]]></string>
-    <string name="login_check_credentials">Periksa kembali autentikasi (biasanya nama pengguna dan kata sandi).</string>
+    <string name="login_check_credentials"><![CDATA[Periksa kembali autentikasi (biasanya nama pengguna dan kata sandi).]]></string>
     <string name="login_logs_available">Informasi teknis lebih lanjut tersedia di log.</string>
     <string name="login_view_logs">Lihat log</string>
     <string name="settings_sync">Sinkronisasi</string>
