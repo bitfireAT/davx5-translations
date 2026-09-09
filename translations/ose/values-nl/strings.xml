@@ -280,7 +280,7 @@
     <string name="login_no_service">Geen CalDAV- of CardDAV-service gevonden.</string>
     <string name="login_no_service_info">De basis URL lijkt geen toegankelijke CalDAV/CardDAV URL te zijn en de detectie van de service was niet succesvol.</string>
     <string name="login_see_tested_services"><![CDATA[Raadpleeg de handleiding van jouw serviceprovider en <a href="%s">onze lijst met geteste services</a> en hun basis URL\'s.]]></string>
-    <string name="login_check_credentials">Controleer ook de authenticatie (meestal gebruikersnaam en wachtwoord).</string>
+    <string name="login_check_credentials"><![CDATA[Controleer ook de authenticatie (meestal gebruikersnaam en wachtwoord).]]></string>
     <string name="login_logs_available">Meer technische informatie is beschikbaar in de logboeken.</string>
     <string name="login_view_logs">Details bekijken</string>
     <!--AccountSettingsActivity-->
