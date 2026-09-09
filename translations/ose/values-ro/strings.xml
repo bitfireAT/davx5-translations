@@ -281,7 +281,7 @@
     <string name="login_no_service">Nu s-a putut găsi serviciul CalDAV sau CardDAV.</string>
     <string name="login_no_service_info">Adresa URL de bază nu pare să fie o adresă URL CalDAV/CardDAV accesibilă, iar detectarea serviciului nu a avut succes.</string>
     <string name="login_see_tested_services"><![CDATA[Consultă manualul furnizorului de servicii, <a href="%s">lista de servicii testate</a> și adresele lor URL de bază.]]></string>
-    <string name="login_check_credentials">Verifică, de asemenea, și autentificarea (de obicei, numele de utilizator și parola).</string>
+    <string name="login_check_credentials"><![CDATA[Verifică, de asemenea, și autentificarea (de obicei, numele de utilizator și parola).]]></string>
     <string name="login_logs_available">Informații tehnice suplimentare sunt disponibile în jurnale.</string>
     <string name="login_view_logs">Vezi jurnalele</string>
     <!--AccountSettingsActivity-->
