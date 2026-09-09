@@ -271,7 +271,7 @@
     <string name="login_no_service">Nem található CalDAV vagy CardDAV szolgáltatás.</string>
     <string name="login_no_service_info">Ez az alapwebcím nem tűnik elérhető CalDAV/CardDAV webcímnek, és a szolgáltatásfelderítés nem sikerült.</string>
     <string name="login_see_tested_services"><![CDATA[Ellenőrizze a szolgáltatója leírását, az <a href="%s">általunk tesztelt szolgáltatások listáját</a>, és az alapwebcímeiket.]]></string>
-    <string name="login_check_credentials">Ellenőrizze a hitelesítő adatok is (általában a felhasználónevet és a jelszót).</string>
+    <string name="login_check_credentials"><![CDATA[Ellenőrizze a hitelesítő adatok is (általában a felhasználónevet és a jelszót).]]></string>
     <string name="login_logs_available">További műszaki információk érhetők el a naplókban.</string>
     <string name="login_view_logs">Naplóbejegyzések megtekintése</string>
     <!--AccountSettingsActivity-->
