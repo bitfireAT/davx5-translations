@@ -279,7 +279,7 @@
     <string name="login_no_service">CalDAV または CardDAV サービスが見つかりませんでした。</string>
     <string name="login_no_service_info">ベース URL から CalDAV/CardDAV URL に到達できなかったため、サービス検出に失敗しました。</string>
     <string name="login_see_tested_services"><![CDATA[ベース URL やサービス提供元のマニュアル、 <a href="%s">私たちがテストしたサービス一覧</a> を確認してください。]]></string>
-    <string name="login_check_credentials">認証情報 (ほとんどの場合はユーザー名とパスワード) もご確認ください。</string>
+    <string name="login_check_credentials"><![CDATA[認証情報 (ほとんどの場合はユーザー名とパスワード) もご確認ください。]]></string>
     <string name="login_logs_available">さらに詳細な技術情報はログで確認できます。</string>
     <string name="login_view_logs">ログを表示</string>
     <!--AccountSettingsActivity-->
