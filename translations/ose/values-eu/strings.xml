@@ -280,7 +280,7 @@
     <string name="login_no_service">Ezin izan da CalDAV edo CardDAV zerbitzua aurkitu.</string>
     <string name="login_no_service_info">Oinarrizko URLa ez dirudi CalDAV/CardDAV URL eskuragarria denik eta zerbitzuaren detekzioa ez da gauzatu.</string>
     <string name="login_see_tested_services"><![CDATA[Ikusi zure zerbitzu-hornitzailearen eskuliburua eta <a href="%s">gure probatutako zerbitzuen zerrenda</a> eta haien oinarrizko URLak.]]></string>
-    <string name="login_check_credentials">Mesedez, egiaztatu autentifikazioa ere (normalean erabiltzaile-izena eta pasahitza).</string>
+    <string name="login_check_credentials"><![CDATA[Mesedez, egiaztatu autentifikazioa ere (normalean erabiltzaile-izena eta pasahitza).]]></string>
     <string name="login_logs_available">Informazio tekniko gehiago eskuragarri dago erregistroetan.</string>
     <string name="login_view_logs">Ikusi egunkariak</string>
     <!--AccountSettingsActivity-->
