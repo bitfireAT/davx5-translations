@@ -248,7 +248,7 @@
     <string name="login_no_service">Kunne ikke finde CalDAV- eller CardDAV-tjeneste.</string>
     <string name="login_no_service_info">Basis-URL\'en ser ikke ud til at være en tilgængelig CalDAV/CardDAV-URL, og tjenestegenkendelsen lykkedes ikke.</string>
     <string name="login_see_tested_services"><![CDATA[Venligst se manualen for din tjenesteudbyder og <a href="%s">vores liste af testede tjenester</a> og deres basis-URL\'er.]]></string>
-    <string name="login_check_credentials">Dobbelttjek også autentificeringen (oftest brugernavn og adgangskode).</string>
+    <string name="login_check_credentials"><![CDATA[Dobbelttjek også autentificeringen (oftest brugernavn og adgangskode).]]></string>
     <string name="login_logs_available">Yderligere tekniske oplysninger findes i logfilerne.</string>
     <string name="login_view_logs">Vis logfiler</string>
     <!--AccountSettingsActivity-->
