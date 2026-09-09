@@ -282,7 +282,7 @@
     <string name="login_no_service">Nie można znaleźć usługi CalDAV lub CardDAV.</string>
     <string name="login_no_service_info">Podstawowy adres URL prawdopodobnie nie jest dostępnym adresem URL CalDAV/CardDAV, a wykrycie usługi nie powiodło się.</string>
     <string name="login_see_tested_services"><![CDATA[Sprawdź instrukcję swojego dostawcy usług oraz <a href="%s">naszą listę przetestowanych usług</a> i ich podstawowych adresów URL.]]></string>
-    <string name="login_check_credentials">Sprawdź również dokładnie uwierzytelnianie (zazwyczaj nazwę użytkownika i hasło).</string>
+    <string name="login_check_credentials"><![CDATA[Sprawdź również dokładnie uwierzytelnianie (zazwyczaj nazwę użytkownika i hasło).]]></string>
     <string name="login_logs_available">Dalsze informacje techniczne są dostępne w logach.</string>
     <string name="login_view_logs">Otwórz logi</string>
     <!--AccountSettingsActivity-->
