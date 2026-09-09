@@ -45,7 +45,7 @@
     <string name="intro_tasks_no_app_store">Geen app-store beschikbaar</string>
     <string name="intro_tasks_dont_show">Ik hoef geen ondersteuning van taken.*</string>
     <string name="intro_open_source_title">Open-source software</string>
-    <string name="intro_open_source_text">We zijn blij dat de keuze valt op open source software %s. Ontwikkelen, onderhouden en ondersteunen is veel werk. Overweeg daarom bij te dragen (kan op vele manieren) of een donatie. Wij waarderen het zeer!</string>
+    <string name="intro_open_source_text">We zijn blij dat de keuze valt op open source software %s. Ontwikkelen, onderhouden en ondersteunen is veel werk. Overweeg daarom bij te dragen (op vele manieren) of een donatie. Wij waarderen het zeer!</string>
     <string name="intro_open_source_details">Hoe bijdragen/doneren</string>
     <string name="intro_open_source_dont_show">Herinner me er niet aan voor</string>
     <plurals name="intro_open_source_dont_show_months">
@@ -278,9 +278,9 @@
     <string name="login_configuration_detection">Configuratie detecteren</string>
     <string name="login_querying_server">Even geduld, verzoek naar server…</string>
     <string name="login_no_service">Geen CalDAV- of CardDAV-service gevonden.</string>
-    <string name="login_no_service_info">De basis URL lijkt geen toegankelijke CalDAV/CardDAV URL te zijn en de detectie van de service was niet succesvol.</string>
-    <string name="login_see_tested_services"><![CDATA[Raadpleeg de handleiding van jouw serviceprovider en <a href="%s">onze lijst met geteste services</a> en hun basis URL\'s.]]></string>
-    <string name="login_check_credentials"><![CDATA[Controleer ook de authenticatie (meestal gebruikersnaam en wachtwoord).]]></string>
+    <string name="login_no_service_info">Er is geen CalDAV- of CardDAV-service op de ingevoerde basis-URL en automatische detectie heeft er ook geen gevonden. Meestal betekent dit dat de basis-URL verkeerd is.</string>
+    <string name="login_see_tested_services"><![CDATA[De juiste basis-URL wordt meestal gedocumenteerd door je serviceprovider. Je kunt het ook opzoeken in <a href="%s">onze lijst met geteste services</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[De server heeft de login afgewezen. Controleer nogmaals je gebruikersnaam en wachtwoord. Sommige providers vereisen een <a href="%s"> app-wachtwoord</a> in plaats van uw gewone wachtwoord.]]></string>
     <string name="login_logs_available">Meer technische informatie is beschikbaar in de logboeken.</string>
     <string name="login_view_logs">Details bekijken</string>
     <!--AccountSettingsActivity-->
@@ -504,25 +504,25 @@
     <string name="login_download_regular_davx5"><![CDATA[Gebruik in plaats daarvan <a href="%s">DAVx⁵</a>, die bij alle services kan worden gebruikt.]]></string>
     <string name="login_download_button">DAVx⁵ downloaden</string>
     <string name="dismiss_forever">Definitief wissen</string>
-    <string name="keep_android_open"><![CDATA[De openheid van Android wordt bedreigd. Ontdek hoe u kunt helpen bij <a href="%s">keepandroidopen.org</a>.]]></string>
+    <string name="keep_android_open"><![CDATA[De openheid van Android wordt bedreigd. Ontdek hoe je kunt helpen bij <a href="%s">keepandroidopen.org</a>.]]></string>
     <string name="app_settings_push_title">Push</string>
-    <string name="app_settings_push_description">Gebruik Push om %s onmiddellijk door CalDAV/CardDAV/WebDAV-servers op de hoogte te laten stellen van beschikbare wijzigingen in uw gegevens op de server.</string>
+    <string name="app_settings_push_description">Gebruik Push om %s onmiddellijk door CalDAV/CardDAV/WebDAV-servers op de hoogte te laten stellen van beschikbare wijzigingen in jouw gegevens op de server.</string>
     <string name="app_settings_push_use_push">Push gebruiken</string>
     <string name="app_settings_push_no_push_services_found"><![CDATA[Geen Push-services gevonden. Bezoek <a href="%1$s">%2$s</a> voor een lijst met distributeur-apps.]]></string>
     <string name="app_settings_push_info_text"><![CDATA[Push-berichten zij altijd versleuteld. Meer informatie over WebDAV-Push is te lezen in <a href="%s">de handleiding</a>.]]></string>
     <string name="app_settings_push_push_services">Push-service</string>
     <string name="app_settings_push_default_distributor_text">(systeemstandaard)</string>
-    <string name="app_settings_push_select_default_distributor_description">Er zijn meerdere UnifiedPush Distributor Apps geïnstalleerd. U kunt hier een systeembrede standaard instellen, zodat andere UnifiedPush-compatibele apps niet hoeven te vragen welke ze moeten gebruiken.</string>
+    <string name="app_settings_push_select_default_distributor_description">Er zijn meerdere UnifiedPush Distributor Apps geïnstalleerd. Je kunt hier een systeembrede standaard instellen, zodat andere UnifiedPush-compatibele apps niet hoeven te vragen welke ze moeten gebruiken.</string>
     <string name="app_settings_push_select_default_distributor_action">Standaard instellen</string>
     <string name="app_settings_push_capability_none">Geen van uw servercollecties met synchronisatie ondersteunt momenteel WebDAV-Push.</string>
-    <string name="app_settings_push_capability_some">Slechts enkele van uw servercollecties met synchronisatie ondersteunen momenteel WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">Slechts enkele van je servercollecties met synchronisatie ondersteunen momenteel WebDAV-Push.</string>
     <string name="app_settings_push_enabled_summary">aan, %s</string>
     <string name="app_settings_push_disabled_summary">Uit</string>
     <string name="notification_channel_user_interaction">Gebruikersinteractie</string>
     <string name="notification_channel_user_interaction_desc">Gebruikersinteractie vereist. Een probleem of probleem moet handmatig worden aangepakt.</string>
     <string name="push_distributor_selection_required_title">Selectie van distributeur vereist</string>
     <string name="push_distributor_selection_required_message">Een standaard UnifiedPush-distributeur kon niet worden opgelost. Tik om er een te selecteren.</string>
-    <string name="login_see_tested_with"><![CDATA[Als u niet zeker weet wat u moet kiezen, raadpleeg dan de documentatie van uw provider en onze pagina <a href="%s">geteste services</a>.]]></string>
+    <string name="login_see_tested_with"><![CDATA[Als je niet zeker weet wat je moet kiezen, raadpleeg dan de documentatie van je provider en onze pagina <a href="%s">geteste services</a>.]]></string>
     <string name="debug_info_find_help">Online hulp zoeken</string>
     <string name="debug_info_find_help_faq">Vind antwoorden op &lt;b&gt;veelgestelde vragen&lt;/b&gt;</string>
     <string name="debug_info_find_help_faq_action">Veelgestelde vragen weergeven op de website</string>
