@@ -242,8 +242,8 @@
     <string name="login_configuration_detection">Zjišťování nastavení</string>
     <string name="login_querying_server">Chvíli strpení, probíhá dotazování serveru…</string>
     <string name="login_no_service">Nedaří se nalézt službu CalDAV nebo CardDAV.</string>
-    <string name="login_see_tested_services"><![CDATA[Prosíme podívejte se do manuálu vašeho poskytovatele služeb a do <a href="%s">našeho seznamu testovaných služeb</a> a jejich základní URL.]]></string>
-    <string name="login_check_credentials"><![CDATA[Prosíme též překontrolujte přihlašovací údaje (obvykle jméno a heslo).]]></string>
+    <string name="login_see_tested_services"><![CDATA[Správná základní adresa je obvykle zdokumentována vaším poskytovatelem. Můžete ji také najít v <a href="%s">našem seznamu otestovaných služeb</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[Server odmítl přihlášení. Zkontrolujte prosím své jméno a heslo. Některé poskytovatelé vyžadují <a href="%s">heslo aplikace</a> namísto vašeho klasického hesla.]]></string>
     <string name="login_logs_available">Další technické informace jsou k dispozici v logu.</string>
     <string name="login_view_logs">Zobrazit záznamy událostí</string>
     <!--AccountSettingsActivity-->
@@ -525,7 +525,7 @@
     <string name="settings_app_password_hint"><![CDATA[Možná budete chtít použít <a href="%1$s">aplikační heslo</a>.]]></string>
     <string name="app_settings_push_default_distributor_text">(výchozí systémová)</string>
     <string name="widget_labeled_sync_label">Tlačítko synchronizace s názvem</string>
-    <string name="login_no_service_info">Základní adresa URL nejspíše není přístupnou adresou CalDAV/CardDAV a detekce služby nebyla úspěšná.</string>
+    <string name="login_no_service_info">Na základní adrese, kterou jste zadali se nenachází žádná služba CalDAV nebo CardDAV a automatická detekce také žádnou nenalezena. To obvykle znamená, že základní adresa je nesprávná.</string>
     <string name="debug_info_can_not_view_resource">Nepodařilo se zobrazit zdroj</string>
     <string name="login_download_button">Stáhnout DAVx⁵</string>
     <string name="debug_info_http_403_description">Požadavek byl zamítnut serverem.</string>
