@@ -269,9 +269,9 @@
     <string name="login_configuration_detection">Detección da configuración</string>
     <string name="login_querying_server">Agarda por favor, consultando o servidor…</string>
     <string name="login_no_service">Non se atopou servizo CalDAV ou CardDAV.</string>
-    <string name="login_no_service_info">O URL base non parece ser accesible. Non se puido detectar o URL do servizo CalDAV/CardDAV.</string>
-    <string name="login_see_tested_services"><![CDATA[Le o manual do teu provedor de servizos e <a href="%s">a nosa lista de servizos comprobados</a> e o seu URL base.]]></string>
-    <string name="login_check_credentials"><![CDATA[Ademais comproba ben a autenticación (normalmente identificador e contrasinal).]]></string>
+    <string name="login_no_service_info">Non hai un servizo CalDAV ou CardDAV no URL escrito, e a detección automática tampouco o atopou. Isto adoita acontecer cando o URL base non é correcto.</string>
+    <string name="login_see_tested_services"><![CDATA[O teu provedor do servizo adoita incluír na documentación o seu URL base. Tamén podes buscalo na nósa <a href="%s">lista de servizos comprobados</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[O servidor rexeitou o acceso. Comproba ben as credenciais para acceder. Algúns provedores requiren un <a href="%s">contrasinal de aplicación</a> no lugar do contrasinal da conta.]]></string>
     <string name="login_logs_available">Tes dispoñible máis información técnica nos rexistros.</string>
     <string name="login_view_logs">Ver rexistros</string>
     <!--AccountSettingsActivity-->
