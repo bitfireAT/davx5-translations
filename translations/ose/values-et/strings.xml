@@ -278,9 +278,9 @@
     <string name="login_configuration_detection">Seadistuste tuvastamine</string>
     <string name="login_querying_server">Palun oota, pärime andmeid serverist…</string>
     <string name="login_no_service">Ei õnnestunud leida CalDAV või CardDAV teenust.</string>
-    <string name="login_no_service_info">Antud võrguaadress ei tundu olema ligipääsetav CalDAVi/CardDAVi võrguaadress ja teenuse tuvastamine ei õnnestunud.</string>
-    <string name="login_see_tested_services"><![CDATA[Lisateavet leidad oma teenusepakkuja juhendist ja <a href="%s">meie poolt testitud teenuste loendist</a> koos toimivate võrguaadressidega.]]></string>
-    <string name="login_check_credentials"><![CDATA[Palun samuti topeltkontrolli autentimist (tavaliselt kasutajanimi ja salasõna).]]></string>
+    <string name="login_no_service_info">Antud lähteaadressik ei tundu olema ligipääsetavat CalDAVi või CardDAVi teenust ja teenuse automaatne tuvastamine ka ei õnnestunud. Üldjuhul tähendab see, et lähteaadress on vigane.</string>
+    <string name="login_see_tested_services"><![CDATA[Korrektne lähteaadress on tavaliselt kirjas sinu teenusepakkuja juhendis. Võid ka vaadata <a href="%s">meie poolt testitud teenuste loendit</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[Server keeldus sisselogimisest. Palun samuti topeltkontrolli oma kasutajanime ja salasõna õigsust. Mõned teenusepakkujad eeldavad tavalise salasõna asemel eraldi <a href="%s">rakenduse salasõna</a> kasutamist.]]></string>
     <string name="login_logs_available">Täiendav tehniline teade leidub logides.</string>
     <string name="login_view_logs">Vaata logisid</string>
     <!--AccountSettingsActivity-->
