@@ -279,9 +279,9 @@
     <string name="login_configuration_detection">Detectarea configurației</string>
     <string name="login_querying_server">Se interoghează serverul…</string>
     <string name="login_no_service">Nu s-a putut găsi serviciul CalDAV sau CardDAV.</string>
-    <string name="login_no_service_info">Adresa URL de bază nu pare să fie o adresă URL CalDAV/CardDAV accesibilă, iar detectarea serviciului nu a avut succes.</string>
-    <string name="login_see_tested_services"><![CDATA[Consultă manualul furnizorului de servicii, <a href="%s">lista de servicii testate</a> și adresele lor URL de bază.]]></string>
-    <string name="login_check_credentials"><![CDATA[Verifică, de asemenea, și autentificarea (de obicei, numele de utilizator și parola).]]></string>
+    <string name="login_no_service_info">Nu există nici un serviciu CalDAV sau CardDAV la adresa URL de bază pe care ai introdus-o, iar detectarea automată nu a găsit nici una. De obicei, acest lucru înseamnă că URL-ul de bază este greșit.</string>
+    <string name="login_see_tested_services"><![CDATA[Adresa URL de bază corectă este de obicei documentată de furnizorul de servicii. De asemenea, o poți căuta în <a href="%s"> lista noastră de servicii testate</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[Serverul a respins autentificarea. Verifică de două ori numele de utilizator și parola. Unii furnizori au nevoie de <a href="%s">o parolă a aplicației în loc de parola obișnuită.</a>]]></string>
     <string name="login_logs_available">Informații tehnice suplimentare sunt disponibile în jurnale.</string>
     <string name="login_view_logs">Vezi jurnalele</string>
     <!--AccountSettingsActivity-->
