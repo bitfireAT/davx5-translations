@@ -469,4 +469,15 @@
     </plurals>
     <string name="push_distributor_selection_required_title">Pemilihan distributor diperlukan</string>
     <string name="push_distributor_selection_required_message">Distributor UnifiedPush default tidak dapat ditentukan. Ketuk untuk memilih satu.</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Silakan hubungi tim dukungan <tt>%1$s</tt></b> (bukan %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Silakan hubungi tim dukungan penyedia Anda</b> (bukan %1$s).]]></string>
+    <string name="debug_info_find_help">Cari bantuan secara online</string>
+    <string name="debug_info_find_help_faq">Temukan jawaban atas &lt;b&gt;pertanyaan umum&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Tampilkan FAQ di situs web</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Minta bantuan&lt;/b&gt; di GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Buka Diskusi</string>
+    <string name="debug_info_find_help_issues">Cari &lt;b&gt;isu terbuka&lt;/b&gt; di GitHub</string>
+    <string name="debug_info_find_help_issues_action">Tampilkan Isu saat ini</string>
+    <string name="debug_info_find_help_manual">Temukan &lt;b&gt;informasi teknis&lt;/b&gt;</string>
+    <string name="debug_info_find_help_manual_action">Buka Panduan</string>
 </resources>
