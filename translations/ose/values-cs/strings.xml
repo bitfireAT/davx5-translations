@@ -548,4 +548,8 @@
     <string name="debug_info_find_help_manual_action">Otevřít manuál</string>
     <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Kontaktujte prosím podporu <tt>%1$s</tt></b> (ne %2$s).]]></string>
     <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Kontaktujte prosím podporu vašeho poskytovatele</b> (ne %1$s).]]></string>
+    <string name="permissions_local_network_title">Přístup k místní síti</string>
+    <string name="permissions_local_network_status_off">Přístup k místní síti zamítnut</string>
+    <string name="permissions_local_network_status_on">Přístup k místní síti udělen</string>
+    <string name="sync_warning_no_local_network_permission">Přístup k místní síti je zakázán. Nebudete moci provádět synchronizaci se zařízeními ve vaší lokální síti.</string>
 </resources>
