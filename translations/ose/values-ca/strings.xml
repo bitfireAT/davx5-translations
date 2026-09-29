@@ -541,4 +541,8 @@
     <string name="debug_info_find_help_manual_action">Obre el manual</string>
     <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Poseu-vos en contacte amb l\'equip de suport de <tt>%1$s</tt></b> (no %2$s).]]></string>
     <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Poseu-vos en contacte amb l\'equip de suport del vostre proveïdor</b> (no %1$s).]]></string>
+    <string name="permissions_local_network_title">Permís de xarxa local</string>
+    <string name="permissions_local_network_status_off">S\'ha denegat el permís de xarxa local</string>
+    <string name="permissions_local_network_status_on">S\'ha atorgat el permís de xarxa local</string>
+    <string name="sync_warning_no_local_network_permission">S\'ha desactivat l\'accés a la xarxa local. No podreu sincronitzar amb els dispositius de la xarxa local.</string>
 </resources>
