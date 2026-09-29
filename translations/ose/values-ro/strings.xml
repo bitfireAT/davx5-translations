@@ -541,4 +541,8 @@
     <string name="debug_info_find_help_issues">Vezi &lt;b&gt;probleme deschise&lt;/b&gt; pe GitHub</string>
     <string name="debug_info_find_help_issues_action">Afișează problemele curente</string>
     <string name="debug_info_find_help_manual">Găsește &lt;b&gt;informații tehnice&lt;/b&gt;</string>
+    <string name="permissions_local_network_title">Permisiunea rețelei locale</string>
+    <string name="permissions_local_network_status_off">Accesul la rețeaua locală a fost refuzat</string>
+    <string name="permissions_local_network_status_on">Accesul la rețeaua locală a fost acordat</string>
+    <string name="sync_warning_no_local_network_permission">Accesul la rețeaua locală este dezactivat. Nu vei putea sincroniza cu dispozitivele din rețeaua locală.</string>
 </resources>
