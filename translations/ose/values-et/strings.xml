@@ -534,4 +534,8 @@
     <string name="debug_info_find_help_discussions_action">Ava arutelude leht</string>
     <string name="debug_info_find_help_issues">Vaata GitHubi veahaldusest &lt;b&gt;lahednamisel vigu ja probleeme&lt;/b&gt;</string>
     <string name="debug_info_find_help_issues_action">Näita hetkel olulisemaid vigu ja probleeme</string>
+    <string name="permissions_local_network_title">Kohtvõrgu kasutamise õigus</string>
+    <string name="permissions_local_network_status_off">Ligipääs kohtvõrgule on keelatud</string>
+    <string name="permissions_local_network_status_on">Ligipääs kohtvõrgule on lubatud</string>
+    <string name="sync_warning_no_local_network_permission">Ligipääs kohtvõrgule pole lubatud. Sa ei saa sünkroonida sisu seadmetega, misa asuvad sinu kohtvõrgus.</string>
 </resources>
