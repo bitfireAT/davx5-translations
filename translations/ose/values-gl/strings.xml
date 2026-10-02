@@ -534,4 +534,8 @@
     <string name="debug_info_find_help_manual_action">Abrir o manual</string>
     <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Contacta co equipo de axuda <tt>%1$s</tt></b> (non %2$s).]]></string>
     <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Contacta co departamento de axuda do teu provedor</b> (non %1$s).]]></string>
+    <string name="permissions_local_network_title">Permiso para rede local</string>
+    <string name="permissions_local_network_status_off">Sen acceso á rede local</string>
+    <string name="permissions_local_network_status_on">Con acceso á rede local</string>
+    <string name="sync_warning_no_local_network_permission">Desactivouse o acceso á rede local. Non poderás sincronizar con dispositivos na túa rede local.</string>
 </resources>
