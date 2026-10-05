@@ -209,9 +209,9 @@
     <string name="login_configuration_detection">Konfiguraasjeûndekking</string>
     <string name="login_querying_server">Efkes wachtsje, wy tsjekke de server…</string>
     <string name="login_no_service">Koe de CalDAV or CardDAV-service net fyne.</string>
-    <string name="login_no_service_info">De basis-URL liket gjin beskikbere CalDAV of CardDAV-URL te wêzen. Mooglikheden koeden net ûntdutsen wurde.</string>
-    <string name="login_see_tested_services"><![CDATA[Selektearje de hânlieding fan dyn serviceprovider en <a href="%s">úse list fan teste services</a> en harren basis-URLs.]]></string>
-    <string name="login_check_credentials"><![CDATA[Tsjek dyn autentikaasje (meastentiids brûkersnamme en wachtwurd).]]></string>
+    <string name="login_no_service_info">D\'r is gjin CalDAV of CardDAV-service op de basis-URL. Warskynlik kloppet de basis-URL net.</string>
+    <string name="login_see_tested_services"><![CDATA[De basis-URL is gewoanlik fêstlein troch dyn serviceprovider. Dit kist ek besykje yn <a href="%s">úse list fan ferifiearre services</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[De server hat it ynlogbesyk blokkearre. Tsjek dyn autentikaasje (meastentiids brûkersnamme en wachtwurd). Sommiche providers brûke in <a href="%s">app-wachtwurd</a> yn plak fan in gewoanen ien.]]></string>
     <string name="login_logs_available">Fjirdere technyske ynformaasje is beskikber yn de logs.</string>
     <string name="login_view_logs">Logs besjen</string>
     <string name="login_invalid_use_case">Brûkswiize is net jildich</string>
@@ -488,4 +488,8 @@
     <string name="webdav_add_mount_password_optional">Wachtwurd (opsjoneel)</string>
     <string name="push_distributor_selection_required_title">In keuze út distributeurs foar de \'push\'-funksjonaliteit is ferplicht</string>
     <string name="push_distributor_selection_required_message">In standert UnifiedPush distributeur koe net keazen wurde. Selektearje ien.</string>
+    <string name="permissions_local_network_title">Lokale netwurktagong</string>
+    <string name="permissions_local_network_status_off">Lokale netwurktagong ferbean</string>
+    <string name="permissions_local_network_status_on">Lokale netwurktagong jûn</string>
+    <string name="sync_warning_no_local_network_permission">Lokale netwurktagong stiet út. It is sa net mooglik om mei apparaten op it lokale netwurk te syngronisearje.</string>
 </resources>
