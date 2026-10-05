@@ -523,4 +523,7 @@
     <string name="app_settings_push_push_services">Push-Dienst</string>
     <string name="app_settings_push_capability_none">Keine Ihrer synchronisierungsfähigen Server-Sammlungen unterstützt derzeit WebDAV-Push.</string>
     <string name="permissions_local_network_title">Berechtigung für lokale Netzwerke</string>
+    <string name="permissions_local_network_status_off">Zugriff auf das lokale Netzwerk verweigert</string>
+    <string name="permissions_local_network_status_on">Zugriff auf das lokale Netzwerk erlaubt</string>
+    <string name="sync_warning_no_local_network_permission">Der Zugriff auf das lokale Netzwerk wurde verweigert. Synchronisierung mit Geräten auf dem lokalen Netzwerk ist nicht möglich.</string>
 </resources>
