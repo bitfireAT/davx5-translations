@@ -522,4 +522,5 @@
     <string name="app_settings_push_no_push_services_found"><![CDATA[Es wurden keine Push-Dienste gefunden. Eine Liste der Distributor-Apps finden Sie unter <a href="%1$s">%2$s</a>.]]></string>
     <string name="app_settings_push_push_services">Push-Dienst</string>
     <string name="app_settings_push_capability_none">Keine Ihrer synchronisierungsfähigen Server-Sammlungen unterstützt derzeit WebDAV-Push.</string>
+    <string name="permissions_local_network_title">Berechtigung für lokale Netzwerke</string>
 </resources>
