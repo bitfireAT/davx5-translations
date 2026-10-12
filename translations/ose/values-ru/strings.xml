@@ -551,4 +551,13 @@
     <string name="permissions_local_network_status_off">Доступ к локальной сети запрещен</string>
     <string name="permissions_local_network_status_on">Доступ к локальной сети разрешен</string>
     <string name="sync_warning_no_local_network_permission">Доступ к локальной сети отключен. Вы не сможете синхронизировать данные с устройствами в локальной сети.</string>
+    <string name="collection_disable_sync_warning">Отключение синхронизации приведет к удалению локальных данных этой коллекции (%s) с этого устройства. Данные на сервере не будут затронуты.</string>
+    <string name="collection_disable_sync_title">Отключить синхронизацию?</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">Помимо этого, %d локальное изменение пока не загружено и будет утеряно!</item>
+        <item quantity="few">Помимо этого, %d локальных изменения пока не загружено и будут утеряны!</item>
+        <item quantity="many">Помимо этого, %d локальных изменений пока не загружено и будут утеряны!</item>
+        <item quantity="other">Помимо этого, %d локальных изменений пока не загружено и будут утеряны!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Выключить</string>
 </resources>
