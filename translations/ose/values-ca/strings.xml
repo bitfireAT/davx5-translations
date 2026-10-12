@@ -545,4 +545,12 @@
     <string name="permissions_local_network_status_off">S\'ha denegat el permís de xarxa local</string>
     <string name="permissions_local_network_status_on">S\'ha atorgat el permís de xarxa local</string>
     <string name="sync_warning_no_local_network_permission">S\'ha desactivat l\'accés a la xarxa local. No podreu sincronitzar amb els dispositius de la xarxa local.</string>
+    <string name="collection_disable_sync_title">Desactivo la sincronització?</string>
+    <string name="collection_disable_sync_warning">Si desactiveu la sincronització, s\'eliminaran les dades locals d\'aquesta col·lecció (%s) d\'aquest dispositiu. Les dades del servidor no es veuran afectades.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">A més, %d canvi local encara no s\'ha pujat i es perdrà!</item>
+        <item quantity="many">A més, %d de canvis locals encara no s\'han pujat i es perdran!</item>
+        <item quantity="other">A més, %d canvis locals encara no s\'han pujat i es perdran!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Desactiva</string>
 </resources>
