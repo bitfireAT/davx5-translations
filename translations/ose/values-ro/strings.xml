@@ -545,4 +545,12 @@
     <string name="permissions_local_network_status_off">Accesul la rețeaua locală a fost refuzat</string>
     <string name="permissions_local_network_status_on">Accesul la rețeaua locală a fost acordat</string>
     <string name="sync_warning_no_local_network_permission">Accesul la rețeaua locală este dezactivat. Nu vei putea sincroniza cu dispozitivele din rețeaua locală.</string>
+    <string name="collection_disable_sync_title">Dezactivezi sincronizarea?</string>
+    <string name="collection_disable_sync_warning">Dacă dezactivezi sincronizarea, datele locale ale acestei colecții (%s) vor fi șterse de pe acest dispozitiv. Datele de pe server nu vor fi afectate.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">În plus, %d modificare locală nu a fost încă încărcată și se va pierde!</item>
+        <item quantity="few">În plus, %d modificări locale nu au fost încă încărcate și se vor pierde!</item>
+        <item quantity="other">În plus, %d de modificări locale nu au fost încă încărcate și se vor pierde!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Oprește</string>
 </resources>
