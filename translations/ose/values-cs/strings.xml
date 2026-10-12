@@ -552,4 +552,13 @@
     <string name="permissions_local_network_status_off">Přístup k místní síti zamítnut</string>
     <string name="permissions_local_network_status_on">Přístup k místní síti udělen</string>
     <string name="sync_warning_no_local_network_permission">Přístup k místní síti je zakázán. Nebudete moci provádět synchronizaci se zařízeními ve vaší lokální síti.</string>
+    <string name="collection_disable_sync_title">Vypnout synchronizaci?</string>
+    <string name="collection_disable_sync_warning">Vypnutím synchronizace odstraníte lokální data této sbírky (%s) z tohoto zařízení. Data na serveru nebudou ovlivněna.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">Kromě toho ještě nebyla nahrána %d lokální změna, která tak bude ztracena!</item>
+        <item quantity="few">Kromě toho ještě nebyly nahrány %d lokální změny, které tak budou ztraceny!</item>
+        <item quantity="many">Kromě toho ještě nebylo nahráno %d lokálních změn, které tak budou ztraceny!</item>
+        <item quantity="other">Kromě toho ještě nebylo nahráno %d lokálních změn, které tak budou ztraceny!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Vypnout</string>
 </resources>
