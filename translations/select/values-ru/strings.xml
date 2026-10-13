@@ -9,7 +9,7 @@
     <string name="select_welcome_slogan_with_server">с выбранным сервером.</string>
     <string name="select_welcome_logo_description">Логотип DAVx⁵ Select</string>
     <string name="select_welcome_illustration_description">Человек, идущий рядом с большим смартфоном со значками синхронизации</string>
-    <string name="login_type_preconfigured">Войти с использованием предоставленной конфигурации</string>
+    <string name="login_type_preconfigured">Войти с использованием QR-кода или профиля подключения</string>
     <string name="profile_url">URL конфигурации</string>
     <string name="profile_url_help">Ваш поставщик услуг должен предоставить вам URL с настройками.</string>
     <string name="scan_qr">Сосканируйте QR-код</string>
