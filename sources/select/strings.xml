@@ -22,7 +22,7 @@
     <string name="select_welcome_illustration_description">Person walking next to large smartphone with sync icons</string>
 
     <!-- Login with preconfigured settings -->
-    <string name="login_type_preconfigured">Login with provided config</string>
+    <string name="login_type_preconfigured">Login with QR or connection profile</string>
 
     <string name="profile_url">Config URL</string>
     <string name="profile_url_help">Your server provider should give you a pre-configuration url.</string>
