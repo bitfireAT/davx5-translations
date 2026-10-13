@@ -538,4 +538,11 @@
     <string name="permissions_local_network_status_off">Toestemming voor lokaal netwerk geweigerd</string>
     <string name="permissions_local_network_status_on">Toestemming voor lokaal netwerk verleend</string>
     <string name="sync_warning_no_local_network_permission">Lokale netwerktoegang uitgeschakeld U kunt niet synchroniseren met apparaten op uw lokale netwerk.</string>
+    <string name="collection_disable_sync_title">Synchronisatie uitschakelen?</string>
+    <string name="collection_disable_sync_warning">Als u synchronisatie uitschakelt, worden lokale gegevens van deze verzameling (%s) van dit apparaat verwijderd. Gegevens op de server worden niet beïnvloed.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">Bovendien zijn %d lokale wijziging nog niet geüpload en gaat verloren!</item>
+        <item quantity="other">Bovendien zijn %d lokale wijzigingen nog niet geüpload en gaan verloren!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Uitschakelen</string>
 </resources>
