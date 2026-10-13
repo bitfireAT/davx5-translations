@@ -9,7 +9,7 @@
     <string name="select_welcome_slogan_with_server">met een gedeeltes server.</string>
     <string name="select_welcome_logo_description">DAVx⁵ Select Logo</string>
     <string name="select_welcome_illustration_description">Persoon die naast grote smartphone met synchronisatiepictogrammen loopt</string>
-    <string name="login_type_preconfigured">Inloggen met aangeleverde configuratie</string>
+    <string name="login_type_preconfigured">Inloggen met QR of verbindingsprofiel</string>
     <string name="profile_url">Config-URL</string>
     <string name="profile_url_help">Uw serverprovider moet u een pre-configuratie-URL aanleveren.</string>
     <string name="scan_qr">QR-code scannen</string>
