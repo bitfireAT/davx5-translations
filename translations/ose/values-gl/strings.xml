@@ -538,4 +538,11 @@
     <string name="permissions_local_network_status_off">Sen acceso á rede local</string>
     <string name="permissions_local_network_status_on">Con acceso á rede local</string>
     <string name="sync_warning_no_local_network_permission">Desactivouse o acceso á rede local. Non poderás sincronizar con dispositivos na túa rede local.</string>
+    <string name="collection_disable_sync_title">Desactivar a sincronización?</string>
+    <string name="collection_disable_sync_warning">Ao desactivar a sincronización vas eliminar os datos locais para esta colección (%s) no dispositivo. Os datos no sevidor non se ven afectados.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">%d cambio local adicional non se subeu aínda ao servidor e vaise perder!</item>
+        <item quantity="other">%d cambios locais adicionais aínda non se subiron ao servidor e vanse perder!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Apagar</string>
 </resources>
