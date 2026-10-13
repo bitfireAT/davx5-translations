@@ -9,7 +9,7 @@
     <string name="select_welcome_slogan_with_server">valitud serveriga.</string>
     <string name="select_welcome_logo_description">DAVx⁵ Selecti logo</string>
     <string name="select_welcome_illustration_description">Inimene kõndimas suure nutitelefoni kõrval, kus paistavad sünkroonimise ikoonid</string>
-    <string name="login_type_preconfigured">Logi sisse etteantud seadistustega</string>
+    <string name="login_type_preconfigured">Logi sisse QR-koodiga või ühendusprofiiliga</string>
     <string name="profile_url">Seadistuste võrguaadress</string>
     <string name="profile_url_help">Sinu teenusepakkuja peaks sulle andma eelseadistuste võrguaadressi.</string>
     <string name="scan_qr">Skaneeri QR-koodi</string>
