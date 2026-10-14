@@ -10,17 +10,17 @@
     <string name="notification_channel_general">Ostale važne poruke</string>
     <string name="notification_channel_status">Statusne poruke niskog prioriteta</string>
     <string name="notification_channel_sync">Sinkronizacija</string>
-    <string name="notification_channel_sync_errors">Sinkronizacijske greške</string>
+    <string name="notification_channel_sync_errors">Greške sinkronizacije</string>
     <string name="notification_channel_sync_errors_desc">Važne greške koje zaustavljaju sinkronizaciju poput neočekivanih odgovora poslužitelja</string>
-    <string name="notification_channel_sync_warnings">Sinkronizacijska upozorenja</string>
+    <string name="notification_channel_sync_warnings">Upozorenja sinkronizacije</string>
     <string name="notification_channel_sync_warnings_desc">Sinkronizacijski problemi koji nisu fatalni poput određenih nevaljanih datoteka</string>
     <string name="notification_channel_sync_io_errors">Mrežne i I/O greške</string>
-    <string name="notification_channel_sync_io_errors_desc">Vremensko ograničenje, greške povezivanja, itd. (obično privremeno)</string>
+    <string name="notification_channel_sync_io_errors_desc">Timeoutovi, greške povezivanja, itd. (obično privremeno)</string>
     <!--IntroActivity-->
   <string name="intro_slogan1">Vaši podaci. Vaš izbor.</string>
     <string name="intro_slogan2">Preuzmite kontrolu.</string>
     <string name="intro_battery_title">Redoviti intervali sinkronizacije</string>
-    <string name="intro_battery_text">Za sinkronizaciju u redovitim intervalima, %s mora imati omogućen rad u pozadini. Inače, Android može zaustaviti sinkronizaciju u bilo kojem trenutku.</string>
+    <string name="intro_battery_text">Za sinkronizaciju u redovitim intervalima, %s mora biti omogućen rad u pozadini. Inače, Android može zaustaviti sinkronizaciju u bilo kojem trenutku.</string>
     <string name="intro_battery_dont_show">Ne trebam redovita sinkroniziranja.</string>
     <string name="intro_leave_unchecked">* Ostavi neoznačeno za podsjetnik kasnije. Moguće je resetirati u aplikacijskim postavkama / %s.</string>
     <string name="intro_more_info">Više informacija</string>
@@ -275,4 +275,18 @@
     <string name="sync_invalid_resources_ignoring">Zanemarivanje jednog ili više nevaljanih resursa</string>
     <!--widgets-->
   <string name="widget_sync_all_accounts">Sinkroniziraj sve račune</string>
+    <string name="account_prefs_use_app">Nemojte promjeniti račun ovdje! Umjesto toga koristite izravno aplikaciju kako biste upravljali računom.</string>
+    <string name="dialog_delete">Izbriši</string>
+    <string name="dialog_remove">Ukloni</string>
+    <string name="dialog_deny">Odustani</string>
+    <string name="field_required">Ovo polje je potrebno ispuniti</string>
+    <string name="navigate_up">Odaberi gore</string>
+    <string name="options_menu">Izbornik s opcijama</string>
+    <string name="dismiss_forever">Napusti zauvijek</string>
+    <string name="sync_started">Sinkronizacija je pokrenuta/u redu čekanja</string>
+    <string name="database_destructive_migration_title">Baza podataka nije u redu</string>
+    <string name="database_destructive_migration_text">Svi računi su lokalno uklonjeni.</string>
+    <string name="notification_channel_user_interaction">Interakcija s korisnicima</string>
+    <string name="notification_channel_user_interaction_desc">Potrebna je korisnička interakcija. Problem ili pitanje se mora riješiti ručno</string>
+    <string name="intro_tasks_jtx">jtx ploča</string>
 </resources>
