@@ -3,7 +3,7 @@
     <!--common strings-->
   <string name="account_invalid">Konto findes ikke (længere)</string>
     <string name="account_title_address_book">DAVx⁵ adressebog</string>
-    <string name="account_prefs_use_app">Foretag ikke ændringer i din konto her! Brug i stedet app\'en til direkte at håndtere konti.</string>
+    <string name="account_prefs_use_app">Foretag ikke ændringer i kontoen her! Brug i stedet appen til at administrere konti.</string>
     <string name="dialog_delete">Slet</string>
     <string name="dialog_remove">Fjern</string>
     <string name="dialog_deny">Annullér</string>
@@ -11,31 +11,31 @@
     <string name="field_required">Feltet er påkrævet</string>
     <string name="help">Hjælp</string>
     <string name="navigate_up">Navigér opad</string>
-    <string name="options_menu">Indstillinger</string>
+    <string name="options_menu">Flere valgmuligheder</string>
     <string name="share">Del</string>
     <string name="sync_started">Synkroniseringen er startet/sat i kø</string>
     <string name="database_destructive_migration_title">Databasen er korrupt</string>
     <string name="database_destructive_migration_text">Alle konti er fjernet lokalt.</string>
     <string name="notification_channel_debugging">Fejlfinding</string>
     <string name="notification_channel_general">Andre vigtige beskeder</string>
-    <string name="notification_channel_status">Lav-prioritet statusbeskeder</string>
+    <string name="notification_channel_status">Statusbeskeder med lav prioritet</string>
     <string name="notification_channel_sync">Synkronisering</string>
     <string name="notification_channel_sync_errors">Synkroniseringsfejl</string>
     <string name="notification_channel_sync_errors_desc">Vigtige fejl, såsom uventede serversvar, der stopper synkroniseringen</string>
     <string name="notification_channel_sync_warnings">Synkroniseringsadvarsler</string>
-    <string name="notification_channel_sync_warnings_desc">Ikke-kritiske synkroniseringproblemer såsom ugyldige filer</string>
+    <string name="notification_channel_sync_warnings_desc">Ikke-kritiske synkroniseringsproblemer, f.eks. visse ugyldige filer</string>
     <string name="notification_channel_sync_io_errors">Netværks- og I/O-fejl</string>
     <string name="notification_channel_sync_io_errors_desc">Timeouts, forbindelsesproblemer m.m. (ofte midlertidig)</string>
     <!--IntroActivity-->
   <string name="intro_slogan1">Dine data. Dit valg.</string>
-    <string name="intro_slogan2">Tag kontrol</string>
+    <string name="intro_slogan2">Tag kontrollen.</string>
     <string name="intro_battery_title">Regelmæssige synkroniseringsintervaller</string>
     <string name="intro_battery_text">For regelmæssige synkroniseringsintervaller, skal %s have tilladelse til at køre i baggrunden. Ellers kan Android til enhver tid pause synkronisering.</string>
     <string name="intro_battery_dont_show">Jeg behøver ikke regelmæssige synkroniseringsintervaller.*</string>
-    <string name="intro_leave_unchecked">* Efterlad åben for senere påmindelser. Kan nulstilles i programindstillinger / %s.</string>
+    <string name="intro_leave_unchecked">* Lad være umarkeret for at blive påmindet senere. Kan nulstilles i appindstillinger / %s.</string>
     <string name="intro_more_info">Mere information</string>
     <string name="intro_tasks_jtx">jtx Board</string>
-    <string name="intro_tasks_jtx_info"><![CDATA[Understøtter synkronisering af opgaver, journaler & noter.]]></string>
+    <string name="intro_tasks_jtx_info"><![CDATA[Understøtter synkronisering af opgaver, journaler og noter.]]></string>
     <string name="intro_tasks_title">Understøttelse af opgaver</string>
     <string name="intro_tasks_text1">Hvis din server understøtter opgaver, kan de blive synkroniseret med en understøttet opgave-app:</string>
     <string name="intro_tasks_opentasks">OpenTasks</string>
@@ -43,8 +43,8 @@
     <string name="intro_tasks_tasks_org">Tasks.org</string>
     <string name="intro_tasks_no_app_store">Ingen app-store tilgængelig</string>
     <string name="intro_tasks_dont_show">Jeg behøver ikke opgaveunderstøttelse.*</string>
-    <string name="intro_open_source_title">Åben kilde program</string>
-    <string name="intro_open_source_text">Vi er glade for, at du bruger %s, som er åben-kilde software. Udvikling, vedligeholdelse og support er hårdt arbejde. Overvej at bidrage (der er mange måner) eller donere. Det ville være meget værdsat!</string>
+    <string name="intro_open_source_title">Open source-software</string>
+    <string name="intro_open_source_text">Vi er glade for, at du bruger %s, som er open source-software. Udvikling, vedligeholdelse og support er hårdt arbejde. Overvej at bidrage (der er mange måder) eller at donere. Det vil blive meget værdsat!</string>
     <string name="intro_open_source_details">Sådan bidrager/donerer du</string>
     <string name="intro_next">Næste</string>
     <!--PermissionsActivity-->
@@ -75,81 +75,81 @@
     <string name="permissions_app_settings">App-indstillinger</string>
     <!--WifiPermissionsActivity-->
   <string name="wifi_permissions_label">Tilladelser til WiFi SSID</string>
-    <string name="wifi_permissions_intro">For at tilgå nuværende trådløs navn (SSID), skal følgende betingelser være opfyldt:</string>
-    <string name="wifi_permissions_location_permission">Præcis placerings tilladelse</string>
-    <string name="wifi_permissions_location_permission_on">Placering rettighed tildelt</string>
-    <string name="wifi_permissions_location_permission_off">Placering rettighed afvist</string>
-    <string name="wifi_permissions_background_location_permission">Baggrund placerings-rettighed</string>
+    <string name="wifi_permissions_intro">For at få adgang til navnet på det aktuelle WiFi-netværk (SSID) skal disse betingelser være opfyldt:</string>
+    <string name="wifi_permissions_location_permission">Tilladelse til præcis placering</string>
+    <string name="wifi_permissions_location_permission_on">Tilladelse til placering givet</string>
+    <string name="wifi_permissions_location_permission_off">Tilladelse til placering afvist</string>
+    <string name="wifi_permissions_background_location_permission">Tilladelse til placering i baggrunden</string>
     <string name="wifi_permissions_background_location_permission_label">Tillad altid</string>
-    <string name="wifi_permissions_background_location_permission_on">Lokaliseringstilladelse sat til: %s</string>
-    <string name="wifi_permissions_background_location_permission_off">Lokationstilladelse ikke sat til: %s</string>
-    <string name="wifi_permissions_location_enabled">Placering altid aktiveret</string>
-    <string name="wifi_permissions_location_enabled_on">Placering tjeneste er aktiveret</string>
-    <string name="wifi_permissions_location_enabled_off">Placering tjeneste er deaktiveret</string>
+    <string name="wifi_permissions_background_location_permission_on">Tilladelse til placering sat til: %s</string>
+    <string name="wifi_permissions_background_location_permission_off">Tilladelse til placering ikke sat til: %s</string>
+    <string name="wifi_permissions_location_enabled">Placering altid slået til</string>
+    <string name="wifi_permissions_location_enabled_on">Placeringstjenesten er slået til</string>
+    <string name="wifi_permissions_location_enabled_off">Placeringstjenesten er slået fra</string>
     <!--AboutActivity-->
   <string name="about_translations">Oversættelser</string>
     <string name="about_libraries">Biblioteker</string>
     <string name="about_version">Version %1$s (%2$d)</string>
     <string name="about_copyright">© Ricki Hirner, Bernhard Stockmann (bitfire web engineering GmbH) og bidragydere</string>
-    <string name="about_license_info_no_warranty">Dette program leveres ABSOLUT UDEN GARANTI. Det er fri software, og du er velkommen til at videredistribuere det under visse betingelse.</string>
+    <string name="about_license_info_no_warranty">Dette program leveres ABSOLUT UDEN GARANTI. Det er fri software, og du er velkommen til at videredistribuere det under visse betingelser.</string>
     <!--global settings-->
-  <string name="logging_couldnt_create_file">Kan ikke oprette log fil</string>
-    <string name="logging_notification_text">Logger alle %s aktiviteter</string>
+  <string name="logging_couldnt_create_file">Logfilen kunne ikke oprettes</string>
+    <string name="logging_notification_text">Logger nu alle aktiviteter i %s</string>
     <string name="logging_notification_view_share">Vis/del</string>
-    <string name="logging_notification_disable">Deaktivere</string>
+    <string name="logging_notification_disable">Slå fra</string>
     <!--AccountsScreen-->
   <string name="navigation_drawer_subtitle">CalDAV/CardDAV synkroniseringsadapter</string>
     <string name="navigation_drawer_about">Om / licens</string>
-    <string name="navigation_drawer_beta_feedback">Beta tilbagemelding</string>
-    <string name="install_browser">Installere netlæser</string>
-    <string name="navigation_drawer_settings">Opsætning</string>
+    <string name="navigation_drawer_beta_feedback">Feedback på betaversionen</string>
+    <string name="install_browser">Installer en webbrowser</string>
+    <string name="navigation_drawer_settings">Indstillinger</string>
     <string name="navigation_drawer_news_updates">Nyheder &amp; opdateringer</string>
-    <string name="navigation_drawer_tools">Værktøj</string>
+    <string name="navigation_drawer_tools">Værktøjer</string>
     <string name="navigation_drawer_external_links">Eksterne henvisninger</string>
-    <string name="navigation_drawer_website">Netsted</string>
+    <string name="navigation_drawer_website">Websted</string>
     <string name="navigation_drawer_manual">Manual</string>
-    <string name="navigation_drawer_faq">OSS</string>
+    <string name="navigation_drawer_faq">Ofte stillede spørgsmål</string>
     <string name="navigation_drawer_community">Fællesskab</string>
     <string name="navigation_drawer_support_project">Støt projektet</string>
     <string name="navigation_drawer_contribute">Sådan bidrager du</string>
-    <string name="navigation_drawer_privacy_policy">Privatlivs politik</string>
+    <string name="navigation_drawer_privacy_policy">Privatlivspolitik</string>
     <string name="accounts_sync_all">Synkroniser alle konti</string>
     <!--Sync warnings-->
-  <string name="sync_warning_no_notification_permission">Notifikationer slået fra. Du vil ikke blive gjort opmærksom på synkroniserings-fejl.</string>
-    <string name="sync_warning_manage_connections">Aministrer forbindelser</string>
-    <string name="sync_warning_datasaver_enabled">Gemning af data slået til. Synkronisering i baggrunden er begrænset.</string>
-    <string name="sync_warning_manage_datasaver">Administrer gemning af data</string>
-    <string name="sync_warning_battery_saver_enabled">Batteribesparelse aktiveret. Synkronisering kan være forhindret.</string>
-    <string name="sync_warning_manage_battery_saver">Administrer batteribesparelse</string>
-    <string name="sync_warning_low_storage">124 Lav lagerplads. Android vil ikke synkronisere lokale ændringer med det samme, men under den næste almindelige synkronisering.</string>
+  <string name="sync_warning_no_notification_permission">Notifikationer er slået fra. Du får ikke besked om synkroniseringsfejl.</string>
+    <string name="sync_warning_manage_connections">Administrer forbindelser</string>
+    <string name="sync_warning_datasaver_enabled">Datasparefunktion er slået til. Synkronisering i baggrunden er begrænset.</string>
+    <string name="sync_warning_manage_datasaver">Administrer datasparefunktion</string>
+    <string name="sync_warning_battery_saver_enabled">Batterisparefunktion er slået til. Synkronisering kan være begrænset.</string>
+    <string name="sync_warning_manage_battery_saver">Administrer batterisparefunktion</string>
+    <string name="sync_warning_low_storage">Lav lagerplads. Android synkroniserer ikke lokale ændringer med det samme, men ved næste almindelige synkronisering.</string>
     <string name="sync_warning_manage_storage">Administrer lagerplads</string>
     <!--RefreshCollectionsWorker-->
   <string name="refresh_collections_worker_refresh_failed">Registrering af tjeneste kunne ikke foretages</string>
-    <string name="refresh_collections_worker_refresh_couldnt_refresh">Kunne ikke opdatere samling liste</string>
+    <string name="refresh_collections_worker_refresh_couldnt_refresh">Listen over samlinger kunne ikke opdateres</string>
     <!--Foreground service used by WorkManager on Android <12-->
-  <string name="foreground_service_notify_title">Kører i forgrund</string>
+  <string name="foreground_service_notify_title">Kører i forgrunden</string>
     <string name="foreground_service_notify_text">På nogle enheder er dette nødvendigt for automatisk synkronisering.</string>
     <!--AppSettingsActivity-->
   <string name="app_settings">Indstillinger</string>
     <string name="app_settings_debug">Fejlsøgning</string>
-    <string name="app_settings_show_debug_info">Vis fejlsøgnings information</string>
-    <string name="app_settings_logging">Uddybende logning</string>
+    <string name="app_settings_show_debug_info">Vis debug-info</string>
+    <string name="app_settings_logging">Detaljeret logning</string>
     <string name="app_settings_logging_off">Logning er deaktiveret</string>
-    <string name="app_settings_battery_optimization">Batteri optimering</string>
+    <string name="app_settings_battery_optimization">Batterioptimering</string>
     <string name="app_settings_battery_optimization_exempted">Appen er undtaget (anbefalet)</string>
     <string name="app_settings_battery_optimization_optimized">Batteribesparelse aktiv (anbefales ikke)</string>
     <string name="app_settings_connection">Forbindelse</string>
-    <string name="app_settings_proxy">Proxy type</string>
+    <string name="app_settings_proxy">Proxytype</string>
     <string-array name="app_settings_proxy_types">
         <item>System standard</item>
         <item>Ingen proxy</item>
         <item>HTTP</item>
         <item>SOCKS (til Orbot)</item>
     </string-array>
-    <string name="app_settings_proxy_host">Proxy værtsnavn</string>
-    <string name="app_settings_proxy_port">Proxy port</string>
+    <string name="app_settings_proxy_host">Proxyværtsnavn</string>
+    <string name="app_settings_proxy_port">Proxyport</string>
     <string name="app_settings_security">Sikkerhed</string>
-    <string name="app_settings_security_app_permissions">Program tilladelser</string>
+    <string name="app_settings_security_app_permissions">App-tilladelser</string>
     <string name="app_settings_security_app_permissions_summary">Gennemgå tilladelser krævet til synkronisering</string>
     <string name="app_settings_distrust_system_certs">Stol ikke på systemcertifikater</string>
     <string name="app_settings_distrust_system_certs_on">System og brugertilføjede CA\'er vil ikke blive betroet</string>
@@ -158,7 +158,7 @@
     <string name="app_settings_reset_certificates_summary">Nulstiller tilliden til brugerdefinerede certifikater</string>
     <string name="app_settings_reset_certificates_success">Alle brugerdefinerede certifikater er blevet rydet</string>
     <string name="app_settings_user_interface">Brugerflade</string>
-    <string name="app_settings_notification_settings">Notifikations indstillinger</string>
+    <string name="app_settings_notification_settings">Notifikationsindstillinger</string>
     <string name="app_settings_notification_settings_summary">Håndtér notifikationskanaler og deres opsætning</string>
     <string name="app_settings_theme_title">Vælg tema</string>
     <string-array name="app_settings_theme_names">
@@ -166,89 +166,89 @@
         <item>Lys</item>
         <item>Mørk</item>
     </string-array>
-    <string name="app_settings_reset_hints">Nulstil vejledende pop op</string>
-    <string name="app_settings_reset_hints_summary">Genaktivere tidligere lukket pop op</string>
-    <string name="app_settings_reset_hints_success">Al vejledning vil blive vist igen</string>
+    <string name="app_settings_reset_hints">Nulstil tip</string>
+    <string name="app_settings_reset_hints_summary">Viser tip, som tidligere er lukket, igen</string>
+    <string name="app_settings_reset_hints_success">Alle tip bliver vist igen</string>
     <string name="app_settings_integration">Integration</string>
-    <string name="app_settings_tasks_provider">Opgaver program</string>
-    <string name="app_settings_tasks_provider_none">Der er ikke fundet et program der kan håndtere opgaver</string>
+    <string name="app_settings_tasks_provider">App til opgaver</string>
+    <string name="app_settings_tasks_provider_none">Der blev ikke fundet nogen kompatibel app til opgaver</string>
     <!--AccountScreen-->
   <string name="account_carddav">CardDAV</string>
     <string name="account_caldav">CalDAV</string>
     <string name="account_webcal">Webcal</string>
-    <string name="account_missing_permissions">Der kræves yderligere tilladelser for at synkronisere disse datasamlinger.</string>
-    <string name="account_manage_permissions">Administrer rettigheder</string>
-    <string name="account_synchronize_now">Synkronisere</string>
-    <string name="account_settings">Opsætning af konti</string>
+    <string name="account_missing_permissions">Der kræves yderligere tilladelser for at synkronisere disse samlinger.</string>
+    <string name="account_manage_permissions">Administrer tilladelser</string>
+    <string name="account_synchronize_now">Synkroniser nu</string>
+    <string name="account_settings">Kontoindstillinger</string>
     <string name="account_rename">Omdøb konto</string>
-    <string name="account_rename_new_name_description">Ikke gemt lokal data kan blive afvist. Gen-synkronisering er påkrævet efter omdøbning.</string>
+    <string name="account_rename_new_name_description">Lokale data, der ikke er gemt, kan gå tabt. Du skal synkronisere igen efter omdøbningen.</string>
     <string name="account_rename_new_name">Nyt kontonavn</string>
-    <string name="account_rename_rename">Omdøbe</string>
-    <string name="account_rename_exists_already">Konto navn er allerede i brug</string>
+    <string name="account_rename_rename">Omdøb</string>
+    <string name="account_rename_exists_already">Kontonavnet er allerede i brug</string>
     <string name="account_rename_couldnt_rename">Kunne ikke omdøbe konto</string>
     <string name="account_delete">Slet konto</string>
     <string name="account_delete_confirmation_title">Slet konto?</string>
-    <string name="account_delete_confirmation_text">Alle lokale kopier af addessebøger, kalendere og opgavelister vil blive slettet.</string>
-    <string name="account_synchronize_this_collection">synkronisere samling</string>
+    <string name="account_delete_confirmation_text">Alle lokale kopier af adressebøger, kalendere og opgavelister bliver slettet.</string>
+    <string name="account_synchronize_this_collection">synkroniser denne samling</string>
     <string name="account_read_only">skrivebeskyttet</string>
     <string name="account_calendar">kalender</string>
-    <string name="account_contacts">Kontakter</string>
+    <string name="account_contacts">kontakter</string>
     <string name="account_journal">journal</string>
-    <string name="account_task_list">Opgaver</string>
-    <string name="account_only_personal">Vis kun personlig</string>
+    <string name="account_task_list">opgaver</string>
+    <string name="account_only_personal">Vis kun personlige</string>
     <string name="account_refresh_collections">Opdater listen</string>
     <string name="account_webcal_external_app">Webcal-abonnementer kan synkroniseres med eksterne apps.</string>
-    <string name="account_no_webcal_handler_found">Der er ikke fundet noget program der kan håndtere Webcal.</string>
-    <string name="account_install_icsx5">Installere ICSx⁵</string>
+    <string name="account_no_webcal_handler_found">Der blev ikke fundet nogen app, der kan håndtere Webcal</string>
+    <string name="account_install_icsx5">Installer ICSx⁵</string>
     <!--AddAccountActivity-->
   <string name="login_title">Tilføj konto</string>
     <string name="login_generic_login">Generisk login</string>
-    <string name="login_provider_login">Provider-specifikt login</string>
+    <string name="login_provider_login">Udbyderspecifikt login</string>
     <string name="login_continue">Fortsæt</string>
     <string name="login_login">Log ind</string>
-    <string name="login_type_email">Log ind med e-mail adresse</string>
-    <string name="login_email_address">E-mail adresse</string>
-    <string name="login_email_address_error">Gyldig e-mail adresse påkrævet</string>
-    <string name="login_email_address_info"><![CDATA[E-mail-domænet bruges som basis-URL. <a href="%s">Tjenester findes</a> ved hjælp af DNS-records og velkendte URL\'er]]>.</string>
+    <string name="login_type_email">Log ind med e-mailadresse</string>
+    <string name="login_email_address">E-mailadresse</string>
+    <string name="login_email_address_error">Gyldig e-mailadresse påkrævet</string>
+    <string name="login_email_address_info">E-mail-domænet bruges som basis-URL.</string>
     <string name="login_password">Adgangskode</string>
-    <string name="login_password_hide">Skjul password</string>
-    <string name="login_password_show">Vis kodeord</string>
+    <string name="login_password_hide">Skjul adgangskode</string>
+    <string name="login_password_show">Vis adgangskode</string>
     <string name="login_type_url">Log ind med URL og brugernavn</string>
     <string name="login_user_name">Brugernavn</string>
-    <string name="login_base_url">Basis URL</string>
-    <string name="login_base_url_info"><![CDATA[Basis-URL\'en vil blive tjekket direkte, men <a href="%s">tjenester opdages også</a> ved hjælp af DNS-records og velkendte URL\'er]]>.</string>
-    <string name="login_select_certificate">Vælge certifikat</string>
+    <string name="login_base_url">Basis-URL</string>
+    <string name="login_base_url_info"><![CDATA[Basis-URL\'en bliver tjekket direkte, men <a href="%s">tjenester findes også</a> via DNS-poster og velkendte URL\'er.]]></string>
+    <string name="login_select_certificate">Vælg certifikat</string>
     <string name="login_add_account">Tilføj konto</string>
     <string name="login_account_name">Kontonavn</string>
     <string name="login_account_avoid_apostrophe">Brug af apostroffer (\') ser ud til at give problemer på nogle enheder.</string>
-    <string name="login_account_name_info">Brug en e-mail adresse som kontonavn da Android bruger kontonavn til ORGANIZER-felt for oprettede aktiviteter. Man kan ikke have to konti med samme navn.</string>
+    <string name="login_account_name_info">Brug din e-mailadresse som kontonavn, fordi Android bruger kontonavnet i feltet ORGANIZER for begivenheder, du opretter. Du kan ikke have to konti med samme navn.</string>
     <string name="login_account_contact_group_method">Gruppering af kontakter:</string>
     <string name="login_account_name_required">Kontonavn påkrævet</string>
-    <string name="login_account_name_already_taken">Konto navn er allerede i brug</string>
+    <string name="login_account_name_already_taken">Kontonavnet er allerede i brug</string>
     <string name="login_type_advanced">Avanceret login</string>
     <string name="login_client_certificate_selected">Klientcertifikat: %s</string>
     <string name="login_no_certificate_found">Intet certifikat fundet</string>
-    <string name="login_install_certificate">Installere certifikat</string>
+    <string name="login_install_certificate">Installer certifikat</string>
     <string name="login_type_google">Google Kontakter / Kalender</string>
-    <string name="login_google_account">Google konto</string>
+    <string name="login_google_account">Google-konto</string>
     <string name="login_google">Log ind med Google</string>
-    <string name="login_google_client_id">Klient ID (valgfrit)</string>
-    <string name="login_google_client_privacy_policy"><![CDATA[%1$s overfører dine Google-kontaktpersoner og kalenderdata udelukkende til synkronisering med denne enhed. Se vores \u0020<a href="%2$s">Privacy policy</a> for detaljer.]]></string>
+    <string name="login_google_client_id">Klient-ID (valgfrit)</string>
+    <string name="login_google_client_privacy_policy"><![CDATA[%1$s overfører dine kontakter og kalenderdata fra Google udelukkende til synkronisering med denne enhed. Se vores <a href="%2$s">privatlivspolitik</a> for detaljer.]]></string>
     <string name="login_google_client_limited_use"><![CDATA[%1$s overholder <a href="%2$s">Google API Services User Data Policy</a>, herunder kravene til begrænset brug.]]></string>
     <string name="login_oauth_couldnt_obtain_auth_code">Kunne ikke hente autorisationskode</string>
     <string name="login_type_nextcloud">Nextcloud</string>
     <string name="login_nextcloud_login_with_nextcloud">Log ind med Nextcloud</string>
     <string name="login_nextcloud_login_flow_text">Starter Nextcloud Login Flow i en webbrowser.</string>
-    <string name="login_nextcloud_login_flow_server_address">Nextcloud serveradresse</string>
+    <string name="login_nextcloud_login_flow_server_address">Nextcloud-serverens adresse</string>
     <string name="login_nextcloud_login_flow_sign_in">Log ind</string>
     <string name="login_nextcloud_login_flow_no_login_url">Kunne ikke hente login-URL</string>
     <string name="login_nextcloud_login_flow_no_login_data">Kunne ikke hente login-data</string>
-    <string name="login_configuration_detection">Check konfiguration</string>
+    <string name="login_configuration_detection">Registrering af konfiguration</string>
     <string name="login_querying_server">Vent, forespørger serveren…</string>
     <string name="login_no_service">Kunne ikke finde CalDAV- eller CardDAV-tjeneste.</string>
-    <string name="login_no_service_info">Basis-URL\'en ser ikke ud til at være en tilgængelig CalDAV/CardDAV-URL, og tjenestegenkendelsen lykkedes ikke.</string>
-    <string name="login_see_tested_services"><![CDATA[Venligst se manualen for din tjenesteudbyder og <a href="%s">vores liste af testede tjenester</a> og deres basis-URL\'er.]]></string>
-    <string name="login_check_credentials"><![CDATA[Dobbelttjek også autentificeringen (oftest brugernavn og adgangskode).]]></string>
+    <string name="login_no_service_info">Der er ingen CalDAV- eller CardDAV-tjeneste på den basis-URL, du har angivet, og den automatiske registrering fandt heller ingen. Det betyder som regel, at basis-URL\'en er forkert.</string>
+    <string name="login_see_tested_services"><![CDATA[Den korrekte basis-URL står som regel i din tjenesteudbyders dokumentation. Du kan også slå den op på <a href="%s">vores liste over testede tjenester</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[Serveren afviste login. Tjek dit brugernavn og din adgangskode. Nogle udbydere kræver en <a href="%s">app-adgangskode</a> i stedet for din almindelige adgangskode.]]></string>
     <string name="login_logs_available">Yderligere tekniske oplysninger findes i logfilerne.</string>
     <string name="login_view_logs">Vis logfiler</string>
     <!--AccountSettingsActivity-->
@@ -273,9 +273,9 @@
     <string name="settings_sync_wifi_only_ssids">WiFi SSID-begrænsning</string>
     <string name="settings_sync_wifi_only_ssids_on">Synkroniserer kun over %s</string>
     <string name="settings_sync_wifi_only_ssids_off">Alle WiFi-forbindelser vil blive anvendt</string>
-    <string name="settings_sync_wifi_only_ssids_message">Kommaseparerede navne (SSID\'er) over tilladte WiFi-netværk (efterlad blank for at bruge alle)</string>
-    <string name="settings_sync_wifi_only_ssids_permissions_required">Trådløs SSID begrænsning kræver yderligere opsætning</string>
-    <string name="settings_sync_wifi_only_ssids_permissions_action">Håndtere</string>
+    <string name="settings_sync_wifi_only_ssids_message">Kommaseparerede navne (SSID\'er) på tilladte WiFi-netværk (lad feltet være tomt for at bruge alle)</string>
+    <string name="settings_sync_wifi_only_ssids_permissions_required">WiFi-SSID-begrænsning kræver yderligere indstillinger</string>
+    <string name="settings_sync_wifi_only_ssids_permissions_action">Administrer</string>
     <string name="settings_ignore_vpns">VPN kræver underliggende internet</string>
     <string name="settings_ignore_vpns_on">VPN uden underliggende valideret internetforbindelse er ikke nok til at køre synkronisering (anbefales)</string>
     <string name="settings_ignore_vpns_off">VPN uden underliggende valideret internetforbindelse er nok til at køre synkronisering</string>
@@ -285,7 +285,7 @@
     <string name="settings_password_summary">Opdater adgangskoden, så den svarer til din server.</string>
     <string name="settings_certificate_alias">Klientcertifikat</string>
     <string name="settings_certificate_alias_empty">Intet certifikat tilgængeligt eller udvalgt</string>
-    <string name="settings_certificate_install">Installere certifikat</string>
+    <string name="settings_certificate_install">Installer certifikat</string>
     <string name="settings_caldav">CalDAV</string>
     <string name="settings_sync_time_range_past">Tidsafgrænsning for tidligere begivenheder</string>
     <string name="settings_sync_time_range_past_none">Alle begivenheder vil blive synkroniseret</string>
@@ -294,16 +294,16 @@
         <item quantity="other">Begivenheder, der er mere end %d dage gamle, vil blive ignoreret</item>
     </plurals>
     <string name="settings_sync_time_range_past_message">Begivenheder, som er mere end dette antal dage gamle vil blive ignoreret (kan også være 0). Hvis feltet ikke er udfyldt, vil alle begivenheder blive synkroniseret.</string>
-    <string name="settings_default_alarm">Standard påmindelse</string>
+    <string name="settings_default_alarm">Standardpåmindelse</string>
     <plurals name="settings_default_alarm_on">
-        <item quantity="one">Standard påmindelse 1 minut før hændelse</item>
-        <item quantity="other">Standard påmindelse %d minutter før hændelse</item>
+        <item quantity="one">Standardpåmindelse 1 minut før begivenheden</item>
+        <item quantity="other">Standardpåmindelse %d minutter før begivenheden</item>
     </plurals>
-    <string name="settings_default_alarm_off">Ingen standard påmindelse oprettet</string>
-    <string name="settings_default_alarm_message">Hvis standard påmindelse skal oprettes for hændelse uden påmindelse: antal minutter før hændelse. Efterlad tom for at deaktivere standard påmindelse.</string>
+    <string name="settings_default_alarm_off">Der oprettes ingen standardpåmindelser</string>
+    <string name="settings_default_alarm_message">Hvis der skal oprettes standardpåmindelser for begivenheder uden påmindelse: det ønskede antal minutter før begivenheden. Lad feltet være tomt for at slå standardpåmindelser fra.</string>
     <string name="settings_manage_calendar_colors">Administrer farver for kalender</string>
-    <string name="settings_manage_calendar_colors_on">Kalender farver nulstilles ved hver synkronisering</string>
-    <string name="settings_manage_calendar_colors_off">Kalender farver kan sættes fra andre programmer</string>
+    <string name="settings_manage_calendar_colors_on">Kalenderfarver nulstilles ved hver synkronisering</string>
+    <string name="settings_manage_calendar_colors_off">Kalenderfarver kan sættes af andre apps</string>
     <string name="settings_event_colors">Farver for begivenheder</string>
     <string name="settings_event_colors_on">Farver for begivenheder er synkroniseret</string>
     <string name="settings_event_colors_off">Farver for begivenheder er ikke synkroniseret</string>
@@ -318,20 +318,20 @@
     <string name="create_addressbook_maybe_not_supported">Oprettelse af adressebøger via CardDAV understøttes muligvis ikke af serveren.</string>
     <string name="create_calendar">Opret kalender</string>
     <string name="create_calendar_time_zone_none">—</string>
-    <string name="create_calendar_type">Mulige kalenderposte</string>
+    <string name="create_calendar_type">Mulige kalenderposter</string>
     <string name="create_calendar_type_vevent">Begivenheder</string>
     <string name="create_calendar_type_vtodo">Opgaver</string>
     <string name="create_calendar_type_vjournal">Notater / journal</string>
     <string name="create_calendar_maybe_not_supported">Kalenderoprettelse via CalDAV understøttes muligvis ikke af serveren.</string>
     <string name="create_collection_color">Farve</string>
     <string name="create_collection_display_name">Titel</string>
-    <string name="create_collection_home_set">Lager placering</string>
+    <string name="create_collection_home_set">Lagerplacering</string>
     <string name="create_collection_description_optional">Beskrivelse (valgfrit)</string>
     <string name="create_collection_create">Opret</string>
     <!--CollectionScreen-->
-  <string name="collection_datatype_contacts">Kontakter</string>
-    <string name="collection_datatype_tasks">Opgaver</string>
-    <string name="collection_delete">Slet sæt</string>
+  <string name="collection_datatype_contacts">kontakter</string>
+    <string name="collection_datatype_tasks">opgaver</string>
+    <string name="collection_delete">Slet samling</string>
     <string name="collection_delete_warning">Denne samling (%s) og al dens data vil blive permanent fjernet, både lokalt og på serveren.</string>
     <string name="collection_synchronization">Synkronisering</string>
     <string name="collection_synchronization_on">Synkronisering aktiveret</string>
@@ -347,25 +347,25 @@
     <string name="collection_url">Adresse (URL)</string>
     <!--debugging and DebugInfoActivity-->
   <string name="debug_info_title">Debug-info</string>
-    <string name="debug_info_archive_caption">ZIP arkiv</string>
-    <string name="debug_info_archive_subtitle">Indeholder fejlsøgnings information og log</string>
+    <string name="debug_info_archive_caption">ZIP-arkiv</string>
+    <string name="debug_info_archive_subtitle">Indeholder debug-info og logfiler</string>
     <string name="debug_info_archive_text">Del arkivet for at overføre det til en computer, sende det via e-mail eller vedhæfte til en support sag.</string>
     <string name="debug_info_archive_share">Del arkiv</string>
-    <string name="debug_info_attached">Fejlsøge informationer vedhæftet denne meddelelse (kræver vedhæftning understøttelse hos modtagende program).</string>
-    <string name="debug_info_http_error">HTTP fejl</string>
-    <string name="debug_info_server_error">Server fejl</string>
-    <string name="debug_info_webdav_error">WebDAV fejl</string>
-    <string name="debug_info_io_error">Ind/ud fejl</string>
+    <string name="debug_info_attached">Debug-info er vedhæftet beskeden (kræver, at den modtagende app understøtter vedhæftede filer).</string>
+    <string name="debug_info_http_error">HTTP-fejl</string>
+    <string name="debug_info_server_error">Serverfejl</string>
+    <string name="debug_info_webdav_error">WebDAV-fejl</string>
+    <string name="debug_info_io_error">I/O-fejl</string>
     <string name="debug_info_view_details">Vis detaljer</string>
-    <string name="debug_info_subtitle">Fejlsøgnings information er indsamlet</string>
-    <string name="debug_info_involved_caption">Involveret ressourcer</string>
+    <string name="debug_info_subtitle">Der er indsamlet debug-info</string>
+    <string name="debug_info_involved_caption">Involverede ressourcer</string>
     <string name="debug_info_involved_subtitle">Relateret til problemet</string>
-    <string name="debug_info_involved_remote">Fjern ressource:</string>
+    <string name="debug_info_involved_remote">Ekstern ressource:</string>
     <string name="debug_info_involved_local">Lokal ressource:</string>
-    <string name="debug_info_logs_caption">Log</string>
-    <string name="debug_info_logs_subtitle">Uddybende log er tilgængelig</string>
+    <string name="debug_info_logs_caption">Logfiler</string>
+    <string name="debug_info_logs_subtitle">Detaljerede logfiler er tilgængelige</string>
     <string name="debug_info_logs_view">Vis logfiler</string>
-    <string name="debug_info_copy_remote_url">Kopiere URL</string>
+    <string name="debug_info_copy_remote_url">Kopiér URL</string>
     <!--ExceptionInfoFragment-->
   <string name="exception">Der er opstået en fejl.</string>
     <string name="exception_httpexception">Der er opstået en HTTP-fejl.</string>
@@ -373,43 +373,43 @@
     <string name="exception_show_details">Vis detaljer</string>
     <!--WebDAV accounts-->
   <string name="webdav_mounts_title">WebDAV monteringspunkter</string>
-    <string name="webdav_mounts_quota_used_available">Mængde brugt: %1$s / tilgængelig: %2$s</string>
+    <string name="webdav_mounts_quota_used_available">Kvote brugt: %1$s / tilgængelig: %2$s</string>
     <string name="webdav_mounts_share_content">Del indhold</string>
-    <string name="webdav_mounts_unmount">Afmontere</string>
+    <string name="webdav_mounts_unmount">Afmonter</string>
     <string name="webdav_add_mount_title">Tilføj WebDAV monteringspunkt</string>
-    <string name="webdav_mounts_empty">Tilføj en WebDAV mount for at tilgå dine filer i skyen</string>
-    <string name="webdav_add_mount_display_name">Vis navn</string>
+    <string name="webdav_mounts_empty">Få direkte adgang til dine filer i skyen ved at tilføje et WebDAV-monteringspunkt!</string>
+    <string name="webdav_add_mount_display_name">Visningsnavn</string>
     <string name="webdav_add_mount_url">WebDAV URL</string>
     <string name="webdav_add_mount_url_invalid">Ugyldig URL</string>
     <string name="webdav_add_mount_authentication">Adgangsgodkendelse</string>
     <string name="webdav_add_mount_username">Brugernavn</string>
     <string name="webdav_add_mount_password">Adgangskode</string>
     <string name="webdav_add_mount_add">Tilføj monteringspunkt</string>
-    <string name="webdav_add_mount_no_support">Ingen WebDAV tjeneste på URL\'en</string>
+    <string name="webdav_add_mount_no_support">Ingen WebDAV-tjeneste på denne URL</string>
     <string name="webdav_remove_mount_title">Fjern monteringspunkt</string>
-    <string name="webdav_remove_mount_text">Forbindelses informationer vil gå tabt, men ingen filer slettes.</string>
-    <string name="webdav_notification_access">Tilgå WebDAV fil</string>
-    <string name="webdav_notification_download">Hent WebDAV fil</string>
-    <string name="webdav_notification_upload">Overfør WebDAV fil</string>
-    <string name="webdav_provider_root_title">Montere WebDAV</string>
+    <string name="webdav_remove_mount_text">Forbindelsesoplysningerne går tabt, men ingen filer bliver slettet.</string>
+    <string name="webdav_notification_access">Åbner WebDAV-fil</string>
+    <string name="webdav_notification_download">Henter WebDAV-fil</string>
+    <string name="webdav_notification_upload">Overfører WebDAV-fil</string>
+    <string name="webdav_provider_root_title">WebDAV-monteringspunkt</string>
     <!--sync-->
-  <string name="sync_error_permissions">DAVx⁵-rettigheder</string>
-    <string name="sync_error_permissions_text">Yderligere adgang påkrævet</string>
+  <string name="sync_error_permissions">Tilladelser til DAVx⁵</string>
+    <string name="sync_error_permissions_text">Der kræves yderligere tilladelser</string>
     <string name="sync_error_tasks_too_old">%s for gammel</string>
     <string name="sync_error_tasks_required_version">Påkrævet version: %1$s</string>
-    <string name="sync_error_authentication_failed">Login mislykkedes (check loginoplysninger)</string>
+    <string name="sync_error_authentication_failed">Godkendelse mislykkedes (tjek loginoplysninger)</string>
     <string name="sync_error_io">Netværks- eller I/O-fejl - %s</string>
     <string name="sync_error_http_dav">HTTP-serverfejl - %s</string>
     <string name="sync_error_local_storage">Lokal lagringsfejl - %s</string>
     <string name="sync_error_retry_limit_reached">Blød fejl (maks forsøg nået)</string>
-    <string name="sync_invalid_contact">Modtaget ugyldig kontakt fra server</string>
-    <string name="sync_invalid_event">Modtaget ugyldig begivenhed fra server</string>
-    <string name="sync_invalid_task">Modtaget ugyldig opgave fra server</string>
-    <string name="sync_invalid_resources_ignoring">Ignorere en eller flere ugyldige kilder</string>
+    <string name="sync_invalid_contact">Modtog en ugyldig kontakt fra serveren</string>
+    <string name="sync_invalid_event">Modtog en ugyldig begivenhed fra serveren</string>
+    <string name="sync_invalid_task">Modtog en ugyldig opgave fra serveren</string>
+    <string name="sync_invalid_resources_ignoring">Ignorerer en eller flere ugyldige ressourcer</string>
     <!--widgets-->
   <string name="widget_sync_all">Synkroniser alle</string>
     <string name="widget_sync_all_accounts">Synkroniser alle konti</string>
-    <string name="dismiss_forever">Ignorer for evigt</string>
+    <string name="dismiss_forever">Skjul permanent</string>
     <string name="notification_channel_user_interaction_desc">Brugerinteraktion påkrævet. Et problem skal løses manuelt.</string>
     <string name="intro_tasks_tasks_org_info"><![CDATA[Nogle funktioner <a href="https://www.davx5.com/faq/tasks/advanced-task-features">understøttes ikke</a>.]]></string>
     <string name="intro_backups_title">Påmindelse om sikkerhedskopiering</string>
@@ -456,4 +456,92 @@
     <string name="settings_reauthorize_oauth_summary">Bruges, når adgangen er blevet tilbagekaldt</string>
     <string name="settings_reauthorize_oauth_success">Godkendelsen lykkedes</string>
     <string name="create_calendar_time_zone_optional">Standardtidszone (valgfri)</string>
+    <string name="collection_datatype_events">begivenheder</string>
+    <string name="collection_read_only_by_setting">Skrivebeskyttet (ifølge politik)</string>
+    <string name="collection_push_support">Push-understøttelse</string>
+    <string name="collection_push_web_push">Serveren oplyser, at den understøtter push</string>
+    <string name="collection_push_subscribed_at">Abonneret %1$s, udløber %2$s</string>
+    <string name="debug_info_http_403_description">Serveren har afvist forespørgslen.</string>
+    <string name="debug_info_http_404_description">Den ønskede ressource findes ikke (længere).</string>
+    <string name="debug_info_http_405_description">Serveren tillader ikke den ønskede type handling.</string>
+    <string name="debug_info_http_5xx_description">Der opstod et problem på serveren.</string>
+    <string name="debug_info_unexpected_error">Der opstod en uventet fejl. Se debug-info for detaljer.</string>
+    <string name="debug_info_view_local_resource">Undersøg ressource</string>
+    <string name="debug_info_privacy_warning_title">Bemærkning om privatliv</string>
+    <string name="debug_info_privacy_warning_description">Logfiler og debug-info kan indeholde private oplysninger. Vær opmærksom på det, når du deler dem offentligt.</string>
+    <string name="debug_info_can_not_view_resource">Ressourcen kan ikke vises</string>
+    <string name="webdav_add_mount_empty_more_info"><![CDATA[Se i manualen, <a href="%1$s">hvordan WebDAV-monteringspunkter virker</a>.]]></string>
+    <string name="webdav_add_mount_mountpoint_displayname">Monteringspunkt og visningsnavn</string>
+    <string name="webdav_add_mount_username_optional">Brugernavn (valgfrit)</string>
+    <string name="webdav_add_mount_password_optional">Adgangskode (valgfri)</string>
+    <string name="sync_notification_pending_push_title">Synkronisering venter</string>
+    <string name="sync_notification_pending_push_message">Data på serveren er ændret</string>
+    <string name="widget_labeled_sync_label">Synkroniseringsknap med tekst</string>
+    <string name="widget_icon_sync_label">Synkroniseringsknap med ikon</string>
+    <string name="widget_sync_description">Tryk for at synkronisere manuelt.</string>
+    <string name="about_translations_contribute">Hjælp med at oversætte</string>
+    <string name="collection_datatype_contacts_count">%1$d kontakter</string>
+    <string name="collection_datatype_events_count">%1$d begivenheder</string>
+    <string name="collection_datatype_tasks_count">%1$d opgaver</string>
+    <string name="collection_synced_items_title">Antal lokale elementer</string>
+    <plurals name="collection_synced_items_total">
+        <item quantity="one">%1$d element i %2$s</item>
+        <item quantity="other">%1$d elementer i %2$s</item>
+    </plurals>
+    <plurals name="collection_synced_items_modified">
+        <item quantity="one">├ %d ikke-synkroniseret ændring</item>
+        <item quantity="other">├ %d ikke-synkroniserede ændringer</item>
+    </plurals>
+    <plurals name="collection_synced_items_deleted">
+        <item quantity="one">└ %d ikke-synkroniseret sletning</item>
+        <item quantity="other">└ %d ikke-synkroniserede sletninger</item>
+    </plurals>
+    <plurals name="collection_synced_items_past_event_time_limit">
+        <item quantity="one">Elementer, der er ældre end %d dag, synkroniseres ikke (se kontoindstillingerne).</item>
+        <item quantity="other">Elementer, der er ældre end %d dage, synkroniseres ikke (se kontoindstillingerne).</item>
+    </plurals>
+    <string name="login_invalid_use_case">Ugyldig brug</string>
+    <string name="login_invalid_use_case_info"><![CDATA[Denne variant %s af appen kan kun bruges med udvalgte tjenester.]]></string>
+    <string name="login_download_regular_davx5"><![CDATA[Brug i stedet <a href="%s">DAVx⁵</a>, som kan bruges med alle tjenester.]]></string>
+    <string name="login_download_button">Hent DAVx⁵</string>
+    <string name="keep_android_open"><![CDATA[Androids åbenhed er truet. Se, hvordan du kan hjælpe, på <a href="%s">keepandroidopen.org</a>.]]></string>
+    <string name="app_settings_push_title">Push</string>
+    <string name="app_settings_push_description">Brug push, så CalDAV-, CardDAV- og WebDAV-servere straks giver %s besked om ændringer i dine data på serveren.</string>
+    <string name="app_settings_push_use_push">Brug push</string>
+    <string name="app_settings_push_no_push_services_found"><![CDATA[Der blev ikke fundet nogen push-tjenester. Gå til <a href="%1$s">%2$s</a> for at se en liste over distributørapps.]]></string>
+    <string name="app_settings_push_info_text"><![CDATA[Push-beskeder er altid krypterede. Læs mere om WebDAV-Push i <a href="%s">manualen</a>.]]></string>
+    <string name="app_settings_push_push_services">Push-tjeneste</string>
+    <string name="app_settings_push_default_distributor_text">(systemstandard)</string>
+    <string name="app_settings_push_select_default_distributor_description">Der er installeret flere UnifiedPush-distributørapps. Her kan du vælge en standard for hele systemet, så andre apps med UnifiedPush ikke skal spørge, hvilken de skal bruge.</string>
+    <string name="app_settings_push_select_default_distributor_action">Angiv som standard</string>
+    <string name="app_settings_push_capability_none">Ingen af dine samlinger på serveren med synkronisering slået til understøtter i øjeblikket WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">Kun nogle af dine samlinger på serveren med synkronisering slået til understøtter i øjeblikket WebDAV-Push.</string>
+    <string name="app_settings_push_enabled_summary">Til, %s</string>
+    <string name="app_settings_push_disabled_summary">Fra</string>
+    <string name="notification_channel_user_interaction">Brugerinteraktion</string>
+    <string name="push_distributor_selection_required_title">Der skal vælges en distributør</string>
+    <string name="push_distributor_selection_required_message">Der kunne ikke findes en standarddistributør til UnifiedPush. Tryk for at vælge en.</string>
+    <string name="login_see_tested_with"><![CDATA[Hvis du er i tvivl om, hvad du skal vælge, så se din udbyders dokumentation og vores side med <a href="%s">testede tjenester</a>.]]></string>
+    <string name="debug_info_find_help">Find hjælp online</string>
+    <string name="debug_info_find_help_faq">Find svar på &lt;b&gt;almindelige spørgsmål&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Vis ofte stillede spørgsmål på webstedet</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Bed om hjælp&lt;/b&gt; på GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Åbn diskussioner</string>
+    <string name="debug_info_find_help_issues">Slå &lt;b&gt;åbne sager&lt;/b&gt; op på GitHub</string>
+    <string name="debug_info_find_help_issues_action">Vis aktuelle sager</string>
+    <string name="debug_info_find_help_manual">Find &lt;b&gt;tekniske oplysninger&lt;/b&gt;</string>
+    <string name="debug_info_find_help_manual_action">Åbn manualen</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Kontakt supportteamet hos <tt>%1$s</tt></b> (ikke %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Kontakt din udbyders supportteam</b> (ikke %1$s).]]></string>
+    <string name="permissions_local_network_title">Tilladelse til lokalt netværk</string>
+    <string name="permissions_local_network_status_off">Adgang til lokalt netværk afvist</string>
+    <string name="permissions_local_network_status_on">Adgang til lokalt netværk givet</string>
+    <string name="sync_warning_no_local_network_permission">Adgang til lokalt netværk er slået fra. Du kan ikke synkronisere med enheder på dit lokale netværk.</string>
+    <string name="collection_disable_sync_title">Slå synkronisering fra?</string>
+    <string name="collection_disable_sync_warning">Når du slår synkronisering fra, fjernes de lokale data for denne samling (%s) fra enheden. Data på serveren påvirkes ikke.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">Desuden er %d lokal ændring ikke overført endnu og går tabt!</item>
+        <item quantity="other">Desuden er %d lokale ændringer ikke overført endnu og går tabt!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Slå fra</string>
 </resources>
