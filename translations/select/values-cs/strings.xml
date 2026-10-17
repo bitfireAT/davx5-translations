@@ -9,7 +9,7 @@
     <string name="select_welcome_slogan_with_server">se zvoleným severem.</string>
     <string name="select_welcome_logo_description">Logo výběru DAVx⁵</string>
     <string name="select_welcome_illustration_description">Kráčející osoba vedle velkého chytrého telefonu s ikonami synchronizace</string>
-    <string name="login_type_preconfigured">Přihlásit se pomocí poskytnuté konfigurace</string>
+    <string name="login_type_preconfigured">Přihlásit se pomocí QR kódu nebo konfiguračního profilu</string>
     <string name="profile_url">Adresa konfigurace</string>
     <string name="profile_url_help">Váš poskytovatel serveru by vám měl poskytnout adresu pro předběžnou konfiguraci.</string>
     <string name="scan_qr">Naskenovat QR kód</string>
