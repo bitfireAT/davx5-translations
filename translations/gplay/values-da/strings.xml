@@ -5,18 +5,36 @@
     <string name="nav_rate_us">Bedøm i Google Play</string>
     <!-- EarnBadgesActivity -->
     <plurals name="you_earned_badges">
-        <item quantity="one">Du har fortjent et emblem, tak!</item>
+        <item quantity="one">Du har optjent et emblem, tak!</item>
         <item quantity="other">Du har optjent %d emblemer, tak!</item>
     </plurals>
     <string name="available_badges">Mulige emblemer</string>
     <string name="available_badges_empty">Beklager, kunne ikke indlæse emblemer. Er du logget ind i Play Store?</string>
     <string name="what_are_badges">Hvad er emblemer?</string>
     <string name="what_are_badges_title">Hvad er emblemer?</string>
-    <string name="what_are_badges_body">Badges er enkle engangsbetalinger i appen. Du optjener et fint lille emblem, og støtter os dermed.</string>
+    <string name="what_are_badges_body">Emblemer er enkle engangsbetalinger i appen. Du optjener et fint lille emblem og støtter os dermed over tid.</string>
     <string name="why_badges_title">Hvorfor tilbyder DAVx5 emblemer uden funktioner?</string>
-    <string name="why_badges_body">DAVx5 er virkelig vokset gennem årene! Vi udvikler stadig aktivt nye funktioner, yder support, og vi opdaterer altid appen til kommende Android-versioner. Disse badges er engangsbetalinger, hvor du blot kan vise din støtte ved at købe os en kaffe eller to… eller 10 :-) Vi prøver at være så åbne som muligt, så der vil aldrig være nye funktioner, der er gemt bag betaling i appen.</string>
+    <string name="why_badges_body">DAVx5 er virkelig vokset gennem årene! Vi udvikler stadig aktivt nye funktioner, yder support, og vi opdaterer altid appen til kommende Android-versioner. Disse emblemer er engangsbetalinger, hvor du blot kan vise din støtte ved at købe os en kaffe eller to… eller 10 :-) Vi prøver at være så åbne som muligt, så der vil aldrig være nye funktioner, der er gemt bag betaling i appen.</string>
     <string name="button_buy_badge_free">GRATIS</string>
     <string name="button_buy_badge_bought">Tak!</string>
     <string name="earn_badges">Optjen emblemer for at støtte os!</string>
     <string name="nav_feedback_google_play">Send i Google Play</string>
+    <string name="nav_feedback_inapp_didnt_appear">Blev bedømmelsen i appen ikke vist?</string>
+    <string name="nav_feedback_scroll_to_reviews">Rul ned til afsnittet med bedømmelser for at give feedback</string>
+    <string name="about_flavor_info">Denne version må kun distribueres via Google Play.</string>
+    <string name="billing_unavailable">API\'et til betaling er ikke tilgængeligt</string>
+    <string name="purchase_acknowledgement_failed">Købet kunne ikke bekræftes</string>
+    <string name="purchase_acknowledgement_successful">Tak for støtten!</string>
+    <string name="purchase_failed">Købet mislykkedes</string>
+    <string name="network_problems">Netværksproblemer. Prøv igen senere.</string>
+    <string name="badge_consumption_action">Tryk for at indløse</string>
+    <string name="badge_consumption_message">Når du indløser emblemet, fjernes det fra dit bibliotek med en sej animation. Så kan du købe emblemet igen og blive ved med at støtte os.</string>
+    <string name="badge_consumption_warning">Indløsning kan ikke fortrydes, men giver dig mulighed for at optjene emblemet igen.</string>
+    <string name="badge_consumption_content_description">Optjent emblem. Tryk for at indløse</string>
+    <string name="badge_consumption_success_zero">Du har indløst alle %1$s.</string>
+    <plurals name="badge_consumption_success_multiple">
+        <item quantity="one">Du har indløst et %1$s. %2$d emblem tilbage.</item>
+        <item quantity="other">Du har indløst et %1$s. %2$d emblemer tilbage.</item>
+    </plurals>
+    <string name="test_github_workflow">Test af GitHub-workflow</string>
 </resources>
