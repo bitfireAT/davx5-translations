@@ -411,4 +411,49 @@
     <string name="widget_sync_all_accounts">Synkroniser alle konti</string>
     <string name="dismiss_forever">Ignorer for evigt</string>
     <string name="notification_channel_user_interaction_desc">Brugerinteraktion påkrævet. Et problem skal løses manuelt.</string>
+    <string name="intro_tasks_tasks_org_info"><![CDATA[Nogle funktioner <a href="https://www.davx5.com/faq/tasks/advanced-task-features">understøttes ikke</a>.]]></string>
+    <string name="intro_backups_title">Påmindelse om sikkerhedskopiering</string>
+    <string name="intro_backups_important">Det er vigtigt at sikkerhedskopiere dine data (også kontakter og kalendere) jævnligt for at undgå datatab.</string>
+    <string name="intro_backups_something_wrong">Der kan altid gå noget galt, uanset om det er på serveren, i %s eller i andre apps, som f.eks. ved et uheld kan slette alle aftaler i kalenderen. (Sletningerne bliver så synkroniseret til serveren.)</string>
+    <string name="intro_backups_accept">Jeg har allerede en sikkerhedskopiering, der virker, eller jeg har ikke brug for en.</string>
+    <string name="intro_open_source_dont_show">Påmind mig ikke i</string>
+    <plurals name="intro_open_source_dont_show_months">
+        <item quantity="one">%d måned</item>
+        <item quantity="other">%d måneder</item>
+    </plurals>
+    <string name="wifi_permissions_background_location_disclaimer">%s bruger placeringsdata (kun WiFi-SSID) udelukkende til at begrænse synkroniseringen til et bestemt WiFi-SSID. Det sker også, når synkroniseringen kører i baggrunden.</string>
+    <string name="wifi_permissions_background_location_disclaimer2">Alle placeringsdata (kun WiFi-SSID) bruges kun lokalt og sendes ingen steder hen.</string>
+    <string name="about_translations_thanks">❤️ Tak til alle, der har bidraget med oversættelser!</string>
+    <string name="about_translations_over_transifex">Via Transifex</string>
+    <string name="about_translations_over_weblate">Via Weblate</string>
+    <string name="navigation_drawer_managed">Til organisationer</string>
+    <string name="account_list_welcome">Velkommen til DAVx⁵!</string>
+    <string name="account_list_empty">Forbind til din server, og hold dine kalendere og kontakter synkroniseret.</string>
+    <string name="sync_warning_no_internet">Automatisk synkronisering er ikke aktiv (ingen bekræftet internetforbindelse).</string>
+    <string name="sync_warning_calendar_storage_disabled_title">Kalenderudbyder mangler</string>
+    <string name="sync_warning_calendar_storage_disabled_description">Har du slået systemappen \"Kalenderlager\" fra?</string>
+    <string name="sync_warning_contacts_storage_disabled_title">Kontaktudbyder mangler</string>
+    <string name="sync_warning_contacts_storage_disabled_description">Har du slået systemappen \"Kontaktlager\" fra?</string>
+    <string name="sync_warning_manage_apps">Administrer apps</string>
+    <string name="app_settings_show_debug_info_details">Vis/del konfigurationsdetaljer og logfiler</string>
+    <string name="app_settings_logging_on">Logning er aktiv. Du kan se logfilerne som en del af debug-info.</string>
+    <string name="app_settings_distrust_system_certs_dialog_message">Når denne indstilling er slået til, regnes systemcertifikater ikke som pålidelige. Det betyder, at du selv skal acceptere hvert certifikat (også når serveren fornyer sit certifikat), ellers virker opsætning af konti og synkronisering ikke.</string>
+    <string name="app_settings_unifiedpush_no_endpoint">Intet slutpunkt er sat op</string>
+    <string name="app_settings_unifiedpush_distributor_fcm">FCM (Google Play)</string>
+    <string name="account_invalid_account">Kontoen er blevet fjernet</string>
+    <string name="login_privacy_hint"><![CDATA[Alle data overføres kun mellem din server og din enhed. %1$s sender dem ikke andre steder hen. Se <a href="%2$s">privatlivspolitikken</a>.]]></string>
+    <string name="login_password_optional">Adgangskode (valgfri)</string>
+    <string name="login_user_name_optional">Brugernavn (valgfrit)</string>
+    <string name="login_account_not_added">Kontoen kunne ikke tilføjes</string>
+    <string name="login_finish">Afslut</string>
+    <string name="login_no_client_certificate_optional">Intet klientcertifikat (valgfrit)</string>
+    <string name="login_fastmail">Fastmail</string>
+    <string name="login_fastmail_account">Fastmail-konto</string>
+    <string name="login_fastmail_sign_in">Log ind med Fastmail</string>
+    <string name="settings_password">Adgangskode eller app-adgangskode</string>
+    <string name="settings_app_password_hint"><![CDATA[Du kan med fordel bruge en <a href="%1$s">app-adgangskode</a>.]]></string>
+    <string name="settings_reauthorize_oauth">Godkend igen (OAuth)</string>
+    <string name="settings_reauthorize_oauth_summary">Bruges, når adgangen er blevet tilbagekaldt</string>
+    <string name="settings_reauthorize_oauth_success">Godkendelsen lykkedes</string>
+    <string name="create_calendar_time_zone_optional">Standardtidszone (valgfri)</string>
 </resources>
