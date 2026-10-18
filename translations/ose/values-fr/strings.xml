@@ -28,7 +28,7 @@
     <string name="notification_channel_sync_io_errors_desc">Délais d\'attente, problèmes de connexion, etc. (souvent temporaires)</string>
     <!--IntroActivity-->
   <string name="intro_slogan1">Vos données, votre choix.</string>
-    <string name="intro_slogan2">Prenez le contrôle.</string>
+    <string name="intro_slogan2">Prendre le contrôle.</string>
     <string name="intro_battery_title">Intervalles de synchronisation régulières</string>
     <string name="intro_battery_text">Pour une synchronisation à intervalles réguliers, %s doit être autorisé à fonctionner en arrière-plan. Sinon, Android peut interrompre la synchronisation à tout moment.</string>
     <string name="intro_battery_dont_show">Je n\'ai pas besoin d\'intervalles de synchronisation réguliers.*</string>
@@ -71,8 +71,8 @@
     <string name="permissions_autoreset_title">Conserver les autorisations</string>
     <string name="permissions_autoreset_status_off">Les autorisations peuvent être réinitialisées automatiquement (non recommandé)</string>
     <string name="permissions_autoreset_status_on">Les autorisations ne seront pas réinitialisées automatiquement</string>
-    <string name="permissions_autoreset_instruction">Cliquez sur Autorisations &gt; décochez \"Supprimer les autorisations si l\'application n\'est pas utilisée\".</string>
-    <string name="permissions_app_settings_hint">Si un commutateur ne fonctionne pas, utiliser les paramètres de l\'application / Autorisations</string>
+    <string name="permissions_autoreset_instruction">Cliquez sur Autorisations &gt; décochez \"Supprimer les autorisations si l\'application n\'est pas utilisée\"</string>
+    <string name="permissions_app_settings_hint">Si un commutateur ne fonctionne pas, utiliser les paramètres de l\'application / Autorisations.</string>
     <string name="permissions_app_settings">Paramètres de l\'application</string>
     <!--WifiPermissionsActivity-->
   <string name="wifi_permissions_label">WiFi SSID autorisations</string>
@@ -116,12 +116,12 @@
     <string name="navigation_drawer_support_project">Soutenir le projet</string>
     <string name="navigation_drawer_contribute">Comment contribuer</string>
     <string name="navigation_drawer_privacy_policy">Politique de confidentialité</string>
-    <string name="account_list_welcome">Bienvenue sur DAVx⁵!</string>
+    <string name="account_list_welcome">Bienvenue sur DAVx⁵ !</string>
     <string name="account_list_empty">Connectez-vous à votre serveur pour garder vos calendriers et contacts synchronisés.</string>
     <string name="accounts_sync_all">Synchroniser tous les comptes</string>
     <!--Sync warnings-->
   <string name="sync_warning_no_notification_permission">Notifications désactivées. Vous ne serez pas averti des erreurs de synchronisation.</string>
-    <string name="sync_warning_no_internet">La synchronisation automatique n\'est pas active (aucune connexion Internet vérifiée)</string>
+    <string name="sync_warning_no_internet">La synchronisation automatique n\'est pas active (aucune connexion Internet vérifiée).</string>
     <string name="sync_warning_manage_connections">Gérer les connexions</string>
     <string name="sync_warning_datasaver_enabled">L\'économiseur de données est activé. La synchronisation en arrière-plan est limitée.</string>
     <string name="sync_warning_manage_datasaver">Gérer l\'économiseur de données</string>
@@ -207,7 +207,7 @@
     <string name="account_journal">journal</string>
     <string name="account_task_list">tâches</string>
     <string name="account_only_personal">N\'afficher que les comptes personnels</string>
-    <string name="account_refresh_collections">Rafraîchir la liste</string>
+    <string name="account_refresh_collections">Rafraichir la liste</string>
     <string name="account_webcal_external_app">Les abonnements Webcal peuvent être synchronisés avec des applications tierces.</string>
     <string name="account_no_webcal_handler_found">Aucune application compatible WebCal</string>
     <string name="account_install_icsx5">Installer ICSx⁵</string>
@@ -221,7 +221,7 @@
     <string name="login_type_email">Connexion avec une adresse de courriel</string>
     <string name="login_email_address">Adresse de courriel</string>
     <string name="login_email_address_error">Une adresse de courriel valide est requise</string>
-    <string name="login_email_address_info">Le domaine de l\'adresse de courriel est utilisé comme URL de base. <a href="%s">Les services sont découverts</a> en utilisant les enregistrements DNS et les URL connues.</string>
+    <string name="login_email_address_info">Le domaine de l\'adresse de courriel est utilisé comme URL de base.</string>
     <string name="login_password">Mot de passe</string>
     <string name="login_password_hide">Cacher le mot de passe</string>
     <string name="login_password_show">Montrer le mot de passe</string>
@@ -252,7 +252,7 @@
     <string name="login_oauth_couldnt_obtain_auth_code">N\'a pas pu obtenir le code d\'autorisation</string>
     <string name="login_type_nextcloud">Nextcloud</string>
     <string name="login_nextcloud_login_with_nextcloud">Se connecter avec Nextcloud</string>
-    <string name="login_nextcloud_login_flow_text">La page de connexion Nextcloud va se lancer dans le navigateur</string>
+    <string name="login_nextcloud_login_flow_text">La page de connexion Nextcloud va se lancer dans le navigateur.</string>
     <string name="login_nextcloud_login_flow_server_address">Adresse du serveur Nextcloud</string>
     <string name="login_nextcloud_login_flow_sign_in">Se connecter</string>
     <string name="login_nextcloud_login_flow_no_login_url">Impossible d\'obtenir l\'URL de connexion</string>
@@ -260,9 +260,9 @@
     <string name="login_configuration_detection">Détection de la configuration</string>
     <string name="login_querying_server">Veuillez patienter, nous interrogeons le serveur …</string>
     <string name="login_no_service">Aucun accès possible au service CalDAV ou CardDAV.</string>
-    <string name="login_no_service_info">L\'URL de base ne semble pas être une URL CalDAV/CardDAV et la détection du service a échoué.</string>
-    <string name="login_see_tested_services"><![CDATA[Merci de vous reporter au manuel de votre fournisseur de services et <a href="%s">notre liste de services testés</a> ainsi que leurs URL de base.]]></string>
-    <string name="login_check_credentials"><![CDATA[Merci de bien vérifier l\'authentification (souvent le nom d\'utilisateur et le mot de passe).]]></string>
+    <string name="login_no_service_info">Il n’y a aucun service CalDAV ou CardDAV dans l’URL de base que vous avez saisie, et la détection automatique n’en a pas trouvé non plus. Généralement, cela signifie que l’URL de base est incorrecte.</string>
+    <string name="login_see_tested_services"><![CDATA[L’URL de base correcte est généralement documentée par votre fournisseur de services. Vous pouvez également la consulter dans <a href="%s">notre liste des services testés</a>.]]></string>
+    <string name="login_check_credentials"><![CDATA[Le serveur a rejeté la connexion. Veuillez vérifier votre nom d’utilisateur et votre mot de passe. Certains fournisseurs exigent un <a href="%s">mot de passe de l’application</a> au lieu de votre mot de passe habituel.]]></string>
     <string name="login_logs_available">Plus d\'information technique est disponible dans les journaux.</string>
     <string name="login_view_logs">Voir les journaux</string>
     <!--AccountSettingsActivity-->
@@ -296,33 +296,33 @@
     <string name="settings_authentication">Authentification</string>
     <string name="settings_username">Nom d\'utilisateur</string>
     <string name="settings_new_password">Nouveau mot de passe</string>
-    <string name="settings_password_summary">Mettre à jour le mot de passe</string>
+    <string name="settings_password_summary">Mettez à jour le mot de passe sur votre serveur.</string>
     <string name="settings_certificate_alias">Certificat client</string>
     <string name="settings_certificate_alias_empty">Aucun certificat disponible ou sélectionné</string>
     <string name="settings_certificate_install">Installer un certificat</string>
     <string name="settings_caldav">CalDAV</string>
-    <string name="settings_sync_time_range_past">Limite des événements passés</string>
-    <string name="settings_sync_time_range_past_none">Tous les événements seront synchronisés</string>
+    <string name="settings_sync_time_range_past">Limite des évènements passés</string>
+    <string name="settings_sync_time_range_past_none">Tous les évènements seront synchronisés</string>
     <plurals name="settings_sync_time_range_past_days">
-        <item quantity="one">Les événements de plus d’un jour passé seront ignorés</item>
+        <item quantity="one">Les évènements de plus d’un jour passé seront ignorés</item>
         <item quantity="many">Les événements de plus de %d jours passés seront ignorés</item>
         <item quantity="other">Les événements de plus de %d jours passés seront ignorés</item>
     </plurals>
-    <string name="settings_sync_time_range_past_message">Les événements antérieurs à ce nombre de jours seront ignorés (peut être 0). Laissez vide pour synchroniser tous les événements.</string>
+    <string name="settings_sync_time_range_past_message">Les évènements antérieurs à ce nombre de jours seront ignorés (peut être 0). Laissez vide pour synchroniser tous les évènements.</string>
     <string name="settings_default_alarm">Rappel par défaut</string>
     <plurals name="settings_default_alarm_on">
-        <item quantity="one">Rappel par défaut une minute avant l\'événement</item>
+        <item quantity="one">Rappel par défaut une minute avant l’évènement</item>
         <item quantity="many">Rappel par défaut %d minutes avant les événements</item>
         <item quantity="other">Rappel par défaut %d minutes avant les événements</item>
     </plurals>
     <string name="settings_default_alarm_off">Aucun rappel par défaut</string>
-    <string name="settings_default_alarm_message">Si des rappels par défaut doivent être créé pour des événements sans rappel: le nombre de minutes avant l\'événement. Laisser blanc pour désactiver les rappels par défaut.</string>
+    <string name="settings_default_alarm_message">Si des rappels par défaut doivent être créé pour des évènements sans rappel : le nombre de minutes avant l’évènement. Laisser blanc pour désactiver les rappels par défaut.</string>
     <string name="settings_manage_calendar_colors">Choisir la couleur du calendrier</string>
     <string name="settings_manage_calendar_colors_on">Les couleurs du calendrier sont réinitialisées à chaque synchronisation</string>
     <string name="settings_manage_calendar_colors_off">Les couleurs du calendrier peuvent être définies par d\'autres applications</string>
-    <string name="settings_event_colors">Couleur associée aux événements</string>
-    <string name="settings_event_colors_on">Les couleurs des événements sont synchronisées</string>
-    <string name="settings_event_colors_off">Les couleurs des événements sont pas synchronisées</string>
+    <string name="settings_event_colors">Couleur associée aux évènements</string>
+    <string name="settings_event_colors_on">Les couleurs des évènements sont synchronisées</string>
+    <string name="settings_event_colors_off">Les couleurs des évènements sont pas synchronisées</string>
     <string name="settings_carddav">CardDAV</string>
     <string name="settings_contact_group_method">Méthode pour les contacts de type groupe</string>
     <string-array name="settings_contact_group_method_entries">
@@ -335,7 +335,7 @@
     <string name="create_calendar">Créer un calendrier</string>
     <string name="create_calendar_time_zone_none">—</string>
     <string name="create_calendar_type">Entrées possibles de calendrier</string>
-    <string name="create_calendar_type_vevent">Événements</string>
+    <string name="create_calendar_type_vevent">Évènements</string>
     <string name="create_calendar_type_vtodo">Tâches</string>
     <string name="create_calendar_type_vjournal">Notes / journal</string>
     <string name="create_calendar_maybe_not_supported">La création de calendrier via CalDAV n\'est peut-être pas supportée par ce serveur.</string>
@@ -416,13 +416,13 @@
     <string name="sync_error_permissions_text">Autorisations supplémentaires demandées</string>
     <string name="sync_error_tasks_too_old">%s trop ancien</string>
     <string name="sync_error_tasks_required_version">Version minimale requise : %1$s</string>
-    <string name="sync_error_authentication_failed">Echec de connexion (vérifier vos identifiants de connexion)</string>
+    <string name="sync_error_authentication_failed">Échec de connexion (vérifier vos identifiants de connexion)</string>
     <string name="sync_error_io">Erreur de réseau ou d\'entrée/sortie - %s</string>
     <string name="sync_error_http_dav">Erreur de serveur HTTP - %s</string>
     <string name="sync_error_local_storage">Erreur de stockage local - %s</string>
     <string name="sync_error_retry_limit_reached">Erreur logicielle (nombre maximum de tentatives atteint)</string>
     <string name="sync_invalid_contact">Reçu un contact invalide du serveur</string>
-    <string name="sync_invalid_event">Reçu un événement invalide du serveur</string>
+    <string name="sync_invalid_event">Reçu un évènement invalide du serveur</string>
     <string name="sync_invalid_task">Reçu une tâche invalide du serveur</string>
     <string name="sync_invalid_resources_ignoring">Ignorer une ou plusieurs ressources non valides</string>
     <string name="sync_notification_pending_push_title">Synchronisation en attente</string>
@@ -473,7 +473,7 @@
     <string name="settings_app_password_hint"><![CDATA[Vous pouvez préférer utiliser un <a href="%1$s">mot de passe d\'application</a>.]]></string>
     <string name="settings_reauthorize_oauth_summary">Utilisation lorsque l\'accès a été révoqué</string>
     <string name="settings_reauthorize_oauth_success">Autorisation avec succès</string>
-    <string name="collection_datatype_events">événements</string>
+    <string name="collection_datatype_events">évènements</string>
     <string name="collection_datatype_contacts_count">%1$d contacts</string>
     <string name="collection_synced_items_title">Nombre d\'articles locaux</string>
     <plurals name="collection_synced_items_modified">
@@ -487,4 +487,70 @@
         <item quantity="other">%d suppressions non synchronisées</item>
     </plurals>
     <string name="app_settings_distrust_system_certs_dialog_message">Si ce paramètre est actif, les certificats système ne sont pas considérés comme fiables. Cela signifie que vous devrez accepter manuellement chaque certificat (également lorsque le serveur renouvelle son certificat) ou la configuration et la synchronisation du compte ne fonctionnera pas.</string>
+    <string name="permissions_local_network_title">Autorisation d’accès au réseau local</string>
+    <string name="permissions_local_network_status_off">Accès au réseau local refusé</string>
+    <string name="permissions_local_network_status_on">Accès au réseau local accordé</string>
+    <string name="sync_warning_no_local_network_permission">Accès au réseau local désactivé. Vous ne pourrez pas synchroniser avec les appareils de votre réseau local.</string>
+    <string name="app_settings_unifiedpush_distributor_fcm">FCM (Google Play)</string>
+    <string name="app_settings_push_disabled_summary">Désactivé</string>
+    <string name="app_settings_push_title">Push</string>
+    <string name="app_settings_push_default_distributor_text">(système par défaut)</string>
+    <string name="app_settings_push_enabled_summary">Activé,%s</string>
+    <string name="app_settings_push_capability_none">Aucune de vos collections de serveurs activées pour la synchronisation ne prend actuellement en charge WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">Seules certaines de vos collections de serveurs compatibles avec la synchronisation prennent actuellement en charge WebDAV-Push.</string>
+    <string name="app_settings_push_select_default_distributor_description">Il y a plusieurs applications de distributeur UnifiedPush installées. Vous pouvez définir une valeur par défaut à l’échelle du système ici, afin que les autres applications activées par UnifiedPush n’aient pas à demander laquelle utiliser.</string>
+    <string name="login_no_client_certificate_optional">Aucun certificat client (facultatif)</string>
+    <string name="settings_reauthorize_oauth">Autoriser à nouveau (OAuth)</string>
+    <string name="create_calendar_time_zone_optional">Fuseau horaire par défaut (facultatif)</string>
+    <string name="collection_datatype_events_count">%1$d évènements</string>
+    <string name="collection_datatype_tasks_count">%1$d tâches</string>
+    <string name="collection_disable_sync_title">Désactiver la synchronisation ?</string>
+    <string name="collection_disable_sync_warning">La désactivation de la synchronisation supprimera les données locales de cette collection (%s) de cet appareil. Les données sur le serveur ne sont pas affectées.</string>
+    <string name="collection_disable_sync_confirm">Éteindre</string>
+    <plurals name="collection_synced_items_total">
+        <item quantity="one">%1$d élément dans %2$s</item>
+        <item quantity="many">%1$d éléments dans %2$s</item>
+        <item quantity="other">%1$d éléments dans %2$s</item>
+    </plurals>
+    <plurals name="collection_synced_items_past_event_time_limit">
+        <item quantity="one">l\'élément de plus de %d jours ne sera pas synchronisé (voir les paramètres du compte).</item>
+        <item quantity="many">Les éléments de plus de %d jours ne sont pas synchronisés (voir les paramètres du compte).</item>
+        <item quantity="other">Les éléments de plus de %d jours ne sont pas synchronisés (voir les paramètres du compte).</item>
+    </plurals>
+    <string name="collection_push_subscribed_at">Abonné à %1$s, expire à %2$s</string>
+    <string name="debug_info_http_403_description">La demande a été refusée par le serveur.</string>
+    <string name="debug_info_http_404_description">La ressource demandée n’existe pas (ou plus).</string>
+    <string name="debug_info_http_405_description">Le serveur n’autorise pas le type d’opération demandé.</string>
+    <string name="debug_info_http_5xx_description">Un problème est survenu sur le serveur.</string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Veuillez contacter l’équipe d’assistance de votre fournisseur</b> (pas %1$s).]]></string>
+    <string name="debug_info_unexpected_error">Une erreur inattendue s’est produite. Consultez les informations de débogage pour plus de détails.</string>
+    <string name="debug_info_view_local_resource">Inspecter la ressource</string>
+    <string name="debug_info_privacy_warning_title">Déclaration de confidentialité</string>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Veuillez contacter l’équipe d’assistance de <tt>%1$s</tt></b> (pas %2$s).]]></string>
+    <string name="debug_info_privacy_warning_description">Les journaux et les informations de débogage peuvent contenir des informations privées. Veuillez en tenir compte lors d’un partage public.</string>
+    <string name="debug_info_can_not_view_resource">Impossible d’afficher la ressource</string>
+    <string name="debug_info_find_help">Trouver de l’aide en ligne</string>
+    <string name="debug_info_find_help_faq">Trouver des réponses à &lt;b&gt;questions courantes&lt;/b&gt;</string>
+    <string name="debug_info_find_help_faq_action">Afficher la FAQ sur le site Web</string>
+    <string name="debug_info_find_help_discussions">&lt;b&gt;Demander de l’aide&lt;/b&gt; sur GitHub</string>
+    <string name="debug_info_find_help_discussions_action">Discussions Ouvertes</string>
+    <string name="debug_info_find_help_issues">Consultez &lt;b&gt;les problèmes en cours&lt;/b&gt; sur GitHub</string>
+    <string name="debug_info_find_help_issues_action">Afficher les problèmes actuels</string>
+    <string name="debug_info_find_help_manual">Rechercher &lt;b&gt;des informations techniques&lt;/b&gt;</string>
+    <string name="debug_info_find_help_manual_action">Ouvrir le Manuel</string>
+    <string name="webdav_add_mount_empty_more_info"><![CDATA[Consultez le manuel pour <a href="%1$s">comment fonctionnent les montages WebDAV</a>.]]></string>
+    <string name="webdav_add_mount_mountpoint_displayname">Point de montage et nom d’affichage</string>
+    <string name="webdav_add_mount_username_optional">Nom d’utilisateur (facultatif)</string>
+    <string name="webdav_add_mount_password_optional">Mot de passe (facultatif)</string>
+    <string name="push_distributor_selection_required_title">Sélection du distributeur requise</string>
+    <string name="push_distributor_selection_required_message">Un distributeur UnifiedPush par défaut n’a pas pu être résolu. Touchez pour en sélectionner un.</string>
+    <string name="widget_labeled_sync_label">Bouton de synchronisation étiqueté</string>
+    <string name="widget_icon_sync_label">Icône du Bouton de synchronisation</string>
+    <string name="widget_sync_description">Touchez pour exécuter la synchronisation manuellement.</string>
+    <string name="login_see_tested_with"><![CDATA[Si vous ne savez pas quoi choisir, consultez la documentation de votre fournisseur et notre page <a href="%s">services testés</a>.]]></string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">De plus, la modification locale %d n’a pas encore été téléchargée et sera perdue !</item>
+        <item quantity="many">De plus, les modifications locale %d n’ont pas encore été téléchargée et sera perdue !</item>
+        <item quantity="other">De plus, les modifications locale %d n’ont pas encore été téléchargée et sera perdue !</item>
+    </plurals>
 </resources>
