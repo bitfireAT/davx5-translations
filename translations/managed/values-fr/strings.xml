@@ -89,7 +89,7 @@
     <!-- other UI -->
     <string name="intro_slogan1">Votre bureau. Vos données.</string>
     <string name="intro_slogan2">Travailler intelligemment.</string>
-    <string name="navigation_drawer_managed_configuration">configuration Managed DAVx5</string>
+    <string name="navigation_drawer_managed_configuration">Configuration gérée</string>
     <string name="navigation_drawer_web_support">Info support</string>
     <string name="navigation_drawer_phone_support">Ligne d\'assistance</string>
     <string name="navigation_drawer_email_support">Support par courriel</string>
@@ -108,7 +108,7 @@
     <string name="login_managed_config_select_certificate_info">Choisissez un certificat client qui sera utilisé pour l\'authentification.</string>
     <string name="login_managed_config_certificate_selected">Le certificat du client %s sera utilisé pour l\'authentification.</string>
     <string name="login_managed_config_invalid_base_url">URL de base invalide dans la configuration gérée</string>
-    <string name="managed_config_title">configuration Managed DAVx5</string>
+    <string name="managed_config_title">Configuration gérée</string>
     <string name="managed_config_reload_configuration">Recharge</string>
     <string name="managed_config_reloading_configuration">Configuration de rechargement</string>
     <string name="managed_config_emm">Android Enterprise</string>
