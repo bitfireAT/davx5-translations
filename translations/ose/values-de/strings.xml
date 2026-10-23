@@ -233,7 +233,7 @@
     <string name="login_type_email">Mit E-Mail-Adresse anmelden</string>
     <string name="login_email_address">E-Mail-Adresse</string>
     <string name="login_email_address_error">Gültige E-Mail-Adresse benötigt</string>
-    <string name="login_email_address_info">Die E-Mail-Domäne wird als Basis-URL verwendet. <a href="%s">Dienst-Erkennung</a> erfolgt über DNS-Einträge und well-known-URLs.</string>
+    <string name="login_email_address_info">Die E-Mail-Domäne wird als Basis-URL verwendet.</string>
     <string name="login_password">Passwort</string>
     <string name="login_password_hide">Passwort ausblenden</string>
     <string name="login_password_show">Passwort anzeigen</string>
@@ -278,9 +278,9 @@
     <string name="login_configuration_detection">Ressourcen-Erkennung</string>
     <string name="login_querying_server">Server wird abgefragt. Bitte warten …</string>
     <string name="login_no_service">Es konnte weder ein CalDAV- noch ein CardDAV-Dienst gefunden werden.</string>
-    <string name="login_no_service_info">Die Basis-URL scheint keine erreichbare CalDAV/CardDAV-URL zu sein und die Diensterkennung war nicht erfolgreich.</string>
-    <string name="login_see_tested_services"><![CDATA[Bitte beachten Sie das Handbuch Ihres Dienstanbieters und <a href="%s">unsere Liste der getesteten Dienste</a> und deren Basis-URLs.]]></string>
-    <string name="login_check_credentials"><![CDATA[Bitte überprüfen Sie auch die Authentifizierung (normalerweise Benutzername und Passwort).]]></string>
+    <string name="login_no_service_info">Bei der eingegebenen Basis-URL gibt es kein CalDAV oder CardDAV Service und die automatische Erkennung hat auch keines gefunden. Meistens bedeutet das, daß die URL falsch ist.</string>
+    <string name="login_see_tested_services"><![CDATA[Die korrekte Basis-URL wird meistens durch ihren Serviceanbieter dokumentiert. Sie können auch in <a href="%s">unserer Liste der getesteten Dienste</a> nachsehen.]]></string>
+    <string name="login_check_credentials"><![CDATA[Der Server hat das Login zurückgewiesen Bitte überprüfen Sie nochmals ihren Benutzernamen und Passwort. Einige Anbieter erfordern ein <a href="%s">App-Passwort</a> anstelle eines regulären Passworts.]]></string>
     <string name="login_logs_available">Weitere technische Informationen sind in den Protokollen verfügbar.</string>
     <string name="login_view_logs">Protokoll anzeigen</string>
     <!--AccountSettingsActivity-->
@@ -527,4 +527,22 @@
     <string name="permissions_local_network_status_on">Zugriff auf das lokale Netzwerk erlaubt</string>
     <string name="sync_warning_no_local_network_permission">Der Zugriff auf das lokale Netzwerk wurde verweigert. Synchronisierung mit Geräten auf dem lokalen Netzwerk ist nicht möglich.</string>
     <string name="login_see_tested_with"><![CDATA[Wenn du dir unsicher bist, schlage in der Providerdokumentation nach oder nutze unsere Seite <a href="%s">getestete Dienste</a>.]]></string>
+    <string name="collection_disable_sync_confirm">Ausschalten</string>
+    <string name="collection_disable_sync_title">Synchronisation ausschalten?</string>
+    <string name="collection_disable_sync_warning">Das Ausschalten der Synchronisation wird die lokalen Daten dieser Sammlung (%s) von diesem Gerät entfernen. Daten auf dem Server sind nicht betroffen.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">Zusätzliche %d lokale Änderung wurde noch nicht hochgeladen und geht verloren!</item>
+        <item quantity="other">Zusätzliche %d lokale Änderungen wurden noch nicht hochgeladen und gehen verloren!</item>
+    </plurals>
+    <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Bitte kontaktieren sie das Support-Team von <tt>%1$s</tt></b> (nicht %2$s).]]></string>
+    <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Bitte kontaktieren sie das Support-Team ihres Providers</b> (nicht %1$s).]]></string>
+    <string name="debug_info_find_help">Online-Hilfe finden</string>
+    <string name="debug_info_find_help_faq">Antworten auf &lt;b&gt;allgemeine Fragen&lt;/b&gt; finden</string>
+    <string name="debug_info_find_help_faq_action">FAQ auf der Webseite anzeigen</string>
+    <string name="debug_info_find_help_discussions">Auf GitHub &lt;b&gt;nach Hilfe fragen&lt;/b&gt;</string>
+    <string name="debug_info_find_help_discussions_action">Diskussionen öffnen</string>
+    <string name="debug_info_find_help_issues">&lt;b&gt;Offene Themen&lt;/b&gt; bei GitHub ansehen</string>
+    <string name="debug_info_find_help_issues_action">Aktuelle Themen anzeigen</string>
+    <string name="debug_info_find_help_manual">&lt;b&gt;Technische Informationen&lt;/b&gt; finden</string>
+    <string name="debug_info_find_help_manual_action">Handbuch öffnen</string>
 </resources>
