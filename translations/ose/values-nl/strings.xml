@@ -274,7 +274,7 @@
     <string name="login_nextcloud_login_flow_server_address">Nextcloud serveradres</string>
     <string name="login_nextcloud_login_flow_sign_in">Aanmelden</string>
     <string name="login_nextcloud_login_flow_no_login_url">Kan inlog-URL niet verkrijgen</string>
-    <string name="login_nextcloud_login_flow_no_login_data">Kan inlog-URL niet verkrijgen</string>
+    <string name="login_nextcloud_login_flow_no_login_data">Kan inlog-gegevens niet verkrijgen</string>
     <string name="login_configuration_detection">Configuratie detecteren</string>
     <string name="login_querying_server">Even geduld, verzoek naar server…</string>
     <string name="login_no_service">Geen CalDAV- of CardDAV-service gevonden.</string>
