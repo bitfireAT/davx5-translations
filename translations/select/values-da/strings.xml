@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="select_welcome_title_welcome_to">Velkommen til</string>
+    <string name="select_welcome_title_davx5">DAVx⁵</string>
+    <string name="select_welcome_title_select">Select</string>
+    <string name="select_welcome_slogan_sync_your">Synkroniser dine</string>
+    <string name="select_welcome_slogan">Synkroniser dine kontakter, kalendere og opgaver med en udvalgt server.</string>
+    <string name="select_welcome_slogan_contacts_calendars_tasks">kontakter, kalendere og opgaver</string>
+    <string name="select_welcome_slogan_with_server">med en udvalgt server.</string>
+    <string name="select_welcome_logo_description">Logo for DAVx⁵ Select</string>
+    <string name="select_welcome_illustration_description">Person, der går ved siden af en stor smartphone med synkroniseringsikoner</string>
+    <string name="login_type_preconfigured">Log ind med QR-kode eller forbindelsesprofil</string>
+    <string name="profile_url">Konfigurations-URL</string>
+    <string name="profile_url_help">Din tjenesteudbyder bør give dig en URL til forhåndskonfiguration.</string>
+    <string name="scan_qr">Scan QR-kode</string>
+    <string name="sync_validation_title">Validering af synkronisering mislykkedes</string>
+    <string name="sync_validation_content">Synkronisering er ikke tilladt</string>
+    <string name="sync_validation_missing_service_url">Kontoens tjeneste-URL blev ikke fundet. Prøv at opdatere listen over samlinger.</string>
+    <string name="sync_validation_invalid_server">Serveren understøttes ikke.</string>
+    <string name="sync_validation_validation_problem">Der opstod et problem under kontrollen af, om serveren understøttes.</string>
+    <string name="error_no_uri">QR-koden indeholder ikke en gyldig URL</string>
+    <string name="error_no_config_url">URL\'en i QR-koden er ikke en gyldig konfigurations-URL</string>
+    <string name="error_invalid_schema">URL\'en i QR-koden har et ukendt skema</string>
 </resources>
