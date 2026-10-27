@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_external_scanner_error_no_app_found">No s\'ha pogut trobar un escàner de codis QR compatible per a llançar. Proveu de llançar manualment una aplicació amb la funcionalitat d\'escaneig de codis QR.</string>
 </resources>
