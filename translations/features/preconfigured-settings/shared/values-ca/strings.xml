@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_login_type_preconfigured">Inici de sessió amb QR o perfil de connexió</string>
+    <string name="preconfigured_settings_profile_url">URL de configuració</string>
+    <string name="preconfigured_settings_profile_url_help">El teu proveïdor de servidor t\'hauria de proporcionar una URL de pre-configuració.</string>
+    <string name="preconfigured_settings_scan_qr">Escaneja Codi QR</string>
+    <string name="preconfigured_settings_error_no_uri">El codi QR no conté una URL vàlida</string>
+    <string name="preconfigured_settings_error_no_config_url">La URL del codi QR no és una URL de configuració vàlida</string>
+    <string name="preconfigured_settings_error_invalid_schema">La URL del codi QR té un esquema desconegut</string>
 </resources>
