@@ -543,4 +543,7 @@
         <item quantity="other">Desuden er %d lokale ændringer ikke overført endnu og går tabt!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Slå fra</string>
+    <string name="sync_error_authentication_failed_title">Godkendelse mislykkedes</string>
+    <string name="sync_error_authentication_failed_update">Serveren afviste dine loginoplysninger. Tryk for at opdatere dem.</string>
+    <string name="sync_error_authentication_failed_contact_admin">Serveren afviste dine loginoplysninger. De er låst i appen, så kontakt din administrator.</string>
 </resources>
