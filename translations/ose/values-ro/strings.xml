@@ -552,4 +552,7 @@
         <item quantity="other">În plus, %d de modificări locale nu au fost încă încărcate și se vor pierde!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Oprește</string>
+    <string name="sync_error_authentication_failed_title">Autentificarea a eșuat</string>
+    <string name="sync_error_authentication_failed_update">Serverul a respins datele tale de autentificare. Atinge ecranul pentru a le actualiza.</string>
+    <string name="sync_error_authentication_failed_contact_admin">Serverul a respins datele tale de autentificare. Acestea sunt blocate în aplicație, așa că te rugăm să contactezi administratorul.</string>
 </resources>
