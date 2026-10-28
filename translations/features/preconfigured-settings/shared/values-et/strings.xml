@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_login_type_preconfigured">Logi sisse QR-koodiga või ühendusprofiiliga</string>
+    <string name="preconfigured_settings_profile_url">Seadistuste võrguaadress</string>
+    <string name="preconfigured_settings_profile_url_help">Sinu serveriteenuse pakkuja peaks sulle andma eelseadistuste võrguaadressi.</string>
+    <string name="preconfigured_settings_scan_qr">Skaneeri QR-koodi</string>
+    <string name="preconfigured_settings_error_no_uri">Selles QR-koodis ei leidu korrektset võrguaadressi</string>
+    <string name="preconfigured_settings_error_no_config_url">Selles QR-koodis leiduv võrguaadress pole korrektne seadistuste võrguaadress</string>
+    <string name="preconfigured_settings_error_invalid_schema">Selles QR-koodis leiduv võrguaadress sisaldab tundmatut skeemat</string>
 </resources>
