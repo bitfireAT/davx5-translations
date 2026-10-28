@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_login_type_preconfigured">Login met QR of verbindingsprofiel</string>
+    <string name="preconfigured_settings_profile_url">Config-URL</string>
+    <string name="preconfigured_settings_profile_url_help">Uw serverprovider moet u een pre-configuratie-URL leveren.</string>
+    <string name="preconfigured_settings_scan_qr">Scan QR-code</string>
+    <string name="preconfigured_settings_error_no_uri">De QR-code bevat geen geldige URL</string>
+    <string name="preconfigured_settings_error_no_config_url">De URL van de QR-code is geen geldige configuratie-URL</string>
+    <string name="preconfigured_settings_error_invalid_schema">De URL van de QR-code heeft een onbekend schema</string>
 </resources>
