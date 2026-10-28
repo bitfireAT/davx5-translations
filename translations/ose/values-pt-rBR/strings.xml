@@ -545,4 +545,12 @@
     <string name="permissions_local_network_status_off">Acesso a rede local bloqueado</string>
     <string name="permissions_local_network_status_on">Acesso a rede local concedido</string>
     <string name="sync_warning_no_local_network_permission">Acesso a rede local desativado. Você não podeerá sincronizar com dispositivos que estão na sua rede local.</string>
+    <string name="collection_disable_sync_title">Desativar a sincronização?</string>
+    <string name="collection_disable_sync_warning">Desativar a sincronização removerá todos os dados locais deste conjunto (%s) nesse dispositivo. Os dados no servidor não serão afetados.</string>
+    <plurals name="collection_disable_sync_unsynced_changes">
+        <item quantity="one">Adicionalmente, %d mudança local não foi enviada ainda e será perdida!</item>
+        <item quantity="many">Adicionalmente, %d de mudanças locais não foram enviadas ainda e serão perdidas!</item>
+        <item quantity="other">Adicionalmente, %d mudanças locais não foram enviadas ainda e serão perdidas!</item>
+    </plurals>
+    <string name="collection_disable_sync_confirm">Desativar</string>
 </resources>
