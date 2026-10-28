@@ -453,7 +453,6 @@
     <string name="sync_error_permissions_text">Aanvullende rechten vereist</string>
     <string name="sync_error_tasks_too_old">%ste oud</string>
     <string name="sync_error_tasks_required_version">Minimaal vereiste versie: %1$s</string>
-    <string name="sync_error_authentication_failed">Verificatie mislukt (controleer aanmeldingsgegevens)</string>
     <string name="sync_error_io">Netwerk of I/O error - %s</string>
     <string name="sync_error_http_dav">HTTP-server fout - %s</string>
     <string name="sync_error_local_storage">Lokale opslag fout - %s</string>

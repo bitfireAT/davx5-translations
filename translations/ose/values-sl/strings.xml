@@ -197,7 +197,6 @@
     <!--sync-->
   <string name="sync_error_permissions">DAVx⁵ dovoljenja</string>
     <string name="sync_error_permissions_text">Dodatna dovoljenja so zahtevana</string>
-    <string name="sync_error_authentication_failed">Avtentikacija ni uspela (preverite podatke prijave)</string>
     <string name="sync_error_io">Omrežna ali I/O napaka -- %s</string>
     <string name="sync_error_http_dav">HTTP strežniška napaka -- %s</string>
     <string name="sync_error_local_storage">Napaka lokalne shrambe -- %s</string>

@@ -448,7 +448,6 @@
     <string name="sync_error_permissions_text">アクセス権限の許可が必要です</string>
     <string name="sync_error_tasks_too_old">%s が古すぎます</string>
     <string name="sync_error_tasks_required_version">最小要求バージョン: %1$s</string>
-    <string name="sync_error_authentication_failed">認証に失敗しました (ログイン情報を確認してください)</string>
     <string name="sync_error_io">ネットワークまたは I/O エラー – %s</string>
     <string name="sync_error_http_dav">HTTP サーバーエラー – %s</string>
     <string name="sync_error_local_storage">ローカルストレージエラー – %s</string>

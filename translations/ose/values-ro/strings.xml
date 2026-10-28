@@ -456,7 +456,6 @@
     <string name="sync_error_permissions_text">Sunt necesare permisiuni suplimentare</string>
     <string name="sync_error_tasks_too_old">%s prea vechi</string>
     <string name="sync_error_tasks_required_version">Versiunea minimă necesară: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentificare eșuată (verifică datele de conectare)</string>
     <string name="sync_error_io">Eroare de rețea sau I/O – %s</string>
     <string name="sync_error_http_dav">Eroare de server HTTP – %s</string>
     <string name="sync_error_local_storage">Eroare de stocare locală – %s</string>

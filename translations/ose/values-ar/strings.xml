@@ -196,7 +196,6 @@
     <!--sync-->
   <string name="sync_error_permissions">أذونات DAVx⁵</string>
     <string name="sync_error_permissions_text">مطلوب أذونات إضافية</string>
-    <string name="sync_error_authentication_failed">فشلت المصادقة (تحقق من بيانات تسجيل الدخول)</string>
     <string name="sync_error_io">خطأ شبكة أو الإدخال/الإخراج - %s</string>
     <string name="sync_error_http_dav">خطأ خادم HTTP - %s</string>
     <string name="sync_error_local_storage">خطأ تخزين محلي - %s</string>

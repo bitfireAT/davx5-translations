@@ -459,7 +459,6 @@
     <string name="sync_error_permissions_text">Wymagane dodatkowe uprawnienia</string>
     <string name="sync_error_tasks_too_old">%s zbyt stary/a</string>
     <string name="sync_error_tasks_required_version">Minimalna wymagana wersja: %1$s</string>
-    <string name="sync_error_authentication_failed">Nieudane uwierzytelnienie (sprawdź dane logowania)</string>
     <string name="sync_error_io">Błąd sieci lub we/wy – %s</string>
     <string name="sync_error_http_dav">Błąd serwera HTTP — %s</string>
     <string name="sync_error_local_storage">Błąd lokalnego storage’u — %s</string>

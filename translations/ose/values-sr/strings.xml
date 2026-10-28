@@ -270,7 +270,6 @@
     <!--sync-->
   <string name="sync_error_permissions">ДАВдроид дозволе</string>
     <string name="sync_error_permissions_text">Потребне су додатне доволе</string>
-    <string name="sync_error_authentication_failed">Аутентификација није успела (проверите акредитиве за пријаву)</string>
     <string name="sync_error_io">Мрежна или У/И грешка – %s</string>
     <string name="sync_error_http_dav">Грешка ХТТП сервера – %s</string>
     <string name="sync_error_local_storage">Грешка локалног складишта – %s</string>

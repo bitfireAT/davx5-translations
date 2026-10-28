@@ -313,7 +313,6 @@
     <string name="sync_error_permissions_text">مجوزهای اضافی لازم است</string>
     <string name="sync_error_tasks_too_old">%s خیلی قدیمی است</string>
     <string name="sync_error_tasks_required_version">حداقل نسخه مورد نیاز: %1$s</string>
-    <string name="sync_error_authentication_failed">احراز هویت ناموفق بود (اعتبار ورود به سیستم را بررسی کنید)</string>
     <string name="sync_error_io">شبکه یا خطای ورودی / خروجی – %s</string>
     <string name="sync_error_http_dav">خطای سرور HTTP – %s</string>
     <string name="sync_error_local_storage">خطای ذخیره سازی محلی – %s</string>

@@ -265,7 +265,6 @@
     <string name="sync_error_permissions_text">Dodatna dopuštenja su potrebna</string>
     <string name="sync_error_tasks_too_old">%s prestar</string>
     <string name="sync_error_tasks_required_version">Najmanja potrebno verzija: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentifikacija nije uspjela (provjerite podatke za prijavu)</string>
     <string name="sync_error_io">Mrežna ili I/O greška – %s</string>
     <string name="sync_error_http_dav">HTTP poslužiteljska greška – %s</string>
     <string name="sync_error_local_storage">Greška lokalne pohrane – %s</string>

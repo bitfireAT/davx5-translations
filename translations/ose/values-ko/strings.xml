@@ -433,7 +433,6 @@
     <string name="sync_error_permissions_text">추가 권한 필요</string>
     <string name="sync_error_tasks_too_old">%s는 너무 오래되었습니다.</string>
     <string name="sync_error_tasks_required_version">최소 필요 버전: %1$s</string>
-    <string name="sync_error_authentication_failed">인증에 실패했습니다. (로그인 정보 확인)</string>
     <string name="sync_error_io">네트워크 혹은 I/O 에러 – %s</string>
     <string name="sync_error_http_dav">HTTP 서버 오류 – %s</string>
     <string name="sync_error_local_storage">Local storage 오류 – %s</string>

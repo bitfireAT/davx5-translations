@@ -395,7 +395,6 @@
     <string name="sync_error_permissions_text">საჭიროა დამატებითი უფლებები</string>
     <string name="sync_error_tasks_too_old">%s ნამეტანი ძველია</string>
     <string name="sync_error_tasks_required_version">მინიმალური საჭირო ვერსია: %1$s</string>
-    <string name="sync_error_authentication_failed">აუთენტიფიკაცია ჩაიშალა (შეამოწმეთ შევლის იდენტიფიკატორები)</string>
     <string name="sync_error_io">ქსელური ან ჩაწერა/წაკითხვის შეცდომა - %s</string>
     <string name="sync_error_http_dav">HTTP სერვერის შეცდომა - %s</string>
     <string name="sync_error_local_storage">ადგილობრივი მეხსიერების შეცდომა - %s</string>

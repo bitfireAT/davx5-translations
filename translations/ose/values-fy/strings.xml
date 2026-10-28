@@ -378,7 +378,6 @@
     <string name="sync_error_permissions_text">Mear tastimmingen fereaske</string>
     <string name="sync_error_tasks_too_old">%s is te âld</string>
     <string name="sync_error_tasks_required_version">Minimale fereaske fersje: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentikaasje net slagge (tsjek ynloggegevens)</string>
     <string name="sync_error_io">Netwurk of skiiffout – %s</string>
     <string name="sync_error_http_dav">HTTP-serverfout – %s</string>
     <string name="sync_error_local_storage">Lokale opslachfout – %s</string>

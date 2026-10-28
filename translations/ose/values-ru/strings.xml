@@ -459,7 +459,6 @@
     <string name="sync_error_permissions_text">Требуются дополнительные разрешения</string>
     <string name="sync_error_tasks_too_old">Приложение %s устарело</string>
     <string name="sync_error_tasks_required_version">Минимально необходимая версия: %1$s</string>
-    <string name="sync_error_authentication_failed">Ошибка аутентификации (проверьте учетные данные)</string>
     <string name="sync_error_io">Ошибка сети или ввода/вывода – %s</string>
     <string name="sync_error_http_dav">Ошибка HTTP-сервера – %s</string>
     <string name="sync_error_local_storage">Ошибка локального хранилища – %s</string>

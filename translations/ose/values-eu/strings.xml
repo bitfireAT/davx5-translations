@@ -453,7 +453,6 @@
     <string name="sync_error_permissions_text">Baimen gehigarriak beharrezkoak</string>
     <string name="sync_error_tasks_too_old">%s zaharregia</string>
     <string name="sync_error_tasks_required_version">Beharrezko bertsio minimoa: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentifikazioak huts egin du (egiaztatu saio-hasiera kredentzialak)</string>
     <string name="sync_error_io">Sare edo S/I errorea – %s</string>
     <string name="sync_error_http_dav">HTTP zerbitzari-errorea – %s</string>
     <string name="sync_error_local_storage">Biltegiratze lokal errorea – %s</string>

@@ -456,7 +456,6 @@
     <string name="sync_error_permissions_text">Es requereixen permisos addicionals</string>
     <string name="sync_error_tasks_too_old">%s és massa antiga</string>
     <string name="sync_error_tasks_required_version">Versió mínima requerida: %1$s</string>
-    <string name="sync_error_authentication_failed">L\'autenticació ha fallat (verifiqueu les credencials d\'inici de sessió)</string>
     <string name="sync_error_io">Error de xarxa o d\'E/S: %s</string>
     <string name="sync_error_http_dav">Error del servidor HTTP: %s</string>
     <string name="sync_error_local_storage">Error d\'emmagatzematge local: %s</string>

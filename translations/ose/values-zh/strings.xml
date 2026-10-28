@@ -450,7 +450,6 @@
     <string name="sync_error_permissions_text">需要额外权限</string>
     <string name="sync_error_tasks_too_old">%s太旧</string>
     <string name="sync_error_tasks_required_version">最低要求版本: %1$s</string>
-    <string name="sync_error_authentication_failed">认证失败（请检查登录凭据，如用户名密码）</string>
     <string name="sync_error_io">网络或 I/O 错误 – %s</string>
     <string name="sync_error_http_dav">HTTP 服务器错误 – %s</string>
     <string name="sync_error_local_storage">本地存储错误 – %s</string>

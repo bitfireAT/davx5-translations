@@ -190,7 +190,6 @@
     <!--sync-->
   <string name="sync_error_permissions">Uprawniynia DAVx⁵</string>
     <string name="sync_error_permissions_text">Wymogane ekstra uprawniynia</string>
-    <string name="sync_error_authentication_failed">Autoryzacyjo sie niy podarziła (dej pozōr na dane logowanio)</string>
     <string name="sync_error_io">Feler necu abo I/O – %s</string>
     <string name="sync_error_http_dav">Feler serwera HTTP – %s</string>
     <string name="sync_error_local_storage">Feler lokalnego przechowowanio – %s</string>

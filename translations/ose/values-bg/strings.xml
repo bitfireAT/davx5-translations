@@ -453,7 +453,6 @@
     <string name="sync_error_permissions_text">Необходими са допълнителни разрешения</string>
     <string name="sync_error_tasks_too_old">Приложението %s е твърде старо</string>
     <string name="sync_error_tasks_required_version">Минимално необходимо издание: %1$s</string>
-    <string name="sync_error_authentication_failed">Грешка при удостоверяване (проверете данните за вход)</string>
     <string name="sync_error_io">Грешка с входа/изхода или мрежата – %s</string>
     <string name="sync_error_http_dav">Грешка в сървъра на HTTP – %s</string>
     <string name="sync_error_local_storage">Грешка в местното хранилище – %s</string>

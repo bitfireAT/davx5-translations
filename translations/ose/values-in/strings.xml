@@ -414,7 +414,6 @@
     <string name="sync_error_permissions_text">Izin tambahan diperlukan</string>
     <string name="sync_error_tasks_too_old">%s terlalu lama</string>
     <string name="sync_error_tasks_required_version">Versi minimum yang diperlukan: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentikasi gagal (periksa kredensial login)</string>
     <string name="sync_error_io">Kesalahan jaringan atau I/O – %s</string>
     <string name="sync_error_http_dav">Kesalahan server HTTP – %s</string>
     <string name="sync_error_local_storage">Kesalahan penyimpanan lokal – %s</string>

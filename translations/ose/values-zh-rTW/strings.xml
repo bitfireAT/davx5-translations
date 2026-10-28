@@ -446,7 +446,6 @@
     <string name="sync_error_permissions_text">需要額外的權限</string>
     <string name="sync_error_tasks_too_old">%s過舊</string>
     <string name="sync_error_tasks_required_version">最低需求版本：%1$s</string>
-    <string name="sync_error_authentication_failed">鑒權失敗（你需要檢查登錄憑證）</string>
     <string name="sync_error_io">網際網絡或者輸入輸出錯誤——%s</string>
     <string name="sync_error_http_dav">HTTP伺服器錯誤——%s</string>
     <string name="sync_error_local_storage">資料庫錯誤——%s</string>

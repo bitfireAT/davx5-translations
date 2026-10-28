@@ -453,7 +453,6 @@
     <string name="sync_error_permissions_text">Ytterligare behörigheter krävs</string>
     <string name="sync_error_tasks_too_old">%s för gammal</string>
     <string name="sync_error_tasks_required_version">Lägsta obligatoriska version: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentisering misslyckades (kontrollera inloggningsuppgifterna)</string>
     <string name="sync_error_io">Nätverks- eller I/O-fel - %s</string>
     <string name="sync_error_http_dav">HTTP server fel - %s</string>
     <string name="sync_error_local_storage">Lokalt lagringsfel - %s</string>

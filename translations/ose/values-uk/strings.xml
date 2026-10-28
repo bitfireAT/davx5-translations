@@ -249,7 +249,6 @@
     <!--sync-->
   <string name="sync_error_permissions">Дозволи DAVx⁵</string>
     <string name="sync_error_permissions_text">Потребує додаткові дозволи</string>
-    <string name="sync_error_authentication_failed">Помилка аутентифікації (перевірте обліковий запис)</string>
     <string name="sync_error_io">Помилка мережі та вводу/виводу — %s</string>
     <string name="sync_error_http_dav">Помилка сервера HTTP — %s</string>
     <string name="sync_error_local_storage">Помилка локального сховища — %s</string>

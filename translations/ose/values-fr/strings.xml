@@ -416,7 +416,6 @@
     <string name="sync_error_permissions_text">Autorisations supplémentaires demandées</string>
     <string name="sync_error_tasks_too_old">%s trop ancien</string>
     <string name="sync_error_tasks_required_version">Version minimale requise : %1$s</string>
-    <string name="sync_error_authentication_failed">Échec de connexion (vérifier vos identifiants de connexion)</string>
     <string name="sync_error_io">Erreur de réseau ou d\'entrée/sortie - %s</string>
     <string name="sync_error_http_dav">Erreur de serveur HTTP - %s</string>
     <string name="sync_error_local_storage">Erreur de stockage local - %s</string>

@@ -312,7 +312,6 @@
     <string name="sync_error_permissions_text">Yêu cầu quyền bổ sung</string>
     <string name="sync_error_tasks_too_old">%s quá cũ</string>
     <string name="sync_error_tasks_required_version">Phiên bản tối thiểu được yêu cầu: %1$s</string>
-    <string name="sync_error_authentication_failed">Xác thực thất bại (hãy kiểm tra thông tin đăng nhập)</string>
     <string name="sync_error_io">Lỗi mạng hoặc I/O – %s</string>
     <string name="sync_error_http_dav">Lỗi máy chủ HTTP – %s</string>
     <string name="sync_error_local_storage">Lỗi kho lưu trữ cục bộ – %s</string>

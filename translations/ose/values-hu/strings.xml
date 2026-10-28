@@ -425,7 +425,6 @@
     <string name="sync_error_permissions_text">További engedélyek szükségesek</string>
     <string name="sync_error_tasks_too_old">%s túl régi</string>
     <string name="sync_error_tasks_required_version">Legalacsonyabb szükséges verzió: %1$s</string>
-    <string name="sync_error_authentication_failed">A hitelesítés nem sikerült (ellenőrizze a hitelesítési adatokat)</string>
     <string name="sync_error_io">Hálózati vagy ki-/bemeneti hiba – %s</string>
     <string name="sync_error_http_dav">HTTP kiszolgálóhiba – %s</string>
     <string name="sync_error_local_storage">Helyi tárhelyhiba –%s</string>

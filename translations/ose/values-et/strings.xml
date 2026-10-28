@@ -453,7 +453,6 @@
     <string name="sync_error_permissions_text">Vajalikud on täiendavad õigused</string>
     <string name="sync_error_tasks_too_old">%s on liiga vana</string>
     <string name="sync_error_tasks_required_version">Väikseim nõutav versioon: %1$s</string>
-    <string name="sync_error_authentication_failed">Autentimine ei õnnestunud (kontrolli, et kasutajanimi/salasõna oleksid õiged)</string>
     <string name="sync_error_io">Võrgu- või sisend/väljundviga – %s</string>
     <string name="sync_error_http_dav">HTTP serveri viga – %s</string>
     <string name="sync_error_local_storage">Kohaliku salvestusruumi viga – %s</string>

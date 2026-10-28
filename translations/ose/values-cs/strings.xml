@@ -396,7 +396,6 @@
     <string name="sync_error_permissions_text">Vyžadována dodatečná oprávnění</string>
     <string name="sync_error_tasks_too_old">Příliš stará verze %s</string>
     <string name="sync_error_tasks_required_version">Nejnižší požadovaná verze: %1$s</string>
-    <string name="sync_error_authentication_failed">Ověření se nezdařilo (zkontrolujte přihlašovací údaje)</string>
     <string name="sync_error_io">Chyba sítě nebo vstupu/výstupu – %s</string>
     <string name="sync_error_http_dav">Chyba HTTP serveru – %s</string>
     <string name="sync_error_local_storage">Chyba místního úložiště – %s</string>

@@ -427,7 +427,6 @@
     <string name="sync_error_permissions_text">É necessário autorizações adicionais</string>
     <string name="sync_error_tasks_too_old">%s muito antigo</string>
     <string name="sync_error_tasks_required_version">Versão mínima exigida: %1$s</string>
-    <string name="sync_error_authentication_failed">Falha de autenticação (verifique as credenciais)</string>
     <string name="sync_error_io">Erro de rede ou E/S – %s</string>
     <string name="sync_error_http_dav">Erro no servidor HTTP – %s</string>
     <string name="sync_error_local_storage">Erro de armazenamento local – %s</string>

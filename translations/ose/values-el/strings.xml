@@ -396,7 +396,6 @@
     <string name="sync_error_permissions_text">Απαιτούνται πρόσθετα δικαιώματα</string>
     <string name="sync_error_tasks_too_old">Παλιά έκδοση %s</string>
     <string name="sync_error_tasks_required_version">Ελάχιστη απαιτούμενη έκδοση: %1$s</string>
-    <string name="sync_error_authentication_failed">Ο έλεγχος ταυτότητας απέτυχε (ελέγξτε τα διαπιστευτήρια σύνδεσης)</string>
     <string name="sync_error_io">Σφάλμα δικτύου ή I/O – %s</string>
     <string name="sync_error_http_dav">Σφάλμα διακομιστής HTTP – %s</string>
     <string name="sync_error_local_storage">Σφάλμα τοπικού αποθηκευτικού χώρου – %s</string>

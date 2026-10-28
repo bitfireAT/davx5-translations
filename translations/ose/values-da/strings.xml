@@ -397,7 +397,6 @@
     <string name="sync_error_permissions_text">Der kræves yderligere tilladelser</string>
     <string name="sync_error_tasks_too_old">%s for gammel</string>
     <string name="sync_error_tasks_required_version">Påkrævet version: %1$s</string>
-    <string name="sync_error_authentication_failed">Godkendelse mislykkedes (tjek loginoplysninger)</string>
     <string name="sync_error_io">Netværks- eller I/O-fejl - %s</string>
     <string name="sync_error_http_dav">HTTP-serverfejl - %s</string>
     <string name="sync_error_local_storage">Lokal lagringsfejl - %s</string>
