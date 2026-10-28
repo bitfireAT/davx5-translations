@@ -552,4 +552,7 @@
         <item quantity="other">A més, %d canvis locals encara no s\'han pujat i es perdran!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Desactiva</string>
+    <string name="sync_error_authentication_failed_title">Ha fallat l\'autentificació</string>
+    <string name="sync_error_authentication_failed_update">El servidor ha rebutjat les vostres credencials d\'inici de sessió. Toqueu per actualitzar-les.</string>
+    <string name="sync_error_authentication_failed_contact_admin">El servidor ha rebutjat les vostres credencials d\'inici de sessió. Estan bloquejades a l\'aplicació, així que contacteu amb el vostre administrador.</string>
 </resources>
