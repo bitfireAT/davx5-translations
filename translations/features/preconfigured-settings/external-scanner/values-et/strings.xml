@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_external_scanner_error_no_app_found">Sobivat QR-koodi skannerit ei leidunud. Proovi käivitada käsitsi rakendus, mis toetab QR-koodide skaneerimist.</string>
 </resources>
