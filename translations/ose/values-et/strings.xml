@@ -544,4 +544,7 @@
         <item quantity="other">Täiendavalt pole %d kohalikku muudatust veel üleslaaditud ja lähevad kaotsi!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Lülita välja</string>
+    <string name="sync_error_authentication_failed_title">Autentimine ei õnnestunud</string>
+    <string name="sync_error_authentication_failed_update">Server lükkas tagasi sinu sisselogimisandmed. Nende uuendamiseks klõpsa.</string>
+    <string name="sync_error_authentication_failed_contact_admin">Server lükkas tagasi sinu sisselogimisandmed. Need on rakendusse lukustatud, seega palun võta ühendust oma peakasutajaga.</string>
 </resources>
