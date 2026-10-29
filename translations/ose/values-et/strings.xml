@@ -547,4 +547,5 @@
     <string name="sync_error_authentication_failed_title">Autentimine ei õnnestunud</string>
     <string name="sync_error_authentication_failed_update">Server lükkas tagasi sinu sisselogimisandmed. Nende uuendamiseks klõpsa.</string>
     <string name="sync_error_authentication_failed_contact_admin">Server lükkas tagasi sinu sisselogimisandmed. Need on rakendusse lukustatud, seega palun võta ühendust oma peakasutajaga.</string>
+    <string name="permissions_contacts_manage_toast">Vali %1$s ja luba ligipääs</string>
 </resources>
