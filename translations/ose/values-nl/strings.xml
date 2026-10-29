@@ -544,4 +544,8 @@
         <item quantity="other">Bovendien zijn %d lokale wijzigingen nog niet geüpload en gaan verloren!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Uitschakelen</string>
+    <string name="permissions_contacts_manage_toast">Selecteer %1$s en schakel toegang in</string>
+    <string name="sync_error_authentication_failed_title">Authenticatie mislukt</string>
+    <string name="sync_error_authentication_failed_update">De server heeft uw inloggegevens afgewezen. Tik om ze bij te werken.</string>
+    <string name="sync_error_authentication_failed_contact_admin">De server heeft uw inloggegevens afgewezen. Ze zijn vergrendeld in de app, dus neem contact op met uw beheerder.</string>
 </resources>
