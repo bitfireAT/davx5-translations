@@ -560,4 +560,8 @@
         <item quantity="other">Kromě toho ještě nebylo nahráno %d lokálních změn, které tak budou ztraceny!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Vypnout</string>
+    <string name="permissions_contacts_manage_toast">Vyberte %1$s a povolte přístup</string>
+    <string name="sync_error_authentication_failed_title">Autentifikace selhala</string>
+    <string name="sync_error_authentication_failed_update">Server zamítnul vaše přihlašovací údaje. Klepněte pro jejich aktualizaci.</string>
+    <string name="sync_error_authentication_failed_contact_admin">Server zamítnul vaše přihlašovací údaje. Josu uzamčené v aplikaci, kontaktujte tedy prosím vašeho správce.</string>
 </resources>
