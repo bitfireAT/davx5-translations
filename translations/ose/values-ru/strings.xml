@@ -559,4 +559,8 @@
         <item quantity="other">Помимо этого, %d локальных изменений пока не загружено и будут утеряны!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Выключить</string>
+    <string name="permissions_contacts_manage_toast">Выберите %1$s и разрешите доступ</string>
+    <string name="sync_error_authentication_failed_title">Ошибка аутентификации</string>
+    <string name="sync_error_authentication_failed_update">Сервер отклонил ваши учетные данные. Нажмите, чтобы обновить их.</string>
+    <string name="sync_error_authentication_failed_contact_admin">Сервер отклонил ваши учетные данные для авторизации. Их заблокировали на стороне приложения, поэтому обратитесь к администратору.</string>
 </resources>
