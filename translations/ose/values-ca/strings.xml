@@ -555,4 +555,5 @@
     <string name="sync_error_authentication_failed_title">Ha fallat l\'autentificació</string>
     <string name="sync_error_authentication_failed_update">El servidor ha rebutjat les vostres credencials d\'inici de sessió. Toqueu per actualitzar-les.</string>
     <string name="sync_error_authentication_failed_contact_admin">El servidor ha rebutjat les vostres credencials d\'inici de sessió. Estan bloquejades a l\'aplicació, així que contacteu amb el vostre administrador.</string>
+    <string name="permissions_contacts_manage_toast">Seleccioneu %1$s i activeu l\'accés</string>
 </resources>
