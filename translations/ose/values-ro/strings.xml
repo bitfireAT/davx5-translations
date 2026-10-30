@@ -555,4 +555,5 @@
     <string name="sync_error_authentication_failed_title">Autentificarea a eșuat</string>
     <string name="sync_error_authentication_failed_update">Serverul a respins datele tale de autentificare. Atinge ecranul pentru a le actualiza.</string>
     <string name="sync_error_authentication_failed_contact_admin">Serverul a respins datele tale de autentificare. Acestea sunt blocate în aplicație, așa că te rugăm să contactezi administratorul.</string>
+    <string name="permissions_contacts_manage_toast">Selectează %1$s și activează accesul</string>
 </resources>
