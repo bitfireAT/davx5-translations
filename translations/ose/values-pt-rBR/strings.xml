@@ -552,4 +552,8 @@
         <item quantity="other">Adicionalmente, %d mudanças locais não foram enviadas ainda e serão perdidas!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Desativar</string>
+    <string name="permissions_contacts_manage_toast">Selecione %1$s e ative o acesso</string>
+    <string name="sync_error_authentication_failed_title">Autenticação falhou</string>
+    <string name="sync_error_authentication_failed_update">O servidor rejeitou suas credenciais de acesso. Toque para atualizá-las.</string>
+    <string name="sync_error_authentication_failed_contact_admin">O servidor rejeitou suas credenciais de acesso. Elas são bloqueadas no app, então por favor, entre em contato com o seu administrador.</string>
 </resources>
