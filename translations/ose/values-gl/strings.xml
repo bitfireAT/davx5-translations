@@ -544,4 +544,8 @@
         <item quantity="other">%d cambios locais adicionais aínda non se subiron ao servidor e vanse perder!</item>
     </plurals>
     <string name="collection_disable_sync_confirm">Apagar</string>
+    <string name="permissions_contacts_manage_toast">Selecciona %1$s e activa o acceso</string>
+    <string name="sync_error_authentication_failed_title">Fallou a autenticación</string>
+    <string name="sync_error_authentication_failed_update">O servidor rexeitou as túas credenciais. Toca para actualizalas.</string>
+    <string name="sync_error_authentication_failed_contact_admin">O servidor rexeitou as túas credenciais. Están ocultas na app, así que debes contactar coa túa administración.</string>
 </resources>
