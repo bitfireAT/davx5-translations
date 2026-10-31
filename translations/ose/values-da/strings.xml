@@ -546,4 +546,5 @@
     <string name="sync_error_authentication_failed_title">Godkendelse mislykkedes</string>
     <string name="sync_error_authentication_failed_update">Serveren afviste dine loginoplysninger. Tryk for at opdatere dem.</string>
     <string name="sync_error_authentication_failed_contact_admin">Serveren afviste dine loginoplysninger. De er låst i appen, så kontakt din administrator.</string>
+    <string name="permissions_contacts_manage_toast">Vælg %1$s, og giv adgang</string>
 </resources>
