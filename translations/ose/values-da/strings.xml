@@ -465,7 +465,7 @@
     <string name="debug_info_http_405_description">Serveren tillader ikke den ønskede type handling.</string>
     <string name="debug_info_http_5xx_description">Der opstod et problem på serveren.</string>
     <string name="debug_info_unexpected_error">Der opstod en uventet fejl. Se debug-info for detaljer.</string>
-    <string name="debug_info_view_local_resource">Undersøg ressource</string>
+    <string name="debug_info_view_local_resource">Vis</string>
     <string name="debug_info_privacy_warning_title">Bemærkning om privatliv</string>
     <string name="debug_info_privacy_warning_description">Logfiler og debug-info kan indeholde private oplysninger. Vær opmærksom på det, når du deler dem offentligt.</string>
     <string name="debug_info_can_not_view_resource">Ressourcen kan ikke vises</string>
