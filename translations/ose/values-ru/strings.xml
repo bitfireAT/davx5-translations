@@ -420,7 +420,7 @@
     <string name="debug_info_logs_subtitle">Доступны подробные логи</string>
     <string name="debug_info_logs_view">Просмотр логов</string>
     <string name="debug_info_copy_remote_url">Скопировать URL</string>
-    <string name="debug_info_view_local_resource">Проверить ресурс</string>
+    <string name="debug_info_view_local_resource">Просмотр</string>
     <string name="debug_info_privacy_warning_title">Предупреждение о конфиденциальности</string>
     <string name="debug_info_privacy_warning_description">Журналы и отладочная информация могут содержать конфиденциальную информацию. Пожалуйста, помните об этом, когда делитесь ими.</string>
     <string name="debug_info_can_not_view_resource">Невозможно просмотреть ресурс</string>
