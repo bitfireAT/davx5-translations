@@ -411,7 +411,7 @@
     <string name="debug_info_logs_subtitle">详细日志可用</string>
     <string name="debug_info_logs_view">查看日志</string>
     <string name="debug_info_copy_remote_url">复制 URL</string>
-    <string name="debug_info_view_local_resource">查看资源</string>
+    <string name="debug_info_view_local_resource">查看</string>
     <string name="debug_info_privacy_warning_title">隐私声明</string>
     <string name="debug_info_privacy_warning_description">日志和调试信息可能包含私密信息。公开分享时请意识到这一点</string>
     <string name="debug_info_can_not_view_resource">无法查看资源</string>
