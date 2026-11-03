@@ -417,7 +417,7 @@
     <string name="debug_info_logs_subtitle">Hi ha registres detallats disponibles</string>
     <string name="debug_info_logs_view">Visualitza els registres</string>
     <string name="debug_info_copy_remote_url">Copia l\'URL</string>
-    <string name="debug_info_view_local_resource">Inspecciona el recurs</string>
+    <string name="debug_info_view_local_resource">Visualitza</string>
     <string name="debug_info_privacy_warning_title">Avís de privadesa</string>
     <string name="debug_info_privacy_warning_description">Els registres i la informació de depuració poden contenir informació privada. Tingueu en compte això quan ho compartiu públicament.</string>
     <string name="debug_info_can_not_view_resource">No s\'ha pogut veure el recurs</string>
