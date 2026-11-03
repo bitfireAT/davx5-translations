@@ -414,7 +414,7 @@
     <string name="debug_info_logs_subtitle">Uitgebreide logboeken zijn beschikbaar</string>
     <string name="debug_info_logs_view">Details bekijken</string>
     <string name="debug_info_copy_remote_url">URL kopiëren</string>
-    <string name="debug_info_view_local_resource">Bron inspecteren</string>
+    <string name="debug_info_view_local_resource">Weergeven</string>
     <string name="debug_info_privacy_warning_title">Privacyverklaring</string>
     <string name="debug_info_privacy_warning_description">Logboeken en foutopsporingsgegevens kunnen privé-informatie bevatten. Houd hier rekening mee als u ze openbaar deelt.</string>
     <string name="debug_info_can_not_view_resource">Kan bron niet bekijken</string>
