@@ -532,7 +532,7 @@
     <string name="wifi_permissions_background_location_disclaimer">%s používá data o poloze (pouze SSID sítí Wi-Fi) pouze k omezení synchronizace na konkrétní SSID sítí Wi-Fi. To se stane, když synchronizace probíhá na pozadí.</string>
     <string name="app_settings_push_description">Použijte Push, aby mohly servery CalDAV/CardDAV/WebDAV okamžitě informovat aplikaci %s o dostupných změnách vašich dat na serveru.</string>
     <string name="debug_info_http_404_description">Požadovaný zdroj (již) neexistuje.</string>
-    <string name="debug_info_view_local_resource">Prozkoumat zdroj</string>
+    <string name="debug_info_view_local_resource">Zobrazit</string>
     <string name="sync_warning_calendar_storage_disabled_title">Poskytovatel kalendáře chybí</string>
     <string name="sync_warning_no_internet">Automatická synchronizace není aktivní (žádné ověřené připojení k internetu).</string>
     <string name="login_see_tested_with"><![CDATA[Pokud si nejste jisti, co zvolit, poraďte se s dokumentací vašeho poskytovatele a naší stránkou s <a href="%s">otestovanými službami</a>.]]></string>
