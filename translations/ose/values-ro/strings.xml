@@ -417,7 +417,7 @@
     <string name="debug_info_logs_subtitle">Jurnalele detaliate sunt disponibile</string>
     <string name="debug_info_logs_view">Vezi jurnalele</string>
     <string name="debug_info_copy_remote_url">Copiază adresa URL</string>
-    <string name="debug_info_view_local_resource">Inspectează resursa</string>
+    <string name="debug_info_view_local_resource">Vizualizare</string>
     <string name="debug_info_privacy_warning_title">Notificare de confidențialitate</string>
     <string name="debug_info_privacy_warning_description">Jurnalele și informațiile de depanare pot conține informații private. Fii conștient de acest lucru atunci când îl publici.</string>
     <string name="debug_info_can_not_view_resource">Nu se poate vizualiza resursa</string>
