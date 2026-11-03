@@ -467,7 +467,7 @@
     <string name="debug_info_http_405_description">O servidor non permite o tipo de operación solicitado.</string>
     <string name="debug_info_http_5xx_description">Houbo un problema no servidor.</string>
     <string name="debug_info_unexpected_error">Aconteceu un fallo non agardado. Mira os detalles na info de depuración.</string>
-    <string name="debug_info_view_local_resource">Examinar recurso</string>
+    <string name="debug_info_view_local_resource">Ver</string>
     <string name="debug_info_privacy_warning_title">Aviso de privacidade</string>
     <string name="debug_info_privacy_warning_description">Os rexistros e info de depuración poderían conter información privada. Compróbao cando vaias compartir publicamente.</string>
     <string name="debug_info_can_not_view_resource">Non se puido ver o recurso</string>
