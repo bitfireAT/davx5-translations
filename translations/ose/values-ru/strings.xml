@@ -563,4 +563,6 @@
     <string name="sync_error_authentication_failed_title">Ошибка аутентификации</string>
     <string name="sync_error_authentication_failed_update">Сервер отклонил ваши учетные данные. Нажмите, чтобы обновить их.</string>
     <string name="sync_error_authentication_failed_contact_admin">Сервер отклонил ваши учетные данные для авторизации. Их заблокировали на стороне приложения, поэтому обратитесь к администратору.</string>
+    <string name="debug_info_can_not_download_resource">Не удалось загрузить ресурс</string>
+    <string name="debug_info_view_remote_resource">Просмотр</string>
 </resources>
