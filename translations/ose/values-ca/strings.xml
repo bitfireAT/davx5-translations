@@ -556,4 +556,6 @@
     <string name="sync_error_authentication_failed_update">El servidor ha rebutjat les vostres credencials d\'inici de sessió. Toqueu per actualitzar-les.</string>
     <string name="sync_error_authentication_failed_contact_admin">El servidor ha rebutjat les vostres credencials d\'inici de sessió. Estan bloquejades a l\'aplicació, així que contacteu amb el vostre administrador.</string>
     <string name="permissions_contacts_manage_toast">Seleccioneu %1$s i activeu l\'accés</string>
+    <string name="debug_info_view_remote_resource">Visualitza</string>
+    <string name="debug_info_can_not_download_resource">No s\'ha pogut descarregar el recurs</string>
 </resources>
