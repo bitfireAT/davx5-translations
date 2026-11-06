@@ -540,4 +540,6 @@
     <string name="sync_error_authentication_failed_update">服务器拒绝了你的登录凭据。轻按更新它们。</string>
     <string name="sync_error_authentication_failed_contact_admin">服务器拒绝了你的登录凭据。它们被锁定在应用中，请联系你的管理员。</string>
     <string name="permissions_contacts_manage_toast">选择 %1$s 并允许访问</string>
+    <string name="debug_info_view_remote_resource">查看</string>
+    <string name="debug_info_can_not_download_resource">无法下载资源</string>
 </resources>
