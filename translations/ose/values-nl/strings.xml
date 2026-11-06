@@ -548,4 +548,6 @@
     <string name="sync_error_authentication_failed_title">Authenticatie mislukt</string>
     <string name="sync_error_authentication_failed_update">De server heeft uw inloggegevens afgewezen. Tik om ze bij te werken.</string>
     <string name="sync_error_authentication_failed_contact_admin">De server heeft uw inloggegevens afgewezen. Ze zijn vergrendeld in de app, dus neem contact op met uw beheerder.</string>
+    <string name="debug_info_view_remote_resource">Weergeven</string>
+    <string name="debug_info_can_not_download_resource">Kan bron niet downloaden</string>
 </resources>
