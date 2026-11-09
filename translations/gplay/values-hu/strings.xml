@@ -27,14 +27,14 @@
     <string name="network_problems">Hálózati problémák, próbálja újra később.</string>
     <string name="purchase_acknowledgement_successful">Köszönjük a támogatást!</string>
     <string name="purchase_failed">Sikertelen vásárlás</string>
-    <string name="badge_consumption_action">Kattintson a felhasználáshoz</string>
+    <string name="badge_consumption_action">Koppintson a felhasználáshoz</string>
     <string name="badge_consumption_message">A jelvény felhasználása eltávolítja azt a könyvtárból és mutat egy király animációt. Ez lehetőséget ad arra, hogy újra megvegye és támogasson minket.</string>
     <plurals name="badge_consumption_success_multiple">
-        <item quantity="one">Felhasználtál egy %1$s. %2$d jelvény maradt.</item>
-        <item quantity="other">Felhasználtál egy %1$s. %2$d jelvény maradt.</item>
+        <item quantity="one">Felhasznált egyet: %1$s. %2$d jelvény maradt.</item>
+        <item quantity="other">Felhasznált egyet: %1$s. %2$d jelvény maradt.</item>
     </plurals>
     <string name="purchase_acknowledgement_failed">A vásárlás visszaigazolása sikertelen</string>
-    <string name="badge_consumption_success_zero">Az összes %1$s-t felhasználtad.</string>
+    <string name="badge_consumption_success_zero">Az összeset felhasználta: %1$s.</string>
     <string name="badge_consumption_warning">A jelvény felhasználása nem visszavonható, lehetőséget ad arra hogy újra elnyerje.</string>
-    <string name="badge_consumption_content_description">Elnyert jelvény. Kattintson a felhasználáshoz</string>
+    <string name="badge_consumption_content_description">Elnyert jelvény. Koppintson a felhasználásához.</string>
 </resources>
