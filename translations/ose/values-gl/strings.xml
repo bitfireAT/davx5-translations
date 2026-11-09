@@ -548,4 +548,6 @@
     <string name="sync_error_authentication_failed_title">Fallou a autenticación</string>
     <string name="sync_error_authentication_failed_update">O servidor rexeitou as túas credenciais. Toca para actualizalas.</string>
     <string name="sync_error_authentication_failed_contact_admin">O servidor rexeitou as túas credenciais. Están ocultas na app, así que debes contactar coa túa administración.</string>
+    <string name="debug_info_view_remote_resource">Ver</string>
+    <string name="debug_info_can_not_download_resource">Non se puido descargar o recurso</string>
 </resources>
