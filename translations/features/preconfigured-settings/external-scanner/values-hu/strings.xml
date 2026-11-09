@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_external_scanner_error_no_app_found">Nem sikerült a QR-kód leolvasásához szükséges alkalmazást találni. Próbáljon meg kézileg elindítani egy QR-kódot leolvasni lépes alkalmazást.</string>
 </resources>
