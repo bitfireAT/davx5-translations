@@ -397,4 +397,48 @@
     <string name="app_settings_battery_optimization_exempted">App is exempted (recommended)</string>
     <string name="app_settings_battery_optimization_optimized">Battery restrictions apply (not recommended)</string>
     <string name="app_settings_distrust_system_certs_dialog_message">If this setting is active, system certificates are not considered trustworthy. This means that you will have to manually accept every certificate (also when the server renews its certificate), or account setup and sync will not work.</string>
+    <string name="notification_channel_user_interaction">Korisnička interakcija</string>
+    <string name="notification_channel_user_interaction_desc">Potreban je korisnički unos. Problem ili pitanje treba ručno postaviti.</string>
+    <string name="permissions_contacts_manage_toast">Odaberi %1$s i omogući pristup</string>
+    <string name="permissions_local_network_title">Dozvola lokalne mreže</string>
+    <string name="permissions_local_network_status_off">Pristup lokalnoj mreži odbijen</string>
+    <string name="permissions_local_network_status_on">Pristup lokalnoj mreži odobren</string>
+    <string name="sync_warning_no_local_network_permission">Lokalna mreža onemogućena. Nećete moći sinkronizirati s ostalim uređajima na lokalnoj mreži.</string>
+    <string name="app_settings_push_disabled_summary">Ugasi</string>
+    <string name="app_settings_push_description">Koristite Push za mogućnost Caldav/CardDAV/WebDAV serverima trenutnu obavijest %s raspoloživih promjena vaših podataka na serveru.</string>
+    <string name="app_settings_push_use_push">Koristi Push</string>
+    <string name="app_settings_push_no_push_services_found"><![CDATA[Push servis nije pronađen. Posjeti <a href="%1$s">%2$s</a> za popis distribucijskih aplikacija (Distributor Apps).]]></string>
+    <string name="app_settings_push_info_text"><![CDATA[Push poruke su uvijek enkriptirane. Nauči više o WebDAV-Push sa <a href="%s">the manual</a>.]]></string>
+    <string name="app_settings_push_push_services">Push servis</string>
+    <string name="app_settings_push_capability_none">Nijedan od vaših servera sa omogućenom sinkronizacijom trenutno ne podržava WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">Samo neki od vaših sercera sa omogućenom sinkronizacijom podržavaju WebDAV-Push.</string>
+    <string name="app_settings_push_select_default_distributor_action">Postavi osnovnu postavku (default)</string>
+    <string name="account_invalid_account">Račun je uklonjen</string>
+    <string name="account_missing_permissions">Potrebna su dodatna odobrenja da bi se sinkronizirale ove kolekcije.</string>
+    <string name="account_manage_permissions">Upravljaj odobrenjima</string>
+    <string name="account_rename_new_name_description">Nesačuvani lokalni podaci možda će biti zanemareni. Re-sinkronizacija je potrebna nakon preimenovanja.</string>
+    <string name="account_rename_new_name">Ime novog računa</string>
+    <string name="account_contacts">kontakti</string>
+    <string name="account_task_list">zadaci</string>
+    <string name="account_refresh_collections">Obnovi popis</string>
+    <string name="account_webcal_external_app">Webcal pretplate mogu biti sinkronizirane sa vanjskim aplikacijama.</string>
+    <string name="login_see_tested_with"><![CDATA[Ako niste sigurni što izabrati, provjerite dokumentaciju pružatelja i našu <a href="%s">tested services</a> stranicu.]]></string>
+    <string name="login_privacy_hint"><![CDATA[Svi podaci će biti preneseni samo između vašeg servera i vašeg uređaja. %1$s ih neće poslati nigdje drugdje. Vidi <a href="%2$s">privacy policy</a>.]]></string>
+    <string name="login_generic_login">Generički login</string>
+    <string name="login_provider_login">Specifični login ovisno o pružatelju (provider-specific)</string>
+    <string name="login_continue">Nastavi</string>
+    <string name="login_email_address_info">Email domena koristi se kao osnovni URL.</string>
+    <string name="login_password_hide">Sakrij lozinku</string>
+    <string name="login_password_show">Prikaži lozinku</string>
+    <string name="login_password_optional">Lozinka (opcionalno)</string>
+    <string name="login_user_name_optional">Korisničko ime (opcionalno)</string>
+    <string name="login_base_url_info"><![CDATA[Osnovna URL će biti direktno provjerena, ali <a href="%s">services su također pronađeni</a> pomoću DNS zapisa i well-known URLa.]]></string>
+    <string name="login_account_avoid_apostrophe">Korištenje apostrofa (\') izgleda da uzrokuje probleme na nekim uređajima.</string>
+    <string name="login_account_not_added">Račun nije mogao biti dodan</string>
+    <string name="login_finish">Završi</string>
+    <string name="login_type_advanced">Napredni ulaz</string>
+    <string name="login_fastmail">Fastmail</string>
+    <string name="login_fastmail_account">Fastmail račun</string>
+    <string name="login_fastmail_sign_in">Prijavi se sa Fastmail</string>
+    <string name="login_no_service_info">Nema CalDAV ili CardDAV servisa na osnovnom URL-u koji ste unijeli, niti ga je automatski pronalazak našao. Obično to znači da se radi o krivom osnovnom URL-u.</string>
 </resources>
