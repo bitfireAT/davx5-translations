@@ -556,4 +556,6 @@
     <string name="sync_error_authentication_failed_title">Autenticação falhou</string>
     <string name="sync_error_authentication_failed_update">O servidor rejeitou suas credenciais de acesso. Toque para atualizá-las.</string>
     <string name="sync_error_authentication_failed_contact_admin">O servidor rejeitou suas credenciais de acesso. Elas são bloqueadas no app, então por favor, entre em contato com o seu administrador.</string>
+    <string name="debug_info_view_remote_resource">Visualizar</string>
+    <string name="debug_info_can_not_download_resource">Não é possível baixar o recurso</string>
 </resources>
