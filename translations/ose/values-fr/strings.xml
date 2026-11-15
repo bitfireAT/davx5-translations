@@ -498,10 +498,10 @@
     <string name="app_settings_push_capability_none">Aucune de vos collections de serveurs dont la synchronisation est activée ne prend actuellement en charge WebDAV-Push.</string>
     <string name="app_settings_push_capability_some">Seule une partie de vos collections de serveurs activées pour la synchronisation prend actuellement en charge WebDAV-Push.</string>
     <string name="app_settings_push_select_default_distributor_description">Il y a plusieurs applications de distributeur UnifiedPush installées. Vous pouvez définir une valeur par défaut à l’échelle du système ici, afin que les autres applications activées par UnifiedPush n’aient pas à demander laquelle utiliser.</string>
-    <string name="login_no_client_certificate_optional">Aucun certificat client (facultatif)</string>
+    <string name="login_no_client_certificate_optional">Pas de certificat client (optionnel)</string>
     <string name="settings_reauthorize_oauth">Autoriser de nouveau (OAuth)</string>
     <string name="create_calendar_time_zone_optional">Fuseau horaire par défaut (facultatif)</string>
-    <string name="collection_datatype_events_count">%1$d évènements</string>
+    <string name="collection_datatype_events_count">%1$d événements</string>
     <string name="collection_datatype_tasks_count">%1$d tâches</string>
     <string name="collection_disable_sync_title">Désactiver la synchronisation ?</string>
     <string name="collection_disable_sync_warning">La désactivation de la synchronisation supprimera les données locales de cette collection (%s) de cet appareil. Les données sur le serveur ne sont pas affectées.</string>
