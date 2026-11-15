@@ -33,8 +33,8 @@
     <string name="restriction_login_certificate_alias">Alias du certificat client</string>
     <string name="restriction_login_certificate_alias_description">Alias du certificat client existant à utiliser pour la connexion</string>
     <string name="restriction_login_certificate_and_password">Utiliser le nom d\'utilisateur/mot de passe avec le certificat du client</string>
-    <string name="restriction_login_certificate_and_password_description">Si le certificat du client et le nom d\'utilisateur/mot de passe sont utilisés pour la connexion.</string>
-    <string name="restriction_max_accounts">Comptes max.</string>
+    <string name="restriction_login_certificate_and_password_description">Si le certificat du client et le nom d\'utilisateur/mot de passe sont utilisés pour la connexion</string>
+    <string name="restriction_max_accounts">Comptes max</string>
     <string name="restriction_max_accounts_description">Nombre maximum de comptes DAVx⁵ par utilisateur</string>
     <string name="restriction_proxy_type">Type de proxy</string>
     <string name="restriction_proxy_type_description">Toutes les connexions HTTP(S) sont acheminées en conséquence</string>
@@ -62,7 +62,7 @@
     <string name="restriction_force_address_books_read_only_description">Rend tous les carnets d\'adresses non modifiables localement</string>
     <string name="restriction_wifi_only">Synchronisation sur WiFi uniquement</string>
     <string name="restriction_wifi_only_description">Si la synchronisation n\'est exécutée que lorsque le WiFi est connecté</string>
-    <string name="restriction_wifi_only_ssids">Synchronisation par WiFi uniquement: SSIDs</string>
+    <string name="restriction_wifi_only_ssids">Synchronisation par WiFi uniquement : SSIDs</string>
     <string name="restriction_wifi_only_ssids_description">Liste séparée par des virgules des SSID WiFi autorisés (\"wifi1,wifi2\")</string>
     <string name="restriction_contact_group_method">Méthode du groupe de contact</string>
     <string name="restriction_contact_group_method_description">Comment les groupes de contacts sont stockés sur le serveur CardDAV</string>
@@ -95,14 +95,14 @@
     <string name="navigation_drawer_email_support">Support par courriel</string>
     <string name="about_license_info_html"><![CDATA[Licence pour un maximum de <i>%1$d utilisateurs </i>travaillant pour <i>%2$s</i>.]]></string>
     <plurals name="about_license_domains">
-        <item quantity="one">Destiné au domaine: %s</item>
-        <item quantity="many">Destiné aux domaines: %s</item>
-        <item quantity="other">Destiné aux domaines: %s</item>
+        <item quantity="one">Destiné au domaine : %s</item>
+        <item quantity="many">Destiné aux domaines : %s</item>
+        <item quantity="other">Destiné aux domaines : %s</item>
     </plurals>
     <string name="about_license_invalid_license">Aucune licence valide n\'a pu être trouvée. Veuillez contacter votre service informatique.</string>
-    <string name="about_license_valid_through">Licence valide jusqu\'au: %s</string>
+    <string name="about_license_valid_through">Licence valide jusqu\'au : %s</string>
     <string name="login_managed_config_info_html"><![CDATA[Vous utilisez une configuration automatique fournie par <i>%s</i>.]]></string>
-    <string name="login_managed_config_waiting">Attente de la configuration gérée ...</string>
+    <string name="login_managed_config_waiting">Attente de la configuration gérée…</string>
     <string name="login_managed_config_it_department">Vous ne savez pas quoi faire ? Contactez votre service informatique.</string>
     <string name="login_managed_config_please_log_in">Connectez-vous</string>
     <string name="login_managed_config_select_certificate_info">Choisissez un certificat client qui sera utilisé pour l\'authentification.</string>
@@ -124,5 +124,5 @@
     <string name="managed_config_network_empty_configuration">Configuration vide</string>
     <string name="managed_config_network_config_url_saved">URL de configuration sauvegardé</string>
     <string name="managed_config_network_config_url_cleared">URL de configuration effacée</string>
-    <string name="login_managed_config_not_private"><![CDATA[This app is <a href=\"%1$s\">Destiné aux organisations et non aux utilisateurs privés. Vous pouvez <a href=\"%2$s\">obtenir une licence de test gratuite</a>.]]></string>
+    <string name="login_managed_config_not_private"><![CDATA[Cette app est <a href="%1$s">destinée aux organisations</a> et non aux utilisateurs privés. Vous pouvez <a href="%2$s">obtenir une licence de test gratuite</a>.]]></string>
 </resources>
