@@ -5,8 +5,8 @@
     <string name="nav_rate_us">Avis sur Google Play</string>
     <string name="available_badges">Badges disponibles</string>
     <string name="available_badges_empty">Désolé, impossible de charger les badges. Êtes-vous connecté au Play Store ?</string>
-    <string name="what_are_badges">Qu\'est-ce que sont les badges ?</string>
-    <string name="what_are_badges_title">Qu\'est-ce que sont les badges ?</string>
+    <string name="what_are_badges">Que sont les badges ?</string>
+    <string name="what_are_badges_title">Que sont les badges ?</string>
     <string name="what_are_badges_body">Les badges sont des paiements unitaires dans l\'application. Vous gagnerez un petit badge sympathique, qui permet de nous soutenir dans le temps.</string>
     <string name="why_badges_title">Pourquoi DAVx5 propose-t-il des badges sans fonctionnalité ?</string>
     <string name="why_badges_body">DAVx5 a considérablement grandi au fil des années ! Nous continions à développer activement de nouvelles fonctionnalités, faire du support et nous mettrons toujours à jour l\'application pour les prochaines versions d\'Android. Ces badges sont un paiement unitaire, mais vous pouvez aussi nous montrer votre soutien en nous payant un café ou 2 ; ou 10 :-) Nous voulons rester open-source autant que possible, il n\'y aura jamais de fonctionnalités verrouillée, nécessitant de payer pour les débloquer.</string>
@@ -14,5 +14,16 @@
     <string name="button_buy_badge_bought">Merci !</string>
     <string name="earn_badges">Acheter des badges pour nous soutenir !</string>
     <string name="nav_feedback_google_play">Envoyer via Google Play</string>
-    <string name="nav_feedback_scroll_to_reviews">Faire défiler aux avis pour envoyer un retour.</string>
+    <string name="nav_feedback_scroll_to_reviews">Faire défiler jusqu’aux avis pour envoyer un retour</string>
+    <string name="about_flavor_info">Cette version n’est distribuable que par le Google Play.</string>
+    <plurals name="you_earned_badges">
+        <item quantity="one">Vous avez gagné un badge, merci !</item>
+        <item quantity="many">Vous avez gagné %d badges, merci !</item>
+        <item quantity="other">Vous avez gagné %d badges, merci !</item>
+    </plurals>
+    <string name="billing_unavailable">L’API de facturation n’est pas disponible</string>
+    <string name="purchase_acknowledgement_failed">La vérification de l’achat a échoué</string>
+    <string name="purchase_acknowledgement_successful">Merci pour le soutien !</string>
+    <string name="purchase_failed">Achat échoué</string>
+    <string name="network_problems">Problèmes réseaux, ré-essayez plus tard.</string>
 </resources>
