@@ -485,7 +485,7 @@
         <item quantity="many">%d suppressions non synchronisées</item>
         <item quantity="other">%d suppressions non synchronisées</item>
     </plurals>
-    <string name="app_settings_distrust_system_certs_dialog_message">Si ce paramètre est actif, les certificats système ne sont pas considérés comme fiables. Cela signifie que vous devrez accepter manuellement chaque certificat (également lorsque le serveur renouvelle son certificat) ou la configuration et la synchronisation du compte ne fonctionnera pas.</string>
+    <string name="app_settings_distrust_system_certs_dialog_message">Si ce paramètre est actif, les certificats systèmes ne sont pas considérés de confiance. Cela signifie que vous devrez accepter manuellement chaque certificat (de même quand le serveur renouvelle son certificat) ou la configuration et la synchronisation du compte ne fonctionnera pas.</string>
     <string name="permissions_local_network_title">Autorisation d’accès au réseau local</string>
     <string name="permissions_local_network_status_off">Accès au réseau local refusé</string>
     <string name="permissions_local_network_status_on">Accès au réseau local accordé</string>
@@ -493,10 +493,10 @@
     <string name="app_settings_unifiedpush_distributor_fcm">FCM (Google Play)</string>
     <string name="app_settings_push_disabled_summary">Désactivé</string>
     <string name="app_settings_push_title">Push</string>
-    <string name="app_settings_push_default_distributor_text">(système par défaut)</string>
+    <string name="app_settings_push_default_distributor_text">(par défaut du système)</string>
     <string name="app_settings_push_enabled_summary">Activé,%s</string>
     <string name="app_settings_push_capability_none">Aucune de vos collections de serveurs activées pour la synchronisation ne prend actuellement en charge WebDAV-Push.</string>
-    <string name="app_settings_push_capability_some">Seules certaines de vos collections de serveurs compatibles avec la synchronisation prennent actuellement en charge WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">Seulement certains de vos collections de serveurs activées par synchronisation prenne actuellement en charge WebDAV-Push.</string>
     <string name="app_settings_push_select_default_distributor_description">Il y a plusieurs applications de distributeur UnifiedPush installées. Vous pouvez définir une valeur par défaut à l’échelle du système ici, afin que les autres applications activées par UnifiedPush n’aient pas à demander laquelle utiliser.</string>
     <string name="login_no_client_certificate_optional">Aucun certificat client (facultatif)</string>
     <string name="settings_reauthorize_oauth">Autoriser à nouveau (OAuth)</string>
@@ -546,7 +546,7 @@
     <string name="widget_labeled_sync_label">Bouton de synchronisation étiqueté</string>
     <string name="widget_icon_sync_label">Icône du Bouton de synchronisation</string>
     <string name="widget_sync_description">Touchez pour exécuter la synchronisation manuellement.</string>
-    <string name="login_see_tested_with"><![CDATA[Si vous ne savez pas quoi choisir, consultez la documentation de votre fournisseur et notre page <a href="%s">services testés</a>.]]></string>
+    <string name="login_see_tested_with"><![CDATA[Si vous ne savez pas quoi choisir, consultez la documentation de votre fournisseur et notre page de <a href="%s">services testés</a>]]></string>
     <plurals name="collection_disable_sync_unsynced_changes">
         <item quantity="one">De plus, la modification locale %d n’a pas encore été téléchargée et sera perdue !</item>
         <item quantity="many">De plus, les modifications locale %d n’ont pas encore été téléchargée et sera perdue !</item>
