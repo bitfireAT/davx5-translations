@@ -304,16 +304,16 @@
     <string name="settings_sync_time_range_past">Limite des évènements passés</string>
     <string name="settings_sync_time_range_past_none">Tous les évènements seront synchronisés</string>
     <plurals name="settings_sync_time_range_past_days">
-        <item quantity="one">Les évènements de plus d’un jour passé seront ignorés</item>
-        <item quantity="many">Les événements de plus de %d jours passés seront ignorés</item>
-        <item quantity="other">Les événements de plus de %d jours passés seront ignorés</item>
+        <item quantity="one">Les évènements passé de plus d’un jour seront ignorés</item>
+        <item quantity="many">Les événements passés de plus de %d jours seront ignorés</item>
+        <item quantity="other">Les événements passés de plus de %d jours seront ignorés</item>
     </plurals>
     <string name="settings_sync_time_range_past_message">Les évènements antérieurs à ce nombre de jours seront ignorés (peut être 0). Laissez vide pour synchroniser tous les évènements.</string>
     <string name="settings_default_alarm">Rappel par défaut</string>
     <plurals name="settings_default_alarm_on">
-        <item quantity="one">Rappel par défaut une minute avant l’évènement</item>
-        <item quantity="many">Rappel par défaut %d minutes avant les événements</item>
-        <item quantity="other">Rappel par défaut %d minutes avant les événements</item>
+        <item quantity="one">Rappel par défaut une minute avant l’événement</item>
+        <item quantity="many">Rappel par défaut %d minutes avant l’événement</item>
+        <item quantity="other">Rappel par défaut %d minutes avant l’événement</item>
     </plurals>
     <string name="settings_default_alarm_off">Aucun rappel par défaut</string>
     <string name="settings_default_alarm_message">Si des rappels par défaut doivent être créé pour des évènements sans rappel : le nombre de minutes avant l’évènement. Laisser blanc pour désactiver les rappels par défaut.</string>
@@ -493,13 +493,13 @@
     <string name="app_settings_unifiedpush_distributor_fcm">FCM (Google Play)</string>
     <string name="app_settings_push_disabled_summary">Désactivé</string>
     <string name="app_settings_push_title">Push</string>
-    <string name="app_settings_push_default_distributor_text">(par défaut du système)</string>
+    <string name="app_settings_push_default_distributor_text">(valeur par défaut du système)</string>
     <string name="app_settings_push_enabled_summary">Activé,%s</string>
-    <string name="app_settings_push_capability_none">Aucune de vos collections de serveurs activées pour la synchronisation ne prend actuellement en charge WebDAV-Push.</string>
-    <string name="app_settings_push_capability_some">Seulement certains de vos collections de serveurs activées par synchronisation prenne actuellement en charge WebDAV-Push.</string>
+    <string name="app_settings_push_capability_none">Aucune de vos collections de serveurs dont la synchronisation est activée ne prend actuellement en charge WebDAV-Push.</string>
+    <string name="app_settings_push_capability_some">Seule une partie de vos collections de serveurs activées pour la synchronisation prend actuellement en charge WebDAV-Push.</string>
     <string name="app_settings_push_select_default_distributor_description">Il y a plusieurs applications de distributeur UnifiedPush installées. Vous pouvez définir une valeur par défaut à l’échelle du système ici, afin que les autres applications activées par UnifiedPush n’aient pas à demander laquelle utiliser.</string>
     <string name="login_no_client_certificate_optional">Aucun certificat client (facultatif)</string>
-    <string name="settings_reauthorize_oauth">Autoriser à nouveau (OAuth)</string>
+    <string name="settings_reauthorize_oauth">Autoriser de nouveau (OAuth)</string>
     <string name="create_calendar_time_zone_optional">Fuseau horaire par défaut (facultatif)</string>
     <string name="collection_datatype_events_count">%1$d évènements</string>
     <string name="collection_datatype_tasks_count">%1$d tâches</string>
@@ -523,7 +523,7 @@
     <string name="debug_info_http_5xx_description">Un problème est survenu sur le serveur.</string>
     <string name="debug_info_http_5xx_contact_support_no_domain"><![CDATA[<b>Veuillez contacter l’équipe d’assistance de votre fournisseur</b> (pas %1$s).]]></string>
     <string name="debug_info_unexpected_error">Une erreur inattendue s’est produite. Consultez les informations de débogage pour plus de détails.</string>
-    <string name="debug_info_view_local_resource">Inspecter la ressource</string>
+    <string name="debug_info_view_local_resource">Voir</string>
     <string name="debug_info_privacy_warning_title">Déclaration de confidentialité</string>
     <string name="debug_info_http_5xx_contact_support"><![CDATA[<b>Veuillez contacter l’équipe d’assistance de <tt>%1$s</tt></b> (pas %2$s).]]></string>
     <string name="debug_info_privacy_warning_description">Les journaux et les informations de débogage peuvent contenir des informations privées. Veuillez en tenir compte lors d’un partage public.</string>
@@ -546,10 +546,16 @@
     <string name="widget_labeled_sync_label">Bouton de synchronisation étiqueté</string>
     <string name="widget_icon_sync_label">Icône du Bouton de synchronisation</string>
     <string name="widget_sync_description">Touchez pour exécuter la synchronisation manuellement.</string>
-    <string name="login_see_tested_with"><![CDATA[Si vous ne savez pas quoi choisir, consultez la documentation de votre fournisseur et notre page de <a href="%s">services testés</a>]]></string>
+    <string name="login_see_tested_with"><![CDATA[Si vous ne savez pas quoi choisir, consultez la documentation de votre fournisseur et notre page de <a href="%s">services testés</a>.]]></string>
     <plurals name="collection_disable_sync_unsynced_changes">
         <item quantity="one">De plus, la modification locale %d n’a pas encore été téléchargée et sera perdue !</item>
         <item quantity="many">De plus, les modifications locale %d n’ont pas encore été téléchargée et sera perdue !</item>
         <item quantity="other">De plus, les modifications locale %d n’ont pas encore été téléchargée et sera perdue !</item>
     </plurals>
+    <string name="debug_info_can_not_download_resource">Impossible de télécharger la ressource</string>
+    <string name="sync_error_authentication_failed_title">Authentification échouée</string>
+    <string name="sync_error_authentication_failed_update">Le serveur a refusé vos identifiants. Touchez pour les mettre à jour.</string>
+    <string name="sync_error_authentication_failed_contact_admin">Le serveur a refusé vos identifiants. Ils sont verrouillés dans l’app, veuillez donc contacter votre administrateur.</string>
+    <string name="permissions_contacts_manage_toast">Sélectionnez %1$s et activer l’accès</string>
+    <string name="debug_info_view_remote_resource">Voir</string>
 </resources>
