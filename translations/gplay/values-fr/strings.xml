@@ -26,4 +26,5 @@
     <string name="purchase_acknowledgement_successful">Merci pour le soutien !</string>
     <string name="purchase_failed">Achat échoué</string>
     <string name="network_problems">Problèmes réseaux, ré-essayez plus tard.</string>
+    <string name="nav_feedback_inapp_didnt_appear">L\'avis dans l\'application n\'apparait pas ?</string>
 </resources>
