@@ -564,4 +564,6 @@
     <string name="sync_error_authentication_failed_title">Autentifikace selhala</string>
     <string name="sync_error_authentication_failed_update">Server zamítnul vaše přihlašovací údaje. Klepněte pro jejich aktualizaci.</string>
     <string name="sync_error_authentication_failed_contact_admin">Server zamítnul vaše přihlašovací údaje. Josu uzamčené v aplikaci, kontaktujte tedy prosím vašeho správce.</string>
+    <string name="debug_info_view_remote_resource">Zobrazit</string>
+    <string name="debug_info_can_not_download_resource">Nepodařilo se stáhnout zdroj</string>
 </resources>
