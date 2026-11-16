@@ -565,4 +565,13 @@
     <string name="sync_error_authentication_failed_contact_admin">Сервер отклонил ваши учетные данные для авторизации. Их заблокировали на стороне приложения, поэтому обратитесь к администратору.</string>
     <string name="debug_info_can_not_download_resource">Не удалось загрузить ресурс</string>
     <string name="debug_info_view_remote_resource">Просмотр</string>
+    <string name="accounts_check_title">Проверка и восстановление акаунтов</string>
+    <string name="accounts_check_summary">Отображает статус аккаунтов Android</string>
+    <string name="accounts_check_android_accounts">Аккаунты Android</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s использует аккаунты Android, чтобы обеспечить доступ других приложений к вашим контактам, календарям и задачам. Как только аккаунт приложения синхронизируется, %1$s создает аккаунт Android, связанный с ним. Аккаунты, созданные в более старых версиях %1$s, являются устаревшими и состоят исключительно из аккаунта Android. <a href="%2$s">В руководстве</a> подробно описаны все статусы и способы экспорта данных.]]></string>
+    <string name="accounts_check_status">Статус аккаунтов Android</string>
+    <string name="accounts_check_legacy_account">(устаревший аккаунт)</string>
+    <string name="accounts_check_links_to_db_account">(ссылки на аккаунт в приложении)</string>
+    <string name="accounts_check_missing_db_account">Ссылки на несуществующий аккаунт приложения</string>
+    <string name="accounts_check_empty">Аккаунты Android не найдены.</string>
 </resources>
