@@ -558,4 +558,13 @@
     <string name="permissions_contacts_manage_toast">Selectează %1$s și activează accesul</string>
     <string name="debug_info_view_remote_resource">Vizualizare</string>
     <string name="debug_info_can_not_download_resource">Nu se poate descărca resursa</string>
+    <string name="accounts_check_title">Verificarea și repararea conturilor</string>
+    <string name="accounts_check_summary">Afișează starea conturilor Android</string>
+    <string name="accounts_check_android_accounts">Conturi Android</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s folosește conturile Android pentru a pune contactele, calendarul și sarcinile la dispoziția altor aplicații. De îndată ce un cont de aplicație este sincronizat, %1$s creează un cont Android care face legătura cu acesta. Conturile create cu versiuni mai vechi de %1$s sunt conturi moștenite care constau doar dintr-un cont Android. <a href="%2$s">Manualul</a> explică fiecare stare și cum să exporți datele.]]></string>
+    <string name="accounts_check_status">Starea conturilor Android</string>
+    <string name="accounts_check_legacy_account">(cont moștenit)</string>
+    <string name="accounts_check_links_to_db_account">(linkuri către contul aplicației)</string>
+    <string name="accounts_check_missing_db_account">Linkuri către un cont de aplicație inexistent</string>
+    <string name="accounts_check_empty">Niciun cont Android găsit.</string>
 </resources>
