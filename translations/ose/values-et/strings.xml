@@ -550,4 +550,13 @@
     <string name="permissions_contacts_manage_toast">Vali %1$s ja luba ligipääs</string>
     <string name="debug_info_view_remote_resource">Vaata</string>
     <string name="debug_info_can_not_download_resource">Ressursi allalaadimine ei õnnestunud</string>
+    <string name="accounts_check_title">Kontrolli kasutajakontosid ning paranda neid</string>
+    <string name="accounts_check_summary">Näitab Androidi kasutajakontode olekut</string>
+    <string name="accounts_check_android_accounts">Androidi kasutajakontod</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s kasutab Androidi kasutajakontosid, et muuta su kontaktid, kalendrid ja ülesanded teistele rakendustele kättesaadavaks. Kohe peale seda, kui rakenduse konto on sünkroonitud, loob %1$s Androidi kasutajakonto, mis viitab sellele. Kontod, mis loodi vanemate %1$s rakenduse versioonidega, on pärandkontod, mis koosnevad ainult Androidi kasutajakontost. <a href="%2$s">Juhend</a> seletab iga olekut ja seda, kuidas saad oma andmeid eksportida.]]></string>
+    <string name="accounts_check_status">Androidi kasutajakontode olek</string>
+    <string name="accounts_check_legacy_account">(pärandkonto)</string>
+    <string name="accounts_check_links_to_db_account">(viitab rakenduse kontole)</string>
+    <string name="accounts_check_missing_db_account">Viitab olematule rakenduse kontole</string>
+    <string name="accounts_check_empty">Ühtegi Androidi kasutajakontot ei leidunud.</string>
 </resources>
