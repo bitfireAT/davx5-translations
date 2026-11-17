@@ -558,4 +558,13 @@
     <string name="permissions_contacts_manage_toast">Seleccioneu %1$s i activeu l\'accés</string>
     <string name="debug_info_view_remote_resource">Visualitza</string>
     <string name="debug_info_can_not_download_resource">No s\'ha pogut descarregar el recurs</string>
+    <string name="accounts_check_title">Comprova i repara comptes</string>
+    <string name="accounts_check_summary">Mostra l\'estat dels comptes d\'Android</string>
+    <string name="accounts_check_android_accounts">Comptes d\'Android</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s utilitza comptes d\'Android per fer que els vostres contactes, calendaris i tasques estiguin disponibles a altres aplicacions. Tan aviat com se sincronitza un compte d\'aplicació, %1$s crea un compte d\'Android que hi enllaça. Els comptes que s\'han creat amb versions anteriors a %1$s són comptes obsolets que només consisteixen en un compte d\'Android. <a href="%2$s">El manual</a> explica cada estat i com exportar les vostres dades.]]></string>
+    <string name="accounts_check_status">Estat dels comptes d\'Android</string>
+    <string name="accounts_check_legacy_account">(compte obsolet)</string>
+    <string name="accounts_check_links_to_db_account">(enllaços a comptes d\'aplicació)</string>
+    <string name="accounts_check_missing_db_account">Enllaços a comptes d\'aplicació inexistents</string>
+    <string name="accounts_check_empty">No s\'ha trobat cap compte d\'Android.</string>
 </resources>
