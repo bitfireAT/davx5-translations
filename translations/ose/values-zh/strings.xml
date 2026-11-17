@@ -542,4 +542,13 @@
     <string name="permissions_contacts_manage_toast">选择 %1$s 并允许访问</string>
     <string name="debug_info_view_remote_resource">查看</string>
     <string name="debug_info_can_not_download_resource">无法下载资源</string>
+    <string name="accounts_check_title">检查并修复账户</string>
+    <string name="accounts_check_summary">显示 Android 账户状态</string>
+    <string name="accounts_check_android_accounts">Android 账户</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s 使用 Android 账户来使你的联系人、日历和任务对其他账户可用。 应用账户一同步，%1$s 就创建一个关联它的 Android 账户。用旧版 %1$s 创建的账户是仅由单一 Android 账户所组成的老式账户。<a href="%2$s">该手册</a> 解释了每个状态以及如何导出你的数据。]]></string>
+    <string name="accounts_check_status">Android 账户状态</string>
+    <string name="accounts_check_legacy_account">(老式账户)</string>
+    <string name="accounts_check_links_to_db_account">(关联到应用账户)</string>
+    <string name="accounts_check_missing_db_account">关联到不存在的应用账户</string>
+    <string name="accounts_check_empty">未找到 Android 账户。</string>
 </resources>
