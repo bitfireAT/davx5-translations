@@ -8,7 +8,7 @@
     <string name="dialog_remove">Fjern</string>
     <string name="dialog_deny">Annullér</string>
     <string name="dialog_enable">Aktivér</string>
-    <string name="field_required">Feltet er påkrævet</string>
+    <string name="field_required">Feltet er obligatorisk</string>
     <string name="help">Hjælp</string>
     <string name="navigate_up">Navigér opad</string>
     <string name="options_menu">Flere valgmuligheder</string>
@@ -208,7 +208,7 @@
     <string name="login_login">Log ind</string>
     <string name="login_type_email">Log ind med e-mailadresse</string>
     <string name="login_email_address">E-mailadresse</string>
-    <string name="login_email_address_error">Gyldig e-mailadresse påkrævet</string>
+    <string name="login_email_address_error">Gyldig e-mailadresse kræves</string>
     <string name="login_email_address_info">E-mail-domænet bruges som basis-URL.</string>
     <string name="login_password">Adgangskode</string>
     <string name="login_password_hide">Skjul adgangskode</string>
@@ -223,7 +223,7 @@
     <string name="login_account_avoid_apostrophe">Brug af apostroffer (\') ser ud til at give problemer på nogle enheder.</string>
     <string name="login_account_name_info">Brug din e-mailadresse som kontonavn, fordi Android bruger kontonavnet i feltet ORGANIZER for begivenheder, du opretter. Du kan ikke have to konti med samme navn.</string>
     <string name="login_account_contact_group_method">Gruppering af kontakter:</string>
-    <string name="login_account_name_required">Kontonavn påkrævet</string>
+    <string name="login_account_name_required">Kontonavn kræves</string>
     <string name="login_account_name_already_taken">Kontonavnet er allerede i brug</string>
     <string name="login_type_advanced">Avanceret login</string>
     <string name="login_client_certificate_selected">Klientcertifikat: %s</string>
@@ -396,7 +396,7 @@
   <string name="sync_error_permissions">Tilladelser til DAVx⁵</string>
     <string name="sync_error_permissions_text">Der kræves yderligere tilladelser</string>
     <string name="sync_error_tasks_too_old">%s for gammel</string>
-    <string name="sync_error_tasks_required_version">Påkrævet version: %1$s</string>
+    <string name="sync_error_tasks_required_version">Mindste krævede version: %1$s</string>
     <string name="sync_error_io">Netværks- eller I/O-fejl - %s</string>
     <string name="sync_error_http_dav">HTTP-serverfejl - %s</string>
     <string name="sync_error_local_storage">Lokal lagringsfejl - %s</string>
@@ -409,7 +409,7 @@
   <string name="widget_sync_all">Synkroniser alle</string>
     <string name="widget_sync_all_accounts">Synkroniser alle konti</string>
     <string name="dismiss_forever">Skjul permanent</string>
-    <string name="notification_channel_user_interaction_desc">Brugerinteraktion påkrævet. Et problem skal løses manuelt.</string>
+    <string name="notification_channel_user_interaction_desc">Brugerinteraktion kræves. Et problem skal løses manuelt.</string>
     <string name="intro_tasks_tasks_org_info"><![CDATA[Nogle funktioner <a href="https://www.davx5.com/faq/tasks/advanced-task-features">understøttes ikke</a>.]]></string>
     <string name="intro_backups_title">Påmindelse om sikkerhedskopiering</string>
     <string name="intro_backups_important">Det er vigtigt at sikkerhedskopiere dine data (også kontakter og kalendere) jævnligt for at undgå datatab.</string>
@@ -549,4 +549,13 @@
     <string name="permissions_contacts_manage_toast">Vælg %1$s, og giv adgang</string>
     <string name="debug_info_view_remote_resource">Vis</string>
     <string name="debug_info_can_not_download_resource">Ressourcen kan ikke hentes</string>
+    <string name="accounts_check_title">Tjek og reparer konti</string>
+    <string name="accounts_check_summary">Viser status for Android-konti</string>
+    <string name="accounts_check_android_accounts">Android-konti</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s bruger Android-konti til at gøre dine kontakter, kalendere og opgaver tilgængelige for andre apps. Så snart en app-konto synkroniseres, opretter %1$s en Android-konto, der peger på den. Konti, der er oprettet med tidligere versioner af %1$s, er ældre konti, der kun består af en Android-konto. <a href="%2$s">Manualen</a> forklarer hver status, og hvordan du eksporterer dine data.]]></string>
+    <string name="accounts_check_status">Status for Android-konti</string>
+    <string name="accounts_check_legacy_account">(ældre konto)</string>
+    <string name="accounts_check_links_to_db_account">(peger på app-konto)</string>
+    <string name="accounts_check_missing_db_account">Peger på en app-konto, der ikke findes</string>
+    <string name="accounts_check_empty">Der blev ikke fundet nogen Android-konti.</string>
 </resources>
