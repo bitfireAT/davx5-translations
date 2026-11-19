@@ -559,4 +559,8 @@
     <string name="accounts_check_links_to_db_account">(viitab rakenduse kontole)</string>
     <string name="accounts_check_missing_db_account">Viitab olematule rakenduse kontole</string>
     <string name="accounts_check_empty">Ühtegi Androidi kasutajakontot ei leidunud.</string>
+    <string name="app_settings_experimental_title">Katseline</string>
+    <string name="new_account_system_setting_name">Uus kasutajakontode süsteem</string>
+    <string name="new_account_system_setting_summary_on">Uued kasutajakontod lisatakse andmebaasi (katseline)</string>
+    <string name="new_account_system_setting_summary_off">Uued kasutajakontod lisatakse Androidi kontodena (vana lahendus)</string>
 </resources>
