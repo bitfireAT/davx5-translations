@@ -551,4 +551,8 @@
     <string name="accounts_check_links_to_db_account">(关联到应用账户)</string>
     <string name="accounts_check_missing_db_account">关联到不存在的应用账户</string>
     <string name="accounts_check_empty">未找到 Android 账户。</string>
+    <string name="app_settings_experimental_title">实验性</string>
+    <string name="new_account_system_setting_name">新账户系统</string>
+    <string name="new_account_system_setting_summary_on">新账户创建在数据库中（实验性）</string>
+    <string name="new_account_system_setting_summary_off">新账户创建为 Android 账户（旧式）</string>
 </resources>
