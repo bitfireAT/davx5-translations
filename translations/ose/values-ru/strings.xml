@@ -574,4 +574,8 @@
     <string name="accounts_check_links_to_db_account">(ссылки на аккаунт в приложении)</string>
     <string name="accounts_check_missing_db_account">Ссылки на несуществующий аккаунт приложения</string>
     <string name="accounts_check_empty">Аккаунты Android не найдены.</string>
+    <string name="app_settings_experimental_title">Экспериментальная</string>
+    <string name="new_account_system_setting_name">Новая система аккаунтов</string>
+    <string name="new_account_system_setting_summary_on">Новые аккаунты создаются в базе данных (экспериментальный режим)</string>
+    <string name="new_account_system_setting_summary_off">Новые аккаунты создаются как аккаунты Android (устаревшая версия)</string>
 </resources>
