@@ -567,4 +567,8 @@
     <string name="accounts_check_links_to_db_account">(enllaços a comptes d\'aplicació)</string>
     <string name="accounts_check_missing_db_account">Enllaços a comptes d\'aplicació inexistents</string>
     <string name="accounts_check_empty">No s\'ha trobat cap compte d\'Android.</string>
+    <string name="app_settings_experimental_title">Experimental</string>
+    <string name="new_account_system_setting_name">Sistema de comptes nou</string>
+    <string name="new_account_system_setting_summary_on">Els comptes nous es creen a la base de dades (experimental)</string>
+    <string name="new_account_system_setting_summary_off">Els comptes nous es creen com a comptes d\'Android (obsolet)</string>
 </resources>
