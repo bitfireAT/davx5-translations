@@ -558,4 +558,10 @@
     <string name="accounts_check_links_to_db_account">(peger på app-konto)</string>
     <string name="accounts_check_missing_db_account">Peger på en app-konto, der ikke findes</string>
     <string name="accounts_check_empty">Der blev ikke fundet nogen Android-konti.</string>
+    <string name="app_settings_experimental_title">Eksperimentelt</string>
+    <string name="new_account_system_setting_name">Nyt kontosystem</string>
+    <string name="new_account_system_setting_summary_on">Nye konti oprettes i databasen (eksperimentelt)</string>
+    <string name="new_account_system_setting_summary_off">Nye konti oprettes som Android-konti (ældre metode)</string>
+    <string name="accounts_check_delete_title">Vil du slette Android-kontoen?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Lokale data for Android-kontoen %1$s (f.eks. kalendere og opgavelister) fjernes fra denne enhed. Sørg for, at du har en <a href="%2$s">sikkerhedskopi</a> af de data, du stadig har brug for.]]></string>
 </resources>
