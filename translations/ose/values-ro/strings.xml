@@ -567,4 +567,8 @@
     <string name="accounts_check_links_to_db_account">(linkuri către contul aplicației)</string>
     <string name="accounts_check_missing_db_account">Linkuri către un cont de aplicație inexistent</string>
     <string name="accounts_check_empty">Niciun cont Android găsit.</string>
+    <string name="app_settings_experimental_title">Experimentală</string>
+    <string name="new_account_system_setting_name">Sistem nou de conturi</string>
+    <string name="new_account_system_setting_summary_on">Conturile noi sunt create în baza de date (experimental)</string>
+    <string name="new_account_system_setting_summary_off">Conturile noi sunt create ca conturi Android (moștenit)</string>
 </resources>
