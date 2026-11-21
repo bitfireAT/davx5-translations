@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_login_type_preconfigured">Войти с помощью QR-кода или профиля подключения</string>
+    <string name="preconfigured_settings_profile_url">URL конфигурации</string>
+    <string name="preconfigured_settings_profile_url_help">Ваш поставщик услуг должен предоставить вам предконфигурационный URL.</string>
+    <string name="preconfigured_settings_scan_qr">Сканировать QR-код</string>
+    <string name="preconfigured_settings_error_no_uri">QR-код не содержит действительного URL</string>
+    <string name="preconfigured_settings_error_no_config_url">URL QR-кода не является допустимым для конфигурации</string>
+    <string name="preconfigured_settings_error_invalid_schema">URL QR-кода имеет неизвестную схему</string>
 </resources>
