@@ -571,4 +571,6 @@
     <string name="new_account_system_setting_name">Sistema de comptes nou</string>
     <string name="new_account_system_setting_summary_on">Els comptes nous es creen a la base de dades (experimental)</string>
     <string name="new_account_system_setting_summary_off">Els comptes nous es creen com a comptes d\'Android (obsolet)</string>
+    <string name="accounts_check_delete_title">Suprimeixo el compte d\'Android?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Les dades locals del compte d\'Android %1$s (per exemple, calendaris i llistes de tasques) s\'eliminaran d\'aquest dispositiu. Assegureu-vos que teniu una <a href="%2$s">còpia de seguretat</a> de les dades que encara necessiteu.]]></string>
 </resources>
