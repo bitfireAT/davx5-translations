@@ -563,4 +563,6 @@
     <string name="new_account_system_setting_name">Uus kasutajakontode süsteem</string>
     <string name="new_account_system_setting_summary_on">Uued kasutajakontod lisatakse andmebaasi (katseline)</string>
     <string name="new_account_system_setting_summary_off">Uued kasutajakontod lisatakse Androidi kontodena (vana lahendus)</string>
+    <string name="accounts_check_delete_title">Kas kustutad Androidi kasutajakonto?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Androidi „%1$s“ kasutajakonto kohalikud andmed (näiteks kalendrid ja ülesannete loendid) eemaldatakse sellest seadmest. Veendu, et sul on <a href="%2$s">varukoopia</a> andmetest, mida võid veel vaja.]]></string>
 </resources>
