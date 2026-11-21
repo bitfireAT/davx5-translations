@@ -578,4 +578,6 @@
     <string name="new_account_system_setting_name">Новая система аккаунтов</string>
     <string name="new_account_system_setting_summary_on">Новые аккаунты создаются в базе данных (экспериментальный режим)</string>
     <string name="new_account_system_setting_summary_off">Новые аккаунты создаются как аккаунты Android (устаревшая версия)</string>
+    <string name="accounts_check_delete_title">Удалить аккаунт Android?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Локальные данные аккаунта Android %1$s (например, календари и списки задач) будут удалены с этого устройства. Убедитесь, что у вас есть <a href="%2$s">резервная копия</a> данных, которые вам по-прежнему нужны.]]></string>
 </resources>
