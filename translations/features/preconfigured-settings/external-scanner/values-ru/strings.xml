@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_external_scanner_error_no_app_found">Не удалось найти совместимый сканер QR-кодов для запуска. Попробуйте запустить приложение с функцией сканирования QR-кодов вручную.</string>
 </resources>
