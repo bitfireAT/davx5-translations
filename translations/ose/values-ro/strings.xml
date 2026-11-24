@@ -571,4 +571,7 @@
     <string name="new_account_system_setting_name">Sistem nou de conturi</string>
     <string name="new_account_system_setting_summary_on">Conturile noi sunt create în baza de date (experimental)</string>
     <string name="new_account_system_setting_summary_off">Conturile noi sunt create ca conturi Android (moștenit)</string>
+    <string name="accounts_check_delete_title">Ștergi contul Android?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Datele locale ale contului Android %1$s (de exemplu, calendarele și listele de sarcini) vor fi șterse de pe acest dispozitiv. Asigură-te că ai o <a href="%2$s">copie de rezervă</a> a datelor de care ai nevoie.]]></string>
+    <string name="sync_error_account_unavailable">Nu s-a putut pregăti contul pentru sincronizare</string>
 </resources>
