@@ -565,4 +565,5 @@
     <string name="new_account_system_setting_summary_off">Uued kasutajakontod lisatakse Androidi kontodena (vana lahendus)</string>
     <string name="accounts_check_delete_title">Kas kustutad Androidi kasutajakonto?</string>
     <string name="accounts_check_delete_text"><![CDATA[Androidi „%1$s“ kasutajakonto kohalikud andmed (näiteks kalendrid ja ülesannete loendid) eemaldatakse sellest seadmest. Veendu, et sul on <a href="%2$s">varukoopia</a> andmetest, mida võid veel vaja.]]></string>
+    <string name="sync_error_account_unavailable">Konto ettevalmistamine sünkroonimiseks ei õnnestunud</string>
 </resources>
