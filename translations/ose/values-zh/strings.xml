@@ -557,4 +557,5 @@
     <string name="new_account_system_setting_summary_off">新账户创建为 Android 账户（旧式）</string>
     <string name="accounts_check_delete_title">删除 Android 账户?</string>
     <string name="accounts_check_delete_text"><![CDATA[将从这台设备删除 Android 账户 %1$s 的本地数据（比如日历和任务列表）。确保您有仍需要的数据的 <a href="%2$s">备份</a>。]]></string>
+    <string name="sync_error_account_unavailable">无法使账户为同步做好准备</string>
 </resources>
