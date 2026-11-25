@@ -564,4 +564,5 @@
     <string name="new_account_system_setting_summary_off">Nye konti oprettes som Android-konti (ældre metode)</string>
     <string name="accounts_check_delete_title">Vil du slette Android-kontoen?</string>
     <string name="accounts_check_delete_text"><![CDATA[Lokale data for Android-kontoen %1$s (f.eks. kalendere og opgavelister) fjernes fra denne enhed. Sørg for, at du har en <a href="%2$s">sikkerhedskopi</a> af de data, du stadig har brug for.]]></string>
+    <string name="sync_error_account_unavailable">Kontoen kunne ikke klargøres til synkronisering</string>
 </resources>
