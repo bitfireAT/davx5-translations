@@ -304,7 +304,7 @@
     <string name="settings_sync_time_range_past">Limite des évènements passés</string>
     <string name="settings_sync_time_range_past_none">Tous les évènements seront synchronisés</string>
     <plurals name="settings_sync_time_range_past_days">
-        <item quantity="one">Les évènements passé de plus d’un jour seront ignorés</item>
+        <item quantity="one">Les évènements passés de plus d’un jour seront ignorés</item>
         <item quantity="many">Les événements passés de plus de %d jours seront ignorés</item>
         <item quantity="other">Les événements passés de plus de %d jours seront ignorés</item>
     </plurals>
@@ -558,4 +558,19 @@
     <string name="sync_error_authentication_failed_contact_admin">Le serveur a refusé vos identifiants. Ils sont verrouillés dans l’app, veuillez donc contacter votre administrateur.</string>
     <string name="permissions_contacts_manage_toast">Sélectionnez %1$s et activer l’accès</string>
     <string name="debug_info_view_remote_resource">Voir</string>
+    <string name="app_settings_experimental_title">Expérimental</string>
+    <string name="accounts_check_title">Contrôler et réparer les comptes</string>
+    <string name="accounts_check_summary">Affiche l\'état des comptes Android</string>
+    <string name="accounts_check_android_accounts">Comptes Android</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s utilise les comptes Android pour rendre disponibles vos contacts, agendas et tâches aux autres applications. Dès qu\'un compte d\'application est synchronisé, %1$s crée un compte Android qui y est lié. Les comptes créés par des versions précédentes de %1$ sont des comptes hérités qui sont aussi des comptes Android. <a href="%2$s">Le manuel</a> explique chaque état et comment exporter vos données.]]></string>
+    <string name="accounts_check_status">État des comptes Android</string>
+    <string name="accounts_check_legacy_account">(compte hérité)</string>
+    <string name="accounts_check_links_to_db_account">(lien vers le compte applicatif)</string>
+    <string name="accounts_check_missing_db_account">Liens vers des comptes applicatifs inexistants</string>
+    <string name="accounts_check_empty">Aucun compte Android trouvé.</string>
+    <string name="accounts_check_delete_title">Supprimer le compte Android ?</string>
+    <string name="sync_error_account_unavailable">Le compte n\'a pu être préparé pour la synchronisation</string>
+    <string name="new_account_system_setting_name">Paramètre expérimental cert4android : nouveau compte système</string>
+    <string name="new_account_system_setting_summary_on">Les nouveaux comptes sont créés dans la base de données (expérimental)</string>
+    <string name="new_account_system_setting_summary_off">Les nouveaux comptes sont créés en tant que comptes Android (hérité)</string>
 </resources>
