@@ -1,3 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="sync_validation_title">Échec de validation de la synchronisation</string>
+    <string name="sync_validation_content">Synchronisation non autorisée</string>
+    <string name="sync_validation_missing_service_url">Impossible de trouver une url de service pour le compte. Essayez de rafraîchir les collections.</string>
+    <string name="sync_validation_invalid_server">Serveur non supporté.</string>
+    <string name="sync_validation_validation_problem">Problème de validation du support du serveur.</string>
+    <string name="error_no_uri">Le QR code ne contient pas d\'URL valide</string>
+    <string name="error_no_config_url">L\'URL du QR code n\'est pas une URL de configuration valide</string>
+    <string name="error_invalid_schema">L\'URL du QR code a un schéma inconnu</string>
+    <string name="select_welcome_slogan_contacts_calendars_tasks">Contacts, Agendas et Tâches</string>
+    <string name="select_welcome_slogan">Synchronisez vos Contacts, Agendas et Tâches avec un serveur défini.</string>
+    <string name="select_welcome_slogan_with_server">avec un serveur défini.</string>
+    <string name="login_type_preconfigured">Connexion via QR ou profil</string>
+    <string name="profile_url">URL de configuration</string>
+    <string name="profile_url_help">Votre fournisseur de serveur devrait vous fournir une url de pré-configuration.</string>
+    <string name="scan_qr">Scanner un QR Code</string>
+    <string name="select_welcome_slogan_sync_your">Synchronisez vos</string>
+    <string name="select_welcome_title_davx5">DAVx⁵</string>
 </resources>
