@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="preconfigured_settings_external_scanner_error_no_app_found">Impossible de trouver un scanner de QR code compatible à lancer. Essayez de lancer manuellement une appli avec une fonctionnalité de scan de QR code.</string>
 </resources>
