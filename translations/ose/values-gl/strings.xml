@@ -550,4 +550,20 @@
     <string name="sync_error_authentication_failed_contact_admin">O servidor rexeitou as túas credenciais. Están ocultas na app, así que debes contactar coa túa administración.</string>
     <string name="debug_info_view_remote_resource">Ver</string>
     <string name="debug_info_can_not_download_resource">Non se puido descargar o recurso</string>
+    <string name="app_settings_experimental_title">Experimental</string>
+    <string name="accounts_check_title">Comprobar e reparar contas</string>
+    <string name="accounts_check_summary">Mostra o estado das contas Android</string>
+    <string name="accounts_check_android_accounts">Contas Android</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s utiliza as contas de Android para facer que os contactos, calendarios e tarefas estean dispoñibles para outras aplicacións. Ao sincronizarse a conta dunha app, %1$s crea unha conta Android que se liga a ela. As contas que se crearon con versións anteriores de %1$s son contas remanentes que consisten só dunha conta Android. No <a href="%2$s">manual</a> describe cada estado e como podes exportar os teus datos.]]></string>
+    <string name="accounts_check_status">Estado das contas Android</string>
+    <string name="accounts_check_legacy_account">(conta remanente)</string>
+    <string name="accounts_check_links_to_db_account">(enlaza coa conta da app)</string>
+    <string name="accounts_check_missing_db_account">Enlaza a unha conta de app non existente</string>
+    <string name="accounts_check_empty">Non se atopan contas android.</string>
+    <string name="accounts_check_delete_title">Eliminar a conta Android?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Os datos locais da conta Android %1$s (ex. calendarios e tarefas) vanse eliminar deste dispositivo. Comproba antes se tes unha <a href="%2$s">copia de apoio</a> dos datos que aínda precises.]]></string>
+    <string name="sync_error_account_unavailable">Non se puido preparar a conta para a sincronización</string>
+    <string name="new_account_system_setting_name">Novo sistema de contas</string>
+    <string name="new_account_system_setting_summary_on">As novas contas créanse na base de datos (experimental)</string>
+    <string name="new_account_system_setting_summary_off">As novas contas créanse como contas Android (remanentes)</string>
 </resources>
