@@ -566,4 +566,20 @@
     <string name="sync_error_authentication_failed_contact_admin">Server zamítnul vaše přihlašovací údaje. Josu uzamčené v aplikaci, kontaktujte tedy prosím vašeho správce.</string>
     <string name="debug_info_view_remote_resource">Zobrazit</string>
     <string name="debug_info_can_not_download_resource">Nepodařilo se stáhnout zdroj</string>
+    <string name="app_settings_experimental_title">Experimentální</string>
+    <string name="accounts_check_title">Zkontrolovat a opravit účty</string>
+    <string name="accounts_check_summary">Zobrazí stav účtů v systému Android</string>
+    <string name="accounts_check_android_accounts">Účty Android</string>
+    <string name="accounts_check_explanation"><![CDATA[%1$s používá účty systému Android pro umožnění přístupu ke kontaktům, kalendářům a úkolům ostatním aplikacím. Jakmile je účet aplikace synchronizován, %1$s vytvoří účet v systému Android, který je s ním propojen. Účty, které byly vytvořeny ve starších verzích aplikace %1$s jsou účty staršího typu, které obsahují pouze účet v systému Android. <a href="%2$s">Příručka</a> popisuje každý stav a jak exportovat svá data.]]></string>
+    <string name="accounts_check_status">Stav účtů Android</string>
+    <string name="accounts_check_legacy_account">(starší účet)</string>
+    <string name="accounts_check_links_to_db_account">(propojen s účtem v aplikaci)</string>
+    <string name="accounts_check_missing_db_account">Propojen s neexistujícím účtem v aplikaci</string>
+    <string name="accounts_check_empty">Nenalezeny žádné účty systému Android.</string>
+    <string name="accounts_check_delete_title">Odstranit účet systému Android?</string>
+    <string name="accounts_check_delete_text"><![CDATA[Lokální data účtu systému Android %1$s (například kalendáře a seznamy úkolů) budou z tohoto zařízení odstraněny. Ujistěte se, že máte <a href="%2$s">zálohu</a> dat, která stále potřebujete.]]></string>
+    <string name="sync_error_account_unavailable">Nepodařilo se připravit účet na synchronizaci</string>
+    <string name="new_account_system_setting_name">Nový systém účtů</string>
+    <string name="new_account_system_setting_summary_on">Nové účty jsou vytvořeny v databázi (experimentální)</string>
+    <string name="new_account_system_setting_summary_off">Nové účty jsou vytvořeny jako účty systému Android (zastaralé)</string>
 </resources>
